@@ -1,0 +1,7 @@
+#+TITLE: Blender-Projects
+#+AUTHOR: Haider Mirza
+
+* About my Blender-Projects
+Here are all of my Blender projects that I use professionally or as testing.
+There are also some random renders posted there too
+Here is a link to this repository: [[https://github.com/Ha1derMirza/Blender-Projects][link]]

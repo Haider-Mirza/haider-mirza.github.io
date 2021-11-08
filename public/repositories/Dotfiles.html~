@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dotfiles</title>
+<meta name="generator" content="Org mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content">
+<h1 class="title">Dotfiles</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org0b6b3a7">About my Dotfiles</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0b6b3a7" class="outline-2">
+<h2 id="org0b6b3a7">About my Dotfiles</h2>
+<div class="outline-text-2" id="text-org0b6b3a7">
+<p>
+This <a href="https://github.com/Ha1derMirza/.dotfiles">repository</a> contains configs that I use on a day-to-day-basis. This was also made possible by GNU Stow otherwise I would have to copy and paste the directories consistently. This Repository has also been lisenced under the GPL lisence V3.
+It is called 'dotfiles' because is many linux/gnu &amp; unix operating systems there is a concept of dotfiles.
+These files are invisible have a "." at the start of it's name and by default and usually contain configs of installed programs.
+Some of these dotfiles are kept in the ~/.config/ directory (which is also invisible due to it having a dot at the start of it's name.)
+You can find the link to my dotfiles here: <a href="https://github.com/Ha1derMirza/.dotfiles">Dotfiles</a>
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.2 (<a href="https://orgmode.org">Org</a> mode 9.4.4)</p>
+</div>
+</body>
+</html>

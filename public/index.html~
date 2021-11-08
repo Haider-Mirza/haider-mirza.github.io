@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Welcome to haider.gq</title>
+<meta name="generator" content="Org mode" />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content">
+<h1 class="title">Welcome to haider.gq</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org7c35f29">Welcome to haider.gq</a>
+<ul>
+<li><a href="#orgda15e3c">Who Am I?</a></li>
+<li><a href="#org3f277ee">About this website</a></li>
+<li><a href="#org126af7b">My Git repositories</a>
+<ul>
+<li><a href="#orgb606ddd">Note:</a></li>
+<li><a href="#org9ba6ec6">The Repositories</a></li>
+</ul>
+</li>
+<li><a href="#org78dc379">Notes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7c35f29" class="outline-2">
+<h2 id="org7c35f29">Welcome to haider.gq</h2>
+<div class="outline-text-2" id="text-org7c35f29">
+</div>
+<div id="outline-container-orgda15e3c" class="outline-3">
+<h3 id="orgda15e3c">Who Am I?</h3>
+<div class="outline-text-3" id="text-orgda15e3c">
+<pre class="example">
+ _   _ __  ___
+| | | |  \/  |
+| |_| | |\/| | My Github: https://github.com/Ha1derMirza
+|  _  | |  | | My Matrix: @haider.mirza:matrix.org
+|_| |_|_|  |_|
+</pre>
+<p>
+My Name is Haider Mirza and I am a 3D artist, Programmer and Emacs devotee.
+All my projects (included this website) are cloned/hosted on <a href="https://github.com/Ha1derMirza">github</a> and are free and open-source under the GPL v3 license.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3f277ee" class="outline-3">
+<h3 id="org3f277ee">About this website</h3>
+<div class="outline-text-3" id="text-org3f277ee">
+<p>
+This website is hosted on github pages (Here: <a href="https://github.com/Ha1derMirza/Ha1derMirza.github.io">Website</a>)
+It also contains many things like:
+</p>
+<ul class="org-ul">
+<li>Notes</li>
+<li>Information</li>
+<li>Documents for use of others</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org126af7b" class="outline-3">
+<h3 id="org126af7b">My Git repositories</h3>
+<div class="outline-text-3" id="text-org126af7b">
+</div>
+<div id="outline-container-orgb606ddd" class="outline-4">
+<h4 id="orgb606ddd">Note:</h4>
+<div class="outline-text-4" id="text-orgb606ddd">
+<p>
+There are some things you might notice with my Repositories:
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org0e31087"></a>Minimal Distractions<br />
+<div class="outline-text-5" id="text-org0e31087">
+<p>
+I don’t want things on the screen that are unrelated to what I’m doing. I very rarely display more than one buffer or window on the main screen at a time. Emacs makes it easy and fast to switch between open buffers (and workspaces in EXWM) so there’s really no reason to have two unrelated things visible on the screen.
+</p>
+</div>
+</li>
+
+<li><a id="org5e6a0fb"></a>Text-based Configuration<br />
+<div class="outline-text-5" id="text-org5e6a0fb">
+<p>
+I really don’t want to use a program that doesn’t support text-based configuration files. I also prefer tools that don’t write out those configuration files on my behalf. This enables me to commit program configuration to source control (this repository) so that I can keep configurations in sync on every machine that I use.
+</p>
+</div>
+</li>
+
+<li><a id="orgb767f86"></a>Highly Customizable<br />
+<div class="outline-text-5" id="text-orgb767f86">
+<p>
+To perfect my computing workflow, I choose tools that allow me to customize them to fit in smoothly with everything else. Emacs is the most faithful adherent to this principle as it allows you to intercept or replace the code for just about anything it does. For other programs, I like to use tools that are either scriptable by some means or enable to you call out to another process (or shell script) to gather information. Vimb and Polybar both do this, so it’s pretty easy to integrate them into the rest of my workflow.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org9ba6ec6" class="outline-4">
+<h4 id="org9ba6ec6">The Repositories</h4>
+<div class="outline-text-4" id="text-org9ba6ec6">
+</div>
+<ul class="org-ul">
+<li><a id="org8299819"></a><a href="https://www.haider.gq/repos/Dotfiles.html">Dotfiles</a><br /></li>
+<li><a id="org5c2f15e"></a><a href="https://www.haider.gq/repos/Scripts.html">Scripts</a><br /></li>
+<li><a id="org47663e2"></a><a href="https://www.haider.gq/repos/Wallpapers.html">Wallpapers</a><br /></li>
+<li><a id="orgd50c3ed"></a><a href="https://www.haider.gq/repos/Documents.html">Documents</a><br /></li>
+<li><a id="org4cbd4ce"></a><a href="https://www.haider.gq/repos/Blender.html">Blender-Projects</a><br /></li>
+<li><a id="org983e62d"></a><a href="https://www.haider.gq/repos/Website.html">Ha1derMirza.github.io</a><br /></li>
+<li><a id="org51e6d0d"></a><a href="https://www.haider.gq/repos/Ha1derMirza.html">Ha1derMirza</a><br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org78dc379" class="outline-3">
+<h3 id="org78dc379">Notes</h3>
+<div class="outline-text-3" id="text-org78dc379">
+<p>
+I write Notes for many of the programs I use.
+Here are a list of them if you need any of the information I have learnt the hard way.
+You can Also find this in my <a href="https://github.com/Ha1derMirza/Documents">Documents</a> repository.
+</p>
+
+<p>
+Here are some of the notes I have written:
+</p>
+<ul class="org-ul">
+<li><a href="https://www.haider.gq/Notes/EXWM.html">EXWM</a></li>
+<li><a href="https://www.haider.gq/Notes/Mu4e.html">Mu4e</a></li>
+<li><a href="https://www.haider.gq/Notes/FFmpeg.html">FFmpeg</a></li>
+<li><a href="https://www.haider.gq/Notes/OrgMode.html">OrgMode</a></li>
+<li><a href="https://www.haider.gq/Notes/OrgRoam.html">OrgRoam</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.2 (<a href="https://orgmode.org">Org</a> mode 9.4.4)</p>
+</div>
+</body>
+</html>

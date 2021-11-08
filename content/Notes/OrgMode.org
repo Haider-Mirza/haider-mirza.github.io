@@ -1,0 +1,21 @@
+#+title: OrgMode
+#+author: Haider Mirza
+#+description: basically what I write everything in.
+
+* About
+A GNU Emacs major mode for keeping notes, authoring documents, computational notebooks, literate programming, maintaining to-do lists, planning projects, and more — in a fast and effective plain text system.
+
+You can find Documentation here:
+[[https://orgmode.org/][OrgMode]]
+
+* Reminders
+Sometimes I forget Functionality in OrgMode.
+Even though you can find all the information here: [[https://orgmode.org/][Documentation]]
+However I have listed the ones I commonly forget.
+
+** Timestamp with repeater interval
+A timestamp may contain a repeater interval, indicating that it applies not only on the given date, but again and again after a certain interval of N days (d), weeks (w), months (m), or years (y). The following shows up in the agenda every Wednesday:
+
+example: [2007-05-16 Wed 12:30 +1w]
+*** Note
+It is in square brackets so it doesnt trigger in my actual org agenda settings.

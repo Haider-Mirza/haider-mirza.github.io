@@ -1,0 +1,17 @@
+#+TITLE: Org Agenda
+#+AUTHOR: Haider Mirza
+
+* Org Agenda
+Org agenda is like a calender with reminders and todos.
+Again this is extensible and editable using the e-lisp programming language.
+
+* Commands
+SPC-o-A
+| Command | Action          |
+|---------+-----------------|
+| SPC-o-A | Org Agenda view |
+
+| Command (in Org Agenda view) | Action                         |
+|------------------------------+--------------------------------|
+| a                            | agenda for current week or day |
+| t                            | List of all TODO entrys'       |

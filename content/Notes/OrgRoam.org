@@ -1,0 +1,19 @@
+#+TITLE: Org Roam
+#+AUTHOR: Haider Mirza
+#+DESCRIPTION: A Org document on my notes on Org Roam
+
+* About
+One of the best ways to think and work through problems is to have a written dialogue with yourself. using OrgRoam you have a better way to log your thoughts from the day, link them to existing notes, and easily review the notes for any day, all with Org Roam.
+
+You can get started quickly by copying the configuration below, but you'll learn more if you watch the two previous videos in the Org Roam series first:
+* Important information
+- Org roam notes go to the ~/Roamnotes/daily/ directory.
+- Video where I got the information is as follows: [[https://www.youtube.com/watch?v=3-sLBaJAtew&list=WL&index=14&t=39s][Video]]
+
+* Commands
+
+ | Commands  | Explanation                                              |
+ |-----------+----------------------------------------------------------|
+ | C-c n-d-v | Calender opens and the user choses to go to a date.      |
+ | C-c ndn   | Makes a new note.                                        |
+ | C-M-i     | (M is alt) Completes the word you are going to fill out. |
