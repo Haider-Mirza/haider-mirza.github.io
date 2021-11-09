@@ -16,30 +16,30 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgc735af7">Welcome to haider.gq</a>
+<li><a href="#orgcbb3ca4">Welcome to haider.gq</a>
 <ul>
-<li><a href="#orgffd7e12">Who Am I?</a></li>
-<li><a href="#orgd29172c">About this website</a></li>
-<li><a href="#orgb03ea0e">My Git repositories</a>
+<li><a href="#orga93acbe">Who Am I?</a></li>
+<li><a href="#orga07d403">About this website</a></li>
+<li><a href="#orgebd1903">My Git repositories</a>
 <ul>
-<li><a href="#orgf77f881">Note:</a></li>
-<li><a href="#orgfcbf910">The Repositories</a></li>
+<li><a href="#org900f483">Note:</a></li>
+<li><a href="#org47b7151">The Repositories</a></li>
 </ul>
 </li>
-<li><a href="#orgab66bdd">Notes</a></li>
+<li><a href="#org6c100bc">Notes</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgc735af7" class="outline-2">
-<h2 id="orgc735af7">Welcome to haider.gq</h2>
-<div class="outline-text-2" id="text-orgc735af7">
+<div id="outline-container-orgcbb3ca4" class="outline-2">
+<h2 id="orgcbb3ca4">Welcome to haider.gq</h2>
+<div class="outline-text-2" id="text-orgcbb3ca4">
 </div>
-<div id="outline-container-orgffd7e12" class="outline-3">
-<h3 id="orgffd7e12">Who Am I?</h3>
-<div class="outline-text-3" id="text-orgffd7e12">
+<div id="outline-container-orga93acbe" class="outline-3">
+<h3 id="orga93acbe">Who Am I?</h3>
+<div class="outline-text-3" id="text-orga93acbe">
 <pre class="example">
  _   _ __  ___
 | | | |  \/  |
@@ -54,9 +54,9 @@ All my projects (included this website) are cloned/hosted on <a href="https://gi
 </div>
 </div>
 
-<div id="outline-container-orgd29172c" class="outline-3">
-<h3 id="orgd29172c">About this website</h3>
-<div class="outline-text-3" id="text-orgd29172c">
+<div id="outline-container-orga07d403" class="outline-3">
+<h3 id="orga07d403">About this website</h3>
+<div class="outline-text-3" id="text-orga07d403">
 <p>
 This website is hosted on github pages (Here: <a href="https://github.com/Ha1derMirza/Ha1derMirza.github.io">Website</a>)
 It also contains many things like:
@@ -69,36 +69,36 @@ It also contains many things like:
 </div>
 </div>
 
-<div id="outline-container-orgb03ea0e" class="outline-3">
-<h3 id="orgb03ea0e">My Git repositories</h3>
-<div class="outline-text-3" id="text-orgb03ea0e">
+<div id="outline-container-orgebd1903" class="outline-3">
+<h3 id="orgebd1903">My Git repositories</h3>
+<div class="outline-text-3" id="text-orgebd1903">
 </div>
-<div id="outline-container-orgf77f881" class="outline-4">
-<h4 id="orgf77f881">Note:</h4>
-<div class="outline-text-4" id="text-orgf77f881">
+<div id="outline-container-org900f483" class="outline-4">
+<h4 id="org900f483">Note:</h4>
+<div class="outline-text-4" id="text-org900f483">
 <p>
 There are some things you might notice with my Repositories:
 </p>
 </div>
 <ul class="org-ul">
-<li><a id="org382d70c"></a>Minimal Distractions<br />
-<div class="outline-text-5" id="text-org382d70c">
+<li><a id="orgfb1967a"></a>Minimal Distractions<br />
+<div class="outline-text-5" id="text-orgfb1967a">
 <p>
 I don’t want things on the screen that are unrelated to what I’m doing. I very rarely display more than one buffer or window on the main screen at a time. Emacs makes it easy and fast to switch between open buffers (and workspaces in EXWM) so there’s really no reason to have two unrelated things visible on the screen.
 </p>
 </div>
 </li>
 
-<li><a id="org6bde8d8"></a>Text-based Configuration<br />
-<div class="outline-text-5" id="text-org6bde8d8">
+<li><a id="org3e6c311"></a>Text-based Configuration<br />
+<div class="outline-text-5" id="text-org3e6c311">
 <p>
 I really don’t want to use a program that doesn’t support text-based configuration files. I also prefer tools that don’t write out those configuration files on my behalf. This enables me to commit program configuration to source control (this repository) so that I can keep configurations in sync on every machine that I use.
 </p>
 </div>
 </li>
 
-<li><a id="orgffdc16d"></a>Highly Customizable<br />
-<div class="outline-text-5" id="text-orgffdc16d">
+<li><a id="org33430ad"></a>Highly Customizable<br />
+<div class="outline-text-5" id="text-org33430ad">
 <p>
 To perfect my computing workflow, I choose tools that allow me to customize them to fit in smoothly with everything else. Emacs is the most faithful adherent to this principle as it allows you to intercept or replace the code for just about anything it does. For other programs, I like to use tools that are either scriptable by some means or enable to you call out to another process (or shell script) to gather information. Vimb and Polybar both do this, so it’s pretty easy to integrate them into the rest of my workflow.
 </p>
@@ -106,24 +106,24 @@ To perfect my computing workflow, I choose tools that allow me to customize them
 </li>
 </ul>
 </div>
-<div id="outline-container-orgfcbf910" class="outline-4">
-<h4 id="orgfcbf910">The Repositories</h4>
-<div class="outline-text-4" id="text-orgfcbf910">
+<div id="outline-container-org47b7151" class="outline-4">
+<h4 id="org47b7151">The Repositories</h4>
+<div class="outline-text-4" id="text-org47b7151">
 </div>
 <ul class="org-ul">
-<li><a id="org0faeed2"></a><a href="https://www.haider.gq/repos/Dotfiles.html">Dotfiles</a><br /></li>
-<li><a id="orga358337"></a><a href="https://www.haider.gq/repos/Scripts.html">Scripts</a><br /></li>
-<li><a id="org6ddf229"></a><a href="https://www.haider.gq/repos/Wallpapers.html">Wallpapers</a><br /></li>
-<li><a id="org4335ea1"></a><a href="https://www.haider.gq/repos/Documents.html">Documents</a><br /></li>
-<li><a id="org8550606"></a><a href="https://www.haider.gq/repos/Blender.html">Blender-Projects</a><br /></li>
-<li><a id="org76d4444"></a><a href="https://www.haider.gq/repos/Website.html">Ha1derMirza.github.io</a><br /></li>
-<li><a id="org166f7d6"></a><a href="https://www.haider.gq/repos/Ha1derMirza.html">Ha1derMirza</a><br /></li>
+<li><a id="org8d617b4"></a><a href="https://www.haider.gq/repos/Dotfiles.html">Dotfiles</a><br /></li>
+<li><a id="orgaae6d53"></a><a href="https://www.haider.gq/repos/Scripts.html">Scripts</a><br /></li>
+<li><a id="orgdb02230"></a><a href="https://www.haider.gq/repos/Wallpapers.html">Wallpapers</a><br /></li>
+<li><a id="org6ec13ff"></a><a href="https://www.haider.gq/repos/Documents.html">Documents</a><br /></li>
+<li><a id="orga0350b1"></a><a href="https://www.haider.gq/repos/Blender.html">Blender-Projects</a><br /></li>
+<li><a id="org2dc5c64"></a><a href="https://www.haider.gq/repos/Website.html">Ha1derMirza.github.io</a><br /></li>
+<li><a id="org79011ef"></a><a href="https://www.haider.gq/repos/Ha1derMirza.html">Ha1derMirza</a><br /></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgab66bdd" class="outline-3">
-<h3 id="orgab66bdd">Notes</h3>
-<div class="outline-text-3" id="text-orgab66bdd">
+<div id="outline-container-org6c100bc" class="outline-3">
+<h3 id="org6c100bc">Notes</h3>
+<div class="outline-text-3" id="text-org6c100bc">
 <p>
 I write Notes for many of the programs I use.
 Here are a list of them if you need any of the information I have learnt the hard way.

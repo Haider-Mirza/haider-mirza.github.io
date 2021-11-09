@@ -5,29 +5,30 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Wallpapers</title>
+<title>Ha1derMirza.github.io</title>
 <meta name="generator" content="Org mode" />
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
 </head>
 <body>
 <div id="content">
-<h1 class="title">Wallpapers</h1>
+<h1 class="title">Ha1derMirza.github.io</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgf149c1e">About my Wallpapers</a></li>
+<li><a href="#org3d4e2a8">About This repository</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf149c1e" class="outline-2">
-<h2 id="orgf149c1e">About my Wallpapers</h2>
-<div class="outline-text-2" id="text-orgf149c1e">
+
+<div id="outline-container-org3d4e2a8" class="outline-2">
+<h2 id="org3d4e2a8">About This repository</h2>
+<div class="outline-text-2" id="text-org3d4e2a8">
 <p>
-They are actually not all mine.
-Some of which came from Derek Taylor (Distrotube) From this Repository: <a href="https://gitlab.com/dwt1/wallpapers">Link</a>
-This Repository contains of wallpapers I like and use daily.
-This Repository just serves as a backup but anyone is free to use and edit it (IDK about copywriting, be careful)
+This is the repository hosting this website.
+This website is hosted on Github pages with a Ubuntu vm.
+Every webpage on this website is written in OrgMode and then converted to HTML
+Here is a link to this repository: <a href="https://github.com/Ha1derMirza/Ha1derMirza.github.io">link</a>
 </p>
 </div>
 </div>

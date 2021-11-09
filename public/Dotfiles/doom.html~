@@ -5,40 +5,39 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Dotfiles</title>
+<title>Doom Emacs</title>
 <meta name="generator" content="Org mode" />
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
 </head>
 <body>
 <div id="content">
-<h1 class="title">Dotfiles</h1>
+<h1 class="title">Doom Emacs</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org1dab0f6">Welcome to my Dotfiles</a></li>
-<li><a href="#org8a7a307">Here are Websites for each of my configs.</a></li>
+<li><a href="#orgd8ba2a4">Welcome to my Emacs config</a>
+<ul>
+<li><a href="#orgf424935">NOTE:</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org1dab0f6" class="outline-2">
-<h2 id="org1dab0f6">Welcome to my Dotfiles</h2>
-<div class="outline-text-2" id="text-org1dab0f6">
+<div id="outline-container-orgd8ba2a4" class="outline-2">
+<h2 id="orgd8ba2a4">Welcome to my Emacs config</h2>
+<div class="outline-text-2" id="text-orgd8ba2a4">
+</div>
+<div id="outline-container-orgf424935" class="outline-3">
+<h3 id="orgf424935">NOTE:</h3>
+<div class="outline-text-3" id="text-orgf424935">
 <p>
-This repository consists of all my dotfiles which I use on a day-to-day-basis.
-This was also made possible by GNU Stow otherwise I would have to copy and paste the directories consistently.
-This Repository has also been lisenced under the GPL lisence V3.
+This config was made for Doom Emacs.
+You can still use this in vanilla Emacs by renaming this to init.el and overriding the current init.el in the ~/.emacs.d/ directory.
+You can also copy and paste code.
 </p>
 </div>
-</div>
-
-<div id="outline-container-org8a7a307" class="outline-2">
-<h2 id="org8a7a307">Here are Websites for each of my configs.</h2>
-<div class="outline-text-2" id="text-org8a7a307">
-<ul class="org-ul">
-<li><a href="./doom.html">Doom Emacs</a></li>
-</ul>
 </div>
 </div>
 </div>
