@@ -18,12 +18,12 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org33e2ba5">About</a></li>
-<li><a href="#orgdff631f">Reminders</a>
+<li><a href="#org35237c5">About</a></li>
+<li><a href="#org30e20d5">Reminders</a>
 <ul>
-<li><a href="#orgba062a7">Timestamp with repeater interval</a>
+<li><a href="#org0631071">Timestamp with repeater interval</a>
 <ul>
-<li><a href="#org24195c5">Note</a></li>
+<li><a href="#orgc77068b">Note</a></li>
 </ul>
 </li>
 </ul>
@@ -32,9 +32,9 @@
 </div>
 </div>
 
-<div id="outline-container-org33e2ba5" class="outline-2">
-<h2 id="org33e2ba5">About</h2>
-<div class="outline-text-2" id="text-org33e2ba5">
+<div id="outline-container-org35237c5" class="outline-2">
+<h2 id="org35237c5">About</h2>
+<div class="outline-text-2" id="text-org35237c5">
 <p>
 A GNU Emacs major mode for keeping notes, authoring documents, computational notebooks, literate programming, maintaining to-do lists, planning projects, and more — in a fast and effective plain text system.
 </p>
@@ -46,9 +46,9 @@ You can find Documentation here:
 </div>
 </div>
 
-<div id="outline-container-orgdff631f" class="outline-2">
-<h2 id="orgdff631f">Reminders</h2>
-<div class="outline-text-2" id="text-orgdff631f">
+<div id="outline-container-org30e20d5" class="outline-2">
+<h2 id="org30e20d5">Reminders</h2>
+<div class="outline-text-2" id="text-org30e20d5">
 <p>
 Sometimes I forget Functionality in OrgMode.
 Even though you can find all the information here: <a href="https://orgmode.org/">Documentation</a>
@@ -56,9 +56,9 @@ However I have listed the ones I commonly forget.
 </p>
 </div>
 
-<div id="outline-container-orgba062a7" class="outline-3">
-<h3 id="orgba062a7">Timestamp with repeater interval</h3>
-<div class="outline-text-3" id="text-orgba062a7">
+<div id="outline-container-org0631071" class="outline-3">
+<h3 id="org0631071">Timestamp with repeater interval</h3>
+<div class="outline-text-3" id="text-org0631071">
 <p>
 A timestamp may contain a repeater interval, indicating that it applies not only on the given date, but again and again after a certain interval of N days (d), weeks (w), months (m), or years (y). The following shows up in the agenda every Wednesday:
 </p>
@@ -67,9 +67,9 @@ A timestamp may contain a repeater interval, indicating that it applies not only
 example: <span class="timestamp-wrapper"><span class="timestamp">[2007-05-16 Wed 12:30 +1w]</span></span>
 </p>
 </div>
-<div id="outline-container-org24195c5" class="outline-4">
-<h4 id="org24195c5">Note</h4>
-<div class="outline-text-4" id="text-org24195c5">
+<div id="outline-container-orgc77068b" class="outline-4">
+<h4 id="orgc77068b">Note</h4>
+<div class="outline-text-4" id="text-orgc77068b">
 <p>
 It is in square brackets so it doesnt trigger in my actual org agenda settings.
 </p>

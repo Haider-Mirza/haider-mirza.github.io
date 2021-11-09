@@ -16,15 +16,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org7c80146">Org Agenda</a></li>
-<li><a href="#org51d161a">Commands</a></li>
+<li><a href="#org0a16775">Org Agenda</a></li>
+<li><a href="#orgb7a5397">Commands</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7c80146" class="outline-2">
-<h2 id="org7c80146">Org Agenda</h2>
-<div class="outline-text-2" id="text-org7c80146">
+<div id="outline-container-org0a16775" class="outline-2">
+<h2 id="org0a16775">Org Agenda</h2>
+<div class="outline-text-2" id="text-org0a16775">
 <p>
 Org agenda is like a calender with reminders and todos.
 Again this is extensible and editable using the e-lisp programming language.
@@ -32,9 +32,9 @@ Again this is extensible and editable using the e-lisp programming language.
 </div>
 </div>
 
-<div id="outline-container-org51d161a" class="outline-2">
-<h2 id="org51d161a">Commands</h2>
-<div class="outline-text-2" id="text-org51d161a">
+<div id="outline-container-orgb7a5397" class="outline-2">
+<h2 id="orgb7a5397">Commands</h2>
+<div class="outline-text-2" id="text-orgb7a5397">
 <p>
 SPC-o-A
 </p>
