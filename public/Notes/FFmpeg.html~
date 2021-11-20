@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FFmpeg</title>
+<meta name="generator" content="Org mode" />
+<meta name="description" content="A Extremely powerful tool to edit Media."
+ />
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+</head>
+<body>
+<div id="content">
+<h1 class="title">FFmpeg</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org9e30038">About</a>
+<ul>
+<li><a href="#orgc75e54e">Links</a></li>
+</ul>
+</li>
+<li><a href="#org91d74a7">Commands</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9e30038" class="outline-2">
+<h2 id="org9e30038">About</h2>
+<div class="outline-text-2" id="text-org9e30038">
+<p>
+FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. It includes libavcodec - the leading audio/video codec library.
+</p>
+</div>
+<div id="outline-container-orgc75e54e" class="outline-3">
+<h3 id="orgc75e54e">Links</h3>
+<div class="outline-text-3" id="text-orgc75e54e">
+<p>
+<a href="https://wiki.archlinux.org/title/FFmpeg">https://wiki.archlinux.org/title/FFmpeg</a>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org91d74a7" class="outline-2">
+<h2 id="org91d74a7">Commands</h2>
+<div class="outline-text-2" id="text-org91d74a7">
+<p>
+I do not need to learn it's commands and I have been given this command to download and convert videos to a format which is supported by my Nokia.
+</p>
+
+<p>
+ffmpeg -i in.mp4 -r 10 -y -vf scale=352x288 -b:v 50k -ar 8000 -ac 1 out.3gp
+</p>
+
+<p>
+I personally have made a bash script to automate it for me (It is called Nokia.)
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.2 (<a href="https://orgmode.org">Org</a> mode 9.4.4)</p>
+</div>
+</body>
+</html>
