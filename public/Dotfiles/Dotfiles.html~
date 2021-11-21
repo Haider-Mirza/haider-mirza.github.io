@@ -16,15 +16,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orge7cd749">Welcome to my Dotfiles</a></li>
-<li><a href="#orgda358f2">Here are Websites for each of my configs.</a></li>
+<li><a href="#org7cf7ab7">Welcome to my Dotfiles</a></li>
+<li><a href="#org6d4ab0d">Here are Websites for each of my configs.</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orge7cd749" class="outline-2">
-<h2 id="orge7cd749">Welcome to my Dotfiles</h2>
-<div class="outline-text-2" id="text-orge7cd749">
+<div id="outline-container-org7cf7ab7" class="outline-2">
+<h2 id="org7cf7ab7">Welcome to my Dotfiles</h2>
+<div class="outline-text-2" id="text-org7cf7ab7">
 <p>
 This repository consists of all my dotfiles which I use on a day-to-day-basis.
 This was also made possible by GNU Stow otherwise I would have to copy and paste the directories consistently.
@@ -33,9 +33,9 @@ This Repository has also been lisenced under the GPL lisence V3.
 </div>
 </div>
 
-<div id="outline-container-orgda358f2" class="outline-2">
-<h2 id="orgda358f2">Here are Websites for each of my configs.</h2>
-<div class="outline-text-2" id="text-orgda358f2">
+<div id="outline-container-org6d4ab0d" class="outline-2">
+<h2 id="org6d4ab0d">Here are Websites for each of my configs.</h2>
+<div class="outline-text-2" id="text-org6d4ab0d">
 <ul class="org-ul">
 <li><a href="./doom.html">Doom Emacs</a></li>
 </ul>

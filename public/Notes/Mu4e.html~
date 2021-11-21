@@ -18,35 +18,35 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org8a74e8f">About</a>
+<li><a href="#orge18e741">About</a>
 <ul>
-<li><a href="#org9872a11">Links</a></li>
+<li><a href="#org0950369">Links</a></li>
 </ul>
 </li>
-<li><a href="#org4342720">Important Information</a></li>
-<li><a href="#orgf49493c">School Email Properities</a></li>
-<li><a href="#orgc9e3d84">Home Email Properities</a></li>
-<li><a href="#orgb36967c">How to send a new Email in orgmode</a></li>
-<li><a href="#org7845823">How to send a existing org document as a Email</a></li>
-<li><a href="#org0a6933c">How to send a subtree as a Email</a>
+<li><a href="#org963c7d6">Important Information</a></li>
+<li><a href="#org05ed0c9">School Email Properities</a></li>
+<li><a href="#org3610b3c">Home Email Properities</a></li>
+<li><a href="#orga2783bf">How to send a new Email in orgmode</a></li>
+<li><a href="#org34743c2">How to send a existing org document as a Email</a></li>
+<li><a href="#orgc3f24a9">How to send a subtree as a Email</a>
 <ul>
-<li><a href="#org74b27ed">Note</a></li>
+<li><a href="#org820abff">Note</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org8a74e8f" class="outline-2">
-<h2 id="org8a74e8f">About</h2>
-<div class="outline-text-2" id="text-org8a74e8f">
+<div id="outline-container-orge18e741" class="outline-2">
+<h2 id="orge18e741">About</h2>
+<div class="outline-text-2" id="text-orge18e741">
 <p>
 mu4e is an email client for Emacs. It’s based on the mu email indexer/searcher.
 </p>
 </div>
-<div id="outline-container-org9872a11" class="outline-3">
-<h3 id="org9872a11">Links</h3>
-<div class="outline-text-3" id="text-org9872a11">
+<div id="outline-container-org0950369" class="outline-3">
+<h3 id="org0950369">Links</h3>
+<div class="outline-text-3" id="text-org0950369">
 <p>
 <a href="https://www.emacswiki.org/emacs/mu4e">https://www.emacswiki.org/emacs/mu4e</a>
 <a href="https://www.djcbsoftware.nl/code/mu/mu4e/index.html">https://www.djcbsoftware.nl/code/mu/mu4e/index.html</a>
@@ -54,18 +54,18 @@ mu4e is an email client for Emacs. It’s based on the mu email indexer/searcher
 </div>
 </div>
 </div>
-<div id="outline-container-org4342720" class="outline-2">
-<h2 id="org4342720">Important Information</h2>
-<div class="outline-text-2" id="text-org4342720">
+<div id="outline-container-org963c7d6" class="outline-2">
+<h2 id="org963c7d6">Important Information</h2>
+<div class="outline-text-2" id="text-org963c7d6">
 <p>
 Where all the Mail is located is in the ~/Mail directory.
 Mu4e uses the command "mbsync -a" to sync the EMail.
 </p>
 </div>
 </div>
-<div id="outline-container-orgf49493c" class="outline-2">
-<h2 id="orgf49493c">School Email Properities</h2>
-<div class="outline-text-2" id="text-orgf49493c">
+<div id="outline-container-org05ed0c9" class="outline-2">
+<h2 id="org05ed0c9">School Email Properities</h2>
+<div class="outline-text-2" id="text-org05ed0c9">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -115,9 +115,9 @@ Mu4e uses the command "mbsync -a" to sync the EMail.
 </div>
 </div>
 
-<div id="outline-container-orgc9e3d84" class="outline-2">
-<h2 id="orgc9e3d84">Home Email Properities</h2>
-<div class="outline-text-2" id="text-orgc9e3d84">
+<div id="outline-container-org3610b3c" class="outline-2">
+<h2 id="org3610b3c">Home Email Properities</h2>
+<div class="outline-text-2" id="text-org3610b3c">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -167,9 +167,9 @@ Mu4e uses the command "mbsync -a" to sync the EMail.
 </div>
 </div>
 
-<div id="outline-container-orgb36967c" class="outline-2">
-<h2 id="orgb36967c">How to send a new Email in orgmode</h2>
-<div class="outline-text-2" id="text-orgb36967c">
+<div id="outline-container-orga2783bf" class="outline-2">
+<h2 id="orga2783bf">How to send a new Email in orgmode</h2>
+<div class="outline-text-2" id="text-orga2783bf">
 <p>
 You start typing your address but when it comes to the actual composing part,
 do M-x and type org-mime-edit-mail-in-org-mode to open a new buffer that you can type your org Text in.
@@ -179,9 +179,9 @@ and keeps the original if some email clients dont have support for html. And lik
 </div>
 </div>
 
-<div id="outline-container-org7845823" class="outline-2">
-<h2 id="org7845823">How to send a existing org document as a Email</h2>
-<div class="outline-text-2" id="text-org7845823">
+<div id="outline-container-org34743c2" class="outline-2">
+<h2 id="org34743c2">How to send a existing org document as a Email</h2>
+<div class="outline-text-2" id="text-org34743c2">
 <p>
 Go to the file and do M-x and type org-mime-org-buffer-htmlize. Press no if it asks to evaluate the buffer.
 Then you have a new window showing the email (This is in the normal email buffer not the buffer where you compose email inside Mu4e)
@@ -191,16 +191,16 @@ Then do M-x again and type mu4e-compose-mode to convert it from a normal email b
 </div>
 </div>
 
-<div id="outline-container-org0a6933c" class="outline-2">
-<h2 id="org0a6933c">How to send a subtree as a Email</h2>
-<div class="outline-text-2" id="text-org0a6933c">
+<div id="outline-container-orgc3f24a9" class="outline-2">
+<h2 id="orgc3f24a9">How to send a subtree as a Email</h2>
+<div class="outline-text-2" id="text-orgc3f24a9">
 <p>
 Go inside the subtree and then do M-x and type org-mime-org-subtree-htmlize and this will take this * only only the top tree AND it's subtrees included in the tree. (Optional (Turning normal email buffer to Mu4e's)) Do M-x again and type in Mu4e-compose-mode to go into the mu4e buffer not emac's inbuilt. And as the name suggests it turns to HTML.
 </p>
 </div>
-<div id="outline-container-org74b27ed" class="outline-3">
-<h3 id="org74b27ed">Note</h3>
-<div class="outline-text-3" id="text-org74b27ed">
+<div id="outline-container-org820abff" class="outline-3">
+<h3 id="org820abff">Note</h3>
+<div class="outline-text-3" id="text-org820abff">
 <p>
 The Header for the subtree gets put automatically as the title and then the subtree (without the Header) gets put into the main part of the email.
 </p>

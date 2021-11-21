@@ -16,22 +16,22 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org8213767">Welcome to my Emacs config</a>
+<li><a href="#org3ed2b00">Welcome to my Emacs config</a>
 <ul>
-<li><a href="#org5e1eddd">NOTE:</a></li>
+<li><a href="#orgac4fd28">NOTE:</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org8213767" class="outline-2">
-<h2 id="org8213767">Welcome to my Emacs config</h2>
-<div class="outline-text-2" id="text-org8213767">
+<div id="outline-container-org3ed2b00" class="outline-2">
+<h2 id="org3ed2b00">Welcome to my Emacs config</h2>
+<div class="outline-text-2" id="text-org3ed2b00">
 </div>
-<div id="outline-container-org5e1eddd" class="outline-3">
-<h3 id="org5e1eddd">NOTE:</h3>
-<div class="outline-text-3" id="text-org5e1eddd">
+<div id="outline-container-orgac4fd28" class="outline-3">
+<h3 id="orgac4fd28">NOTE:</h3>
+<div class="outline-text-3" id="text-orgac4fd28">
 <p>
 This config was made for Doom Emacs.
 You can still use this in vanilla Emacs by renaming this to init.el and overriding the current init.el in the ~/.emacs.d/ directory.
