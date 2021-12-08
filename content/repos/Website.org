@@ -1,8 +1,0 @@
-#+TITLE: Ha1derMirza.github.io
-#+AUTHOR: Haider Mirza
-
-* About This repository
-This is the repository hosting this website.
-This website is hosted on Github pages with a Ubuntu vm.
-Every webpage on this website is written in OrgMode and then converted to HTML
-Here is a link to this repository: [[https://github.com/Ha1derMirza/Ha1derMirza.github.io][link]]

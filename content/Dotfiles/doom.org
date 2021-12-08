@@ -1,8 +1,0 @@
-#+TITLE: Doom Emacs
-#+AUTHOR: Haider Mirza
-
-* Welcome to my Emacs config
-** NOTE:
-This config was made for Doom Emacs.
-You can still use this in vanilla Emacs by renaming this to init.el and overriding the current init.el in the ~/.emacs.d/ directory.
-You can also copy and paste code.

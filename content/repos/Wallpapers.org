@@ -1,7 +1,0 @@
-#+TITLE: Wallpapers
-#+AUTHOR: Haider Mirza
-* About my Wallpapers
-They are actually not all mine.
-Some of which came from Derek Taylor (Distrotube) From this Repository: [[https://gitlab.com/dwt1/wallpapers][Link]]
-This Repository contains of wallpapers I like and use daily.
-This Repository just serves as a backup but anyone is free to use and edit it (IDK about copywriting, be careful)

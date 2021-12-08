@@ -1,8 +1,0 @@
-#+TITLE: Documents
-#+AUTHOR: Haider Mirza
-
-* About my Documents
-This repository contains all the important Documents I have and use on a daily basis.
-It is also home to my Notes which are in this website's homepage.
-I have no idea why you would want my documents. But if you do, here they are.
-Here is a link to this repository: [[https://github.com/Ha1derMirza/Documents][link]]

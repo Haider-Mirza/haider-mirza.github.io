@@ -1,3 +1,0 @@
-#+TITLE: Start
-
-[[file:Main.png]]

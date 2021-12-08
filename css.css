@@ -1,0 +1,30 @@
+body {
+  background-color: #232830;
+  /* background: url("Main.png") no-repeat right top scroll; */
+}
+h1 {
+  text-align: center;
+  color: #89aaeb;
+  font-family: sans-serif;
+  margin: 30px;
+  border-bottom: 6px solid #b1e787;
+  font-size: 40px;
+}
+h2 {
+  /* text-align: center; */
+  color: #b4eb89;
+  font-family: sans-serif;
+  margin: 20px;
+}
+p {
+  /* text-align: center; */
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+    white-space: nowrap;
+    font-size: 17px;
+}
+a {
+  text-align: center;
+  color:#b1e787;
+}
