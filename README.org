@@ -19,4 +19,4 @@ Most of my projects are licensed under GPL V3.
 
 * About this repository
 This Repository is where I host my website.
-Like all of my projects this file is also Open Source (under GPL v3).
+Like all of my projects this repository is also Open Source (under GPL v3).
