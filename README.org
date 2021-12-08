@@ -18,5 +18,5 @@ All my projects are hosted on github and are free and open-source.
 Most of my projects are licensed under GPL V3.
 
 * About this repository
-This is the Repository where I keep and control Github pages.
+This Repository is where I host my website.
 Like all of my projects this file is also Open Source (under GPL v3).
