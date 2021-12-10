@@ -24,6 +24,13 @@ p {
     white-space: nowrap;
     font-size: 17px;
 }
+li {
+  /* text-align: center; */
+    color: white;
+    font-family: sans-serif;
+    white-space: nowrap;
+    font-size: 14px;
+}
 a {
   text-align: center;
   color:#b1e787;
