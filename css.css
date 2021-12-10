@@ -32,6 +32,17 @@ li {
     font-size: 14px;
 }
 a {
+    text-align: center;
+    color: #ffab5c;
+}
+.Info {
+    border: 5px outset red;
+    background-color: #3b94ab;
+    text-align: center;
+}
+footer {
   text-align: center;
-  color: #ffab5c;
+  padding: 3px;
+  background-color: #07214b;
+  color: black;
 }
