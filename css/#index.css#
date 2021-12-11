@@ -40,18 +40,21 @@ nav{
 		font-size: 14px;
 }
 
-.Heading h1{
+.Main h1{
 		color: white;
+		letter-spacing: 3px;
 		font-family: 'Raleway', sans-serif;
 		font-weight: bold;
 		text-align: center;
 		font-size: 100px;
 }
 
-.Heading p{
+.Main p{
 		color: white;
 		text-decoration: none;
+		letter-spacing: 3px;
+		font-family: 'Raleway', sans-serif;
 		font-weight: bold;
 		text-align: center;
-		font-size: 20px;
+		font-size: 100px;
 }

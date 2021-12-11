@@ -23,12 +23,11 @@
 			</ul>
 		</nav>
 
-		<!-- Heading -->
-		<div class="Heading">
+		<!-- Main section -->
+		<div class="Main">
 		<h1>Haider Mirza</h1>
-		<p>Linux developer, 3D artist and Emacs devotee.</p>
+		<p></p>
 		</div>
 
-		<!-- recent news -->
 	</body>
 </html>
