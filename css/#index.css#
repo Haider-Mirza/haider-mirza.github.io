@@ -40,21 +40,27 @@ nav{
 		font-size: 14px;
 }
 
-.Main h1{
+.heading h1{
 		color: white;
-		letter-spacing: 3px;
 		font-family: 'Raleway', sans-serif;
 		font-weight: bold;
 		text-align: center;
 		font-size: 100px;
 }
 
-.Main p{
+.heading p{
 		color: white;
 		text-decoration: none;
-		letter-spacing: 3px;
+		font-weight: bold;
+		font-family: 'Source Sans 3', sans-serif;
+		text-align: center;
+		font-size: 20px;
+}
+
+.news h2{
+		margin: 100px;
+		color: white;
 		font-family: 'Raleway', sans-serif;
 		font-weight: bold;
-		text-align: center;
-		font-size: 100px;
+		font-size: 30px;
 }
