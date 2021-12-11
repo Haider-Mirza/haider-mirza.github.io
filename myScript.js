@@ -1,3 +1,7 @@
 function myFunction() {
-    window.print();
+  window.print();
+}
+
+function mymessage() {
+  alert("This message was triggered from the onload event");
 }

@@ -1,48 +1,41 @@
-body {
-  background-color: #232830;
-  /* background: url("Main.png") no-repeat right top scroll; */
+body{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		background-image: url("Backround.png");
+		background-repeat: repeat;
 }
-h1 {
-  text-align: center;
-  color: #89aaeb;
-  font-family: sans-serif;
-  margin-top: 20px;
-  border-bottom: 6px solid #b1e787;
-  font-size: 40px;
+
+nav{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		min-height: 8vh;
+		background-color:#232830;
+    font-family: 'Poppins', sans-serif;
 }
-h2 {
-  /* text-align: center; */
-  color: #b4eb89;
-  font-family: sans-serif;
-  margin: 20px;
+
+.logo{
+		color: white;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-size: 20px;
 }
-p {
-  /* text-align: center; */
-    color: white;
-    font-family: sans-serif;
-    margin: 20px;
-    white-space: nowrap;
-    font-size: 17px;
+
+.nav-links{
+		display: flex;
+		justify-content: space-around;
+		width: 30%;
 }
-li {
-  /* text-align: center; */
-    color: white;
-    font-family: sans-serif;
-    white-space: nowrap;
-    font-size: 14px;
+
+.nav-links li{
+		list-style: none;
 }
-a {
-    text-align: center;
-    color: #ffab5c;
-}
-.Info {
-    border: 5px outset red;
-    background-color: #3b94ab;
-    text-align: center;
-}
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: #07214b;
-  color: black;
+
+.nav-links a{
+		color: white;
+		text-decoration: none;
+		letter-spacing: 3px;
+		font-weight: bold;
+		font-size: 14px;
 }
