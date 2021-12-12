@@ -160,6 +160,9 @@ nav{
 }
 
 /* News */
+.news{
+		background: #0f0f0f;
+}
 .news h2{
     margin-top: 150px;
     margin-left: 100px;
