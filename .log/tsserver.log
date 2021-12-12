@@ -7234,3 +7234,19 @@ Info 7226 [12:46:36.928] Different program with same set of files
 Info 7227 [12:46:43.394] Starting updateGraphWorker: Project: /dev/null/inferredProject3*
 Info 7228 [12:46:43.402] Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 489 structureChanged: false structureIsReused:: Completely Elapsed: 8.064925998449326ms
 Info 7229 [12:46:43.402] Different program with same set of files
+Info 7230 [13:59:01.472] Search path: /home/haider/sites/haider-mirza.github.io/javascript
+Info 7231 [13:59:01.511] For info: /home/haider/sites/haider-mirza.github.io/javascript/app.js :: No config files found.
+Info 7232 [13:59:01.723] Starting updateGraphWorker: Project: /dev/null/inferredProject5*
+Info 7233 [13:59:02.485] Finishing updateGraphWorker: Project: /dev/null/inferredProject5* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 758.6708960011601ms
+Info 7234 [13:59:02.485] Project '/dev/null/inferredProject5*' (Inferred)
+Info 7235 [13:59:02.486] 	Files (19)
+
+Info 7236 [13:59:02.486] -----------------------------------------------
+Info 7237 [13:59:14.734] Search path: /home/haider/sites/haider-mirza.github.io/javascript
+Info 7238 [13:59:14.735] For info: /home/haider/sites/haider-mirza.github.io/javascript/index.js :: No config files found.
+Info 7239 [13:59:14.736] Starting updateGraphWorker: Project: /dev/null/inferredProject6*
+Info 7240 [13:59:14.786] Finishing updateGraphWorker: Project: /dev/null/inferredProject6* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 49.345564000308514ms
+Info 7241 [13:59:14.786] Project '/dev/null/inferredProject6*' (Inferred)
+Info 7242 [13:59:14.786] 	Files (19)
+
+Info 7243 [13:59:14.786] -----------------------------------------------

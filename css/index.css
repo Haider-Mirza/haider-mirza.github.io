@@ -133,8 +133,11 @@ nav{
 }
 
 /* Main webpage */
-.Main h1{
-    color: white;
+.main h1{
+		background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+		-webkit-text-fill-color: transparent;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -144,7 +147,7 @@ nav{
     /* background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
 }
 
-.Main p{
+.main p{
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -153,6 +156,7 @@ nav{
     font-size: 20px;
 }
 
+/* News */
 .news h2{
     margin-top: 150px;
     margin-left: 100px;
@@ -160,4 +164,12 @@ nav{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 30px;
+}
+
+.news p{
+    margin-left: 170px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
 }
