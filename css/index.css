@@ -90,37 +90,37 @@ nav{
     margin: 5px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1023px){
     .nav-links{
-	width: 60%;
+				width: 60%;
     }
 }
 
 @media screen and (max-width:768px){
     .body{
-	overflow-x: hidden; 
+				overflow-x: hidden; 
     }
 
     .nav-links{
-	position: absolute;
-	right: 0px;
-	height: 92vh;
-	top: 6vh;
-	background-color:#232830;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 50%;
-	transform: translateX(100%);
-	transition: transform 0.5s ease-in;
+				position: absolute;
+				right: 0px;
+				height: 92vh;
+				top: 6vh;
+				background-color:#232830;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 50%;
+				transform: translateX(100%);
+				transition: transform 0.5s ease-in;
     }
 
     .nav-links li{
-	opacity: 0;
+				opacity: 0;
     }
 
     .burger{
-	display: block;
+				display: block;
     }
 }
 
