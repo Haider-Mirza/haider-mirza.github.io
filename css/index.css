@@ -17,7 +17,10 @@ nav{
 }
 
 .logo{
-    color: white;
+		background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
     letter-spacing: 5px;
     font-size: 20px;
     font-weight: bold;
@@ -134,10 +137,10 @@ nav{
 
 /* Main webpage */
 .main h1{
-		background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 		-webkit-background-clip: text;
 		-moz-background-clip: text;
-		-webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     text-align: center;
