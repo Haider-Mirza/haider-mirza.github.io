@@ -1,3 +1,4 @@
+/* Body */
 body{
     margin: 0px;
     padding: 0px;
@@ -5,6 +6,7 @@ body{
     background-repeat: repeat;
 }
 
+/* Navigation panel */
 nav{
     display: flex;
     justify-content: space-around;
@@ -39,34 +41,6 @@ nav{
     font-size: 15px;
 }
 
-.heading h1{
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 100px;
-    /* background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
-    /* background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
-    /* background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
-}
-
-.heading p{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Source Sans 3', sans-serif;
-    text-align: center;
-    font-size: 20px;
-}
-
-.news h2{
-    margin-top: 150px;
-    margin-left: 100px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-}
 
 .links{
     display: flex;
@@ -156,4 +130,34 @@ nav{
 
 .toggle .line3{
 		transform: rotate(45deg) translate(-5px,-6px); 
+}
+
+/* Main webpage */
+.Main h1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+    /* background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
+    /* background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
+    /* background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
+}
+
+.Main p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.news h2{
+    margin-top: 150px;
+    margin-left: 100px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
 }
