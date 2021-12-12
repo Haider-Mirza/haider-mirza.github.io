@@ -17,7 +17,7 @@ nav{
 .logo{
     color: white;
     letter-spacing: 5px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -36,7 +36,7 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .heading h1{
@@ -101,7 +101,10 @@ nav{
 				overflow-x: hidden; 
     }
 
-    .nav-links{
+		.logo{
+				font-size: 30px;
+		}
+		.nav-links{
 				position: absolute;
 				right: 0px;
 				height: 92vh;
@@ -119,6 +122,10 @@ nav{
 				opacity: 0;
     }
 
+
+		.nav-links a{
+				font-size: 20px;
+		}
     .burger{
 				display: block;
     }
