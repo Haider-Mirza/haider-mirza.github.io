@@ -1,8 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    background-image: url("Backround.png");
+    box-sizing: border-box; background-image: url("Backround.png");
     background-repeat: repeat;
 }
 
@@ -88,6 +87,7 @@ nav{
     height: 3px;
     background-color: white;
     margin: 5px;
+		transition: all 0.3s ease;
 }
 
 @media screen and (max-width:1023px){
