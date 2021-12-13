@@ -157,22 +157,47 @@ nav{
 }
 
 /* News */
-.news{
-    /* background: #0f0f0f; */
-}
 .news h2{
     margin-top: 150px;
     margin-left: 100px;
+		margin-bottom: 0%;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 30px;
+    /* cursor: pointer; */
 }
 
 .news p{
-    margin-left: 170px;
+    margin-left: 7rem;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 10px;
 }
+
+.news a{
+    color: red;
+    margin-left: 6rem;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* /\* old news *\/ */
+
+/* .old-news-active{ */
+/* 		opacity: 0; */
+/* } */
+
+/* .old-news a{ */
+/*     color: red; */
+/*     margin-left: 6rem; */
+/*     text-decoration: none; */
+/*     letter-spacing: 3px; */
+/*     font-family: 'Raleway', sans-serif; */
+/*     font-weight: bold; */
+/*     font-size: 15px; */
+/* } */
