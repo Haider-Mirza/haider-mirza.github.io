@@ -49,18 +49,22 @@
     font-size: 15px;
 }
 
-/* /\* old news *\/ */
+.footer{
+    color: blue;
+		padding: 20px 0;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    /* display: flex; */
+		background: #131313;
+}
 
-/* .old-news-active{ */
-/* 		opacity: 0; */
-/* } */
+.footer h5{
+    font-size: 15px;
+}
 
-/* .old-news a{ */
-/*     color: red; */
-/*     margin-left: 6rem; */
-/*     text-decoration: none; */
-/*     letter-spacing: 3px; */
-/*     font-family: 'Raleway', sans-serif; */
-/*     font-weight: bold; */
-/*     font-size: 15px; */
-/* } */
+.footer h6{
+    font-size: 10px;
+}
