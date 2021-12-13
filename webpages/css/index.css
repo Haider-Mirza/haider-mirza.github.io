@@ -1,11 +1,3 @@
-/* Body */
-body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box; background-image: url("Index.png");
-    background-repeat: repeat;
-}
-
 /* Main webpage */
 .main h1{
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
