@@ -90,7 +90,7 @@ nav{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 40%;
+	width: 50%;
 	transform: translateX(100%);
 	transition: transform 0.5s ease-in;
     }
@@ -101,7 +101,7 @@ nav{
 
 
     .nav-links a{
-	font-size: 20px;
+	font-size: 25px;
     }
     .burger{
 	display: block;
