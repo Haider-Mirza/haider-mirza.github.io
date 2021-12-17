@@ -2,8 +2,9 @@ const inputTest = document.querySelector(".inputTest");
 const buttonTest = document.querySelector(".buttonTest");
 
 buttonTest.addEventListener("click", function() {
-	if (inputTest.value == 'Haider' || inputTest.value == `haider`) {
+	if (inputTest.value == `squarerootofminusone`) {
 		console.log(`Permission Given`)
+    window.location.href = "http://www.youtube.com";
 	} else {
 		console.log(`You are not allowed in!`)
 	}
@@ -22,14 +23,3 @@ function typeWriter() {
 }
 
 typeWriter();
-
-const whoYou = () => {
-	const logo = document.querySelector('.logo');
-	const who = document.querySelector('.who');
-
-	logo.addEventListener('click', () => {
-
-		who.classList.toggle('who-toggle');
-	});
-}
-whoYou();

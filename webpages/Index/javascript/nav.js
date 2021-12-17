@@ -21,3 +21,14 @@ const navSlide = () => {
 	});
 }
 navSlide();
+
+const whoYou = () => {
+	const logo = document.querySelector('.logo');
+	const who = document.querySelector('.who');
+
+	logo.addEventListener('click', () => {
+
+		who.classList.toggle('who-toggle');
+	});
+}
+whoYou();
