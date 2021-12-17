@@ -72,13 +72,3 @@
 .footer h6{
     font-size: 10px;
 }
-
-.who{
-		display: none;
-		margin-bottom: 5px;
-}
-
-.who-toggle{
-		display: flex;
-    margin-bottom: 20px
-}
