@@ -1,0 +1,10 @@
+const inputTest = document.querySelector(".inputTest");
+const buttonTest = document.querySelector(".buttonTest");
+
+buttonTest.addEventListener("click", function() {
+	if (inputTest.value == 'Haider' || inputTest.value == `haider`) {
+		console.log(`Permission Given`)
+	} else {
+		console.log(`You are not allowed in!`)
+	}
+});
