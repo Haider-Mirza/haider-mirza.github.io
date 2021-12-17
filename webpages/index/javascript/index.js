@@ -4,7 +4,7 @@ const buttonTest = document.querySelector(".buttonTest");
 buttonTest.addEventListener("click", function() {
 	if (inputTest.value == `squarerootofminusone`) {
 		console.log(`Permission Given`)
-    window.location.href = "http://www.youtube.com";
+    window.location.href = "http://www.haider.gq";
 	} else {
 		console.log(`You are not allowed in!`)
 	}
