@@ -1,4 +1,8 @@
 /* Main webpage */
+.logo{
+    cursor: pointer;
+}
+
 .main h1{
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     -webkit-background-clip: text;
@@ -67,4 +71,14 @@
 
 .footer h6{
     font-size: 10px;
+}
+
+.who{
+		display: none;
+		margin-bottom: 5px;
+}
+
+.who-toggle{
+		display: flex;
+    margin-bottom: 20px
 }
