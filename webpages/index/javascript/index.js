@@ -6,7 +6,8 @@ buttonTest.addEventListener("click", function() {
 		console.log(`Permission Given`)
     window.location.href = "http://www.haider.gq";
 	} else {
-		console.log(`You are not allowed in!`)
+		console.log(`Incorrect Password!`)
+		window.alert(`Incorrect Password! \n please try again.`)
 	}
 });
 
