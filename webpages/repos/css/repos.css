@@ -1,0 +1,36 @@
+/* Main webpage */
+.logo{
+    cursor: pointer;
+}
+
+.main h2{
+    color: blue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+}
+
+.main p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 7rem;
+}
+
+.main-links a{
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.main-links li{
+    text-align: center;
+    list-style: none;
+    margin-bottom: 20px;
+}

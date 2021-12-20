@@ -55,18 +55,15 @@
 
     <footer>
       <div class="footer-content">
+	<h5>Licensed under GNU GPL V3</h5>
 	<h6>Here is the website's source code:</h6>
 	<a href="https://github.com/Haider-Mirza/haider-mirza.github.io" target="_blank">Source code</a>
-	<ul class="socials">
-	  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-	</ul>
       </div>
-      <div class="footer-bottom">
-	<p>Licensed under GNU GPLV3.</p>
+      <div>
       </div>
     </footer>
 
     <script src="webpages/index/javascript/index.js"></script>
     <script src="https://www.haider.gq/base-files/nav.js"></script>
-  </body>
+  </body >
 </html>
