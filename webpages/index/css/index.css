@@ -1,8 +1,4 @@
 /* Main webpage */
-.logo{
-    cursor: pointer;
-}
-
 .main h1{
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     -webkit-background-clip: text;

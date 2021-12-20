@@ -26,6 +26,7 @@ nav{
     letter-spacing: 5px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .nav-links{
