@@ -4,6 +4,7 @@ body{
     padding: 0px;
     box-sizing: border-box; background-image: url("Index.png");
     background-repeat: repeat;
+    overflow-x: hidden;
 }
 
 /* Navigation panel */
