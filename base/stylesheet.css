@@ -2,24 +2,43 @@
 body{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box; background-image: url("Index.png");
-    background-repeat: repeat;
+    /* box-sizing: border-box; background-image: url("Index.png"); */
+    /* background-repeat: repeat; */
+    background-color:#232830;
 }
 
-#postamble {
-    background-color:#1c1f26;
+.title{
+    margin: 0px;
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #89AAEB;
+    background-color:#232830;
+    border-bottom: .05rem solid #B4EB89;
 }
 
 #content h2{
     color: #B4EB89;
 }
 
-.title{
-    margin: 10px 0px;
-    padding: 0px;
-    margin-bottom: 0;
-    font-size: 3.0rem;
-    font-weight: bold;
-    color: #89AAEB;
+#content p{
+    color: white;
+}
+
+#content{
     background-color:#232830;
+}
+
+#postamble {
+    margin: 0px;
+    background-color:#1c1f26;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    width: 100vw;
+    color: white;
+}
+
+#postamble a{
+    text-decoration: none;
+    color: orange;
 }
