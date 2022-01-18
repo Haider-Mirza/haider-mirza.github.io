@@ -26,9 +26,11 @@ body{
 
 #content{
     background-color:#232830;
+    margin: 0px 0.5rem;
 }
 
 #postamble {
+    margin: 0px 0.5rem;
     margin: 0px;
     background-color:#1c1f26;
     justify-content: center;
