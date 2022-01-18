@@ -1,0 +1,7 @@
+
+#+TITLE: =Haider.gw=
+#+AUTHOR: Haider Mirza
+
+* About This Config
+  This is my Emacs configuration used in all of my Systems.
+  This is *VERY* heavily customised for my workflow and therefore not recommended as a drop-in replacement for your config.
