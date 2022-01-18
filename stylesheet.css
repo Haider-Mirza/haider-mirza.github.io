@@ -6,3 +6,13 @@ body{
     background-repeat: repeat;
     overflow-x: hidden;
 }
+
+title{
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
