@@ -4,15 +4,22 @@ body{
     padding: 0px;
     box-sizing: border-box; background-image: url("Index.png");
     background-repeat: repeat;
-    overflow-x: hidden;
 }
 
-#table-of-contents{
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 5px;
-    font-size: 20px;
+#content {
+    background-color:#1c1f26;
+}
+
+#content h2{
+    color: #B4EB89;
+}
+
+.title{
+    margin: 10px 0px;
+    padding: 0px;
+    margin-bottom: 0;
+    font-size: 3.0rem;
     font-weight: bold;
+    color: #89AAEB;
+    background-color:#232830;
 }

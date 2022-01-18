@@ -1,7 +1,11 @@
-
-#+TITLE: =Haider.gw=
+#+TITLE: Haider.gq
 #+AUTHOR: Haider Mirza
 
-* About This Config
-  This is my Emacs configuration used in all of my Systems.
-  This is *VERY* heavily customised for my workflow and therefore not recommended as a drop-in replacement for your config.
+* Haider.gq 
+  To be completely honest, I didn't think I would ever get to the point where some random person like you would want to visit my website but here we are.
+  
+* About me
+  Hello.
+  My name is Haider Mirza and I am a secondary school student interested in programming and computer science in general.
+  This website is made for general documentation on my Github repositories, School Projects, Or any of my published projects.
+  I am currently Learning the C programming language and testing out SDL for a upcoming project.
