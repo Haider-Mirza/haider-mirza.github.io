@@ -36,6 +36,9 @@
              :section-numbers nil       ;; Don't include section numbers
              :time-stamp-file nil)))    ;; Don't include time stamp in file
 
+;; We're using Git, we don't need no steenking backups
+(setq make-backup-files nil)
+
 ;; Generate the site output
 (org-publish-all t)
 
