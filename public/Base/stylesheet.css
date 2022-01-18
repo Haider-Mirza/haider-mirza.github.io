@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box; background-image: url("./Base/Index.png");
+    box-sizing: border-box; background-image: url("Index.png");
     background-repeat: repeat;
     overflow-x: hidden;
 }
