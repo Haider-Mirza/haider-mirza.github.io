@@ -1,0 +1,17 @@
+/* Body */
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; background-image: url("Index.png");
+    background-repeat: repeat;
+    overflow-x: hidden;
+}
+
+title{
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
