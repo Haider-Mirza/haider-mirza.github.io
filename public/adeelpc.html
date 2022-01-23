@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Adeel setup qutebrowser</title>
+<meta name="generator" content="Org mode" />
+<link rel="stylesheet" href="https://www.haider.gq/base/stylesheet.css"/>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Adeel setup qutebrowser</h1>
+
+<div id="outline-container-org2bac861" class="outline-2">
+<h2 id="org2bac861">Qutebrowser configuration</h2>
+<div class="outline-text-2" id="text-org2bac861">
+<p>
+Qutebrowser has a config folder which varies acress each operating system.
+on windows it is in <b>%APPDATA%/qutebrowser/config/config.py</b> directory.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd97ce98" class="outline-2">
+<h2 id="orgd97ce98">Config.py</h2>
+<div class="outline-text-2" id="text-orgd97ce98">
+<p>
+Run the command <code>windows-r</code>  with windows being the key with the windows icon or as most Linus users call the "super" key.
+(If this fails then just rn the application "run" normally)
+There you will get a popup at the bottom of the screen and type in <b>%APPDATA%</b> and a file manager window will appear.
+From there, go into the "qutebrowser/" directory then the "config" and there you will se config.py
+</p>
+</div>
+
+<div id="outline-container-orgf0003d2" class="outline-3">
+<h3 id="orgf0003d2">Configuring qutebrowser</h3>
+<div class="outline-text-3" id="text-orgf0003d2">
+</div>
+<div id="outline-container-org79b2ab3" class="outline-4">
+<h4 id="org79b2ab3">Explanation</h4>
+<div class="outline-text-4" id="text-org79b2ab3">
+<p>
+In GNU/Linux, alot of programs are able to be configured by the user to match their workflow.
+Most of the cases (if you are on a standard distrobution) you use files to configure the program.
+This allows of easy reproducibility.
+</p>
+</div>
+</div>
+<div id="outline-container-orge06e564" class="outline-4">
+<h4 id="orge06e564">Configuration</h4>
+<div class="outline-text-4" id="text-orge06e564">
+<p>
+Now it is time for configuration.
+Copy this code block into you config.py
+anything which has a # before is just a comment and qutebrowser will just leave it.
+You can remove the # to uncomment anything.
+</p>
+<div class="org-src-container">
+<pre class="src src-conf">
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Open every tab as a new window, Vimb style</span>
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.tabs.tabs_are_windows = True</span>
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.tabs.last_close = "close"</span>
+
+<span style="font-weight: bold; font-style: italic;">c.auto_save.session</span> = True
+<span style="font-weight: bold; font-style: italic;">c.scrolling.smooth</span> = True
+<span style="font-weight: bold; font-style: italic;">c.session.lazy_restore</span> = True
+<span style="font-weight: bold; font-style: italic;">c.content.autoplay</span> = False
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Better default fonts</span>
+<span style="font-weight: bold; font-style: italic;">c.fonts.default_family</span> = <span style="font-style: italic;">'"Source Code Pro"'</span>
+<span style="font-weight: bold; font-style: italic;">c.fonts.completion.entry</span> = <span style="font-style: italic;">'11pt "Source Code Pro"'</span>
+<span style="font-weight: bold; font-style: italic;">c.fonts.debug_console</span> = <span style="font-style: italic;">'11pt "Source Code Pro"'</span>
+<span style="font-weight: bold; font-style: italic;">c.fonts.default_size</span> = <span style="font-style: italic;">'11pt'</span>
+<span style="font-weight: bold; font-style: italic;">c.fonts.prompts</span> = <span style="font-style: italic;">'default_size sans-serif'</span>
+<span style="font-weight: bold; font-style: italic;">c.fonts.statusbar</span> = <span style="font-style: italic;">'10pt "Source Code Pro"'</span>
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Use dark mode where possible</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.webpage.preferred_color_scheme</span> = <span style="font-style: italic;">"dark"</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.webpage.darkmode.enabled</span> = True
+<span style="font-weight: bold; font-style: italic;">c.colors.webpage.darkmode.policy.images</span> = <span style="font-style: italic;">"never"</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.webpage.bg</span> = <span style="font-style: italic;">"black"</span>
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Set Downloads Directory</span>
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.downloads.location.directory = '~/Downloads'</span>
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">When to show tabs</span>
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.tabs.show = "never"</span>
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.statusbar.show = "always"</span>
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Setting default page for when opening new tabs or new windows with</span>
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">commands like :open -t and :open -w .</span>
+<span style="font-weight: bold; font-style: italic;">c.url.default_page</span> = <span style="font-style: italic;">'https://start.duckduckgo.com/'</span>
+<span style="font-weight: bold; font-style: italic;">c.url.start_pages</span> = <span style="font-style: italic;">'https://start.duckduckgo.com/'</span>
+
+<span style="font-weight: bold; font-style: italic;">c.url.searchengines</span> = {<span style="font-style: italic;">'DEFAULT'</span>: <span style="font-style: italic;">'https://duckduckgo.com/?q={}'</span>, <span style="font-style: italic;">'am'</span>: <span style="font-style: italic;">'https://www.amazon.com/s?k={}'</span>, <span style="font-style: italic;">'aw'</span>: <span style="font-style: italic;">'https://wiki.archlinux.org/?search={}'</span>, <span style="font-style: italic;">'goog'</span>: <span style="font-style: italic;">'https://www.google.com/search?q={}'</span>, <span style="font-style: italic;">'hoog'</span>: <span style="font-style: italic;">'https://hoogle.haskell.org/?hoogle={}'</span>, <span style="font-style: italic;">'re'</span>: <span style="font-style: italic;">'https://www.reddit.com/r/{}'</span>, <span style="font-style: italic;">'ub'</span>: <span style="font-style: italic;">'https://www.urbandictionary.com/define.php?term={}'</span>, <span style="font-style: italic;">'wiki'</span>: <span style="font-style: italic;">'https://en.wikipedia.org/wiki/{}'</span>, <span style="font-style: italic;">'yt'</span>: <span style="font-style: italic;">'https://www.youtube.com/results?search_query={}'</span>, <span style="font-style: italic;">'aur'</span>: <span style="font-style: italic;">'https://aur.archlinux.org/packages/?O=0&amp;K={}'</span>}
+
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.fg</span> = [<span style="font-style: italic;">'#9cc4ff'</span>, <span style="font-style: italic;">'white'</span>, <span style="font-style: italic;">'white'</span>]
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.odd.bg</span> = <span style="font-style: italic;">'#1c1f24'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.even.bg</span> = <span style="font-style: italic;">'#232429'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.category.fg</span> = <span style="font-style: italic;">'#e1acff'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.category.bg</span> = <span style="font-style: italic;">'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #000000, stop:1 #232429)'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.category.border.top</span> = <span style="font-style: italic;">'#3f4147'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.category.border.bottom</span> = <span style="font-style: italic;">'#3f4147'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.item.selected.fg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.item.selected.bg</span> = <span style="font-style: italic;">'#ecbe7b'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.item.selected.match.fg</span> = <span style="font-style: italic;">'#c678dd'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.match.fg</span> = <span style="font-style: italic;">'#c678dd'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.completion.scrollbar.fg</span> = <span style="font-style: italic;">'white'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.downloads.bar.bg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.downloads.error.bg</span> = <span style="font-style: italic;">'#ff6c6b'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.hints.fg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.hints.match.fg</span> = <span style="font-style: italic;">'#98be65'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.messages.info.bg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.statusbar.normal.bg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.statusbar.insert.fg</span> = <span style="font-style: italic;">'white'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.statusbar.insert.bg</span> = <span style="font-style: italic;">'#497920'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.statusbar.passthrough.bg</span> = <span style="font-style: italic;">'#34426f'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.statusbar.command.bg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.statusbar.url.warn.fg</span> = <span style="font-style: italic;">'yellow'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.tabs.bar.bg</span> = <span style="font-style: italic;">'#1c1f34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.tabs.odd.bg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.tabs.even.bg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.tabs.selected.odd.bg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.tabs.selected.even.bg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.tabs.pinned.odd.bg</span> = <span style="font-style: italic;">'seagreen'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.tabs.pinned.even.bg</span> = <span style="font-style: italic;">'darkseagreen'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.tabs.pinned.selected.odd.bg</span> = <span style="font-style: italic;">'#282c34'</span>
+<span style="font-weight: bold; font-style: italic;">c.colors.tabs.pinned.selected.even.bg</span> = <span style="font-style: italic;">'#282c34'</span>
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Automatically turn on insert mode when a loaded page focuses a text field</span>
+<span style="font-weight: bold; font-style: italic;">c.input.insert_mode.auto_load</span> = True
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Edit fields in Emacs with Ctrl+E</span>
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.editor.command = ["emacsclient", "+{line}:{column}", "{file}"]</span>
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Make Ctrl+g quit everything like in Emacs</span>
+config.bind(<span style="font-style: italic;">'&lt;Ctrl-g&gt;'</span>, <span style="font-style: italic;">'leave-mode'</span>, mode=<span style="font-style: italic;">'insert'</span>)
+config.bind(<span style="font-style: italic;">'&lt;Ctrl-g&gt;'</span>, <span style="font-style: italic;">'leave-mode'</span>, mode=<span style="font-style: italic;">'command'</span>)
+config.bind(<span style="font-style: italic;">'&lt;Ctrl-g&gt;'</span>, <span style="font-style: italic;">'leave-mode'</span>, mode=<span style="font-style: italic;">'prompt'</span>)
+config.bind(<span style="font-style: italic;">'&lt;Ctrl-g&gt;'</span>, <span style="font-style: italic;">'leave-mode'</span>, mode=<span style="font-style: italic;">'hint'</span>)
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">config.unbind('b') # Re-keybind 'b'</span>
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">config.bind('b', 'spawn ~/.config/qutebrowser/Qute.sh')</span>
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Tweak some keybindings</span>
+config.unbind(<span style="font-style: italic;">'d'</span>) <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Don't close window on lower-case 'd'</span>
+config.bind(<span style="font-style: italic;">'yy'</span>, <span style="font-style: italic;">'yank'</span>)
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Vim-style movement keys in command mode</span>
+config.bind(<span style="font-style: italic;">'&lt;Ctrl-j&gt;'</span>, <span style="font-style: italic;">'completion-item-focus --history next'</span>, mode=<span style="font-style: italic;">'command'</span>)
+config.bind(<span style="font-style: italic;">'&lt;Ctrl-k&gt;'</span>, <span style="font-style: italic;">'completion-item-focus --history prev'</span>, mode=<span style="font-style: italic;">'command'</span>)
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">More binding hints here: https://gitlab.com/Kaligule/qutebrowser-emacs-config/blob/master/config.py</span>
+
+config.bind(<span style="font-style: italic;">'X'</span>, <span style="font-style: italic;">'wq'</span>)
+config.bind(<span style="font-style: italic;">'Z'</span>, <span style="font-style: italic;">'hint links spawn mpv {hint-url}'</span>)
+config.unbind(<span style="font-style: italic;">'d'</span>) <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">I dont even use b so I just unbinded it</span>
+config.bind(<span style="font-style: italic;">'b'</span>, <span style="font-style: italic;">'spawn ~/.config/qutebrowser/scripts/buffer.sh'</span>)
+config.bind(<span style="font-style: italic;">'z'</span>, <span style="font-style: italic;">'spawn ~/.config/qutebrowser/scripts/mpv.sh;; spawn mpv {url}'</span>)
+config.bind(<span style="font-style: italic;">'t'</span>, <span style="font-style: italic;">'set-cmd-text -s :open -t'</span>)
+config.bind(<span style="font-style: italic;">'xb'</span>, <span style="font-style: italic;">'config-cycle statusbar.show always never'</span>)
+config.bind(<span style="font-style: italic;">'xt'</span>, <span style="font-style: italic;">'config-cycle tabs.show always never'</span>)
+config.bind(<span style="font-style: italic;">'xx'</span>, <span style="font-style: italic;">'config-cycle statusbar.show always never;; config-cycle tabs.show always never'</span>)
+
+<span style="font-weight: bold; font-style: italic;">c.content.javascript.enabled</span> = True
+<span style="font-weight: bold; font-style: italic;">c.content.webgl</span> = True
+
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Load the autoconfig file (quteconfig.py)</span>
+config.load_autoconfig()
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.2 (<a href="https://orgmode.org">Org</a> mode 9.4.4)</p>
+</div>
+</body>
+</html>

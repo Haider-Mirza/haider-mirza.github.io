@@ -6,4 +6,3 @@
   If you didnt know, The URL works like a directory tree. 
  
 * Quick access work  
-[[file:re/dr-strange.org][Dr Strange]] (RE Project)
