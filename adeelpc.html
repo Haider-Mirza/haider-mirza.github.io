@@ -13,9 +13,9 @@
 <div id="content">
 <h1 class="title">Adeel setup qutebrowser</h1>
 
-<div id="outline-container-org52bd9c1" class="outline-2">
-<h2 id="org52bd9c1">Qutebrowser configuration</h2>
-<div class="outline-text-2" id="text-org52bd9c1">
+<div id="outline-container-org89cd762" class="outline-2">
+<h2 id="org89cd762">Qutebrowser configuration</h2>
+<div class="outline-text-2" id="text-org89cd762">
 <p>
 Qutebrowser has a config folder which varies acress each operating system.
 on windows it is in <b>%APPDATA%/qutebrowser/config/config.py</b> directory.
@@ -23,9 +23,9 @@ on windows it is in <b>%APPDATA%/qutebrowser/config/config.py</b> directory.
 </div>
 </div>
 
-<div id="outline-container-orgaa351cb" class="outline-2">
-<h2 id="orgaa351cb">Config.py</h2>
-<div class="outline-text-2" id="text-orgaa351cb">
+<div id="outline-container-org2986a09" class="outline-2">
+<h2 id="org2986a09">Config.py</h2>
+<div class="outline-text-2" id="text-org2986a09">
 <p>
 Run the command <code>windows-r</code>  with windows being the key with the windows icon or as most Linus users call the "super" key.
 (If this fails then just rn the application "run" normally)
@@ -34,13 +34,13 @@ From there, go into the "qutebrowser/" directory then the "config" and there you
 </p>
 </div>
 
-<div id="outline-container-org44dd49f" class="outline-3">
-<h3 id="org44dd49f">Configuring qutebrowser</h3>
-<div class="outline-text-3" id="text-org44dd49f">
+<div id="outline-container-orga193769" class="outline-3">
+<h3 id="orga193769">Configuring qutebrowser</h3>
+<div class="outline-text-3" id="text-orga193769">
 </div>
-<div id="outline-container-org61b4993" class="outline-4">
-<h4 id="org61b4993">Explanation</h4>
-<div class="outline-text-4" id="text-org61b4993">
+<div id="outline-container-orga9f345e" class="outline-4">
+<h4 id="orga9f345e">Explanation</h4>
+<div class="outline-text-4" id="text-orga9f345e">
 <p>
 In GNU/Linux, alot of programs are able to be configured by the user to match their workflow.
 Most of the cases (if you are on a standard distrobution) you use files to configure the program.
@@ -48,9 +48,9 @@ This allows of easy reproducibility.
 </p>
 </div>
 </div>
-<div id="outline-container-orgd65b986" class="outline-4">
-<h4 id="orgd65b986">Configuration</h4>
-<div class="outline-text-4" id="text-orgd65b986">
+<div id="outline-container-org18ffc11" class="outline-4">
+<h4 id="org18ffc11">Configuration</h4>
+<div class="outline-text-4" id="text-org18ffc11">
 <p>
 Now it is time for configuration.
 Copy this code block into you config.py
@@ -58,10 +58,9 @@ anything which has a # before is just a comment and qutebrowser will just leave 
 You can remove the # to uncomment anything.
 </p>
 <div class="org-src-container">
-<pre class="src src-conf">
-<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Open every tab as a new window, Vimb style</span>
-<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.tabs.tabs_are_windows = True</span>
-<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.tabs.last_close = "close"</span>
+<pre class="src src-conf">;; <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Open every tab as a new window, Vimb style</span>
+<span style="font-weight: bold; font-style: italic;">;; c.tabs.tabs_are_windows</span> = True
+<span style="font-weight: bold; font-style: italic;">;; c.tabs.last_close</span> = <span style="font-style: italic;">"close"</span>
 
 <span style="font-weight: bold; font-style: italic;">c.auto_save.session</span> = True
 <span style="font-weight: bold; font-style: italic;">c.scrolling.smooth</span> = True
@@ -86,8 +85,8 @@ You can remove the # to uncomment anything.
 <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.downloads.location.directory = '~/Downloads'</span>
 
 <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">When to show tabs</span>
-<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.tabs.show = "never"</span>
-<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.statusbar.show = "always"</span>
+<span style="font-weight: bold; font-style: italic;">c.tabs.show</span> = <span style="font-style: italic;">"never"</span>
+<span style="font-weight: bold; font-style: italic;">c.statusbar.show</span> = <span style="font-style: italic;">"always"</span>
 
 <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Setting default page for when opening new tabs or new windows with</span>
 <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">commands like :open -t and :open -w .</span>
@@ -132,6 +131,7 @@ You can remove the # to uncomment anything.
 <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Automatically turn on insert mode when a loaded page focuses a text field</span>
 <span style="font-weight: bold; font-style: italic;">c.input.insert_mode.auto_load</span> = True
 
+
 <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">Edit fields in Emacs with Ctrl+E</span>
 <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">c.editor.command = ["emacsclient", "+{line}:{column}", "{file}"]</span>
 
@@ -155,9 +155,6 @@ config.bind(<span style="font-style: italic;">'&lt;Ctrl-k&gt;'</span>, <span sty
 
 config.bind(<span style="font-style: italic;">'X'</span>, <span style="font-style: italic;">'wq'</span>)
 config.bind(<span style="font-style: italic;">'Z'</span>, <span style="font-style: italic;">'hint links spawn mpv {hint-url}'</span>)
-config.unbind(<span style="font-style: italic;">'d'</span>) <span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">I dont even use b so I just unbinded it</span>
-config.bind(<span style="font-style: italic;">'b'</span>, <span style="font-style: italic;">'spawn ~/.config/qutebrowser/scripts/buffer.sh'</span>)
-config.bind(<span style="font-style: italic;">'z'</span>, <span style="font-style: italic;">'spawn ~/.config/qutebrowser/scripts/mpv.sh;; spawn mpv {url}'</span>)
 config.bind(<span style="font-style: italic;">'t'</span>, <span style="font-style: italic;">'set-cmd-text -s :open -t'</span>)
 config.bind(<span style="font-style: italic;">'xb'</span>, <span style="font-style: italic;">'config-cycle statusbar.show always never'</span>)
 config.bind(<span style="font-style: italic;">'xt'</span>, <span style="font-style: italic;">'config-cycle tabs.show always never'</span>)
