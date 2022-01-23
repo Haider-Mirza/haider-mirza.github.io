@@ -16,7 +16,27 @@ body{
     border-bottom: .05rem solid #B4EB89;
 }
 
+.src src-conf{
+
+}
+
 #content h2{
+    color: #B4EB89;
+}
+
+#content h3{
+    color: #B4EB89;
+}
+
+#content h4{
+    color: #B4EB89;
+}
+
+#content h5{
+    color: #B4EB89;
+}
+
+#content h6{
     color: #B4EB89;
 }
 
