@@ -11,7 +11,10 @@
   This website is made for general documentation on my Github repositories, School Projects, Or any of my published projects.
   I am currently Learning the C programming language and testing out SDL for a upcoming project.
   
-* Links
+* News
+  - I have started making my first ever game
+    I actually made it in the hardest language to work with. (c++ with the SDL media library)
+
 * Source Code
   This Website is Free/Libre software (well it's not software but you know what I mean) in which has been licensed under the GPL v3.
   This website Is hosted on Github pages and it's sourcecode is also on Github. 
