@@ -16,6 +16,10 @@ body{
     border-bottom: .05rem solid #B4EB89;
 }
 
+li{
+    color: white;
+}
+
 .src src-conf{
     color: #B4EB89;
 }
