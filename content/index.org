@@ -12,6 +12,8 @@
   I am currently Learning the C programming language and testing out SDL for a upcoming project.
   
 * News
+  - Officially learning the Rust Programming languge as my main multi-purpose language.
+  
   - I have started making my first ever game
     I actually made it in the hardest language to work with. (c++ with the SDL media library)
 
