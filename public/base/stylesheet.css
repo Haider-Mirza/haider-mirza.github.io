@@ -16,7 +16,7 @@ body{
     border-bottom: .05rem solid #B4EB89;
 }
 
-li{
+li {
     color: white;
 }
 
@@ -24,27 +24,27 @@ li{
     color: #B4EB89;
 }
 
-h2{
+h2 {
     color: #B4EB89;
 }
 
-h3{
+h3 {
     color: #B4EB89;
 }
 
-h4{
+h4 {
     color: #B4EB89;
 }
 
-h5{
+h5 {
     color: #B4EB89;
 }
 
-h6{
+h6 {
     color: #B4EB89;
 }
 
-p{
+p {
     color: white;
 }
 
@@ -64,7 +64,7 @@ content{
     color: white;
 }
 
-a{
+a {
     text-decoration: none;
     color: orange;
 }
