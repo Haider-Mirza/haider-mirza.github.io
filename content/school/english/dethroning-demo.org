@@ -1,5 +1,9 @@
 #+TITLE: Dethroning Demo
 #+AUTHOR: Haider
+
+* Dethroning Demo 
   Dethroning (the upcoming game) is coming with a free game that is 
+  
+* Git repository 
   Which is already in the works and could be found here: [[https://github.com/Haider-Mirza/Dethroning][Git Repository]].
-  More information about the Demo could be found here
+  The game is Free softwware and is licensed under the *GNU Public License v3*.
