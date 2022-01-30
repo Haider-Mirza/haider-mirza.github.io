@@ -3,7 +3,17 @@
 
 * Dethroning Demo 
   Dethroning (the upcoming game) is coming with a free game that is 
-  
+* NOTE
+ This game is in a very early stage. Expect bugs, crashes, memory errors and any unstable behavior.
+ You can file a error on the demo's git repository page.
 * Git repository 
   Which is already in the works and could be found here: [[https://github.com/Haider-Mirza/Dethroning][Git Repository]].
   The game is Free softwware and is licensed under the *GNU Public License v3*.
+  
+* How to build the game
+  If you use the GNU Guix package manager, you can run the command "guix shell -m manifest.scm" to create a seperate programming environment.
+  You can read more about this feature in the Guix Manual: [[https://guix.gnu.org/en/manual/devel/en/guix.html#Invoking-guix-shell][Guix Shell]] 
+  
+  If you dont use the Guix Package manager and cannot use the pre-built binary located in the *./bin/*.
+  Launch a terminal and go into the project's root directory then run the command, *make all*.
+  Make sure you have all of the dependencies required installed. These are listed in the manifest.scm file.
