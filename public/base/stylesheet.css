@@ -24,31 +24,31 @@ li{
     color: #B4EB89;
 }
 
-#content h2{
+h2{
     color: #B4EB89;
 }
 
-#content h3{
+h3{
     color: #B4EB89;
 }
 
-#content h4{
+h4{
     color: #B4EB89;
 }
 
-#content h5{
+h5{
     color: #B4EB89;
 }
 
-#content h6{
+h6{
     color: #B4EB89;
 }
 
-#content p{
+p{
     color: white;
 }
 
-#content{
+content{
     background-color:#232830;
     margin: 0px 0.5rem;
 }
@@ -64,7 +64,7 @@ li{
     color: white;
 }
 
-#postamble a{
+a{
     text-decoration: none;
     color: orange;
 }
