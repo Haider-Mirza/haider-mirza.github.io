@@ -2,24 +2,27 @@
 #+AUTHOR: Haider Mirza
 
 * Haider.gq 
-  To be completely honest, I didn't think I would ever get to the point where some random person like you would want to visit my website but here we are.
-  This website was made so I can publicly display information or general Notes.
+To be completely honest, I didn't think I would ever get to the point where some random person like you would want to visit my website but here we are.
+This website was made so I can publicly display information or general Notes.
   
 * About me
-  Hello.
-  My name is Haider Mirza and I am a secondary school student interested in programming and computer science in general.
-  This website is made for general documentation on my Github repositories, School Projects, Or any of my published projects.
-  I am currently Learning the C programming language and testing out SDL for a upcoming project.
+Hello.
+My name is Haider Mirza and I am a secondary school student interested in programming and computer science in general.
+This website is made for general documentation/notation on my Github repositories, School Projects, Or any of my published projects.
   
+* What I am currently doing?
+I am currently testing out glfw and opengl using C++
+I am also learning how to use programs like CMake in the process.
+You can see what I am doing in the Repository: Spinter
+
 * News
-  - Officially learning the Rust Programming languge as my main multi-purpose language.
-  
-  - I have started making my first ever game
-    I actually made it in the hardest language to work with. (c++ with the SDL media library)
+ - The UK paid $724,000 for a creepy campaign to convince people that encryption is bad. It won't work.
+   I have read the reasoning behind this entire ordeal and it is clearly flawed in many ways.
+   You can tell immediately even from the name that this is a bad idea. I dont even need to continue to explain why.
 
 * Source Code
-  This Website is Free/Libre software (well it's not software but you know what I mean) in which has been licensed under the GPL v3.
-  This website Is hosted on Github pages and it's sourcecode is also on Github. 
-  Here is the repository of my website.
+This Website is Free/Libre software (well it's not software but you know what I mean) in which has been licensed under the GPL v3.
+This website is hosted on Github pages and it's sourcecode is also on Github. 
+Here is the repository of my website.
   
   
