@@ -1,7 +1,0 @@
-#+TITLE: All Articles
-
-#+BEGIN_EXPORT html
-<h4><em>Last Updated: 2022-02-18</em> - <a href="/index/">Haider.gq</a></h4>
-<h4><em>Last Updated: 2022-01-20</em> - <a href="/school/school/">School</a></h4>
-<h4><em>Last Updated: 2022-01-30</em> - <a href="/school/english/dethroning-demo/">Dethroning Demo</a></h4>
-#+END_EXPORT
