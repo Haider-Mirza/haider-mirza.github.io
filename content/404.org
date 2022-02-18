@@ -1,0 +1,6 @@
+#+TITLE: ERROR 404
+#+AUTHOR: Haider Mirza
+
+* ERROR - 404
+The webpage you are trying to find is not avalable.
+
