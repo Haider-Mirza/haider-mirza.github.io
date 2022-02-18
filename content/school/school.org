@@ -6,3 +6,4 @@
   If you didnt know, The URL works like a directory tree. 
  
 * Quick access work  
+This section will be updated on a specific time it's needed.

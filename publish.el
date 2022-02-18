@@ -18,26 +18,26 @@
 
 ;; Variables
 ;; Set the Website name
-(setq site-title "Haider Mirza")
+(setq site-title "<div class=\"Haider\"><li><a href='https://www.haider.gq/'>Haider Mirza</a></li></div>")
 
 ;; Links used in the head of the html file
 (setq site-link-href (concat 
-		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/stylesheet.css\"/>"
-		      "\n"
-		      "<link href=\"https://fonts.googleapis.com/css2?family=Roboto\" rel=\"stylesheet\">"
-		      "\n"
-		      "<link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap\" rel=\"stylesheet\">"
-		      "\n"
-		      "<link href=\"https://fonts.googleapis.com/css2?family=Poppins\" rel=\"stylesheet\">"))
+											"<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/stylesheet.css\"/>"
+											"\n"
+											"<link href=\"https://fonts.googleapis.com/css2?family=Roboto\" rel=\"stylesheet\">"
+											"\n"
+											"<link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap\" rel=\"stylesheet\">"
+											"\n"
+											"<link href=\"https://fonts.googleapis.com/css2?family=Poppins\" rel=\"stylesheet\">"))
 
 ;; Set links
 (setq site-links
       "<ul class='links'>
 	<li><a href='https://www.haider.gq'>Home</a></li>
-	<li><a href='https://www.haider.gq/webpages/about/about.html'>About</a></li>
-	<li><a href='https://www.haider.gq/webpages/repos/repos.html'>Repos</a></li>
-	<li><a href='https://www.haider.gq/webpages/projects/projects.html'>Projects</a></li>
-	<li><a href='https://www.haider.gq/webpages/school/school.html'>School</a></li>
+	<li><a href='https://www.haider.gq/about/about.html'>About</a></li>
+	<li><a href='https://www.haider.gq/repos/repos.html'>Repos</a></li>
+	<li><a href='https://www.haider.gq/projects/projects.html'>Projects</a></li>
+	<li><a href='https://www.haider.gq/school/school.html'>School</a></li>
       </ul>")
 
 ;; Functions
@@ -63,9 +63,9 @@
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
-	     :html-head site-link-href
-	     :html-preamble  (dw/site-preamble)
-	     :html-postamble (dw/site-postamble)
+						 :html-head site-link-href
+						 :html-preamble  (dw/site-preamble)
+						 :html-postamble (dw/site-postamble)
              :with-author nil           ;; Don't include author name
              :with-creator t            ;; Include Emacs and Org versions in footer
              :with-toc nil                ;; Dont include a table of contents
