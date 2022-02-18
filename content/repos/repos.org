@@ -3,3 +3,15 @@
 
 * Repos
 I host alot of Git Repositries on Github.
+That is probably because I am a programmer.
+
+Here are my git repositories:
+
++ This website
++ Spinter
++ My Dotfiles
++ My Documents
++ My Notes
++ HMScripts
++ 3D Projects
++ Wallpapers
