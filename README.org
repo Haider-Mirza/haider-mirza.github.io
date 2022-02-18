@@ -9,8 +9,8 @@
 #+begin_src
   _   _ __  ___
  | | | |  \/  |
- | |_| | |\/| | My Github: https://github.com/Ha1derMirza
- |  _  | |  | | My Matrix: @haider.mirza:matrix.org
+ | |_| | |\/| | My Email: x7and7@gmail.com
+ |  _  | |  | | You can also find me on IRC. Username = haider, (Libera)
  |_| |_|_|  |_|
 #+end_src
 My Name is Haider Mirza and I am a 3D artist and Programmer.
