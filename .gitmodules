@@ -1,0 +1,3 @@
+[submodule "emacs-webfeeder"]
+	path = emacs-webfeeder
+	url = https://gitlab.com/ambrevar/emacs-webfeeder

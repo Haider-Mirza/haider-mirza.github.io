@@ -25,3 +25,7 @@ This website is hosted on Github pages and it's sourcecode is also on Github.
 Here is the repository of my website.
   
   
+
+* Around the Web
++ E-mail Haider - [[mailto:x7and7@gmail.com][x7and7@gmail.com]]
++ In IRC (mainly #guix and #systemcrafters) - username "Haider"
