@@ -20,9 +20,7 @@ You can see what I am doing in the Repository: Spinter
 This Website is Free/Libre software (well it's not software but you know what I mean) in which has been licensed under the GPL v3.
 This website is hosted on Github pages and it's sourcecode is also on Github. 
 Here is the repository of my website.
-  
-  
 
 * Around the Web
 + E-mail Haider - [[mailto:x7and7@gmail.com][x7and7@gmail.com]]
-+ In IRC; Username = haider, (mainly #guix and #systemcrafters)
++ In IRC; Username = haider, mainly active on #guix and #systemcrafters (Libera)
