@@ -26,6 +26,8 @@
 		      "\n"
 		      "<link href=\"https://fonts.googleapis.com/css2?family=Roboto\" rel=\"stylesheet\">"
 		      "\n"
+		      "<link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap\" rel=\"stylesheet\">"
+		      "\n"
 		      "<link href=\"https://fonts.googleapis.com/css2?family=Poppins\" rel=\"stylesheet\">"))
 
 ;; Set links
