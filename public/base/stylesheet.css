@@ -1,82 +1,77 @@
-/* Body */
-body{
+/* Global Settings */
+body {
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; background-image: url("Index.png"); */
-    /* background-repeat: repeat; */
-    background-color:#232830;
-}
-
-.title{
-    justify-content: center;
-    margin: 0rem 0rem 2rem 0rem;
-    font-size: 3.0rem;
-    font-weight: bold;
-    color: #89AAEB;
-    background-color:#232830;
-    border-bottom: .05rem solid #B4EB89;
-    display: flex;
-    height: auto;
-}
-
-li {
-    color: white;
-}
-
-.src src-conf{
-    color: #B4EB89;
-}
-
-h2 {
-    color: #B4EB89;
-
-}
-
-h3 {
-    color: #B4EB89;
-    margin: 0rem 0rem 0rem 1rem;
-}
-
-h4 {
-    color: #B4EB89;
-    margin: 0rem 0rem 0rem 2rem;
-}
-
-h5 {
-    color: #B4EB89;
-    margin: 0rem 0rem 0rem 3rem;
-}
-
-h6 {
-    color: #B4EB89;
-    margin: 0rem 0rem 0rem 4rem;
+    background-color:#1c2026;
 }
 
 p {
-    color: white;
-    margin: 0rem 0rem 0rem 3rem;
+    color:#c4c2bf;
+    font-family: 'Roboto', sans-serif;
 }
 
-content{
-    background-color:#232830;
+li {
+    color:#c4c2bf;
 }
 
-#postamble {
-    background-color:#1c1f26;
-    justify-content: center;
+/* Preamble (Header) */
+
+/* Main Title */
+#preamble h1 {
+    color:#81b4ea;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Links */
+.links {
     display: flex;
-    width: 100vw;
-    height: 4rem;
-    margin: 1.5rem 0rem 0rem 0rem;
+    justify-content: space-around;
+    width: 30%;
 }
 
-
-.creator {
-    color: white;
-    margin: 1.5rem 0rem 0rem 0rem;
+#preamble a {
+    color:#b8d0e2;
+    font-family: 'Poppins', sans-serif;
+    background-color:#16191e;
 }
 
-a {
-    text-decoration: none;
-    color: orange;
+#preamble li {
+    list-style: none;
+}
+
+/* Entire Preamble */
+#preamble {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    background-color:#16191e;
+    border-bottom: .3rem solid #417b15;
+}
+
+/* headers */
+
+h1 {
+    color:#81b4ea;
+
+}
+
+h2 {
+    color:#afea81;
+}
+
+h3 {
+    color:#afea81;
+}
+
+h4 {
+    color:#afea81;
+}
+
+h5 {
+    color:#afea81;
+}
+
+h6 {
+    color:#afea81;
 }

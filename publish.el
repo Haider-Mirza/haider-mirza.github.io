@@ -16,17 +16,42 @@
 ;; Load the publishing system
 (require 'ox-publish)
 
+;; Variables
+;; Set the Website name
+(setq site-title "Haider Mirza")
+
+;; Links used in the head of the html file
+(setq site-link-href (concat 
+		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/stylesheet.css\"/>"
+		      "\n"
+		      "<link href=\"https://fonts.googleapis.com/css2?family=Roboto\" rel=\"stylesheet\">"
+		      "\n"
+		      "<link href=\"https://fonts.googleapis.com/css2?family=Poppins\" rel=\"stylesheet\">"))
+
+;; Set links
+(setq site-links
+      "<ul class='links'>
+	<li><a href='https://www.haider.gq'>Home</a></li>
+	<li><a href='https://www.haider.gq/webpages/about/about.html'>About</a></li>
+	<li><a href='https://www.haider.gq/webpages/repos/repos.html'>Repos</a></li>
+	<li><a href='https://www.haider.gq/webpages/projects/projects.html'>Projects</a></li>
+	<li><a href='https://www.haider.gq/webpages/school/school.html'>School</a></li>
+      </ul>")
+
+;; Functions
+;; Set the preamble
+(defun dw/site-preamble ()
+  (concat "<h1>" site-title "</h1> " site-links))
+
+;; Set the postamble
+(defun dw/site-postamble ()
+  (concat "<p>postamble</p>"))
+
+
 ;; Customize the HTML output
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
-      org-html-metadata-timestamp-format "%Y-%m-%d"
-      org-html-html5-fancy nil
-      org-html-htmlize-output-type 'css
-      org-html-self-link-headlines t
-      org-html-validation-link nil
-      org-html-doctype "html5"
-      org-html-head-include-default-style nil ;; Use our own styles
-      org-html-head "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/stylesheet.css\"/>")
+      org-html-head-include-default-style nil) ;; Use our own styles
 
 ;; Define the publishing project
 (setq org-publish-project-alist
@@ -36,9 +61,12 @@
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
+	     :html-head site-link-href
+	     :html-preamble  (dw/site-preamble)
+	     :html-postamble (dw/site-postamble)
              :with-author nil           ;; Don't include author name
              :with-creator t            ;; Include Emacs and Org versions in footer
-             :with-toc nil                ;; Include a table of contents
+             :with-toc nil                ;; Dont include a table of contents
              :section-numbers nil       ;; Don't include section numbers
              :with-timestamps t
              :time-stamp-file nil)))    ;; Don't include time stamp in file
