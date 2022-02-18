@@ -6,8 +6,7 @@ To be completely honest, I didn't think I would ever get to the point where some
 This website was made so I can publicly display information or general Notes.
   
 * About me
-Hello.
-My name is Haider Mirza and I am a secondary school student interested in programming and computer science in general.
+Hello, my name is Haider Mirza and I am a secondary school student interested in programming and computer science in general.
 This website is made for general documentation/notation on my Github repositories, School Projects, Or any of my published projects.
   
 * What I am currently doing?

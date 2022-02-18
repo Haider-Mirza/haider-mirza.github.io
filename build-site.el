@@ -22,6 +22,16 @@
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-head "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/stylesheet.css\"/>")
 
+
+(setq org-publish-use-timestamps-flag t
+      org-publish-timestamp-directory "./.org-cache/"
+      org-export-with-section-numbers nil
+      org-export-use-babel nil
+      org-export-with-smart-quotes t
+      org-export-with-sub-superscripts nil
+      org-export-with-tags 'not-in-toc
+      org-export-with-toc t)
+
 ;; Define the publishing project
 (setq org-publish-project-alist
       (list
@@ -34,6 +44,7 @@
              :with-creator t            ;; Include Emacs and Org versions in footer
              :with-toc nil                ;; Include a table of contents
              :section-numbers nil       ;; Don't include section numbers
+             :with-timestamps t
              :time-stamp-file nil)))    ;; Don't include time stamp in file
 
 ;; We're using Git, we don't need no steenking backups

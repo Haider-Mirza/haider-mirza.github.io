@@ -8,12 +8,15 @@ body{
 }
 
 .title{
-    margin: 0px;
+    justify-content: center;
+    margin: 0rem 0rem 2rem 0rem;
     font-size: 3.0rem;
     font-weight: bold;
     color: #89AAEB;
     background-color:#232830;
     border-bottom: .05rem solid #B4EB89;
+    display: flex;
+    height: auto;
 }
 
 li {
@@ -26,6 +29,7 @@ li {
 
 h2 {
     color: #B4EB89;
+
 }
 
 h3 {
@@ -50,22 +54,26 @@ h6 {
 
 p {
     color: white;
+    margin: 0rem 0rem 0rem 3rem;
 }
 
 content{
     background-color:#232830;
-    margin: 0px 0.5rem;
 }
 
 #postamble {
-    margin: 0px 0.5rem;
-    margin: 0px;
     background-color:#1c1f26;
     justify-content: center;
     display: flex;
-    height: auto;
     width: 100vw;
+    height: 4rem;
+    margin: 1.5rem 0rem 0rem 0rem;
+}
+
+
+.creator {
     color: white;
+    margin: 1.5rem 0rem 0rem 0rem;
 }
 
 a {
