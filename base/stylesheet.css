@@ -10,6 +10,11 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color:#fd7e14;
+    font-family: 'Roboto', sans-serif;
+}
+
 li {
     color:#c4c2bf;
 }
@@ -53,25 +58,30 @@ li {
 
 h1 {
     color:#81b4ea;
-
+    font-family: 'Lato', sans-serif;
 }
 
 h2 {
     color:#afea81;
+    font-family: 'Lato', sans-serif;
 }
 
 h3 {
     color:#afea81;
+    font-family: 'Lato', sans-serif;
 }
 
 h4 {
     color:#afea81;
+    font-family: 'Lato', sans-serif;
 }
 
 h5 {
     color:#afea81;
+    font-family: 'Lato', sans-serif;
 }
 
 h6 {
     color:#afea81;
+    font-family: 'Lato', sans-serif;
 }
