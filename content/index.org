@@ -2,23 +2,22 @@
 #+AUTHOR: Haider Mirza
 
 * About me
-To be completely honest, I didn't think I would ever get to the point where some random person like you would want to visit my website but here we are.
- 
+To be completely honest, I didn't think I would ever get to the point where some random person like you would want to visit my website but here we are. \\
 Hello, my name is Haider Mirza and I am a secondary school student interested in programming and computer science in general.
 This website is made for general documentation/notation on my Github repositories, School Projects, Or any of my published projects.
+Feel free to browse around my website or socials (you can find them at the bottom of the webpage)
 * What I am currently doing?
 I am currently testing out glfw and opengl using C++ whilst also learning how to use programs like CMake in the process.
 You can see what I am doing in the Repository: [[https://github.com/Haider-Mirza/Spinter][Spinter]]
-* News:
-** Feburary - The UK paid $724,000 for a creepy campaign to convince people that encryption is bad.
-   I have read the reasoning behind this entire ordeal and it is clearly flawed in many ways.
-   You can tell immediately even from the name that this is a bad idea. I dont even need to continue to explain why.
-
 * Source Code
+Totally didn't replicate this website: [[https://systemcrafters.net/][Sorry David!]] (he's probably fine with it)
 This Website is Free/Libre software (well it's not software but you know what I mean) in which has been licensed under the GPL v3.
 This website is hosted on Github pages and it's sourcecode is also on Github. 
 Here is the repository of my website: [[https://github.com/Haider-Mirza/haider-mirza.github.io][Git Repository]]
 
 * Around the Web
+Main places you can find me on the web:
+ 
 + E-mail Haider - [[mailto:x7and7@gmail.com][x7and7@gmail.com]]
 + In IRC; Username = haider, mainly active on #guix and #systemcrafters (Libera)
++ Github: [[https://github.com/Haider-Mirza][Github Profile]]
