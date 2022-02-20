@@ -18,32 +18,35 @@
 
 ;; Variables
 ;; Set the Website name
-(setq site-title "<div class=\"Haider\"><li><a href='https://www.haider.gq/'>Haider Mirza</a></li></div>")
+(setq site-title "<div class=\"Haider\"><a href='https://www.haider.gq/'>Haider Mirza</a></div>")
 
 ;; Links used in the head of the html file
 (setq site-link-href (concat 
 		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/stylesheet.css\"/>"
 		      "\n"
+		      "<link href=\"https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap\" rel=\"stylesheet\">"
+		      "\n"
 		      "<link href=\"https://fonts.googleapis.com/css2?family=Roboto\" rel=\"stylesheet\">"
 		      "\n"
 		      "<link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap\" rel=\"stylesheet\">"
-		      "\n"
-		      "<link href=\"https://fonts.googleapis.com/css2?family=Poppins\" rel=\"stylesheet\">"))
+		      ))
 
 ;; Set links
 (setq site-links
-      "<ul class='links'>
-	<li><a href='https://www.haider.gq'>Home</a></li>
-	<li><a href='https://www.haider.gq/about/about.html'>About</a></li>
-	<li><a href='https://www.haider.gq/repos/repos.html'>Repos</a></li>
-	<li><a href='https://www.haider.gq/projects/projects.html'>Projects</a></li>
-	<li><a href='https://www.haider.gq/school/school.html'>School</a></li>
-      </ul>")
+      "<div class='nav'>
+      <div class='links'>
+	<a href='https://www.haider.gq'>Home</a>
+	<a href='https://www.haider.gq/about/about.html'>About</a>
+	<a href='https://www.haider.gq/repos/repos.html'>Repos</a>
+	<a href='https://www.haider.gq/projects/projects.html'>Projects</a>
+	<a href='https://www.haider.gq/school/school.html'>School</a>
+      </div>
+      </div>")
 
 ;; Functions
 ;; Set the preamble
 (defun dw/site-preamble ()
-  (concat "<h1>" site-title "</h1> " site-links))
+  (concat site-title " " site-links))
 
 ;; Set the postamble
 (defun dw/site-postamble ()
