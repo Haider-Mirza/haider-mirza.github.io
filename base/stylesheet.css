@@ -99,7 +99,7 @@ h6 {
     font-family: 'Roboto', sans-serif;
 }
 
-
+/* All other settings */
 p {
     margin-left: 12.4rem;
     font-family: 'Roboto', sans-serif;
@@ -134,4 +134,226 @@ li {
     height: 2.5rem;
     align-items: center;
     margin-bottom: 0;
+}
+
+/* Experience better on mobile devices */
+
+@media screen and (max-width:1200px){
+.Haider a {
+    margin-left: 10rem;
+}
+
+.links {
+    margin-left: 10rem;
+}
+
+h1 {
+    margin-left: 10rem;
+}
+
+h2 {
+    margin-left: 10rem;
+}
+
+h3 {
+    margin-left: 10rem;
+}
+
+h4 {
+    margin-left: 10rem;
+}
+
+h5 {
+    margin-left: 10rem;
+}
+
+h6 {
+    margin-left: 10rem;
+}
+
+p {
+    margin-left: 10rem;
+}
+
+li {
+    margin-left: 10rem;
+}
+
+}
+
+@media screen and (max-width:1024px){
+.Haider a {
+    margin-left: 6.4rem;
+}
+
+.links {
+    margin-left: 6.4rem;
+}
+
+h1 {
+    margin-left: 6.4rem;
+}
+
+h2 {
+    margin-left: 6.4rem;
+}
+
+h3 {
+    margin-left: 6.4rem;
+}
+
+h4 {
+    margin-left: 6.4rem;
+}
+
+h5 {
+    margin-left: 6.4rem;
+}
+
+h6 {
+    margin-left: 6.4rem;
+}
+
+p {
+    margin-left: 6.4rem;
+}
+
+li {
+    margin-left: 6.4rem;
+}
+
+}
+
+@media screen and (max-width:700px){
+.Haider a {
+    margin-left: 4rem;
+}
+
+.links {
+    margin-left: 4rem;
+}
+
+h1 {
+    margin-left: 4rem;
+}
+
+h2 {
+    margin-left: 4rem;
+}
+
+h3 {
+    margin-left: 4rem;
+}
+
+h4 {
+    margin-left: 4rem;
+}
+
+h5 {
+    margin-left: 4rem;
+}
+
+h6 {
+    margin-left: 4rem;
+}
+
+p {
+    margin-left: 4rem;
+}
+
+li {
+    margin-left: 4rem;
+}
+
+}
+
+@media screen and (max-width:700px){
+.Haider a {
+    margin-left: 2rem;
+}
+
+.links {
+    margin-left: 2rem;
+}
+
+h1 {
+    margin-left: 2rem;
+}
+
+h2 {
+    margin-left: 2rem;
+}
+
+h3 {
+    margin-left: 2rem;
+}
+
+h4 {
+    margin-left: 2rem;
+}
+
+h5 {
+    margin-left: 2rem;
+}
+
+h6 {
+    margin-left: 2rem;
+}
+
+p {
+    margin-left: 2rem;
+}
+
+li {
+    margin-left: 2rem;
+}
+
+}
+
+@media screen and (max-width:300px){
+.Haider a {
+    margin-left: 0.5rem;
+}
+
+.nav {
+    height: 4rem;
+}
+
+.links {
+    margin-left: 0.5rem;
+    display: block;
+}
+
+h1 {
+    margin-left: 0.5rem;
+}
+
+h2 {
+    margin-left: 0.5rem;
+}
+
+h3 {
+    margin-left: 0.5rem;
+}
+
+h4 {
+    margin-left: 0.5rem;
+}
+
+h5 {
+    margin-left: 0.5rem;
+}
+
+h6 {
+    margin-left: 0.5rem;
+}
+
+p {
+    margin-left: 0.5rem;
+}
+
+li {
+    margin-left: 0.5rem;
+}
+
 }
