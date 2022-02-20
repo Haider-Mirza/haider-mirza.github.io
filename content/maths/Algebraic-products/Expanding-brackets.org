@@ -11,16 +11,14 @@ Below are two examples to help you understand this.
 * Examples
 ** Note:
 $4(x+2) = 4x+8$ (*These are both Equal*)
-
 You can see why this works:
-
 https://www.haider.gq/maths/Algebraic-products/Exp-Brack-1.png
 
 ** Example 1
 $3y(x+4+z^2)$ 
 
 *** Methord
-We should solve this by going *left to right*. \\
+We should solve this by going *left to right*. 
 This would still work if you complete this in a different order but left to right is reccomended.
 
 - $3y \times x = 3yx$
@@ -43,9 +41,8 @@ https://www.haider.gq/maths/Algebraic-products/Exp-Brack-3.png
 $(5z+1)(5z+2)$
 
 *** Methord
-Again we should solve this by going *left to right*. \\
+Again we should solve this by going *left to right*.
 This would still work if you complete this in a different order but left to right is reccomended.
-
 
 Here where we have 2 brackets, the procedure is the same but with both of the elements in the brackets.
 
