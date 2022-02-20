@@ -185,7 +185,15 @@ p {
     margin-left: 10rem;
 }
 
-li {
+.org-ul {
+    margin-left: 10rem;
+}
+
+.outline-text-5 {
+    margin-left: -10rem;
+}
+
+#text-table-of-contents {
     margin-left: 10rem;
 }
 
@@ -228,7 +236,15 @@ p {
     margin-left: 6.4rem;
 }
 
-li {
+.org-ul {
+    margin-left: 6.4rem;
+}
+
+.outline-text-5 {
+    margin-left: -6.4rem;
+}
+
+#text-table-of-contents {
     margin-left: 6.4rem;
 }
 
@@ -271,7 +287,15 @@ p {
     margin-left: 4rem;
 }
 
-li {
+.org-ul {
+    margin-left: 4rem;
+}
+
+.outline-text-5 {
+    margin-left: -4rem;
+}
+
+#text-table-of-contents {
     margin-left: 4rem;
 }
 
@@ -314,7 +338,15 @@ p {
     margin-left: 2rem;
 }
 
-li {
+.org-ul {
+    margin-left: 2rem;
+}
+
+.outline-text-5 {
+    margin-left: -2rem;
+}
+
+#text-table-of-contents {
     margin-left: 2rem;
 }
 
@@ -362,7 +394,15 @@ p {
     margin-left: 0.5rem;
 }
 
-li {
+.org-ul {
+    margin-left: 0.5rem;
+}
+
+.outline-text-5 {
+    margin-left: -0.5rem;
+}
+
+#text-table-of-contents {
     margin-left: 0.5rem;
 }
 
