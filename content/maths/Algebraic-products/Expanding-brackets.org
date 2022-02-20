@@ -1,5 +1,10 @@
 #+TITLE: Expanding Brackets
 #+AUTHOR: Haider M
+:PROPERTIES:
+#+OPTIONS: toc:t
+:END:
+
+
 
 * Examples
 ** Note:
@@ -7,7 +12,7 @@ $4(x+2) = 4x+8$ (*These are both Equal*)
 
 ** Example 1
 $3y(x+4+7^2)$
-www.haider.gq/maths/Algebraic-products/Exp-Brack-1.png
+https://www.haider.gq/maths/Algebraic-products/Exp-Brack-1.png
 *** Methord
 We solve this by going left to right.
 
