@@ -2,7 +2,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color:#1c2026;
+    background-color:#282C34;
 }
 
 p {
@@ -62,12 +62,12 @@ li {
 /* headers */
 
 h1 {
-    color:#81b4ea;
+    color:#4A98D0;
     font-family: 'Lato', sans-serif;
 }
 
 h2 {
-    color:#afea81;
+    color:#B871CE;
     font-family: 'Lato', sans-serif;
 }
 
@@ -89,6 +89,12 @@ h5 {
 h6 {
     color:#afea81;
     font-family: 'Lato', sans-serif;
+}
+
+/* Code Blocks */
+.src {
+    background-color:#23272E;
+    color: white;
 }
 
 /* Postamble (Footer) */

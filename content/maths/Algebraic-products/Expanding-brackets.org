@@ -1,0 +1,19 @@
+#+TITLE: Expanding Brackets
+#+AUTHOR: Haider M
+
+* Examples
+** Note:
+$4(x+2) = 4x+8$ (*These are both Equal*)
+
+** Example 1
+$3y(x+4+7^2)$
+www.haider.gq/maths/Algebraic-products/Exp-Brack-1.png
+*** Methord
+We solve this by going left to right.
+
+1. $3y \times x = 3yx$
+2. $3y \times 4 = 12y$
+3. $3y \times 7^2 = 3y7^2$
+
+   
+$3y(x+4+7^2)$
