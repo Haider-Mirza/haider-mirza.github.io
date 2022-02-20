@@ -10,12 +10,13 @@
 ** Note:
 $4(x+2) = 4x+8$ (*These are both Equal*)
 
+You can see why this works:
+
+https://www.haider.gq/maths/Algebraic-products/Exp-Brack-1.png
+
 ** Example 1
 $3y(x+4+7^2)$ 
 
-You can see how these brackets work in the image below:
-
-https://www.haider.gq/maths/Algebraic-products/Exp-Brack-1.png
 *** Methord
 We solve this by going *left to right*.
 
