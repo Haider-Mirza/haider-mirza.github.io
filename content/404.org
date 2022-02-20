@@ -2,6 +2,6 @@
 #+AUTHOR: Haider Mirza
 
 * Webpage?
-The webpage you are trying to find is not avalable.
+The webpage you are trying to find is not available.
 Please edit the URL or locate a new URL.
 
