@@ -3,11 +3,111 @@ body {
     margin: 0px;
     padding: 0px;
     background-color:#282C34;
+    overflow-x: hidden;
 }
 
-p {
+/* Preamble (Header) */
+
+/* Main Title */
+Haider {
+    display: flex;
+    justify-content: space-around;
+    background-color:#16191e;
+}
+
+.Haider a {
+    color:#81b4ea;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    text-decoration: none; 
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: left;
+    margin-left: 12.4rem;
+}
+
+.Haider li {
+    list-style: none;
+}
+
+/* Nav - Links */
+.nav {
+    display: flex;
+    height: 2.5rem;
+    background-color:#16191e;
+    border-bottom: .1rem solid #B4EB89;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12.4rem;
+}
+
+.links a {
     color:#c4c2bf;
+    text-decoration: none; 
+    position: relative;
+    font-size: 1.3rem;
+    margin: 0.5rem 1.5rem 0.5rem 0rem;
+    font-weight: bold;
+}
+
+.links a:hover, .links a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+/* Document settings */
+
+/* headers */
+
+h1 {
+    color:#81b4ea;
+    margin-left: 12.4rem;
     font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color:#afea81;
+    margin-left: 12.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color:#afea81;
+    margin-left: 12.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    color:#afea81;
+    margin-left: 12.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    color:#afea81;
+    margin-left: 12.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h6 {
+    color:#afea81;
+    margin-left: 12.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+p {
+    margin-left: 12.4rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    white-space: pre-wrap;      
+    color:white;
 }
 
 a {
@@ -15,94 +115,23 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
+
 li {
-    color:#c4c2bf;
-}
-
-/* Preamble (Header) */
-
-/* Main Title */
-.Haider a {
-    color:#81b4ea;
-    font-family: 'Poppins', sans-serif;
-		text-decoration: none; 
-}
-
-.Haider li {
-    list-style: none;
-}
-
-/* Links */
-.links {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-}
-
-.links a {
-    color:#b8d0e2;
-    font-family: 'Poppins', sans-serif;
-    background-color:#16191e;
-}
-
-.links li {
-    list-style: none;
-}
-
-/* Entire Preamble */
-#preamble {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px;
-    background-color:#16191e;
-    border-bottom: .3rem solid #417b15;
-}
-
-/* headers */
-
-h1 {
-    color:#4A98D0;
-    font-family: 'Lato', sans-serif;
-}
-
-h2 {
-    color:#B871CE;
-    font-family: 'Lato', sans-serif;
-}
-
-h3 {
-    color:#afea81;
-    font-family: 'Lato', sans-serif;
-}
-
-h4 {
-    color:#afea81;
-    font-family: 'Lato', sans-serif;
-}
-
-h5 {
-    color:#afea81;
-    font-family: 'Lato', sans-serif;
-}
-
-h6 {
-    color:#afea81;
-    font-family: 'Lato', sans-serif;
-}
-
-/* Code Blocks */
-.src {
-    background-color:#23272E;
-    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 12.4rem;
+    color:white;
 }
 
 /* Postamble (Footer) */
 #postamble {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px;
     background-color:#16191e;
-    border-top: .3rem solid #417b15;
+    border-top: .1rem solid #B4EB89;
+}
+
+#postamble p {
+    display: flex;
+    justify-content: left;
+    height: 2.5rem;
+    align-items: center;
+    margin-bottom: 0;
 }

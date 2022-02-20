@@ -1,0 +1,115 @@
+/* Global Settings */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#282C34;
+}
+
+p {
+    color:#c4c2bf;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color:#fd7e14;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    color:#c4c2bf;
+}
+
+/* Preamble (Header) */
+
+/* Main Title */
+.Haider a {
+    color:#81b4ea;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none; 
+    font-size: 36px;
+}
+
+.Haider li {
+    list-style: none;
+}
+
+/* Links */
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.links a {
+    color:#b8d0e2;
+    font-family: 'Poppins', sans-serif;
+    background-color:#16191e;
+}
+
+.links li {
+    list-style: none;
+}
+
+/* Entire Preamble */
+#preamble {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    background-color:#16191e;
+    border-bottom: .3rem solid #417b15;
+}
+
+/* headers */
+
+h1 {
+    color:#4A98D0;
+    font-family: 'Lato', sans-serif;
+    margin-left: 2rem;
+}
+
+h2 {
+    color:#B871CE;
+    font-family: 'Lato', sans-serif;
+    margin-left: 2rem;
+}
+
+h3 {
+    color:#afea81;
+    font-family: 'Lato', sans-serif;
+    margin-left: 3rem;
+}
+
+h4 {
+    color:#afea81;
+    font-family: 'Lato', sans-serif;
+    margin-left: 4rem;
+}
+
+h5 {
+    color:#afea81;
+    font-family: 'Lato', sans-serif;
+    margin-left: 5rem;
+}
+
+h6 {
+    color:#afea81;
+    font-family: 'Lato', sans-serif;
+    margin-left: 6rem;
+}
+
+/* Code Blocks */
+.src {
+    background-color:#23272E;
+    color: white;
+}
+
+/* Postamble (Footer) */
+#postamble {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    background-color:#16191e;
+    border-top: .3rem solid #417b15;
+}
