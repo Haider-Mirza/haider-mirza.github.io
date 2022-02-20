@@ -11,14 +11,27 @@
 $4(x+2) = 4x+8$ (*These are both Equal*)
 
 ** Example 1
-$3y(x+4+7^2)$
+$3y(x+4+7^2)$ 
+
+You can see how these brackets work in the image below:
+
 https://www.haider.gq/maths/Algebraic-products/Exp-Brack-1.png
 *** Methord
-We solve this by going left to right.
+We solve this by going *left to right*.
 
 1. $3y \times x = 3yx$
 2. $3y \times 4 = 12y$
 3. $3y \times 7^2 = 3y7^2$
 
+You can see this procedure below
+
+https://www.haider.gq/maths/Algebraic-products/Exp-Brack-2.png
    
-$3y(x+4+7^2)$
+And then you collect all of the outputs and then you have expanded your brackets.
+
+$3y(x+4+7^2)$ = $3yx+12y+3y7^2$
+
+
+Again, you can visualise the brackets here:
+
+https://www.haider.gq/maths/Algebraic-products/Exp-Brack-3.png
