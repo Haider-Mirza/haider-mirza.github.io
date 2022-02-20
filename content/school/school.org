@@ -4,6 +4,10 @@
 * School
   To go to a specific subject, Just add it in the URL with nothing in capitals.
   If you didnt know, The URL works like a directory tree. 
- 
+  
+* Digital Maths Notebook
+If you didn't know, I have a digital mathematical notebook in construction.
+Here is a link to it [[file:~/haider-mirza.github.io/content/maths/maths.org][Notebook]]
+
 * Quick access work  
 This section will be updated on a specific time it's needed.
