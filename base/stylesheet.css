@@ -116,10 +116,20 @@ a {
 }
 
 
-li {
+.org-ul {
     font-family: 'Roboto', sans-serif;
-    margin-left: 12.4rem;
     color:white;
+    margin-left: 12.4rem;
+}
+
+.outline-text-5 {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    margin-left: -12.4rem;
+}
+
+#text-table-of-contents {
+    margin-left: 12.4rem;
 }
 
 /* Postamble (Footer) */
