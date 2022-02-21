@@ -1,0 +1,35 @@
+#+TITLE: Perfect Squares
+#+AUTHOR: Haider M
+:PROPERTIES:
+#+OPTIONS: toc:t
+:END:
+
+* Perfect Squares
+Sometimes we have to expand brackets where we have a bracket that is effected by an exponent.
+
+You can see an example of this here:
+https://www.haider.gq/maths/Algebraic-products/Per-Square-1.png
+
+You will see how to solve these with the examples below.
+
+* Examples
+
+Let's go with this example:
+https://www.haider.gq/maths/Algebraic-products/Per-Square-1.png
+
+** Common Error
+Be careful!
+A common error is to make a single element of the bracket effected by the exponent
+Here is a visual representation:
+https://www.haider.gq/maths/Algebraic-products/Per-Square-2.png
+
+** Methord
+The exponent (in this case two) effects the entire bracket so what we are really dealing with is this:
+https://www.haider.gq/maths/Algebraic-products/Per-Square-3.png
+
+Alot easier now, isnt it?
+And as you can see in the Picture above, you just carry along as normal and expand the brackets.
+If you dont know how to do so, please see this webpage: [[file:Expanding-brackets.org][Expanding Brackets]].
+
+And then we endup with the answer of:
+https://www.haider.gq/maths/Algebraic-products/Per-Square-3.png
