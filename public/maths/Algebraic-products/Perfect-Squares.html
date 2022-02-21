@@ -11,6 +11,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -30,27 +51,36 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgc513f54">Perfect Squares</a></li>
-<li><a href="#org5d248c6">Examples</a>
+<li><a href="#org4c9f6a7">Perfect Squares</a></li>
+<li><a href="#orgdf99ca8">Examples</a>
 <ul>
-<li><a href="#org8bb2d84">Common Error</a></li>
-<li><a href="#orgc6abc06">Methord</a></li>
+<li><a href="#org7f986d3">Example 1</a>
+<ul>
+<li><a href="#orgfa70423">Common Error</a></li>
+<li><a href="#orgcdcdf5d">Methord</a></li>
+</ul>
+</li>
+<li><a href="#org8e90452">Example 2</a>
+<ul>
+<li><a href="#orga63ee61">Methord</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgc513f54" class="outline-2">
-<h2 id="orgc513f54">Perfect Squares</h2>
-<div class="outline-text-2" id="text-orgc513f54">
+<div id="outline-container-org4c9f6a7" class="outline-2">
+<h2 id="org4c9f6a7">Perfect Squares</h2>
+<div class="outline-text-2" id="text-org4c9f6a7">
 <p>
 Sometimes we have to expand brackets where we have a bracket that is effected by an exponent.
 </p>
 
 <p>
 You can see an example of this here:
-<img src="https://www.haider.gq/maths/Algebraic-products/Per-Square-1.png" alt="Per-Square-1.png" />
+\((x+5)^2\)
 </p>
 
 <p>
@@ -59,45 +89,109 @@ You will see how to solve these with the examples below.
 </div>
 </div>
 
-<div id="outline-container-org5d248c6" class="outline-2">
-<h2 id="org5d248c6">Examples</h2>
-<div class="outline-text-2" id="text-org5d248c6">
+<div id="outline-container-orgdf99ca8" class="outline-2">
+<h2 id="orgdf99ca8">Examples</h2>
+<div class="outline-text-2" id="text-orgdf99ca8">
+</div>
+<div id="outline-container-org7f986d3" class="outline-3">
+<h3 id="org7f986d3">Example 1</h3>
+<div class="outline-text-3" id="text-org7f986d3">
 <p>
 Let's go with this example:
-<img src="https://www.haider.gq/maths/Algebraic-products/Per-Square-1.png" alt="Per-Square-1.png" />
+\((x+5)^2\)
 </p>
 </div>
-
-<div id="outline-container-org8bb2d84" class="outline-3">
-<h3 id="org8bb2d84">Common Error</h3>
-<div class="outline-text-3" id="text-org8bb2d84">
+<div id="outline-container-orgfa70423" class="outline-4">
+<h4 id="orgfa70423">Common Error</h4>
+<div class="outline-text-4" id="text-orgfa70423">
 <p>
 Be careful!
 A common error is to make a single element of the bracket effected by the exponent
-Here is a visual representation:
-<img src="https://www.haider.gq/maths/Algebraic-products/Per-Square-2.png" alt="Per-Square-2.png" />
+\((x+5)^2 \neq x^2+25\)
 </p>
 </div>
 </div>
-
-<div id="outline-container-orgc6abc06" class="outline-3">
-<h3 id="orgc6abc06">Methord</h3>
-<div class="outline-text-3" id="text-orgc6abc06">
+<div id="outline-container-orgcdcdf5d" class="outline-4">
+<h4 id="orgcdcdf5d">Methord</h4>
+<div class="outline-text-4" id="text-orgcdcdf5d">
 <p>
 The exponent (in this case two) effects the entire bracket so what we are really dealing with is this:
-<img src="https://www.haider.gq/maths/Algebraic-products/Per-Square-3.png" alt="Per-Square-3.png" />
+\((x+5)(x+5)\)
 </p>
 
 <p>
 Alot easier now, isnt it?
 And as you can see in the Picture above, you just carry along as normal and expand the brackets.
-If you dont know how to do so, please see this webpage: <a href="Expanding-brackets.html">Expanding Brackets</a>.
+If you dont know how to do so, please see this webpage and see the below image: <a href="Expanding-brackets.html">Expanding Brackets</a>.
 </p>
+
+
+<div id="org5e98326" class="figure">
+<p><img src="https://www.haider.gq/maths/Algebraic-products/Per-Square-3.png" alt="Per-Square-3.png" />
+</p>
+</div>
 
 <p>
 And then we endup with the answer of:
-<img src="https://www.haider.gq/maths/Algebraic-products/Per-Square-3.png" alt="Per-Square-3.png" />
+<img src="https://www.haider.gq/maths/Algebraic-products/Per-Square-4.png" alt="Per-Square-4.png" />
 </p>
+
+<p>
+Even though they do not seem like it, both sides of the "\(=\)" are the same.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8e90452" class="outline-3">
+<h3 id="org8e90452">Example 2</h3>
+<div class="outline-text-3" id="text-org8e90452">
+<p>
+Sometimes all we get are some algebraic symbols like in the example below:
+<img src="https://www.haider.gq/maths/Algebraic-products/Per-Square-5.png" alt="Per-Square-5.png" />
+</p>
+
+<p>
+Before you start to panic, think for a second.
+Is this really a problem? As you will soon see it's really not.
+</p>
+</div>
+<div id="outline-container-orga63ee61" class="outline-4">
+<h4 id="orga63ee61">Methord</h4>
+<div class="outline-text-4" id="text-orga63ee61">
+<p>
+You just carry on as usual. Everything is represented as algebraic symbols.
+I will work this out with you.
+</p>
+
+<p>
+So, to reiterate, we have this question: \((x+a)^2\)
+</p>
+</div>
+<ul class="org-ul">
+<li><a id="org8f0bdb5"></a>Step 1<br />
+<div class="outline-text-5" id="text-org8f0bdb5">
+<p>
+As you know from before,
+\((x+a)^2\) is the same as \((x+a)(x+a)\)
+</p>
+</div>
+</li>
+
+<li><a id="org02be075"></a>Step 2<br />
+<div class="outline-text-5" id="text-org02be075">
+<p>
+Start Expanding the brackets.
+To do this we do the following: \(x \times x , x \times a , a \times x , a \times a\)
+And then we endup with \(x^2 + xa + ax + a^2\)
+</p>
+
+<p>
+Finally, we collect terms and get \(x^2 + 2ax + a^2\)
+And this is the answer, Well done!
+</p>
+</div>
+</li>
+</ul>
 </div>
 </div>
 </div>
