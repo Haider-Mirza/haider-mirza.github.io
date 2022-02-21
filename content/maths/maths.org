@@ -10,3 +10,4 @@ So here I am. My mathmatical digital "Notebook" is in a BETA - \beta stage and w
 *** Algebraic Products
 **** [[file:Algebraic-products/Expanding-brackets.org][Expanding Brackets]]
 **** [[file:Algebraic-products/Perfect-Squares.org][Perfect Squares]]
+**** [[file:Algebraic-products/Triple-Brackets.org][Triple Brackets]] 

@@ -32,7 +32,7 @@ If you dont know how to do so, please see this webpage and see the below image: 
 https://www.haider.gq/maths/Algebraic-products/Per-Square-3.png
 
 And then we endup with the answer of:
-https://www.haider.gq/maths/Algebraic-products/Per-Square-4.png
+$(x+5)^2 = x^2+10x+25$
 
 Even though they do not seem like it, both sides of the "$=$" are the same.
 ** Example 2
@@ -41,16 +41,16 @@ $(x+a)^2$
 
 Before you start to panic, think for a second.
 Is this really a problem? As you will soon see it's really not.
-*** Methord
+
 You just carry on as usual. Everything is represented as algebraic symbols.
 I will work this out with you.
 
 So, to reiterate, we have this question: $(x+a)^2$
-**** Step 1
+*** Step 1
 As you know from before,
 $(x+a)^2$ is the same as $(x+a)(x+a)$
 
-**** Step 2
+*** Step 2
 Start Expanding the brackets.
 To do this we do the following: $x \times x , x \times a , a \times x , a \times a$
 And then we endup with $x^2 + xa + ax + a^2$

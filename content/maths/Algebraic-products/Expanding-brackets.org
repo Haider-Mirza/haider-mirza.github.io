@@ -40,18 +40,17 @@ https://www.haider.gq/maths/Algebraic-products/Exp-Brack-3.png
 ** Example 2
 $(5z+1)(5z+2)$
 
-*** Methord
 Again we should solve this by going *left to right*.
 This would still work if you complete this in a different order but left to right is reccomended.
 
 Here where we have 2 brackets, the procedure is the same but with both of the elements in the brackets.
 
-**** First Bracket
+*** First Bracket
 
 - $5z \times 5z = 25z^2$
 - $5z \times 2 = 10z$
 
-**** Second Bracket
+*** Second Bracket
 
 - $1 \times 5z = 5z$
 - $1 \times 2 = 2$
