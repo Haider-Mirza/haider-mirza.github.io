@@ -6,6 +6,11 @@ body {
     overflow-x: hidden;
 }
 
+
+.content {
+    margin-left: 12.4rem;
+}
+
 /* Preamble (Header) */
 
 /* Main Title */
@@ -65,13 +70,11 @@ Haider {
 
 h1 {
     color:#81b4ea;
-    margin-left: 12.4rem;
     font-family: 'Roboto', sans-serif;
 }
 
 h2 {
     color:#afea81;
-    margin-left: 12.4rem;
     margin-top: 2.5rem;
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
@@ -79,31 +82,26 @@ h2 {
 
 h3 {
     color:#afea81;
-    margin-left: 12.4rem;
     font-family: 'Roboto', sans-serif;
 }
 
 h4 {
     color:#afea81;
-    margin-left: 12.4rem;
     font-family: 'Roboto', sans-serif;
 }
 
 h5 {
     color:#afea81;
-    margin-left: 12.4rem;
     font-family: 'Roboto', sans-serif;
 }
 
 h6 {
     color:#afea81;
-    margin-left: 12.4rem;
     font-family: 'Roboto', sans-serif;
 }
 
 /* All other settings */
 p {
-    margin-left: 12.4rem;
     font-family: 'Roboto', sans-serif;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -121,7 +119,11 @@ a {
 .org-ul {
     font-family: 'Roboto', sans-serif;
     color:white;
-    margin-left: 12.4rem;
+}
+
+.org-ol {
+    font-family: 'Roboto', sans-serif;
+    color:white;
 }
 
 .outline-text-5 {
@@ -130,8 +132,16 @@ a {
     margin-left: -12.4rem;
 }
 
-#text-table-of-contents {
-    margin-left: 12.4rem;
+th {
+    color:#fd7e14;
+}
+
+td {
+    color:white;
+}
+
+.org-right {
+    background-color:#16191e;
 }
 
 /* Postamble (Footer) */
@@ -151,261 +161,52 @@ a {
 /* Experience better on mobile devices */
 
 @media screen and (max-width:1200px){
-.Haider a {
-    margin-left: 10rem;
-}
+    .content {
+	margin-left: 10rem;
+    }
 
-.links {
-    margin-left: 10rem;
-}
-
-h1 {
-    margin-left: 10rem;
-}
-
-h2 {
-    margin-left: 10rem;
-}
-
-h3 {
-    margin-left: 10rem;
-}
-
-h4 {
-    margin-left: 10rem;
-}
-
-h5 {
-    margin-left: 10rem;
-}
-
-h6 {
-    margin-left: 10rem;
-}
-
-p {
-    margin-left: 10rem;
-}
-
-.org-ul {
-    margin-left: 10rem;
-}
-
-.outline-text-5 {
-    margin-left: -10rem;
-}
-
-#text-table-of-contents {
-    margin-left: 10rem;
-}
+    .outline-text-5 {
+	margin-left: -10rem;
+    }
 
 }
 
 @media screen and (max-width:1024px){
-.Haider a {
-    margin-left: 6.4rem;
-}
+    .content {
+	margin-left: 6.4rem;
+    }
 
-.links {
-    margin-left: 6.4rem;
-}
-
-h1 {
-    margin-left: 6.4rem;
-}
-
-h2 {
-    margin-left: 6.4rem;
-}
-
-h3 {
-    margin-left: 6.4rem;
-}
-
-h4 {
-    margin-left: 6.4rem;
-}
-
-h5 {
-    margin-left: 6.4rem;
-}
-
-h6 {
-    margin-left: 6.4rem;
-}
-
-p {
-    margin-left: 6.4rem;
-}
-
-.org-ul {
-    margin-left: 6.4rem;
-}
-
-.outline-text-5 {
-    margin-left: -6.4rem;
-}
-
-#text-table-of-contents {
-    margin-left: 6.4rem;
-}
-
+    .outline-text-5 {
+	margin-left: -6.4rem;
+    }
 }
 
 @media screen and (max-width:700px){
-.Haider a {
-    margin-left: 4rem;
-}
+    .content {
+	margin-left: 4rem;
+    }
 
-.links {
-    margin-left: 4rem;
-}
-
-h1 {
-    margin-left: 4rem;
-}
-
-h2 {
-    margin-left: 4rem;
-}
-
-h3 {
-    margin-left: 4rem;
-}
-
-h4 {
-    margin-left: 4rem;
-}
-
-h5 {
-    margin-left: 4rem;
-}
-
-h6 {
-    margin-left: 4rem;
-}
-
-p {
-    margin-left: 4rem;
-}
-
-.org-ul {
-    margin-left: 4rem;
-}
-
-.outline-text-5 {
-    margin-left: -4rem;
-}
-
-#text-table-of-contents {
-    margin-left: 4rem;
-}
-
+    .outline-text-5 {
+	margin-left: -4rem;
+    }
 }
 
 @media screen and (max-width:700px){
-.Haider a {
-    margin-left: 2rem;
-}
+    .content {
+	margin-left: 2rem;
+    }
 
-.links {
-    margin-left: 2rem;
-}
-
-h1 {
-    margin-left: 2rem;
-}
-
-h2 {
-    margin-left: 2rem;
-}
-
-h3 {
-    margin-left: 2rem;
-}
-
-h4 {
-    margin-left: 2rem;
-}
-
-h5 {
-    margin-left: 2rem;
-}
-
-h6 {
-    margin-left: 2rem;
-}
-
-p {
-    margin-left: 2rem;
-}
-
-.org-ul {
-    margin-left: 2rem;
-}
-
-.outline-text-5 {
-    margin-left: -2rem;
-}
-
-#text-table-of-contents {
-    margin-left: 2rem;
-}
-
+    .outline-text-5 {
+	margin-left: -2rem;
+    }
 }
 
 @media screen and (max-width:452px){
-.Haider a {
-    margin-left: 0.5rem;
-}
+    .content {
+	margin-left: 0.5rem;
+    }
 
-.nav {
-    height: 4rem;
-}
-
-.links {
-    margin-left: 0.5rem;
-    display: block;
-}
-
-h1 {
-    margin-left: 0.5rem;
-}
-
-h2 {
-    margin-left: 0.5rem;
-}
-
-h3 {
-    margin-left: 0.5rem;
-}
-
-h4 {
-    margin-left: 0.5rem;
-}
-
-h5 {
-    margin-left: 0.5rem;
-}
-
-h6 {
-    margin-left: 0.5rem;
-}
-
-p {
-    margin-left: 0.5rem;
-}
-
-.org-ul {
-    margin-left: 0.5rem;
-}
-
-.outline-text-5 {
-    margin-left: -0.5rem;
-}
-
-#text-table-of-contents {
-    margin-left: 0.5rem;
-}
-
+    .outline-text-5 {
+	margin-left: -0.5rem;
+    }
 }

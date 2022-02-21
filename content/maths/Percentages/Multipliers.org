@@ -1,0 +1,40 @@
+#+TITLE: Multipliers
+#+AUTHOR: Haider M
+:PROPERTIES:
+#+OPTIONS: toc:t
+:END:
+
+* Multipliers
+To do percentage changes quickly we can use multipliers. 
+This is a three-step method, but it is very easy once you have practised it: 
+
+1. What percentage of the original amount will we end up with? 
+2. What is this as a decimal? 
+3. Multiply the original amount by this decimal to get the new amount!
+ 
+* Examples
+
+| Percentage Increase | Multiplier for percentage increase |
+|---------------------+------------------------------------|
+|                 10% |                                1.1 |
+|                 25% |                               1.25 |
+|                 17% |                               1.17 |
+|                  1% |                               1.01 |
+|                  5% |                               1.05 |
+|               33.5% |                              1.335 |
+|                  7% |                               1.07 |
+|               24.3% |                              1.243 |
+|                237% |                               3.37 |
+
+
+| Percentage Decrease | Multiplier for percentage decrease |
+|---------------------+------------------------------------|
+|                 10% |                                0.9 |
+|                 25% |                               0.75 |
+|                 17% |                               0.83 |
+|                  1% |                               0.99 |
+|                  5% |                               0.95 |
+|               33.5% |                              0.665 |
+|                  7% |                               0.93 |
+|                 24% |                               0.76 |
+|               24.3% |                              0.757 |
