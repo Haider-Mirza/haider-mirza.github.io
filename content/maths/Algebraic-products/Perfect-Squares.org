@@ -37,7 +37,7 @@ https://www.haider.gq/maths/Algebraic-products/Per-Square-4.png
 Even though they do not seem like it, both sides of the "$=$" are the same.
 ** Example 2
 Sometimes all we get are some algebraic symbols like in the example below:
-https://www.haider.gq/maths/Algebraic-products/Per-Square-5.png
+$(x+a)^2$
 
 Before you start to panic, think for a second.
 Is this really a problem? As you will soon see it's really not.
