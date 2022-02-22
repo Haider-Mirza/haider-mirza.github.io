@@ -19,3 +19,4 @@ Pages contain:
 *** Percentages
 **** [[file:Percentages/Percentages-Terminology.org][Percentages terminology]]
 **** [[file:Percentages/Multipliers.org][Multipliers]]
+**** [[file:Percentages/Reverse-Percentages.org][Reverse Percentages with multipliers]]
