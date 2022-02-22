@@ -161,7 +161,7 @@ td {
 /* Experience better on mobile devices */
 
 @media screen and (max-width:1200px){
-    .content {
+    #content {
 	margin-left: 10rem;
     }
 
@@ -172,7 +172,7 @@ td {
 }
 
 @media screen and (max-width:1024px){
-    .content {
+    #content {
 	margin-left: 6.4rem;
     }
 
@@ -182,7 +182,7 @@ td {
 }
 
 @media screen and (max-width:700px){
-    .content {
+    #content {
 	margin-left: 4rem;
     }
 
@@ -192,7 +192,7 @@ td {
 }
 
 @media screen and (max-width:700px){
-    .content {
+    #content {
 	margin-left: 2rem;
     }
 
@@ -202,7 +202,7 @@ td {
 }
 
 @media screen and (max-width:452px){
-    .content {
+    #content {
 	margin-left: 0.5rem;
     }
 
