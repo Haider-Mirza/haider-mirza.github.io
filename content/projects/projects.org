@@ -2,7 +2,7 @@
 #+AUTHOR: Haider M
 
 * My Projects
-I am running quite a few at the moment.
+I am running quite a few projects at the moment.
 Here are some information on them.
 
 ** Spinter
