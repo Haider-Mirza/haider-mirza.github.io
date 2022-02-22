@@ -1,0 +1,25 @@
+#+TITLE: Compound percentage change 
+#+AUTHOR: Haider M
+:PROPERTIES:
+#+OPTIONS: toc:t
+:END:
+
+* Compound Percentages
+Or, in other words, compound interest.
+
+* Examples
+
+Suppose I have \pound500 in the bank. My bank pays 2% interest a year. How much will I have after:
+1) 2 Years
+2) 10 Years
+3) 100 Years
+
+** Solution
+500 \times 1.02 (1 year)
+500 \times 1.02 \times 1.02 (2 years)
+
+500 \times 1.02 \times 1.02 $=$ 500 \times 1.02^2 $=$ \pound520.20
+
+*** Note
+If we get the same amount of interest each year (2% of 500 = \pound10), this is called _simple_ interest.
+We would only have \pound600! Almost nobody does this though but there is a change that this may come up in tests.

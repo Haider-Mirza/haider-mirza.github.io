@@ -51,7 +51,7 @@
 
 ;; Set the postamble
 (defun dw/site-postamble ()
-  (concat "<p>Made with Emacs 27.2 (Org mode 9.4.4)</p>"))
+  (concat "<p>Made with Org mode 9.4.4 using the power of Emacs 27.2</p>"))
 
 
 ;; Customize the HTML output

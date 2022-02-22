@@ -1,5 +1,8 @@
 #+TITLE: Reverse Percentages with multipliers 
 #+AUTHOR: Haider M
+:PROPERTIES:
+#+OPTIONS: toc:t
+:END:
 
 * Reverse Percentages
 When a percentage change has already happened and we want to know the original quantity, this is called a "reverse percentage".
