@@ -9,6 +9,9 @@ Feel free to browse around my website or socials (you can find them at the botto
 * What I am currently doing?
 I am currently testing out glfw and opengl using C++ whilst also learning how to use programs like CMake in the process.
 You can see what I am doing in the Repository: [[https://github.com/Haider-Mirza/Spinter][Spinter]]
+* My system
+I am running a GNU Guix system with the libre linux kernel.
+I use EXWM as my window manager (Emacs should be the next metaverse)
 * Source Code
 Totally didn't replicate this website: [[https://systemcrafters.net/][Sorry David!]] (he's probably fine with it)
 This Website is Free/Libre software (well it's not software but you know what I mean) in which has been licensed under the GPL v3.
