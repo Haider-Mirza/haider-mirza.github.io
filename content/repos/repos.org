@@ -5,7 +5,7 @@
 I host alot of Git Repositries on Github.
 That is probably because I am a programmer.
 
-Here are my git repositories:
+Here are my Git repositories:
 
 + [[https://github.com/Haider-Mirza/haider-mirza.github.io][This website]]
 + [[https://github.com/Haider-Mirza/Spinter][Spinter]]
