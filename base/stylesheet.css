@@ -74,19 +74,21 @@ h1 {
 }
 
 h2 {
-    color:#afea81;
+    color:#ffd966;
     margin-top: 2.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0rem;
     font-family: 'Roboto', sans-serif;
 }
 
 h3 {
     color:#afea81;
+    margin-bottom: -1rem;
     font-family: 'Roboto', sans-serif;
 }
 
 h4 {
     color:#afea81;
+    margin-bottom: -1rem;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -151,6 +153,7 @@ td {
 }
 
 #postamble p {
+    margin-left: 12.4rem;
     display: flex;
     justify-content: left;
     height: 2.5rem;
@@ -169,6 +172,17 @@ td {
 	margin-left: -10rem;
     }
 
+    #postamble p {
+	margin-left: 10rem;
+    }
+
+    .Haider a {
+	margin-left: 10rem;
+    }
+
+    .links {
+	margin-left: 10rem;
+    }
 }
 
 @media screen and (max-width:1024px){
@@ -178,6 +192,17 @@ td {
 
     .outline-text-5 {
 	margin-left: -6.4rem;
+    }
+    #postamble p {
+	margin-left: 6.4rem;
+    }
+
+    .Haider a {
+	margin-left: 6.4rem;
+    }
+
+    .links {
+	margin-left: 6.4rem;
     }
 }
 
@@ -189,6 +214,17 @@ td {
     .outline-text-5 {
 	margin-left: -4rem;
     }
+    #postamble p {
+	margin-left: 4rem;
+    }
+
+    .Haider a {
+	margin-left: 4rem;
+    }
+
+    .links {
+	margin-left: 4rem;
+    }
 }
 
 @media screen and (max-width:700px){
@@ -199,6 +235,17 @@ td {
     .outline-text-5 {
 	margin-left: -2rem;
     }
+    #postamble p {
+	margin-left: 2rem;
+    }
+
+    .Haider a {
+	margin-left: 2rem;
+    }
+
+    .links {
+	margin-left: 2rem;
+    }
 }
 
 @media screen and (max-width:452px){
@@ -208,5 +255,28 @@ td {
 
     .outline-text-5 {
 	margin-left: -0.5rem;
+    }
+    #postamble p {
+	margin-left: 0.5rem;
+    }
+
+    .Haider a {
+	margin-left: 0.5rem;
+    }
+
+    .links {
+	margin-left: 0.5rem;
+	display: block;
+    }
+
+    .nav {
+	height: 4rem;
+    }
+}
+
+
+@media screen and (max-width:259px){
+    .nav {
+	height: 6rem;
     }
 }
