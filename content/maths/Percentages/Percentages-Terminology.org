@@ -4,9 +4,8 @@
 #+OPTIONS: toc:t
 :END:
 
-* Percentages Terminology
-Percentages questions come with many key terms which you need to learn and memorise.
 * Terminology 
+Percentages questions come with many key terms which you need to learn and memorise.
 ** Buying-in price
 The price a shop (vendor) pays for the item.
 ** Sell price
