@@ -7,7 +7,7 @@
   
 * Digital Maths Notebook
 If you didn't know, I have a digital mathematical notebook in construction.
-Here is a link to it [[file:~/haider-mirza.github.io/content/maths/maths.org][Notebook]]
+Here is a link to it [[https://www.haider.gq/maths/maths.html][Notebook]]
 
 * Quick access work  
 This section will be updated on a specific time it's needed.
