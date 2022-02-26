@@ -4,7 +4,7 @@
 ; Ignore the org-publish cache
 .org-cache/
 
-; Ignore published html files
+; Ignore published html files except stylesheet
 public/maths/
 public/projects/
 public/repos/
