@@ -4,5 +4,5 @@
 ; Ignore the org-publish cache
 .org-cache/
 
-; Ignore published files
+; Ignore published html files
 public/
