@@ -5,4 +5,10 @@
 .org-cache/
 
 ; Ignore published html files
-public/
+public/maths/
+public/projects/
+public/repos/
+public/school/
+public/404.html
+public/CNAME
+public/index.html
