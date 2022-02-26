@@ -146,6 +146,17 @@ td {
     background-color:#16191e;
 }
 
+/* Source Blocks */
+.src{
+    padding:1rem;
+}
+
+.org-src-container{
+    border-left: .3rem solid #B4EB89;
+    background-color:#16191e;
+    margin-right: 40rem;
+}
+
 /* Postamble (Footer) */
 #postamble {
     background-color:#16191e;
