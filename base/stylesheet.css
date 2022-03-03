@@ -153,6 +153,7 @@ td {
 
 .org-src-container{
     border-left: .3rem solid #B4EB89;
+    color:white;
     background-color:#16191e;
     margin-right: 20rem;
 }
