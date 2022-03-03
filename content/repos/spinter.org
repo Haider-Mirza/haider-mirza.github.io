@@ -1,0 +1,37 @@
+#+TITLE: Spinter
+#+AUTHOR: Haider M
+
+/OpenGL Manipulation/
+
+* How to Hack It
+
+If you're interested in cloning the code to try it out, I recommend [[https://guix.gnu.org/manual/en/html_node/Binary-Installation.html][installing the GNU Guix package manager]].  Using Guix will allow you to install all compilation dependencies like so:
+
+#+begin_src sh
+
+  cd ~/path/to/Spinter
+  guix shell -m manifest.scm
+
+#+end_src
+
+You will now be in a shell with all of the dependencies configured.  You can now build and run the code:
+
+#+begin_src sh
+
+  chmod +x ./start.sh
+  ./start.sh  # This is only needed the first time you clone the project
+  ./build-run.sh  # This is to build and run the project
+
+#+end_src
+
+** Editor Setup
+
+I use GNU Emacs to hack on and interface with this project. Here's what you need to use for a similar setup:
+
+- Emacs 28 (27 is sufficient)
+- [[https://emacs-lsp.github.io/lsp-mode/][lsp-mode]] with the [[https://github.com/MaskRay/ccls][ccls]] language server for C/C++ development
+
+* License
+
+The code in this repository is licensed under the [[LICENSE][GNU General Public License 3.0]].
+
