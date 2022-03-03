@@ -25,3 +25,11 @@ Main places you can find me on the web:
 + E-mail Haider - [[mailto:x7and7@gmail.com][x7and7@gmail.com]]
 + In IRC; Username = haider, mainly active on #guix and #systemcrafters (Libera)
 + Github: [[https://github.com/Haider-Mirza][Github Profile]]
+
+  
+#+begin_src sh
+
+  cd ~/path/to/Spinter
+  guix shell -m manifest.scm
+
+#+end_src
