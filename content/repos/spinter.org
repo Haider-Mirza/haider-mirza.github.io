@@ -29,9 +29,8 @@ You will now be in a shell with all of the dependencies configured.  You can now
 I use GNU Emacs to hack on and interface with this project. Here's what you need to use for a similar setup:
 
 - Emacs 28 (27 is sufficient)
-- [[https://emacs-lsp.github.io/lsp-mode/][lsp-mode]] with the [[https://github.com/MaskRay/ccls][ccls]] language server for C/C++ development.
+- [[https://emacs-lsp.github.io/lsp-mode/][lsp-mode]] with the [[https://github.com/MaskRay/ccls][ccls]] language server for C/C++ development
 
 * License
 
-The code in this repository is licensed under the [[LICENSE][GNU General Public License 3.0]].
-
+The code in this repository is licensed under the [[https://www.gnu.org/licenses/gpl-3.0.en.html][GNU General Public License 3.0]].
