@@ -2,12 +2,14 @@
 #+AUTHOR: Haider Mirza
 
 * Notebook
-Randomly, I had thought that I should convert my notebook digitally so it is avalable to everyone easily.
-So here I am. My mathmatical digital "Notebook" is in a \beta{}eta stage and wont have all of the topics listed.
+Randomly, I had thought that I should rewrite maths teacher's notebook digitally (even though it is avalable on Onenote) here, because:
+a) To push my orgmode programmed website to a large scale test
+b) I'm just a guy who doesnt know how to spend his time wisely
 
+So here I am. My mathmatical digital "Notebook" is in a \beta{}eta stage and wont have all of the topics listed.
 Pages contain:
 - Two examples
-- Possible errors (if there are)
+- Common errors people make (if there are)
 - Descriptive Explanations
  
 * Year Groups
