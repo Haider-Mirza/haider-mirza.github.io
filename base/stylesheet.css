@@ -6,7 +6,6 @@ body {
     overflow-x: hidden;
 }
 
-
 #content {
     margin-left: 12.4rem;
 }
@@ -162,6 +161,9 @@ td {
 #postamble {
     background-color:#16191e;
     border-top: .1rem solid #B4EB89;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
 
 #postamble p {
