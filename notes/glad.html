@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>School</title>
+<title>GLAD</title>
 <meta name="generator" content="Org mode" />
 <link rel="stylesheet" href="https://www.haider.gq/base/stylesheet.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
@@ -25,34 +25,48 @@
       </div>
 </div>
 <div id="content">
-<h1 class="title">School</h1>
-
-<div id="outline-container-org4445fb2" class="outline-2">
-<h2 id="org4445fb2">School</h2>
-<div class="outline-text-2" id="text-org4445fb2">
+<h1 class="title">GLAD</h1>
 <p>
-To go to a specific subject, Just add it in the URL with nothing in capitals.
-If you didnt know, The URL works like a directory tree. 
+:ID:       4952aab9-3158-4154-a04e-58f65ddfa658
+</p>
+
+<div id="outline-container-org782ec33" class="outline-2">
+<h2 id="org782ec33">GLAD</h2>
+<div class="outline-text-2" id="text-org782ec33">
+<p>
+GLAD is extention loader Library to load OpenGL and do things.
+</p>
+</div>
+<div id="outline-container-org5ff20c9" class="outline-3">
+<h3 id="org5ff20c9">Installation</h3>
+<div class="outline-text-3" id="text-org5ff20c9">
+<p>
+You actually have to generate the GLAD files using the following website:
+<a href="https://glad.dav1d.de/">glad.david.de</a>
 </p>
 </div>
 </div>
-
-<div id="outline-container-orgffa0c10" class="outline-2">
-<h2 id="orgffa0c10">Digital Maths Notebook</h2>
-<div class="outline-text-2" id="text-orgffa0c10">
+<div id="outline-container-orgf366b41" class="outline-3">
+<h3 id="orgf366b41">Get Working</h3>
+<div class="outline-text-3" id="text-orgf366b41">
 <p>
-If you didn't know, I have a digital mathematical notebook in construction.
-Here is a link to it <a href="https://www.haider.gq/maths/maths.html">Notebook</a>
+Make sure you use Both this include and define.
+</p>
+<div class="org-src-container">
+<pre class="src src-c++"><span style="font-weight: bold;">#define</span> <span style="font-weight: bold; font-style: italic;">GLFW_INCLUDE_NONE</span>
+<span style="font-weight: bold;">#include</span> <span style="font-style: italic;">&lt;glad/gl.h&gt;</span>
+</pre>
+</div>
+</div>
+<div id="outline-container-org32ae491" class="outline-4">
+<h4 id="org32ae491">NOTE</h4>
+<div class="outline-text-4" id="text-org32ae491">
+<p>
+Be sure to include GLAD before GLFW.
+The include file for GLAD includes the required OpenGL headers behind the scenes (like GL/gl.h) so be sure to include GLAD before other header files that require OpenGL (like GLFW). 
 </p>
 </div>
 </div>
-
-<div id="outline-container-orgd56f695" class="outline-2">
-<h2 id="orgd56f695">Quick access work</h2>
-<div class="outline-text-2" id="text-orgd56f695">
-<p>
-This section will be updated on a specific time it's needed.
-</p>
 </div>
 </div>
 </div>
