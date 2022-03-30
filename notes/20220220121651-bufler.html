@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>ERROR 404</title>
+<title>Bufler</title>
 <meta name="generator" content="Org mode" />
 <link rel="stylesheet" href="https://www.haider.gq/base/stylesheet.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
@@ -25,15 +25,36 @@
       </div>
 </div>
 <div id="content">
-<h1 class="title">ERROR 404</h1>
-
-<div id="outline-container-org202ea53" class="outline-2">
-<h2 id="org202ea53">Webpage?</h2>
-<div class="outline-text-2" id="text-org202ea53">
+<h1 class="title">Bufler</h1>
 <p>
-The webpage you are trying to find is not available.
-Please edit the URL or locate a new URL.
+:ID:       c2647c82-ae0a-4d26-aa62-706a6a8051d4
 </p>
+
+<div id="outline-container-org1000d34" class="outline-2">
+<h2 id="org1000d34">Bufler</h2>
+<div class="outline-text-2" id="text-org1000d34">
+</div>
+<div id="outline-container-org0d317fe" class="outline-3">
+<h3 id="org0d317fe">About Bufler</h3>
+<div class="outline-text-3" id="text-org0d317fe">
+<p>
+<a href="https://github.com/alphapapa/bufler.el">Link to Bufler Git repo</a>
+Bufler is like a butler for your buffers, presenting them to you in an organized way based on your instructions.
+The instructions are written as grouping rules in a simple language, allowing you to customize the way buffers are grouped.
+The default rules are designed to be generally useful, so you don’t have to write your own.
+</p>
+</div>
+</div>
+<div id="outline-container-org0f995c6" class="outline-3">
+<h3 id="org0f995c6">Common Issue</h3>
+<div class="outline-text-3" id="text-org0f995c6">
+<p>
+I had tried to load "buffer-mode" when I got an error starting with "Recursive Load".
+After some research, you can fix this by removing the require on line 70 in <b>bufler-workspace-tabs.el</b> everything works.
+<b>Make sure you also balance the parentheses!</b>
+I dont know why but if you get this error, here is a fix.
+</p>
+</div>
 </div>
 </div>
 </div>
