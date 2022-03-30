@@ -1,8 +1,0 @@
-1:PROPERTIES:
-:ID:       e2629dec-5dd1-48eb-8e86-4584b90ac029
-:END:
-#+title: 2022-02-27
-* 10:41 pm: 
-Make sure to configure OrgAgenda.
-* 10:43 pm: 
-Make sure to convert my incidents documents to orgroam

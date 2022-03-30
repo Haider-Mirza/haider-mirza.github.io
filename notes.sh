@@ -1,12 +1,7 @@
 #!/bin/sh
 
 myNotesDir="./content/notes"
-
-if [[ -d $myNotesDir ]]
-then
-    rm -rf $myNotesDir
-fi
-
+rm -rf $myNotesDir
 git clone https://github.com/Haider-Mirza/Notes.git ./content/notes
 cd $myNotesDir
 rm -rf README.org
