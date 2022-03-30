@@ -1,4 +1,4 @@
-#!/bin/dash
+#!/bin/bash
 
 # Variables
 myNotesDir="./content/notes"
