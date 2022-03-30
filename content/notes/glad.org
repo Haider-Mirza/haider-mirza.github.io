@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       4952aab9-3158-4154-a04e-58f65ddfa658
+:END:
+#+title: GLAD
+
+* GLAD
+GLAD is extention loader Library to load OpenGL and do things.
+** Installation
+You actually have to generate the GLAD files using the following website:
+[[https://glad.dav1d.de/][glad.david.de]]
+** Get Working
+Make sure you use Both this include and define.
+#+BEGIN_SRC c++
+  #define GLFW_INCLUDE_NONE
+  #include <glad/gl.h>
+#+END_SRC
+*** NOTE
+Be sure to include GLAD before GLFW.
+The include file for GLAD includes the required OpenGL headers behind the scenes (like GL/gl.h) so be sure to include GLAD before other header files that require OpenGL (like GLFW). 

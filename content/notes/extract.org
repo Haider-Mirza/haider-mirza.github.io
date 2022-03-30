@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       978cbd0f-0ffb-44bd-9545-fc3b4d349f93
+:END:
+#+title: Extract
+#+AUTHOR: Haider M
+#+DATE: [2022-02-06 Sun]
+
+* About
+This file is to show how to extract all sorts of different files.
+Linux/GNU systems have ALOT of types of compessed files.
+Here are many ways you can uncompress them.
+
+* Files
+** NOTE
+Here there is "" is where you place the name of the file you want to extract.
+
+** .tar.bz2
+tar xjf ""
+** .tar.gz
+tar xzf ""
+** .bz2
+bunzip2 ""
+** .rar
+unrar x ""
+** .gz
+gunzip ""
+** .tar
+tar xf ""
+** .tbz2
+tar xjf ""
+** .tgz
+tar xzf ""
+** .zip
+unzip ""
+** .Z
+uncompress ""
+** .7z
+7z x ""
+** .deb
+ar x ""
+** .tar.xz
+tar xf ""
+** .tar.zst
+unzstd ""

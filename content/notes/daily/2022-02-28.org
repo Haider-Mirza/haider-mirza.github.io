@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5a5c0ea7-95e2-4691-aee1-2e9c89474809
+:END:
+#+title: 2022-02-28
+#+filetags: Dailies
+
+* 10:41 pm: 
+Make sure to configure OrgAgenda.
+* 10:43 pm: 
+Make sure to convert my incidents documents to orgroam

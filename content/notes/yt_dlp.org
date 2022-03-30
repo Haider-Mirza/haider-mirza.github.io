@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       2a429cee-e6a6-44e7-9a7c-cf30919d19c9
+:END:
+#+title: yt-dlp
+#+AUTHOR: Haider M
+#+DATE: [2022-02-06 Sun]
+
+* yt-dlp
+  yt-dlp is a fork of youtube-dl and personally I was a very early adopter of it as I found youtubedl to be very slow even with major configurations. 
+  yt-dlp is now qutite popular and Is even shipped by default by MPV.
+  
+* Common Use cases
+  I do mainly use yt-dlp to stream Youtube and Twitch to mpv but I also use it to download videos and playlists in different audio /or video formats.
+  
+** Audio Downloads
+   Here is how you can download a video as a audio file.
+   These Probably also work with playlists.
+*** opus
+    Notice that this will Download this as an opus format which would give you better sound but for compatibily usage use mp3 (which is the next command)
+    Obviously, replace this URL with your own
+    #+BEGIN_SRC shell
+      yt-dlp -f 'ba' https://www.youtube.com/watch?v=dQw4w9WgXcQ -o '%(id)s.%(ext)s'
+    #+END_SRC
+*** mp3
+    Here is how you save a video as mp3 if you want very good cross compatibility (otherwise use opus)
+    Obviously, replace this URL with your own
+    #+BEGIN_SRC shell
+yt-dlp -f 'ba' -x --audio-format mp3 https://www.youtube.com/watch?v=dQw4w9WgXcQ  -o '%(id)s.%(ext)s'
+    #+END_SRC
+** Video Downloads
+   This command will download the best format (video + audio) that is equal to or greater than 720p width.
+   Of course, you can change the width to 1080p or anything you like (the actual video has to support it though) 
+   #+BEGIN_SRC shell
+     yt-dlp -f "best[height>=720]" https://www.youtube.com/watch?v=1La4QzGeaaQ -o '%(id)s.%(ext)s'
+   #+END_SRC

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       045bb757-fe7b-4bd7-a3bc-8d38802a544e
+:END:
+#+title: 2022-03-06
+#+filetags: Dailies
+* TODO:
+** Videos to watch on Youtube
+- Watch about C++ Enums (Video from The Cherno).
+  Also watch any other videos in his series.
+  
+** Continue TouchTyping
+** Configure OrgRoam dailies. templates?
+** Perhaps develop my website?
+** Complete current OrgAgenda
