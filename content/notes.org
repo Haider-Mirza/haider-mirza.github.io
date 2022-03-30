@@ -1,0 +1,5 @@
+#+TITLE: Notes
+#+AUTHOR: Haider Mirza
+
+* Notes
+These are my Org-Roam notes made in Emacs.

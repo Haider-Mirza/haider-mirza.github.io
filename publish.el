@@ -37,9 +37,9 @@
       "<div class='nav'>
       <div class='links'>
 	<a href='https://www.haider.gq'>Home</a>
-	<a href='https://www.haider.gq/about/about'>About</a>
 	<a href='https://www.haider.gq/repos/repos'>Repos</a>
 	<a href='https://www.haider.gq/projects/projects'>Projects</a>
+	<a href='https://www.haider.gq/notes'>Notes</a>
 	<a href='https://www.haider.gq/school/school'>School</a>
       </div>
       </div>")
