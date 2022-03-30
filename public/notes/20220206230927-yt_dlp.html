@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>yt-dlp</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="https://www.haider.gq/base/stylesheet.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="preamble" class="status">
+<div class="Haider"><a href='https://www.haider.gq/'>Haider Mirza</a></div> <div class='nav'>
+      <div class='links'>
+	<a href='https://www.haider.gq'>Home</a>
+	<a href='https://www.haider.gq/about/about'>About</a>
+	<a href='https://www.haider.gq/repos/repos'>Repos</a>
+	<a href='https://www.haider.gq/projects/projects'>Projects</a>
+	<a href='https://www.haider.gq/school/school'>School</a>
+      </div>
+      </div>
+</div>
+<div id="content" class="content">
+<h1 class="title">yt-dlp</h1>
+
+<div id="outline-container-orgdd6d165" class="outline-2">
+<h2 id="orgdd6d165">yt-dlp</h2>
+<div class="outline-text-2" id="text-orgdd6d165">
+<p>
+yt-dlp is a fork of youtube-dl and personally I was a very early adopter of it as I found youtubedl to be very slow even with major configurations. 
+yt-dlp is now qutite popular and Is even shipped by default by MPV.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7dcb5ac" class="outline-2">
+<h2 id="org7dcb5ac">Common Use cases</h2>
+<div class="outline-text-2" id="text-org7dcb5ac">
+<p>
+I do mainly use yt-dlp to stream Youtube and Twitch to mpv but I also use it to download videos and playlists in different audio /or video formats.
+</p>
+</div>
+
+<div id="outline-container-org23b5379" class="outline-3">
+<h3 id="org23b5379">Audio Downloads</h3>
+<div class="outline-text-3" id="text-org23b5379">
+<p>
+Here is how you can download a video as a audio file.
+These Probably also work with playlists.
+</p>
+</div>
+<div id="outline-container-orgb4931e5" class="outline-4">
+<h4 id="orgb4931e5">opus</h4>
+<div class="outline-text-4" id="text-orgb4931e5">
+<p>
+Notice that this will Download this as an opus format which would give you better sound but for compatibily usage use mp3 (which is the next command)
+Obviously, replace this URL with your own
+</p>
+<div class="org-src-container">
+<pre class="src src-shell">yt-dlp -f <span style="font-style: italic;">'ba'</span> https://www.youtube.com/watch?<span style="font-weight: bold; font-style: italic;">v</span>=dQw4w9WgXcQ -o <span style="font-style: italic;">'%(id)s.%(ext)s'</span>
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc839f42" class="outline-4">
+<h4 id="orgc839f42">mp3</h4>
+<div class="outline-text-4" id="text-orgc839f42">
+<p>
+Here is how you save a video as mp3 if you want very good cross compatibility (otherwise use opus)
+Obviously, replace this URL with your own
+</p>
+<div class="org-src-container">
+<pre class="src src-shell">yt-dlp -f <span style="font-style: italic;">'ba'</span> -x --audio-format mp3 https://www.youtube.com/watch?<span style="font-weight: bold; font-style: italic;">v</span>=dQw4w9WgXcQ  -o <span style="font-style: italic;">'%(id)s.%(ext)s'</span>
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org6a968ee" class="outline-3">
+<h3 id="org6a968ee">Video Downloads</h3>
+<div class="outline-text-3" id="text-org6a968ee">
+<p>
+This command will download the best format (video + audio) that is equal to or greater than 720p width.
+Of course, you can change the width to 1080p or anything you like (the actual video has to support it though) 
+</p>
+<div class="org-src-container">
+<pre class="src src-shell">yt-dlp -f <span style="font-style: italic;">"best[height&gt;=720]"</span> https://www.youtube.com/watch?<span style="font-weight: bold; font-style: italic;">v</span>=1La4QzGeaaQ -o <span style="font-style: italic;">'%(id)s.%(ext)s'</span>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p>Made with Org mode 9.4.4 using the power of Emacs 27.2</p>
+</div>
+</body>
+</html>

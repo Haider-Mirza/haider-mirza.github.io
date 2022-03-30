@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       c2647c82-ae0a-4d26-aa62-706a6a8051d4
+:END:
+#+title: Bufler
+
+* Bufler
+** About Bufler
+[[https://github.com/alphapapa/bufler.el][Link to Bufler Git repo]]
+Bufler is like a butler for your buffers, presenting them to you in an organized way based on your instructions.
+The instructions are written as grouping rules in a simple language, allowing you to customize the way buffers are grouped.
+The default rules are designed to be generally useful, so you don’t have to write your own.
+** Common Issue
+I had tried to load "buffer-mode" when I got an error starting with "Recursive Load".
+After some research, you can fix this by removing the require on line 70 in *bufler-workspace-tabs.el* everything works.
+*Make sure you also balance the parentheses!*
+I dont know why but if you get this error, here is a fix.

@@ -1,0 +1,71 @@
+:PROPERTIES:
+:ID:       d71d294a-b8e3-48e3-8295-3d373bcd9681
+:END:
+#+title: Mu4e
+#+AUTHOR: Haider M
+#+DATE: [2022-02-06 Sun]
+#+DESCRIPTION: An Email Client I use in Emacs
+
+* About
+mu4e is an email client for Emacs. It’s based on the mu email indexer/searcher.
+** Links
+[[https://www.emacswiki.org/emacs/mu4e][Emacs Wiki]]
+[[https://www.djcbsoftware.nl/code/mu/mu4e/index.html][Mu4e User Manual]]
+* Note:
+** Note 1
+  You could find yourself with this error
+  Can't exec "aclocal": No such file or directory at /usr/share/autoconf/Autom4te/FileUtils.pm line 326.
+
+  You fix it with installing automake.
+** Note 2
+   install Isync and mu-git from the AUR (if using ArchLinux).
+   Mu4e comes from mu for some reason.
+* Important Information
+On my configuration all of my  Mail is located is in the ~/Mail directory.
+Mu4e uses the command "mbsync -a" to sync the EMail.
+* Email Properties
+This applys only to my emails however this also works for any other email addresses that use the same provider.
+
+** School
+
+| Property              | Response                    |
+|-----------------------+-----------------------------|
+| Email Address         | ha6mi19@keaston.bham.sch.uk |
+| Full Name             | Haider Mirza                |
+| smtpmail-smtp-server  | smtp-mail.outlook.com       |
+| smtpmail-smtp-service | 587                         |
+| stmpmail-stream-type  | ssl                         |
+| Folder                | "//Outlook//"                 |
+
+** Home
+
+| Property              | Response         |
+|-----------------------+------------------|
+| Email Address         | x7and7@gmail.com |
+| Full Name             | Haider Mirza     |
+| smtpmail-smtp-server  | smtp.gmail.com   |
+| smtpmail-smtp-service | 465              |
+| stmpmail-stream-type  | ssl              |
+| Folder                | "/Gmail//[Gmail]/" |
+
+* How to?
+Here are some common "How To" questions.
+** How to send a new Email in orgmode
+You start typing your address but when it comes to the actual composing part,
+do M-x and type org-mime-edit-mail-in-org-mode to open a new buffer that you can type your org Text in.
+C-c C-c to put the text into your email and hides the org buffer then do M-x again and type org-mime-htmlize to convert it to html
+and keeps the original if some email clients dont have support for html. And like you know C-c and C-c sends the email.
+
+* How to attach a file
+  When composing, go into the text area and do the command C-c C-a to attach a file.
+* How to send a existing org document as a Email
+Go to the file and do M-x and type org-mime-org-buffer-htmlize. Press no if it asks to evaluate the buffer.
+Then you have a new window showing the email (This is in the normal email buffer not the buffer where you compose email inside Mu4e)
+with the org document already in HTML. ( Do the rest of the steps only if you want the email to be composed/sent inside Mu4e )
+Then do M-x again and type mu4e-compose-mode to convert it from a normal email buffer to a buffer where you compose inside of Mu4e.
+
+* How to send a subtree as a Email
+Go inside the subtree and then do M-x and type org-mime-org-subtree-htmlize and this will take this * only only the top tree AND it's subtrees included in the tree. (Optional (Turning normal email buffer to Mu4e's)) Do M-x again and type in Mu4e-compose-mode to go into the mu4e buffer not emac's inbuilt. And as the name suggests it turns to HTML.
+** Note
+The Header for the subtree gets put automatically as the title and then the subtree (without the Header) gets put into the main part of the email.
+

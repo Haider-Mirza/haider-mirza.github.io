@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       da8873e7-0e56-4489-8983-d6ebc3e709d9
+:END:
+#+title: Qutebrowser
+* Qutebrowser
+In my opinion, the best browser in the world which almost none other can rival.
+** Common Issues
+In Guix, there was a error with the qutebrowser build which makes it so certain fonts wont render.
+There is a fix for this. That is to run Qutebrowser with the flags: (the entire command) "qutebrowser --qt-flag disable-seccomp-filter-sandbox"
+Here is a link to the problem: [[https://issues.guix.gnu.org/52672][Guix Issue Tracker]]
