@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 
 # Variables
 myNotesDir="./content/notes"
@@ -14,11 +14,6 @@ rm -rf README.org
 rm -rf .git/
 
 echo "Renaming Notes"
-# for i in $( ls -p | grep -v / ); do
-# mv "${i}" "${i/*-/}"
-# done
-
-for i in $( ls ); do
+for i in $( ls -p | grep -v / ); do
 mv "${i}" "${i/*-/}"
 done
-
