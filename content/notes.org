@@ -14,7 +14,7 @@ Here are links to my notes.
 [[https://www.haider.gq/notes/git][Git]]
 [[https://www.haider.gq/notes/glad][Glad]]
 *** Languages
-[[https://www.haider.gq/notes/c][C]]
+[[https://www.haider.gq/notes/c++][C++]]
 ** Emacs
 [[https://www.haider.gq/notes/emacs][Emacs]]
 [[https://www.haider.gq/notes/bufler][Bufler]]
