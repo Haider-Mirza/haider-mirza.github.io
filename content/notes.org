@@ -8,11 +8,22 @@ The Zettelkasten Methord (webpage links) wont work as it needs a database and wo
 Here are links to my notes.
 
 * General
-** Languages
+
+** Development
+*** Programs
+[[https:www.haider.gq/notes/git][Git]]
+[[https:www.haider.gq/notes/glad][Glad]]
+*** Languages
 [[https:www.haider.gq/notes/c][C]]
 ** Emacs
 [[https:www.haider.gq/notes/emacs][Emacs]]
 [[https:www.haider.gq/notes/bufler][Bufler]]
 [[https:www.haider.gq/notes/org_mode][Org Mode]]
 [[https:www.haider.gq/notes/org_roam][Org Roam]]
+[[https:www.haider.gq/notes/mu4e][Mu4e]]
 [[https:www.haider.gq/notes/orgmode_mathatics][OrgMode Mathematics]]
+** Programs
+[[https:www.haider.gq/notes/qutebrowser][Qutebrowser]]
+[[https:www.haider.gq/notes/yt_dlp][YT-DLP]]
+** General
+[[https:www.haider.gq/notes/extract][Extract]]
