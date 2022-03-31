@@ -6,6 +6,7 @@ myNotesDir="./content/notes"
 echo -e "Cloning Notes Git Repository\n"
 rm -rf $myNotesDir
 git clone https://github.com/Haider-Mirza/Notes.git ./content/notes
+pwd
 
 cd $myNotesDir
 
