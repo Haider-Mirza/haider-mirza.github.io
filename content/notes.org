@@ -7,3 +7,12 @@ These notes are made using org-roam which is based off the Zettelkasten methord.
 The Zettelkasten Methord (webpage links) wont work as it needs a database and works only in Emacs. 
 Here are links to my notes.
 
+* General
+** Languages
+[[https:www.haider.gq/notes/c][C]]
+** Emacs
+[[https:www.haider.gq/notes/emacs][Emacs]]
+[[https:www.haider.gq/notes/bufler][Bufler]]
+[[https:www.haider.gq/notes/org_mode][Org Mode]]
+[[https:www.haider.gq/notes/org_roam][Org Roam]]
+[[https:www.haider.gq/notes/orgmode_mathatics][OrgMode Mathematics]]
