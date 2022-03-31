@@ -8,7 +8,4 @@ Here are some information on them.
 ** Spinter
 [[https://github.com/Haider-Mirza/Spinter][Spinter]] is a test of manipulation of OpenGL and C++ but I have plans to transform this to a game engine.
 Nothing is final but this is my current plans.
-** My Mathematical Notebook
-I have a digital mathematical notebook in construction because maths is the best subject and deserves better.
-Here is a link to it [[https://www.haider.gq/maths/maths.html][Notebook]]
 
