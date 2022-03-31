@@ -1,0 +1,64 @@
+:PROPERTIES:
+:ID:       881c7b82-d797-4b27-b625-9f626734e267
+:END:
+#+title: 2022-02-24
+#+filetags: Dailies
+* Testing
+Make sure to configure OrgRoam more.
+* 01:17 am: 
+Make sure to configure OrgRoam more.
+* 10:18 am:
+Make sure to have started the english public speaking and done *HALF* of the english book.
+* 10:21 am:
+Public speaking,
+ 3 minutes long
+ 
+ Topic: 
+ 
+The planet can no longer sustain meat consumption at its current
+rate – it is time to embrace vegetarianism
+
+Document is here
+[[file:~/Documents/School/School-Documents/Subject-Documents/English/public-speaking.org][Public speaking]]
+* 10:27 am: 
+Food can express culture, celebration, comfort.
+Some say it is the best reason to be alive.
+That's why it is so annoys people when we have to change what we eat to fight rapid climate change.
+One of the most delicious, meat gains one of the worst backlash by climate change activists.
+
+Does our diet really play a big role in climate change?
+It's impossible to feed a planet of billions of people without creating emmissions.   
+
+Even if we use 0-carbon tractors, refrigoratiors, cookers and trucks. there are still unavoidable emmitions.
+Rice emmits methane, we cut down trees to make space for pastures and crops.
+And we even emmit nitrous oxide when we use firtilizers and manure.
+
+In 2018, a study showed that Worldwide food production is responsible for 26% of all human made greenhouse gas emmitions.
+This is unfortuanate, especially when food is not optional. While 26% doesnt seem that bad, even if we estinguish all other sources of emmisions today,
+The emissions from food alone would still use up our entire carbon budget by 2100.
+
+No matter what we do, food is a real cause of climate change
+But emmissions from various food items vary alot
+We use something called a life cycle assessment to measure all the emmitions of a product throughout it's existance.
+
+A life cycle assessment of beef shows that it emits the equavialent of 71 kilograms of CO2.
+Lamb is also high with 40 kilograms.
+Pork emits 12Kilograms.
+And at the bottom we have alot of plant based foods like potatoes which emit about 150 times less than beef.
+However, the most important of food isnt weight though, it's neutrient density.
+A kilogram of beef would keep you alive much longer than a kilogram of potatoes.
+
+If we compare emissions with calorie or protein the graph relatively the same, meat is still the largest food carbon emitter.
+
+But every beef is different, The worst beef creats 105kilograms of emissions per 100 grams of protein.
+And the best creats only 9, a difference of 12 times.
+Beef is still bad however with the best beef being worst than the worst plant by about 2 times.
+* 11:10 am: 
+Quite unrealisitic. hard to force anyone anything, as we can see with the current state with the west and Russia declaring war on ukrane and with the covid vaccine.
+* 11:14 am: 
+food transport in beef accounts for anly 0.5-2% of emiisions with international food transport occuring on freight ships
+Which are insanely efficient.
+* 11:19 am: 
+Most beef emisstions producer is the cows themselves who emit methane,
+whist CO2 hangs around in the atmosphere for centuries, methane stays for only decades.
+But in these short periods, it is very powerful with contributing and causes up to 40% of human made warming so far.
