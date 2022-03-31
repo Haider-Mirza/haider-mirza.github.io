@@ -23,7 +23,7 @@
 ;; Links used in the head of the html file
 (setq site-link-href (concat 
 		      ;; <link rel="stylesheet" href="file:///home/haider/haider-mirza.github.io/public/base/stylesheet.css"/>
-		      "<link rel=\"icon\" type=\"base/favicon\" href=\"/images/favicon.png\">"
+		      "<link rel=\"icon\" type=\"base/favicon\" href=\"/base/favicon.png\">"
 		      "\n"
 		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/stylesheet.css\"/>"
 		      "\n"
