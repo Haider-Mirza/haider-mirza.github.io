@@ -22,6 +22,6 @@ Here is the repository of my website: [[https://github.com/Haider-Mirza/haider-m
 * Around the Web
 Main places you can find me on the web:
  
-+ E-mail Haider - [[mailto:haider@haider.gq][haider@haider.gq]]
++ E-mail Haider - [[mailto:x7and7@gmail.com][x7and7@gmail.com]]
 + In IRC; Username = haider, mainly active on #guix and #systemcrafters or #tropin (Libera)
 + Github: [[https://github.com/Haider-Mirza][Github Profile]]
