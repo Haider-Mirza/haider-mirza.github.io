@@ -14,7 +14,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("file:///home/haider/haider-mirza.github.io/public/search/pages.css")
+fetch("https://www.haider.gq/search/pages.css")
   .then(res => res.json())
   .then(data => {
     users = data.map(user => {
