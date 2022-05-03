@@ -14,7 +14,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("https://www.haider.gq/search/pages")
+fetch("file:///home/haider/haider-mirza.github.io/public/search/pages.css")
   .then(res => res.json())
   .then(data => {
     users = data.map(user => {
@@ -24,7 +24,6 @@ fetch("https://www.haider.gq/search/pages")
       const url = card.querySelector("[data-url]")
       header.textContent = user.name
       body.textContent = user.email
-      url.textContent = user.link
       userCardContainer.append(card)
       return { name: user.name, email: user.email, element: card }
     })
