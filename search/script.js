@@ -24,6 +24,7 @@ fetch("https://www.haider.gq/search/pages.css")
       const url = card.querySelector("[data-url]")
       header.textContent = user.name
       body.textContent = user.email
+      url.textContent = user.url
       userCardContainer.append(card)
       return { name: user.name, email: user.email, element: card }
     })
