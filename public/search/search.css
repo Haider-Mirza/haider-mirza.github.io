@@ -296,10 +296,9 @@ td {
 }
 
 .search-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: .25rem;
-  
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: .25rem; */
 }
 
 input {
@@ -308,6 +307,7 @@ input {
 
 .search-bar {
   margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .user-cards {

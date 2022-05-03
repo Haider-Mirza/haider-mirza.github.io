@@ -21,10 +21,8 @@ fetch("https://www.haider.gq/search/pages.css")
       const card = userCardTemplate.content.cloneNode(true).children[0]
       const header = card.querySelector("[data-header]")
       const body = card.querySelector("[data-body]")
-      const url = card.querySelector("[data-url]")
       header.textContent = user.name
       body.textContent = user.email
-      url.textContent = user.url
       userCardContainer.append(card)
       return { name: user.name, email: user.email, element: card }
     })
