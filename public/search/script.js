@@ -14,7 +14,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("www.haider.gq/search/pages")
+fetch("https://www.haider.gq/search/pages")
   .then(res => res.json())
   .then(data => {
     users = data.map(user => {
