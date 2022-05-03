@@ -5,10 +5,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Projects</title>
-<meta name="generator" content="Org mode" />
+<title>Haider.gq</title>
+<meta name="generator" content="Search" />
 <link rel="icon" type="base/favicon" href="/base/favicon.png">
-<link rel="stylesheet" href="https://www.haider.gq/base/stylesheet.css"/>
+<link rel="stylesheet" href="search.css"/>
+<script src="script.js" defer></script>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
@@ -25,28 +26,21 @@
       </div>
       </div>
 </div>
-<div id="content">
-<h1 class="title">Projects</h1>
+<div id="content" class="content">
+  <h1 class="title">Search</h1>
 
-<div id="outline-container-org9f17835" class="outline-2">
-<h2 id="org9f17835">My Projects</h2>
-<div class="outline-text-2" id="text-org9f17835">
-<p>
-I am running quite a few projects at the moment.
-Here are some information on them.
-</p>
-</div>
+  <div class="search-wrapper">
+    <label for="search">Search Pages</label>
+    <input class="search-bar" type="search" id="search" data-search>
+  </div>
+  <div class="user-cards" data-user-cards-container></div>
+  <template data-user-template>
+    <div class="card">
+      <a class="haider" href=data-url data-header></a>
+      <div class="body" data-body></div>
+    </div>
+  </template>
 
-<div id="outline-container-org5d745b7" class="outline-3">
-<h3 id="org5d745b7">Spinter</h3>
-<div class="outline-text-3" id="text-org5d745b7">
-<p>
-<a href="https://github.com/Haider-Mirza/Spinter">Spinter</a> is a test of manipulation of OpenGL and C++ but I have plans to transform this to a game engine.
-Nothing is final but this is my current plans.
-</p>
-</div>
-</div>
-</div>
 </div>
 <div id="postamble" class="status">
 <p>Made with Org mode 9.4.4 using the power of Emacs 27.2</p>
