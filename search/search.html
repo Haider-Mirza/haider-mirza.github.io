@@ -30,15 +30,17 @@
   <h1 class="title">Search</h1>
 
   <div class="search-wrapper">
-    <label for="search">Search Pages</label>
-    <input class="search-bar" type="search" id="search" data-search>
+    <label for="search">Search Pages:</label>
+    <input class="search-bar" placeholder="Search for a webpage" type="search" id="search" data-search>
   </div>
   <div class="user-cards" data-user-cards-container></div>
   <template data-user-template>
-    <div class="card">
-      <a class="haider" href=data-url data-header></a>
-      <div class="body" data-body></div>
-    </div>
+    <a href=data-body>
+      <div class="card">
+	<div class="header" data-header></div>
+	<div class="body" data-body></div>
+      </div>
+    </a>
   </template>
 
 </div>
