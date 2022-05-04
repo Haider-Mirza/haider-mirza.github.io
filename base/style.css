@@ -243,21 +243,21 @@ td {
 }
 
 /* Postamble (Footer) */
-#postamble {
-    background-color:#16191e;
-    border-top: .1rem solid #B4EB89;
-   /* position:absolute; */
-   /* bottom:0; */
-   /* width:100%; */
-}
+/* #postamble { */
+/*     background-color:#16191e; */
+/*     border-top: .1rem solid #B4EB89; */
+/*    /\* position:absolute; *\/ */
+/*    /\* bottom:0; *\/ */
+/*    /\* width:100%; *\/ */
+/* } */
 
-#postamble p {
-    display: flex;
-    justify-content: left;
-    height: 2.5rem;
-    align-items: center;
-    margin-bottom: 0;
-}
+/* #postamble p { */
+/*     display: flex; */
+/*     justify-content: left; */
+/*     height: 2.5rem; */
+/*     align-items: center; */
+/*     margin-bottom: 0; */
+/* } */
 
 /* Footer */
 footer{
