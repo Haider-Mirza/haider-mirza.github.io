@@ -37,15 +37,13 @@
 	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
 	  <nav>
 	    <ul class='nav_links'>
-	      <li><a href='#'>About</a></li>
-	      <li><a href='#'>Projects</a></li>
-	      <li><a href='#'>Notes</a></li>
-	      <li><a href='#'>Search</a></li>
+	      <li><a href='https://www.haider.gq/about/about'>About</a></li>
+	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
+	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	      <li><a href='https://www.haider.gq/search/search'>Search</a></li>
 	    </ul>
 	  </nav>
-	</header>
-
-	<div class='content'>")
+	</header>")
 
 ;; Functions
 ;; Set the preamble
@@ -54,9 +52,7 @@
 
 ;; Set the postamble
 (defun dw/site-postamble ()
-  (concat "</div>
-
-	<footer>
+  (concat "<footer>
 	  <div class='footer-content'>
 	    <h3>Haider Mirza</h3>
 	    <p>Website created by Haider Mirza</p>
