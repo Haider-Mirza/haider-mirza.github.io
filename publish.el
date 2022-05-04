@@ -25,26 +25,27 @@
 		      ;; <link rel="stylesheet" href="file:///home/haider/haider-mirza.github.io/public/base/stylesheet.css"/>
 		      "<link rel=\"icon\" type=\"base/favicon\" href=\"/base/favicon.png\">"
 		      "\n"
-		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/stylesheet.css\"/>"
+		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/style.css\"/>"
 		      "\n"
-		      "<link href=\"https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap\" rel=\"stylesheet\">"
+		      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" />"
 		      "\n"
-		      "<link href=\"https://fonts.googleapis.com/css2?family=Roboto\" rel=\"stylesheet\">"
-		      "\n"
-		      "<link href=\"https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap\" rel=\"stylesheet\">"
-		      ))
+		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/main.css\" />"))
 
 ;; Set links
 (setq site-links
-      "<div class='nav'>
-      <div class='links'>
-	<a href='https://www.haider.gq'>Home</a>
-	<a href='https://www.haider.gq/repos/repos'>Repos</a>
-	<a href='https://www.haider.gq/projects/projects'>Projects</a>
-	<a href='https://www.haider.gq/notes'>Notes</a>
-	<a href='https://www.haider.gq/school/school'>School</a>
-      </div>
-      </div>")
+      "<header>
+	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
+	  <nav>
+	    <ul class='nav_links'>
+	      <li><a href='#'>About</a></li>
+	      <li><a href='#'>Projects</a></li>
+	      <li><a href='#'>Notes</a></li>
+	      <li><a href='#'>Search</a></li>
+	    </ul>
+	  </nav>
+	</header>
+
+	<div class='content'>")
 
 ;; Functions
 ;; Set the preamble
@@ -53,7 +54,21 @@
 
 ;; Set the postamble
 (defun dw/site-postamble ()
-  (concat "<p>Made with Org mode 9.4.4 using the power of Emacs 27.2</p>"))
+  (concat "</div>
+
+	<footer>
+	  <div class='footer-content'>
+	    <h3>Haider Mirza</h3>
+	    <p>Website created by Haider Mirza</p>
+	    <ul class='socials'>
+	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
+	      <li><a href='mailto:x7and7@gmail.com'><i class='fa fa-envelope'></i></a></li>
+	    </ul>
+	  </div>
+	  <div class='footer-bottom'>
+	    <p>Created by Haider Mirza with orgroam in emacs</p>
+	  </div>
+	</footer>"))
 
 
 ;; Customize the HTML output
