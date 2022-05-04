@@ -18,7 +18,7 @@
 
 ;; Variables
 ;; Set the Website name
-(setq site-title "<div class=\"Haider\"><a href='https://www.haider.gq/'>Haider Mirza</a></div>")
+;; (setq site-title "<div class=\"Haider\"><a href='https://www.haider.gq/'>Haider Mirza</a></div>")
 
 ;; Links used in the head of the html file
 (setq site-link-href (concat 
@@ -31,9 +31,10 @@
 		      "\n"
 		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/main.css\" />"))
 
-;; Set links
-(setq site-links
-      "<header>
+;; Functions
+;; Set the preamble
+(defun dw/site-preamble ()
+  (concat "<header>
 	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
 	  <nav>
 	    <ul class='nav_links'>
@@ -43,12 +44,7 @@
 	      <li><a href='https://www.haider.gq/search/search'>Search</a></li>
 	    </ul>
 	  </nav>
-	</header>")
-
-;; Functions
-;; Set the preamble
-(defun dw/site-preamble ()
-  (concat site-title " " site-links))
+	</header>"))
 
 ;; Set the postamble
 (defun dw/site-postamble ()
