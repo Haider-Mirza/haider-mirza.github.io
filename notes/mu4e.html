@@ -10,22 +10,25 @@
 <meta name="description" content="An Email Client I use in Emacs"
  />
 <link rel="icon" type="base/favicon" href="/base/favicon.png">
-<link rel="stylesheet" href="https://www.haider.gq/base/stylesheet.css"/>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://www.haider.gq/base/main.css" />
 </head>
 <body>
 <div id="preamble" class="status">
-<div class="Haider"><a href='https://www.haider.gq/'>Haider Mirza</a></div> <div class='nav'>
-      <div class='links'>
-	<a href='https://www.haider.gq'>Home</a>
-	<a href='https://www.haider.gq/repos/repos'>Repos</a>
-	<a href='https://www.haider.gq/projects/projects'>Projects</a>
-	<a href='https://www.haider.gq/notes'>Notes</a>
-	<a href='https://www.haider.gq/school/school'>School</a>
-      </div>
-      </div>
+<div class="Haider"><a href='https://www.haider.gq/'>Haider Mirza</a></div> <header>
+	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
+	  <nav>
+	    <ul class='nav_links'>
+	      <li><a href='#'>About</a></li>
+	      <li><a href='#'>Projects</a></li>
+	      <li><a href='#'>Notes</a></li>
+	      <li><a href='#'>Search</a></li>
+	    </ul>
+	  </nav>
+	</header>
+
+	<div class='content'>
 </div>
 <div id="content">
 <h1 class="title">Mu4e</h1>
@@ -33,16 +36,16 @@
 :ID:       d71d294a-b8e3-48e3-8295-3d373bcd9681
 </p>
 
-<div id="outline-container-org8687b01" class="outline-2">
-<h2 id="org8687b01">About</h2>
-<div class="outline-text-2" id="text-org8687b01">
+<div id="outline-container-orgb28c9f1" class="outline-2">
+<h2 id="orgb28c9f1">About</h2>
+<div class="outline-text-2" id="text-orgb28c9f1">
 <p>
 mu4e is an email client for Emacs. It’s based on the mu email indexer/searcher.
 </p>
 </div>
-<div id="outline-container-org8dc6355" class="outline-3">
-<h3 id="org8dc6355">Links</h3>
-<div class="outline-text-3" id="text-org8dc6355">
+<div id="outline-container-orge026bb9" class="outline-3">
+<h3 id="orge026bb9">Links</h3>
+<div class="outline-text-3" id="text-orge026bb9">
 <p>
 <a href="https://www.emacswiki.org/emacs/mu4e">Emacs Wiki</a>
 <a href="https://www.djcbsoftware.nl/code/mu/mu4e/index.html">Mu4e User Manual</a>
@@ -50,13 +53,13 @@ mu4e is an email client for Emacs. It’s based on the mu email indexer/searcher
 </div>
 </div>
 </div>
-<div id="outline-container-org5a140fc" class="outline-2">
-<h2 id="org5a140fc">Note:</h2>
-<div class="outline-text-2" id="text-org5a140fc">
+<div id="outline-container-orgff40be9" class="outline-2">
+<h2 id="orgff40be9">Note:</h2>
+<div class="outline-text-2" id="text-orgff40be9">
 </div>
-<div id="outline-container-orgf186b05" class="outline-3">
-<h3 id="orgf186b05">Note 1</h3>
-<div class="outline-text-3" id="text-orgf186b05">
+<div id="outline-container-org03dbf47" class="outline-3">
+<h3 id="org03dbf47">Note 1</h3>
+<div class="outline-text-3" id="text-org03dbf47">
 <p>
 You could find yourself with this error
 Can't exec "aclocal": No such file or directory at /usr/share/autoconf/Autom4te/FileUtils.pm line 326.
@@ -67,9 +70,9 @@ You fix it with installing automake.
 </p>
 </div>
 </div>
-<div id="outline-container-orge12a1f9" class="outline-3">
-<h3 id="orge12a1f9">Note 2</h3>
-<div class="outline-text-3" id="text-orge12a1f9">
+<div id="outline-container-orgb08a59f" class="outline-3">
+<h3 id="orgb08a59f">Note 2</h3>
+<div class="outline-text-3" id="text-orgb08a59f">
 <p>
 install Isync and mu-git from the AUR (if using ArchLinux).
 Mu4e comes from mu for some reason.
@@ -77,26 +80,26 @@ Mu4e comes from mu for some reason.
 </div>
 </div>
 </div>
-<div id="outline-container-org26b78d0" class="outline-2">
-<h2 id="org26b78d0">Important Information</h2>
-<div class="outline-text-2" id="text-org26b78d0">
+<div id="outline-container-org48524b2" class="outline-2">
+<h2 id="org48524b2">Important Information</h2>
+<div class="outline-text-2" id="text-org48524b2">
 <p>
 On my configuration all of my  Mail is located is in the ~/Mail directory.
 Mu4e uses the command "mbsync -a" to sync the EMail.
 </p>
 </div>
 </div>
-<div id="outline-container-orgd7ee674" class="outline-2">
-<h2 id="orgd7ee674">Email Properties</h2>
-<div class="outline-text-2" id="text-orgd7ee674">
+<div id="outline-container-org7b41990" class="outline-2">
+<h2 id="org7b41990">Email Properties</h2>
+<div class="outline-text-2" id="text-org7b41990">
 <p>
 This applys only to my emails however this also works for any other email addresses that use the same provider.
 </p>
 </div>
 
-<div id="outline-container-orgb87c4c3" class="outline-3">
-<h3 id="orgb87c4c3">School</h3>
-<div class="outline-text-3" id="text-orgb87c4c3">
+<div id="outline-container-orgd102d75" class="outline-3">
+<h3 id="orgd102d75">School</h3>
+<div class="outline-text-3" id="text-orgd102d75">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -146,9 +149,9 @@ This applys only to my emails however this also works for any other email addres
 </div>
 </div>
 
-<div id="outline-container-org9c8d756" class="outline-3">
-<h3 id="org9c8d756">Home</h3>
-<div class="outline-text-3" id="text-org9c8d756">
+<div id="outline-container-org4c9ba16" class="outline-3">
+<h3 id="org4c9ba16">Home</h3>
+<div class="outline-text-3" id="text-org4c9ba16">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -199,16 +202,16 @@ This applys only to my emails however this also works for any other email addres
 </div>
 </div>
 
-<div id="outline-container-org9e05fd3" class="outline-2">
-<h2 id="org9e05fd3">How to?</h2>
-<div class="outline-text-2" id="text-org9e05fd3">
+<div id="outline-container-org8073989" class="outline-2">
+<h2 id="org8073989">How to?</h2>
+<div class="outline-text-2" id="text-org8073989">
 <p>
 Here are some common "How To" questions.
 </p>
 </div>
-<div id="outline-container-org3d72bb2" class="outline-3">
-<h3 id="org3d72bb2">How to send a new Email in orgmode</h3>
-<div class="outline-text-3" id="text-org3d72bb2">
+<div id="outline-container-org774178c" class="outline-3">
+<h3 id="org774178c">How to send a new Email in orgmode</h3>
+<div class="outline-text-3" id="text-org774178c">
 <p>
 You start typing your address but when it comes to the actual composing part,
 do M-x and type org-mime-edit-mail-in-org-mode to open a new buffer that you can type your org Text in.
@@ -219,17 +222,17 @@ and keeps the original if some email clients dont have support for html. And lik
 </div>
 </div>
 
-<div id="outline-container-org2792a55" class="outline-2">
-<h2 id="org2792a55">How to attach a file</h2>
-<div class="outline-text-2" id="text-org2792a55">
+<div id="outline-container-orgc771f2c" class="outline-2">
+<h2 id="orgc771f2c">How to attach a file</h2>
+<div class="outline-text-2" id="text-orgc771f2c">
 <p>
 When composing, go into the text area and do the command C-c C-a to attach a file.
 </p>
 </div>
 </div>
-<div id="outline-container-orga18f091" class="outline-2">
-<h2 id="orga18f091">How to send a existing org document as a Email</h2>
-<div class="outline-text-2" id="text-orga18f091">
+<div id="outline-container-org91100c2" class="outline-2">
+<h2 id="org91100c2">How to send a existing org document as a Email</h2>
+<div class="outline-text-2" id="text-org91100c2">
 <p>
 Go to the file and do M-x and type org-mime-org-buffer-htmlize. Press no if it asks to evaluate the buffer.
 Then you have a new window showing the email (This is in the normal email buffer not the buffer where you compose email inside Mu4e)
@@ -239,16 +242,16 @@ Then do M-x again and type mu4e-compose-mode to convert it from a normal email b
 </div>
 </div>
 
-<div id="outline-container-org2b94c5b" class="outline-2">
-<h2 id="org2b94c5b">How to send a subtree as a Email</h2>
-<div class="outline-text-2" id="text-org2b94c5b">
+<div id="outline-container-orge89fab1" class="outline-2">
+<h2 id="orge89fab1">How to send a subtree as a Email</h2>
+<div class="outline-text-2" id="text-orge89fab1">
 <p>
 Go inside the subtree and then do M-x and type org-mime-org-subtree-htmlize and this will take this * only only the top tree AND it's subtrees included in the tree. (Optional (Turning normal email buffer to Mu4e's)) Do M-x again and type in Mu4e-compose-mode to go into the mu4e buffer not emac's inbuilt. And as the name suggests it turns to HTML.
 </p>
 </div>
-<div id="outline-container-orgf1679aa" class="outline-3">
-<h3 id="orgf1679aa">Note</h3>
-<div class="outline-text-3" id="text-orgf1679aa">
+<div id="outline-container-org707855f" class="outline-3">
+<h3 id="org707855f">Note</h3>
+<div class="outline-text-3" id="text-org707855f">
 <p>
 The Header for the subtree gets put automatically as the title and then the subtree (without the Header) gets put into the main part of the email.
 </p>
@@ -257,7 +260,21 @@ The Header for the subtree gets put automatically as the title and then the subt
 </div>
 </div>
 <div id="postamble" class="status">
-<p>Made with Org mode 9.4.4 using the power of Emacs 27.2</p>
+</div>
+
+	<footer>
+	  <div class='footer-content'>
+	    <h3>Haider Mirza</h3>
+	    <p>Website created by Haider Mirza</p>
+	    <ul class='socials'>
+	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
+	      <li><a href='mailto:x7and7@gmail.com'><i class='fa fa-envelope'></i></a></li>
+	    </ul>
+	  </div>
+	  <div class='footer-bottom'>
+	    <p>Created by Haider Mirza with orgroam in emacs</p>
+	  </div>
+	</footer>
 </div>
 </body>
 </html>
