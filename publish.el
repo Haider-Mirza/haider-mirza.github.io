@@ -83,13 +83,15 @@
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
+             :with-broken-links f
+             :recursive f
+             :with-toc f
+             :section-numbers f
 	     :html-head site-link-href
 	     :html-preamble  (dw/site-preamble)
 	     :html-postamble (dw/site-postamble)
              :with-author nil           ;; Don't include author name
              :with-creator t            ;; Include Emacs and Org versions in footer
-             :with-toc nil                ;; Dont include a table of contents
-             :section-numbers nil       ;; Don't include section numbers
              :with-timestamps t
              :time-stamp-file nil)))    ;; Don't include time stamp in file
 
@@ -150,11 +152,3 @@
 ;; (org-publish-all t)
 
 ;; (message "Build complete!")
-
-(defun my/publish-all()
-  (setq org-roam-directory "./contents/notes")  ; we first setup the org-roam locations
-  (setq org-roam-db-location "./contents/roam.db")  ; we first setup the org-roam locations
-  (setq org-id-extra-files (org-roam--list-files org-roam-directory)) ; necessary to make link with IDs work
-  (org-roam-db-sync t)
-  ;; (call-interactively 'org-publish-all))
-(org-publish-all t))
