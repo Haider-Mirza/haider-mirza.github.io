@@ -156,4 +156,5 @@
   (setq org-roam-db-location "./contents/roam.db")  ; we first setup the org-roam locations
   (setq org-id-extra-files (org-roam--list-files org-roam-directory)) ; necessary to make link with IDs work
   (org-roam-db-sync t)
-  (call-interactively 'org-publish-all))
+  ;; (call-interactively 'org-publish-all))
+(org-publish-all t))
