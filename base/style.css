@@ -163,32 +163,32 @@ header{
 
 
 
-h1 {
+.content h1 {
     color:#81b4ea;
     margin-top: 1rem;
 }
 
-h2 {
+.content h2 {
     color:#afea81;
     margin-top: 1rem;
 }
 
-h3 {
+.content h3 {
     color:#ffd966;
     margin-top: 1rem;
 }
 
-h4 {
+.content h4 {
     color:#FF0000;
     margin-top: 1rem;
 }
 
-h5 {
+.content h5 {
     color:#ffd966;
     margin-top: 1rem;
 }
 
-h6 {
+.content h6 {
     color:#ffd966;
     margin-top: 1rem;
 }
