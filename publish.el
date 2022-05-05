@@ -100,8 +100,8 @@
 ; ---------------------------------------------------------------------
 
 (defun my/publish-all()
-  (setq org-roam-directory "./contents/notes")  ; we first setup the org-roam locations
-  (setq org-roam-db-location "./contents/roam.db")  ; we first setup the org-roam locations
+  (setq org-roam-directory "./content/notes")  ; we first setup the org-roam locations
+  (setq org-roam-db-location "./content/roam.db")  ; we first setup the org-roam locations
   (setq org-id-extra-files (org-roam--list-files org-roam-directory)) ; necessary to make link with IDs work
   (org-roam-db-sync t)
   (call-interactively 'org-publish-all))
