@@ -118,7 +118,7 @@ header {
 }
 
 /* All other settings */
-p {
+#content p {
     margin-top: 0;
     margin-bottom: 1rem;
     box-sizing: border-box;
