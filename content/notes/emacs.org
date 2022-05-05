@@ -1,9 +1,8 @@
 :PROPERTIES:
 :ID:       f8b81c21-7c7e-410e-82ad-046fa5fa4c55
 :END:
-#+title: emacs
+#+title: Emacs
 #+date: [2022-03-25 Fri 07:00]
-#+tag: test
 * Emacs
 GNU Emacs isn’t a text editor, it’s the ultimate productivity environment for hackers.
 ** Some useful keybinds

@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       4952aab9-3158-4154-a04e-58f65ddfa658
 :END:
-#+title: glad
+#+title: GLAD
 
 * GLAD
 GLAD is extention loader Library to load OpenGL and do things.

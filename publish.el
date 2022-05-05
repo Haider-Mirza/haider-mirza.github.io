@@ -144,11 +144,3 @@
 
 ;; We're using Git, we don't need no steenking backups
 (setq make-backup-files nil)
-
-;; Org Roam Notes wont work with their ID linking notes
-;; (setq org-export-with-broken-links t)
-
-;; ;; Generate the site output
-;; (org-publish-all t)
-
-;; (message "Build complete!")

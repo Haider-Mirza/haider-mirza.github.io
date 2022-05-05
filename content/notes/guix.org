@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       4ce84157-a404-40fa-bdb8-0b3923916969
 :END:
-#+title: guix
+#+title: Guix
 #+date: [2022-04-16 Sat 15:52]
 
 * Guix 

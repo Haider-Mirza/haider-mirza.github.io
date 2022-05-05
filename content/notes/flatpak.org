@@ -1,8 +1,9 @@
 :PROPERTIES:
 :ID:       f8754808-db66-48e0-b05b-436b4fdd2c91
 :END:
-#+title: flatpak
+#+title: Flatpak
 #+date: [2022-04-23 Sat 00:34]
+
 * Flatpak
 I use Flatpak as an alternative package manager to Guix as sometimes the Guix package is flawed or not existant.
 ** Installation

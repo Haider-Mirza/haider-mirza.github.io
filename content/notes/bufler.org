@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       c2647c82-ae0a-4d26-aa62-706a6a8051d4
 :END:
-#+title: bufler
+#+title: Bufler
 
 * Bufler
 ** About Bufler

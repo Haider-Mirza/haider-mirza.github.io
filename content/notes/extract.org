@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       978cbd0f-0ffb-44bd-9545-fc3b4d349f93
 :END:
-#+title: extract
+#+title: Extract
 #+AUTHOR: Haider M
 #+DATE: [2022-02-06 Sun]
 

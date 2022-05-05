@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       8fe08bc8-ad1e-458d-ac5f-77243216932f
 :END:
-#+title: git
+#+title: Git
 #+date: [2022-03-16 Wed 20:07]
 
 * Git

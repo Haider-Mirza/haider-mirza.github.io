@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       f961d9f7-1629-45fd-9ac1-5d003ce2201e
 :END:
-#+title: c++
+#+title: C++
 #+date: [2022-03-20 Sun 20:36]
 
 * C++

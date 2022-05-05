@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       b69627d6-3ade-4eba-9e19-23a40248b3cb
 :END:
-#+title: gpg
+#+title: GPG
 #+date: [2022-04-15 Fri 19:36]
 * GPG
 ** Find GPG information
