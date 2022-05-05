@@ -65,16 +65,18 @@ header {
 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 10rem;
+    font-size: 6rem;
     margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: -2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 #content {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 100px;
+    padding-right: 50px;
     color: white;
 }
 
@@ -191,7 +193,7 @@ footer {
     font-family: "Open Sans";
     padding-top: 10px;
     color: white;
-    margin-top: auto;
+    margin-top: 3rem;
 }
 
 .footer-content {
