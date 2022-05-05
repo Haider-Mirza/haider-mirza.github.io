@@ -12,9 +12,14 @@
 
 ;; Install dependencies
 (package-install 'htmlize)
+(package-install 'find-lisp)
+(package-install 'org-roam)
+(package-install 's)
 
-;; Load the publishing system
+(require 's)
 (require 'ox-publish)
+(require 'find-lisp)
+(require 'org-roam)
 
 ;; Variables
 ;; Set the Website name
@@ -88,13 +93,67 @@
              :with-timestamps t
              :time-stamp-file nil)))    ;; Don't include time stamp in file
 
+; ---------------------------------------------------------------------
+;                          PUBLISH
+; ---------------------------------------------------------------------
+
+(defun my/publish-all()
+  (setq org-roam-directory "./contents/notes")  ; we first setup the org-roam locations
+  (setq org-roam-db-location "./contents/roam.db")  ; we first setup the org-roam locations
+  (setq org-id-extra-files (org-roam--list-files org-roam-directory)) ; necessary to make link with IDs work
+  (org-roam-db-sync t)
+  (call-interactively 'org-publish-all))
+
+; EXTERIOR LINKS -------------------------------------------------
+; Exterior links need to be easily identifiable for readers. They
+; should also open in a new tab.
+; ---
+(defun my/format-external-links (text backend info)
+  (when (org-export-derived-backend-p backend 'html)
+    (when (string-match-p (regexp-quote "http") text)
+      (s-replace "<a" "<a target='_blank' rel='noopener noreferrer' class='external'" text))))
+
+(add-to-list 'org-export-filter-link-functions
+             'my/format-external-links)
+(add-hook 'org-export-before-processing-hook 'my/add-roam-backlinks)
+
+; --- BACKLINKS ------------------------------------------------------
+
+(defun my/add-roam-backlinks (backend)
+  "Insert backlinks at the end of org files. BACKEND."
+  (when (org-roam-node-at-point)
+    (save-excursion
+      (goto-char (point-max))
+      (insert "\n* Links to this note\n")
+      (my/collect-roam-backlinks backend))))
+
+(defun my/collect-roam-backlinks (backend)
+  (when (org-roam-node-at-point)
+    (goto-char (point-max))
+    ;; Add a new header for the references
+    (let* ((backlinks (org-roam-backlinks-get (org-roam-node-at-point))))
+      (dolist (backlink backlinks)
+        (let* ((source-node (org-roam-backlink-source-node backlink))
+               (point (org-roam-backlink-point backlink)))
+          (insert
+           (format "- [[./%s][%s]]\n"
+                   (file-name-nondirectory (org-roam-node-file source-node))
+                   (org-roam-node-title source-node))))))))
+
 ;; We're using Git, we don't need no steenking backups
 (setq make-backup-files nil)
 
 ;; Org Roam Notes wont work with their ID linking notes
-(setq org-export-with-broken-links t)
+;; (setq org-export-with-broken-links t)
 
-;; Generate the site output
-(org-publish-all t)
+;; ;; Generate the site output
+;; (org-publish-all t)
 
-(message "Build complete!")
+;; (message "Build complete!")
+
+(defun my/publish-all()
+  (setq org-roam-directory "./contents/notes")  ; we first setup the org-roam locations
+  (setq org-roam-db-location "./contents/roam.db")  ; we first setup the org-roam locations
+  (setq org-id-extra-files (org-roam--list-files org-roam-directory)) ; necessary to make link with IDs work
+  (org-roam-db-sync t)
+  (call-interactively 'org-publish-all))

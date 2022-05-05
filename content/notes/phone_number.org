@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       ce15eced-9e6e-4d02-815d-040ce8f616a8
-:END:
-#+title: phone-number
-#+date: [2022-04-23 Sat 19:30]
-I dont have a phone, Here is a OP phone generator
-for yandex I had +12057404161.
-https://quackr.io/temporary-numbers/united-states/12057404161
