@@ -2,15 +2,9 @@
 #+AUTHOR: Haider Mirza
 
 * Please Note:
-The links on these notes are faultiy
-
-These are my Org-Roam notes made in Emacs.
-These notes are made using org-roam which is based off the Zettelkasten methord.
-The Zettelkasten Methord (webpage links) wont work as it needs a database and works only in Emacs. 
-Here are links to my notes.
-
+These notes are recreated based of the [[https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/][Zettelkasten methord]] and are created in [[https://www.gnu.org/software/emacs/][Emacs]] with [[https://www.orgroam.com/][org-roam]].
+To get full control go to [[https://github.com/Haider-Mirza/Notes][this repository]] and create a database with the attached "org-roam.db" with the [[https://www.gnu.org/software/emacs/][Emacs]] package [[https://www.orgroam.com/][org-roam]].
 * General
-
 ** Development
 *** Programs
 [[https://www.haider.gq/notes/git][Git]]
@@ -27,5 +21,6 @@ Here are links to my notes.
 ** Programs
 [[https://www.haider.gq/notes/qutebrowser][Qutebrowser]]
 [[https://www.haider.gq/notes/yt_dlp][YT-DLP]]
+[[id:b69627d6-3ade-4eba-9e19-23a40248b3cb][GPG]]
 ** General
 [[https:www.haider.gq/notes/extract][Extract]]
