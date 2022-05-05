@@ -72,47 +72,47 @@ header{
     align-items: center;
 }
 
-.content{
+#content{
     padding-left: 30px;
     padding-right: 30px;
     color: white;
 }
 
-.content p {
+#content p {
     white-space: pre-line;
 }
 
-.content a {
+#content a {
     text-decoration: none;
     color:#fd7e14;
 }
 
-.content h1 {
+#content h1 {
     color:#81b4ea;
     margin-top: 1rem;
 }
 
-.content h2 {
+#content h2 {
     color:#afea81;
     margin-top: 1rem;
 }
 
-.content h3 {
+#content h3 {
     color:#ffd966;
     margin-top: 1rem;
 }
 
-.content h4 {
+#content h4 {
     color:#FF0000;
     margin-top: 1rem;
 }
 
-.content h5 {
+#content h5 {
     color:#ffd966;
     margin-top: 1rem;
 }
 
-.content h6 {
+#content h6 {
     color:#ffd966;
     margin-top: 1rem;
 }
