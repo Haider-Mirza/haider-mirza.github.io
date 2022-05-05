@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>bufler</title>
+<title>org-reveal</title>
 <meta name="generator" content="Org mode" />
 <link rel="icon" type="base/favicon" href="/base/favicon.png">
 <link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
@@ -27,35 +27,59 @@
 	</header>
 </div>
 <div id="content">
-<h1 class="title">bufler</h1>
+<h1 class="title">org-reveal</h1>
 <p>
-:ID:       c2647c82-ae0a-4d26-aa62-706a6a8051d4
+:ID:       048f9912-1412-425b-b331-cfb7af8a8047
 </p>
+<div id="outline-container-orgb8393cd" class="outline-2">
+<h2 id="orgb8393cd">Org Reveal</h2>
+<div class="outline-text-2" id="text-orgb8393cd">
+<p>
+Org Reveal allows you to export Orgmode documents to presentations.
+Org Reveal has the following <a href="https://github.com/yjwen/org-reveal/">GIT repository</a> and <a href="https://revealjs.com/">documentation</a>. 
+</p>
+</div>
+<div id="outline-container-org9640ae0" class="outline-4">
+<h4 id="org9640ae0">My configuration</h4>
+<div class="outline-text-4" id="text-org9640ae0">
+<p>
+Here is my personal configuration back to when I used this; Place this at the top of your OrgMode document then export with <b>org-export-dispach</b>
+</p>
+<div class="org-src-container">
+<pre class="src src-fundamental">:reveal_properties:
+#+reveal_root: https://cdn.jsdelivr.net/npm/reveal.js
+#+reveal_reveal_js_version: 4
+#+reveal_theme: serif
+#+options: timestamp:nil toc:1 num:nil
+:end:
+</pre>
+</div>
+</div>
+</div>
 
-<div id="outline-container-org9913b94" class="outline-2">
-<h2 id="org9913b94">Bufler</h2>
-<div class="outline-text-2" id="text-org9913b94">
-</div>
-<div id="outline-container-org8acd62e" class="outline-3">
-<h3 id="org8acd62e">About Bufler</h3>
-<div class="outline-text-3" id="text-org8acd62e">
+<div id="outline-container-orgc3e5652" class="outline-4">
+<h4 id="orgc3e5652">Every line per space</h4>
+<div class="outline-text-4" id="text-orgc3e5652">
 <p>
-<a href="https://github.com/alphapapa/bufler.el">Link to Bufler Git repo</a>
-Bufler is like a butler for your buffers, presenting them to you in an organized way based on your instructions.
-The instructions are written as grouping rules in a simple language, allowing you to customize the way buffers are grouped.
-The default rules are designed to be generally useful, so you don’t have to write your own.
+You can add this functionality with the following line:
+More information could be found here: <a href="https://revealjs.com/fragments/">https://revealjs.com/fragments/</a>
 </p>
+<div class="org-src-container">
+<pre class="src src-fundamental">#+aatr_reveal: :frag (appear)
+</pre>
 </div>
 </div>
-<div id="outline-container-org234dcbe" class="outline-3">
-<h3 id="org234dcbe">Common Issue</h3>
-<div class="outline-text-3" id="text-org234dcbe">
+</div>
+<div id="outline-container-org24d8bcd" class="outline-4">
+<h4 id="org24d8bcd">images</h4>
+<div class="outline-text-4" id="text-org24d8bcd">
 <p>
-I had tried to load "buffer-mode" when I got an error starting with "Recursive Load".
-After some research, you can fix this by removing the require on line 70 in <b>bufler-workspace-tabs.el</b> everything works.
-<b>Make sure you also balance the parentheses!</b>
-I dont know why but if you get this error, here is a fix.
+You can add and do basic manipulation with images with thefollowing line.
 </p>
+<div class="org-src-container">
+<pre class="src src-fundamental">#+aatr_html: :width 45% :align center
+</pre>
+</div>
 </div>
 </div>
 </div>
