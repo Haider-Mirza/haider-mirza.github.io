@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       8317049b-5a2b-4176-9d39-111f310061c7
 :END:
-#+title: Org Roam
+#+title: org-roam
 #+AUTHOR: Haider M
 #+DATE: [2022-02-06 Sun]
 

@@ -1,14 +1,22 @@
 :PROPERTIES:
 :ID:       f8b81c21-7c7e-410e-82ad-046fa5fa4c55
 :END:
-#+title: Emacs
+#+title: emacs
 #+date: [2022-03-25 Fri 07:00]
+#+tag: test
 * Emacs
-Emacs, the legendary text editor legends use.
-Nothing can possibly beat it.
+GNU Emacs isn’t a text editor, it’s the ultimate productivity environment for hackers.
 ** Some useful keybinds
 *Note that on my system, 'CTRL' is re-keybinded to 'CAPS LOCK' for erganomic and speed benifits*
 
 C-j for return
 C-i for tab
-
+** Email
+Email in Emacs can use the [[id:d71d294a-b8e3-48e3-8295-3d373bcd9681][Mu4e]] package which I use with mbsyncrc
+** Issues
+*** Emacs can't find guix package
+If I ever encounter that Emacs cant find a package installed by [[id:4ce84157-a404-40fa-bdb8-0b3923916969][Guix]], I found a tempoary solution online:
+#+BEGIN_SRC elisp
+(let ((default-directory  "/home/haider/.guix-extra-profiles/mail/mail/share/emacs/site-lisp"))
+  (normal-top-level-add-subdirs-to-load-path))
+#+END_SRC

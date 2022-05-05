@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       24d2902c-39bf-4042-8f10-31fc88b6b8ef
-:END:
-#+title: 2022-03-24
-#+filetags: DailyDef
-* 07:01 am: 
-Bro, I need to fix pinentry so that I dont need to use a mouse because I DONT WANT TO USE A MOUSE.
-
-I FIXED IT, LET'S GOOOOOOOOOOO

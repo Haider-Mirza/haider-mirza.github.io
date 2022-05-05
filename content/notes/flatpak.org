@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       f8754808-db66-48e0-b05b-436b4fdd2c91
+:END:
+#+title: flatpak
+#+date: [2022-04-23 Sat 00:34]
+* Flatpak
+I use Flatpak as an alternative package manager to Guix as sometimes the Guix package is flawed or not existant.
+** Installation
+You can install a Flatpak on servers as Flatpak is decentalized technology.
+You should mainly use [[https://flathub.org/home][Flathub]].
+
+You can see the command you have to run to install a Flatpack at the bottom of the webpage.
+
+The command is something resembling this:
+#+BEGIN_SRC bash
+$ flatpak install flathub com.mojang.Minecraft
+#+END_SRC
+** Run
+
+Running a Flatpak application is different to a normal application.
+You can see the command you have to run if you scroll to the bottom of the webpage.
+
+The command to run a Flatpack application resembles this.
+#+BEGIN_SRC bash
+$ flatpak run io.gdevs.GDLauncher
+#+END_SRC

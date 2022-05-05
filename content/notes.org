@@ -1,7 +1,9 @@
 #+TITLE: Notes
 #+AUTHOR: Haider Mirza
 
-* Notes
+* Please Note:
+The links on these notes are faultiy
+
 These are my Org-Roam notes made in Emacs.
 These notes are made using org-roam which is based off the Zettelkasten methord.
 The Zettelkasten Methord (webpage links) wont work as it needs a database and works only in Emacs. 

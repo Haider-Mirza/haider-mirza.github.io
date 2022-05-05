@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       07ab67b2-028c-4ce8-8ff3-9df904c4aa99
+:END:
+#+title: ssh
+#+date: [2022-04-15 Fri 19:35]
+
+* SSH
+** Installation
+Install the openssh package.

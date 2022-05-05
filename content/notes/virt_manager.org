@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       7baa6460-e5ac-4df5-98f5-0a5a4aeaa0aa
+:END:
+#+title: virt-manager
+#+date: [2022-04-09 Sat 14:45]
+* virt-manager
+The virtual machine manager that uses Qemu and KVM.
+** How to exit fullscreen
+Ctrl-Alt to release cursor.

@@ -1,13 +1,13 @@
 :PROPERTIES:
 :ID:       4952aab9-3158-4154-a04e-58f65ddfa658
 :END:
-#+title: GLAD
+#+title: glad
 
 * GLAD
 GLAD is extention loader Library to load OpenGL and do things.
 ** Installation
-You actually have to generate the GLAD files using the following website:
-[[https://glad.dav1d.de/][glad.david.de]]
+You actually have to generate the GLAD files using the following website: [[https://glad.dav1d.de/][glad.david.de]].
+Yes, there is a Guix package aswell but at the moment I do not know how to use it.
 ** Get Working
 Make sure you use Both this include and define.
 #+BEGIN_SRC c++

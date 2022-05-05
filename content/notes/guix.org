@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       4ce84157-a404-40fa-bdb8-0b3923916969
+:END:
+#+title: guix
+#+date: [2022-04-16 Sat 15:52]
+
+* Guix 
+The legendary package manager and operating system that geeks use.
+** Issues
+*** Binary - no file or directory
+Turns out the issue is of a binary trying to use a certain interpreter, which Guix does not have.
+You can force the binary to use a interpreter with something resembling "patchelf --set-interpreter /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 foo".
+You have to install the patchelf package to get this functionality.
+Also you can see information on the interpreter and stuff about a binary with "readelf" which is in binutils. I used "readelf -l clangd"
+You can also see https://issues.guix.gnu.org/54941 for the bug report I filed (Yes, I did mess up later in the email like always).

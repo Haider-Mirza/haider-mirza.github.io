@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       cfc0e609-484a-4ccc-bf08-ffad58915d38
+:END:
+#+title: timetable
+#+date: [2022-04-24 Sun 21:03]
+* School timetable
+*DO NOT FORMAT*
+ Timetable - Mirza, Haider 9B  
+ as at 24/04/2022  
+
+    Mo1  Tu1  We1  Th1  Fr1  Mo2  Tu2  We2  Th2  Fr2    
+  1   Maths      PSHE      History      English      Physics      English      Art      Design Tec      P.E.      Maths       
+     LJW W6      NKC C1      CCR L4      CRL W7      SKU D1      CRL W7      MLS A1      JPP A2      MSD SH      LJW W6       
+  2a   Music      Recess      Recess      Recess      Physics      Recess      Recess      Design Tec      Recess      Recess       
+     SGM B2            SKU D1          JPP A2           
+  2b   Recess      Chemistry      Maths      Form. Pd.      Recess      History      Maths      Recess      English      German       
+       RAB C2      LJW W6      NLF E2        CCR L4      LJW W6        CRL W7      EGL L7       
+  3   English      Chemistry      English      German      Maths      Computer Science     Computer Science     Maths      German      Physics       
+     CRL W7      RAB C2      CRL W7      EGL L7      LJW W6      HST E1      HST E1      LJW W6      EGL L7      SKU D1       
+  4a   Lunch      Lunch      Lunch      Lunch      Lunch      Lunch      Lunch      Geography      Lunch      Lunch       
+		   RJW E7           
+  4b   Art      Geography      Computer Science     P.E.      History      Chemistry      History      Lunch      Geography      Music       
+     MLS A1      RJW E7      HST E1      MSD SH      CCR L4      RAB C2      CCR L4        RJW E7      SGM B2       
+  5a   Recess      Recess      Recess      Recess      Recess      Recess      Recess      Recess      Recess      Recess       
+		     NKC         
+  5b   German      Games      Biology      R.E.      English      German      Games      R.E.        English       
+     EGL L7      SWS TR      ITM D4      DAM E5      CRL W7      EGL L7      SWS TR      DAM E5        CRL W7       
+  6   Geography      Games      Biology      Design Tec      German      English      Games      Biology        Maths       
+     RJW E7      SWS TR      ITM D4      MLS A1      EGL L7      CRL W6      SWS TR      SDH C4        LJW W6       

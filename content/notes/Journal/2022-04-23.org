@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ffbf5ce5-0c19-481a-b1e2-1d52c666a7c8
+:END:
+#+title: 2022-04-23
+#+filetags: DailyDef
+* 12:35 am: 
+- [X] Finish documentation on Flatpak
+
+haidermirza@haider.gq
+WsXi4fJJsuDT

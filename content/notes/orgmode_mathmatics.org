@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       9d908aa4-c486-4793-b4d4-78c9a3a6ca08
 :END:
-#+title: Orgmode Mathmatics
+#+title: orgmode-mathmatics
 
 * OrgMode Mathematics
 The system is very similar to Latex.
