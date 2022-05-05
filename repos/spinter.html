@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Spinter</title>
+<meta name="generator" content="Org Mode" />
+<link rel="icon" type="base/favicon" href="/base/favicon.png">
+<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="preamble" class="status">
+<header>
+	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
+	  <nav>
+	    <ul class='nav_links'>
+	      <li><a href='https://www.haider.gq/about/about'>About</a></li>
+	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
+	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	    </ul>
+	  </nav>
+	</header>
+</div>
+<div id="content" class="content">
+<h1 class="title">Spinter</h1>
+<p>
+<i>OpenGL Manipulation</i>
+</p>
+
+<div id="outline-container-orgb473d00" class="outline-2">
+<h2 id="orgb473d00">How to Hack It</h2>
+<div class="outline-text-2" id="text-orgb473d00">
+<p>
+If you're interested in cloning the code to try it out, I recommend <a target='_blank' rel='noopener noreferrer' class='external' href="https://guix.gnu.org/manual/en/html_node/Binary-Installation.html">installing the GNU Guix package manager</a>.  Using Guix will allow you to install all compilation dependencies like so:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh">
+<span style="font-weight: bold;">cd</span> ~/path/to/Spinter
+guix shell -m manifest.scm
+
+</pre>
+</div>
+
+<p>
+You will now be in a shell with all of the dependencies configured.  You can now build and run the code:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-sh">
+chmod +x ./start.sh
+./start.sh
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">This is only needed the first time you clone the project</span>
+./build-run.sh
+<span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">This is to build and run the project</span>
+
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org4d5fb77" class="outline-3">
+<h3 id="org4d5fb77">Editor Setup</h3>
+<div class="outline-text-3" id="text-org4d5fb77">
+<p>
+I use GNU Emacs to hack on and interface with this project. Here's what you need to use for a similar setup:
+</p>
+
+<ul class="org-ul">
+<li>Emacs 28 (27 is sufficient)</li>
+<li><a target='_blank' rel='noopener noreferrer' class='external' href="https://emacs-lsp.github.io/lsp-mode/">lsp-mode</a> with the <a target='_blank' rel='noopener noreferrer' class='external' href="https://github.com/MaskRay/ccls">ccls</a> or (the preferred and the one I use) clam language server for C/C++ development</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6d3d4f1" class="outline-2">
+<h2 id="org6d3d4f1">License</h2>
+<div class="outline-text-2" id="text-org6d3d4f1">
+<p>
+The code in this repository is licensed under the <a target='_blank' rel='noopener noreferrer' class='external' href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License 3.0</a>.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<footer>
+	  <div class='footer-content'>
+	    <h3>Haider Mirza</h3>
+	    <p>Website created by Haider Mirza</p>
+	    <ul class='socials'>
+	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
+	      <li><a href='mailto:x7and7@gmail.com'><i class='fa fa-envelope'></i></a></li>
+	    </ul>
+	  </div>
+	  <div class='footer-bottom'>
+	    <p>Created by Haider Mirza with orgroam in emacs</p>
+	  </div>
+	</footer>
+</div>
+</body>
+</html>

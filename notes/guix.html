@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>guix</title>
+<meta name="generator" content="Org Mode" />
+<link rel="icon" type="base/favicon" href="/base/favicon.png">
+<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="preamble" class="status">
+<header>
+	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
+	  <nav>
+	    <ul class='nav_links'>
+	      <li><a href='https://www.haider.gq/about/about'>About</a></li>
+	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
+	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	    </ul>
+	  </nav>
+	</header>
+</div>
+<div id="content" class="content">
+<h1 class="title">guix</h1>
+
+<div id="outline-container-orgd9cbce1" class="outline-2">
+<h2 id="orgd9cbce1">Guix</h2>
+<div class="outline-text-2" id="text-orgd9cbce1">
+<p>
+The legendary package manager and operating system that geeks use.
+</p>
+</div>
+<div id="outline-container-orga5a287c" class="outline-3">
+<h3 id="orga5a287c">Issues</h3>
+<div class="outline-text-3" id="text-orga5a287c">
+</div>
+<div id="outline-container-orgf920831" class="outline-4">
+<h4 id="orgf920831">Binary - no file or directory</h4>
+<div class="outline-text-4" id="text-orgf920831">
+<p>
+Turns out the issue is of a binary trying to use a certain interpreter, which Guix does not have.
+You can force the binary to use a interpreter with something resembling "patchelf &#x2013;set-interpreter /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 foo".
+You have to install the patchelf package to get this functionality.
+Also you can see information on the interpreter and stuff about a binary with "readelf" which is in binutils. I used "readelf -l clangd"
+You can also see <a target='_blank' rel='noopener noreferrer' class='external' href="https://issues.guix.gnu.org/54941">https://issues.guix.gnu.org/54941</a> for the bug report I filed (Yes, I did mess up later in the email like always).
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc746d64" class="outline-2">
+<h2 id="orgc746d64">Links to this note</h2>
+<div class="outline-text-2" id="text-orgc746d64">
+<ul class="org-ul">
+<li><a href="./emacs.html">emacs</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<footer>
+	  <div class='footer-content'>
+	    <h3>Haider Mirza</h3>
+	    <p>Website created by Haider Mirza</p>
+	    <ul class='socials'>
+	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
+	      <li><a href='mailto:x7and7@gmail.com'><i class='fa fa-envelope'></i></a></li>
+	    </ul>
+	  </div>
+	  <div class='footer-bottom'>
+	    <p>Created by Haider Mirza with orgroam in emacs</p>
+	  </div>
+	</footer>
+</div>
+</body>
+</html>
