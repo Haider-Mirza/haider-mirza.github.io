@@ -83,10 +83,10 @@
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
-             :with-broken-links f
-             :recursive f
-             :with-toc f
-             :section-numbers f
+             :with-broken-links nil
+             :recursive nil
+             :with-toc nil
+             :section-numbers nil
 	     :html-head site-link-href
 	     :html-preamble  (dw/site-preamble)
 	     :html-postamble (dw/site-postamble)
