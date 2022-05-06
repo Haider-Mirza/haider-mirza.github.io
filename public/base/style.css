@@ -91,32 +91,32 @@ header {
 
 #content h1 {
     color:#81b4ea;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 #content h2 {
     color:#afea81;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 #content h3 {
     color:#ffd966;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 #content h4 {
     color:#FF0000;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 #content h5 {
     color:#ffd966;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 #content h6 {
     color:#ffd966;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 /* All other settings */
