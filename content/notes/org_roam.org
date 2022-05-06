@@ -1,22 +1,23 @@
 :PROPERTIES:
 :ID:       8317049b-5a2b-4176-9d39-111f310061c7
 :END:
-#+title: org-roam
+#+title: Org-roam
 #+AUTHOR: Haider M
 #+DATE: [2022-02-06 Sun]
 
 * About
-One of the best ways to think and work through problems is to have a written dialogue with yourself. Using OrgRoam you have a better way to log your thoughts from the day, link them to existing notes, and easily review the notes for any day, all with Org Roam.
+One of the best ways to think and work through problems is to have a written dialogue with yourself. Using Org-roam you have a better way to log your thoughts from the day, link them to existing notes, and easily review the notes for any day, all with Org Roam.
+I use Org-roam as a place I can place information in my eternal quest for knowledge.
+Org-roam is built over [[id:31075352-280e-4ef1-978e-5c189da43657][org-mode]] (That's partially what makes it so awesome).
 
 * Documentation
 You can get documentation from these links:
-[[https://www.orgroam.com/manual.html][Main Documentation]]
-[[https://systemcrafters.cc/build-a-second-brain-in-emacs/getting-started-with-org-roam/][Get Started with OrgRoam - Systemcrafters]]
+[[https://www.Org-roam.com/manual.html][Main Documentation]]
+[[https://systemcrafters.cc/build-a-second-brain-in-emacs/getting-started-with-org-roam/][Get Started with Org-roam - Systemcrafters]]
 [[https://systemcrafters.net/build-a-second-brain-in-emacs/capturing-notes-efficiently/][Capturing notes efficiently with Org Roam - Systemcrafters]]
 
 * NOTE:
-To install, make sure you have gcc AND gcc-toolchain installed.
-This is only tested on GNU Guix.
+To install, make sure you have gcc AND gcc-toolchain (If you use [[id:4ce84157-a404-40fa-bdb8-0b3923916969][Guix]]) installed.
 
 * Important information
 + In my configuration my Org roam notes go to the *~/Notes/* directory.
@@ -27,6 +28,6 @@ You can also use *M-x completion-at-point* to complete the names of nodes inside
 
 | Keybind   | Function                        |
 |-----------+---------------------------------|
-| SPC - orf | find a OrgRoam note             |
-| SPC - orc | creates a OrgRoam note      |
-| SPC - ori | insert a link to a OrgRoam note |
+| SPC - orf | find a Org-roam note             |
+| SPC - orc | creates a Org-roam note          |
+| SPC - ori | insert a link to a Org-roam note |

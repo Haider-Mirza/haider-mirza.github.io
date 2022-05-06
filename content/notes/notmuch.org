@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       92cab502-d6ab-47fe-9355-3f5a6c07cf68
+:END:
+#+title: Notmuch
+#+date: [2022-05-05 Thu 22:48]
+
+* Notmuch
+Notmuch is just a email system that is incredibly fast and is based off tagging.
+Notmuch also has a [[https://notmuchmail.org/][website]].

@@ -6,9 +6,11 @@
 * Bufler
 ** About Bufler
 [[https://github.com/alphapapa/bufler.el][Link to Bufler Git repo]]
-Bufler is like a butler for your buffers, presenting them to you in an organized way based on your instructions.
+Bufler is like a butler for your [[id:31075352-280e-4ef1-978e-5c189da43657][Org-mode]] buffers, presenting them to you in an organized way based on your instructions.
 The instructions are written as grouping rules in a simple language, allowing you to customize the way buffers are grouped.
 The default rules are designed to be generally useful, so you don’t have to write your own.
+I generally never use this, but when I did, it's pretty incredible.
+
 ** Common Issue
 I had tried to load "buffer-mode" when I got an error starting with "Recursive Load".
 After some research, you can fix this by removing the require on line 70 in *bufler-workspace-tabs.el* everything works.

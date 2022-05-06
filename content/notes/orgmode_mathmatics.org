@@ -1,9 +1,9 @@
 :PROPERTIES:
 :ID:       9d908aa4-c486-4793-b4d4-78c9a3a6ca08
 :END:
-#+title: orgmode-mathmatics
+#+title: Orgmode-mathmatics
 
-* OrgMode Mathematics
+* [[id:31075352-280e-4ef1-978e-5c189da43657][Org-mode]] Mathematics
 The system is very similar to Latex.
 ** Mathematical symbols
 To use mathematical symbols not on the general keyboard you start with a backslack "\" and then type the symbol you require.

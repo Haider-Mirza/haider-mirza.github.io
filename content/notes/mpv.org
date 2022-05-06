@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a228f3b3-4a77-4302-ae26-1276fd852b1d
+:END:
+#+title: MPV
+#+date: [2022-05-06 Fri 19:10]
+
+* MPV
+MPV is a media player that
+
+* [[id:2a429cee-e6a6-44e7-9a7c-cf30919d19c9][yt-dlp]]
+[[id:2a429cee-e6a6-44e7-9a7c-cf30919d19c9][yt-dlp]] allows you to stream & download youtube videos. i generally use it so i can stream youtube videos with mpv.

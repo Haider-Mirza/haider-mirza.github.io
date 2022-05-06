@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       7010fb58-c3cd-4686-ab7b-6a1197b20744
 :END:
-#+title: achievments
+#+title: achievements
 #+date: [2022-04-15 Fri 22:11]
 * Achievements
 Some random stuff I am proud of

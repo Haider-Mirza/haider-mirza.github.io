@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       15a87114-a920-4998-ab1e-a2c3f40bbde0
-:END:
-#+title: 2022-05-01
-#+filetags: DailyDef
-* TODO
-Make Org Roam work and have many filetags and get the filetags working.
-Read the OrgRoam Manual about the Agenda views.
-Start writing org roam but with physics (for now), once done, make support in my website

@@ -5,6 +5,7 @@
 #+date: [2022-03-16 Wed 20:07]
 
 * Git
+Software collaboration tool created by Linus Torvalds 17 years ago.
 ** Setting up Git
 When setting up Git, we may fall into a problem when sshing into their servers.
 Luckily, there is a post about how to solve this: [[https://gist.github.com/Tamal/1cc77f88ef3e900aeae65f0e5e504794][Git Post]]

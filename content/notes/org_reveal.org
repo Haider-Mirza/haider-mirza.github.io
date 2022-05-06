@@ -1,10 +1,10 @@
 :PROPERTIES:
 :ID:       048f9912-1412-425b-b331-cfb7af8a8047
 :END:
-#+title: org-reveal
+#+title: Org-reveal
 #+date: [2022-05-03 Tue 13:34]
 * Org Reveal
-Org Reveal allows you to export Orgmode documents to presentations.
+Org Reveal allows you to export [[id:31075352-280e-4ef1-978e-5c189da43657][org-mode]] documents to presentations.
 Org Reveal has the following [[https://github.com/yjwen/org-reveal/][GIT repository]] and [[https://revealjs.com/][documentation]]. 
 *** My configuration
 Here is my personal configuration back to when I used this; Place this at the top of your OrgMode document then export with *org-export-dispach*

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       45c555ed-2e95-4bf1-8926-ed706a88772e
+:END:
+#+title: Programs
+#+date: [2022-05-06 Fri 18:53]
+
+* Programs
+Everyone uses programs over their operating system.
+
+Here is some programs I use:
+- [[id:da8873e7-0e56-4489-8983-d6ebc3e709d9][Qutebrowser]] 
+- [[id:7baa6460-e5ac-4df5-98f5-0a5a4aeaa0aa][virt-manager]]
+- [[id:07ab67b2-028c-4ce8-8ff3-9df904c4aa99][SSH]]
+- [[id:a228f3b3-4a77-4302-ae26-1276fd852b1d][MPV]]

@@ -7,10 +7,10 @@
 
 * yt-dlp
   yt-dlp is a fork of youtube-dl and personally I was a very early adopter of it as I found youtubedl to be very slow even with major configurations. 
-  yt-dlp is now qutite popular and Is even shipped by default by MPV.
+  yt-dlp is now qutite popular and Is even shipped by default by [[id:a228f3b3-4a77-4302-ae26-1276fd852b1d][MPV]].
   
 * Common Use cases
-  I do mainly use yt-dlp to stream Youtube and Twitch to mpv but I also use it to download videos and playlists in different audio /or video formats.
+  I do mainly use yt-dlp to stream Youtube and Twitch to [[id:a228f3b3-4a77-4302-ae26-1276fd852b1d][mpv]] but I also use it to download videos and playlists in different audio /or video formats.
   
 ** Audio Downloads
    Here is how you can download a video as a audio file.

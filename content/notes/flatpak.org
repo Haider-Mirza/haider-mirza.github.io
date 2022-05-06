@@ -5,7 +5,7 @@
 #+date: [2022-04-23 Sat 00:34]
 
 * Flatpak
-I use Flatpak as an alternative package manager to Guix as sometimes the Guix package is flawed or not existant.
+I use Flatpak as an alternative package manager to [[id:4ce84157-a404-40fa-bdb8-0b3923916969][Guix]] as sometimes the [[id:4ce84157-a404-40fa-bdb8-0b3923916969][Guix]] package is flawed or not existant.
 ** Installation
 You can install a Flatpak on servers as Flatpak is decentalized technology.
 You should mainly use [[https://flathub.org/home][Flathub]].

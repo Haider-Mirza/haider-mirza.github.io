@@ -10,3 +10,7 @@ Ahh, c++, the insane language insane nerds use.
 There are a few conventions in c++ that is:
 *s_foo* and *m_foo*.
 s_ for static objects and m_ for private member variables (private variables in a class)
+** OpenGL
+OpenGL, a cross-platform application programming interface for rendering 2D and 3D vector graphics. 
+Your inplamentation of OpenGL is held in your GPU and is in control of your GPU manufacturer.
+We can Load these functions with [[id:4952aab9-3158-4154-a04e-58f65ddfa658][GLAD]].

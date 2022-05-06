@@ -4,10 +4,10 @@
 #+title: Mu4e
 #+AUTHOR: Haider M
 #+DATE: [2022-02-06 Sun]
-#+DESCRIPTION: An Email Client I use in Emacs
 
 * About
-mu4e is an email client for Emacs. It’s based on the mu email indexer/searcher.
+Mu4e is an email client for [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]]. It’s based on the mu email indexer/searcher.
+I have replaced Mu4e for [[id:92cab502-d6ab-47fe-9355-3f5a6c07cf68][Notmuch]]. 
 ** Links
 [[https://www.emacswiki.org/emacs/mu4e][Emacs Wiki]]
 [[https://www.djcbsoftware.nl/code/mu/mu4e/index.html][Mu4e User Manual]]

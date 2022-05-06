@@ -2,25 +2,28 @@
 #+AUTHOR: Haider Mirza
 
 * Please Note:
-These notes are recreated based of the [[https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/][Zettelkasten methord]] and are created in [[https://www.gnu.org/software/emacs/][Emacs]] with [[https://www.orgroam.com/][org-roam]].
+These notes are recreated based of the [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten methord]] and are created in [[https://www.gnu.org/software/emacs/][Emacs]] with [[https://www.orgroam.com/][org-roam]].
 To get full control go to [[https://github.com/Haider-Mirza/Notes][this repository]] and create a database with the attached "org-roam.db" with the [[https://www.gnu.org/software/emacs/][Emacs]] package [[https://www.orgroam.com/][org-roam]].
+Here is a representation of my notes (this will only be meaningful if you follow the [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten methord]])
+[[https://www.haider.gq/images/do-not-delete/notes.png]]
 * General
 ** Development
 *** Programs
-[[https://www.haider.gq/notes/git][Git]]
-[[https://www.haider.gq/notes/glad][Glad]]
+[[id:8fe08bc8-ad1e-458d-ac5f-77243216932f][Git]]
+[[id:4952aab9-3158-4154-a04e-58f65ddfa658][GLAD]]
 *** Languages
-[[https://www.haider.gq/notes/c++][C++]]
+[[id:f961d9f7-1629-45fd-9ac1-5d003ce2201e][C++]]
 ** Emacs
-[[https://www.haider.gq/notes/emacs][Emacs]]
-[[https://www.haider.gq/notes/bufler][Bufler]]
-[[https://www.haider.gq/notes/org_mode][Org Mode]]
-[[https://www.haider.gq/notes/org_roam][Org Roam]]
-[[https://www.haider.gq/notes/mu4e][Mu4e]]
-[[https://www.haider.gq/notes/orgmode_mathatics][OrgMode Mathematics]]
+[[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]]
+[[id:c2647c82-ae0a-4d26-aa62-706a6a8051d4][Bufler]]
+[[id:31075352-280e-4ef1-978e-5c189da43657][org-mode]]
+[[id:8317049b-5a2b-4176-9d39-111f310061c7][org-roam]]
+[[id:048f9912-1412-425b-b331-cfb7af8a8047][org-reveal]]
+[[id:9d908aa4-c486-4793-b4d4-78c9a3a6ca08][orgmode-mathmatics]]
+[[id:d71d294a-b8e3-48e3-8295-3d373bcd9681][Mu4e]]
 ** Programs
 [[https://www.haider.gq/notes/qutebrowser][Qutebrowser]]
-[[https://www.haider.gq/notes/yt_dlp][YT-DLP]]
+[[https://www.haider.gq/notes/yt_dlp][yt-dlp]]
 [[id:b69627d6-3ade-4eba-9e19-23a40248b3cb][GPG]]
 ** General
 [[https:www.haider.gq/notes/extract][Extract]]

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       e293fea5-8bca-4c29-98d3-502365941f68
+:END:
+#+title: Programming
+#+date: [2022-05-06 Fri 18:57]
+
+* Programming
+Programming, humans trying to speak to a computer so we can maipulate it all we want.
+
+** Useful [[id:45c555ed-2e95-4bf1-8926-ed706a88772e][Programs]] when programming
+[[id:8fe08bc8-ad1e-458d-ac5f-77243216932f][Git]]
+
+** Programming languages
+General Programming languages I use:
+[[id:f961d9f7-1629-45fd-9ac1-5d003ce2201e][C++]]
