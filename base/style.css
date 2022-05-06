@@ -94,29 +94,93 @@ header {
     /* margin-top: 1rem; */
 }
 
+/* ------------------------------------- */
+
 #content h2 {
     color:#afea81;
     /* margin-top: 1rem; */
 }
 
+#content h2::before {
+  content: "- ";
+}
+
+#content h2::after {
+  content: " -";
+}
+
+/* ------------------------------------- */
+
 #content h3 {
     color:#ffd966;
+    margin-left: 1rem;
     /* margin-top: 1rem; */
 }
 
+#content h3::before {
+  content: "- ";
+}
+
+#content h3::after {
+  content: " -";
+}
+
+/* ------------------------------------- */
+
 #content h4 {
     color:#FF0000;
+    margin-left: 2rem;
     /* margin-top: 1rem; */
 }
+
+#content h4::before {
+  content: "- ";
+}
+
+#content h4::after {
+  content: " -";
+}
+
+/* ------------------------------------- */
 
 #content h5 {
     color:#ffd966;
     /* margin-top: 1rem; */
 }
 
+#content h5::before {
+  content: "- ";
+}
+
+#content h5::after {
+  content: " -";
+}
+
+/* ------------------------------------- */
+
 #content h6 {
     color:#ffd966;
     /* margin-top: 1rem; */
+}
+
+#content h6::before {
+  content: "- ";
+}
+
+#content h6::after {
+  content: " -";
+}
+
+/* ------------------------------------- */
+
+/* stuff in a list in a 3 heading */
+.outline-3 a{ 
+    margin-left: 3rem;
+}
+
+/* stuff in a list in a 4 heading */
+.outline-4 a{ 
+    margin-left: 3rem;
 }
 
 /* All other settings */
@@ -129,9 +193,6 @@ header {
 }
 
 img {
-    display: flex;
-    flex-direction: column;
-    align-items: middle;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -175,23 +236,6 @@ td {
     color:white;
     background-color:#16191e;
 }
-
-/* Postamble (Footer) */
-/* #postamble { */
-/*     background-color:#16191e; */
-/*     border-top: .1rem solid #B4EB89; */
-/*    /\* position:absolute; *\/ */
-/*    /\* bottom:0; *\/ */
-/*    /\* width:100%; *\/ */
-/* } */
-
-/* #postamble p { */
-/*     display: flex; */
-/*     justify-content: left; */
-/*     height: 2.5rem; */
-/*     align-items: center; */
-/*     margin-bottom: 0; */
-/* } */
 
 /* Footer */
 footer {
