@@ -22,8 +22,8 @@ Here is a representation of my notes (this will only be meaningful if you follow
 [[id:9d908aa4-c486-4793-b4d4-78c9a3a6ca08][orgmode-mathmatics]]
 [[id:d71d294a-b8e3-48e3-8295-3d373bcd9681][Mu4e]]
 ** Programs
-[[https://www.haider.gq/notes/qutebrowser][Qutebrowser]]
-[[https://www.haider.gq/notes/yt_dlp][yt-dlp]]
+[[id:da8873e7-0e56-4489-8983-d6ebc3e709d9][Qutebrowser]]
+[[id:2a429cee-e6a6-44e7-9a7c-cf30919d19c9][yt-dlp]]
 [[id:b69627d6-3ade-4eba-9e19-23a40248b3cb][GPG]]
 ** General
-[[https:www.haider.gq/notes/extract][Extract]]
+[[id:978cbd0f-0ffb-44bd-9545-fc3b4d349f93][Extract]]
