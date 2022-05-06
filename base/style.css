@@ -128,6 +128,14 @@ header {
     color:white;
 }
 
+img {
+    display: flex;
+    flex-direction: column;
+    align-items: middle;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 a {
     color:#fd7e14;
 }
