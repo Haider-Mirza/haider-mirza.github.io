@@ -1,7 +1,7 @@
 #+TITLE: Notes
 #+AUTHOR: Haider Mirza
 
-* Please Note:
+* Please Note
 These notes are recreated based of the [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten methord]] and are created in [[https://www.gnu.org/software/emacs/][Emacs]] with [[https://www.orgroam.com/][org-roam]].
 To get full control go to [[https://github.com/Haider-Mirza/Notes][this repository]] and create a database with the attached "org-roam.db" with the [[https://www.gnu.org/software/emacs/][Emacs]] package [[https://www.orgroam.com/][org-roam]].
 Here is a representation of my notes (this will only be meaningful if you follow the [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten methord]])
