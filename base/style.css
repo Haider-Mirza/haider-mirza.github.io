@@ -173,15 +173,14 @@ header {
 
 /* ------------------------------------- */
 
-/* stuff in a list in a 3 heading */
-.outline-3 a{ 
+.outline-3 a[href^="notes"] {
     margin-left: 3rem;
 }
 
-/* stuff in a list in a 4 heading */
-.outline-4 a{ 
+.outline-4 a[href^="notes"] {
     margin-left: 3rem;
 }
+
 
 /* All other settings */
 #content p {
