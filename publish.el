@@ -32,6 +32,8 @@
 		      "\n"
 		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/style.css\"/>"
 		      "\n"
+		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/table.css\"/>"
+		      "\n"
 		      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" />"
 		      "\n"
 		      "<link href=\"https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap\" rel=\"stylesheet\">"))
