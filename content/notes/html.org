@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       50654947-3f54-4fa9-bcf8-670e14a5877e
+:END:
+#+title: HTML
+#+date: [2022-05-06 Fri 22:28]
+
+If href ends with:
+[href$='notes']
+
+If href starts with:
+[href^="notes"]

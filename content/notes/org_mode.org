@@ -5,8 +5,8 @@
 #+date: [2022-03-22 Tue 18:27]
 
 * Org Mode
-Org mode, the overpowered feature of Emacs that just makes your brain explode.
+Org mode, the overpowered feature of [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]] that just makes your brain explode.
 You can do almost anything in Orgmode when it comes to documents and more.
 ** Exporting to seperate formats
 You can export orgmode to many other formats with the command, *org-export-dispatch*.
-This is pretty incredible but if you want to have many more exporting capabilities you can install a program called pandoc which has to be installed in emacs (ox-pandoc) and on your system (pandoc).
+This is pretty incredible but if you want to have many more exporting capabilities you can install a program called pandoc which has to be installed in [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]] (ox-pandoc) and on your system (pandoc).

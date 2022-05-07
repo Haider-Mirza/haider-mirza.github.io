@@ -48,8 +48,8 @@ This applys only to my emails however this also works for any other email addres
 | stmpmail-stream-type  | ssl              |
 | Folder                | "/Gmail//[Gmail]/" |
 
-* How to?
-Here are some common "How To" questions.
+* Common enquiries
+Some common questions about mu4e.
 ** How to send a new Email in orgmode
 You start typing your address but when it comes to the actual composing part,
 do M-x and type org-mime-edit-mail-in-org-mode to open a new buffer that you can type your org Text in.

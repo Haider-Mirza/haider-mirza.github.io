@@ -13,3 +13,7 @@ Programming, humans trying to speak to a computer so we can maipulate it all we 
 ** Programming languages
 General Programming languages I use:
 [[id:f961d9f7-1629-45fd-9ac1-5d003ce2201e][C++]]
+
+** Markup Languages
+I have used many markup languages in my time, like XAML.
+But the most common by far is [[id:50654947-3f54-4fa9-bcf8-670e14a5877e][HTML]].

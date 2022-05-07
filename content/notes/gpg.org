@@ -4,6 +4,7 @@
 #+title: GPG
 #+date: [2022-04-15 Fri 19:36]
 * GPG
+GnuPG or GPG is an implementation of a standard known as PGP (Pretty Good Privacy). It uses a system of "public" and "private" keys for the encryption and signing of messages, [[id:8fe08bc8-ad1e-458d-ac5f-77243216932f][Git]] commits and data.
 ** Find GPG information
 gpg --list-secret-keys --keyid-format=long
 

@@ -7,3 +7,6 @@
 * Notmuch
 Notmuch is just a email system that is incredibly fast and is based off tagging.
 Notmuch also has a [[https://notmuchmail.org/][website]].
+
+You can find my configuration in my [[https://github.com/Haider-Mirza/Dotfiles][Dotfiles repository]].
+Note that this has been *highly configured* to my needs and is not made to be a drop-in-replacement for you; It's just a reference.
