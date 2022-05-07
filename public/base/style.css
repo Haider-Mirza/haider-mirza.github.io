@@ -74,7 +74,19 @@ header {
     align-items: left;
 }
 
+@keyframes transitionIn {
+    from {
+	opacity: 0;
+	transform: rotateX(-10deg);
+    }
+    to {
+	opacity: 1;
+	transform: rotateX(0);
+    }
+}
+
 #content {
+    animation: transitionIn 0.5s;
     padding-left: 100px;
     padding-right: 50px;
     color: white;
