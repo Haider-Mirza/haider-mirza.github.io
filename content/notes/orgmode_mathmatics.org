@@ -12,6 +12,7 @@ For example: \beta \theta and \neq. These will be automatically converted to sym
 ** Export to HTML
 When exporting to HTML, make sure you wrap the equation in "$"
 For example:  $(x+5)^2$
+You can see the changed if you turn on *org-toggle-pretty-entities*
 ** Tables
 For now, I have no idea how to place margins on html/css tables cuz they are terrible.
 Just add a \\ before the tables to force a line between them

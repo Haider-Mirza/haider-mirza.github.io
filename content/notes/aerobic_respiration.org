@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       88e25cc2-ed89-4dc6-9002-2ee5144dfbca
+:END:
+#+title: Aerobic Respiration
+#+date: [2022-05-07 Sat 19:12]
+
+* Aerobic Respiration
+Aerobic [[id:6001f667-5370-4123-a735-1dbd8081fabf][Respiration]] is  
+
+** In human body
+Anerobic [[id:6001f667-5370-4123-a735-1dbd8081fabf][Respiration]] is a chemical 
+
+glucose + oxygen → carbon dioxide + water
+$C_6{}H_12{}O_6 + 6O_2 → 6CO_2 + 6H_2{}O$

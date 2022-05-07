@@ -13,13 +13,13 @@ I have replaced Mu4e for [[id:92cab502-d6ab-47fe-9355-3f5a6c07cf68][Notmuch]].
 [[https://www.djcbsoftware.nl/code/mu/mu4e/index.html][Mu4e User Manual]]
 * Note:
 ** Note 1
-  You could find yourself with this error
-  Can't exec "aclocal": No such file or directory at /usr/share/autoconf/Autom4te/FileUtils.pm line 326.
+You could find yourself with this error
+Can't exec "aclocal": No such file or directory at /usr/share/autoconf/Autom4te/FileUtils.pm line 326.
 
-  You fix it with installing automake.
+You fix it with installing automake.
 ** Note 2
-   install Isync and mu-git from the AUR (if using ArchLinux).
-   Mu4e comes from mu for some reason.
+install Isync and mu-git from the AUR (if using ArchLinux).
+Mu4e comes from mu for some reason.
 * Important Information
 On my configuration all of my  Mail is located is in the ~/Mail directory.
 Mu4e uses the command "mbsync -a" to sync the EMail.
@@ -57,7 +57,7 @@ C-c C-c to put the text into your email and hides the org buffer then do M-x aga
 and keeps the original if some email clients dont have support for html. And like you know C-c and C-c sends the email.
 
 * How to attach a file
-  When composing, go into the text area and do the command C-c C-a to attach a file.
+When composing, go into the text area and do the command C-c C-a to attach a file.
 * How to send a existing org document as a Email
 Go to the file and do M-x and type org-mime-org-buffer-htmlize. Press no if it asks to evaluate the buffer.
 Then you have a new window showing the email (This is in the normal email buffer not the buffer where you compose email inside Mu4e)

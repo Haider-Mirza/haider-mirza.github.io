@@ -4,8 +4,19 @@
 #+title: HTML
 #+date: [2022-05-06 Fri 22:28]
 
+*CSS*
 If href ends with:
 [href$='notes']
 
 If href starts with:
 [href^="notes"]
+
+#+BEGIN_SRC css
+  .outline-3 a[href^="notes"] { 
+  margin-left: 3rem; 
+  } 
+
+  .outline-4 a[href^="notes"] { 
+  margin-left: 3rem; 
+  } 
+#+END_SRC

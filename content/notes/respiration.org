@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       6001f667-5370-4123-a735-1dbd8081fabf
+:END:
+#+title: Respiration
+#+date: [2022-05-07 Sat 19:05]
+* Respiration
+Repiration is a chemical proccess that occurs in every cell in the world.
+*NOTE:* Many people (including me) think/thought that respiration is breathing, which it is not. The scientific name for breathing is ventilation.
+
+Respiration releases energy stored in Glucose.
+There are two *major* types of respirtion:
+- [[id:88e25cc2-ed89-4dc6-9002-2ee5144dfbca][Aerobic Respiration]]
+
