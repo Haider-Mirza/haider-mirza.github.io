@@ -5,10 +5,14 @@
 #+date: [2022-05-07 Sat 19:12]
 
 * Aerobic Respiration
-Aerobic [[id:6001f667-5370-4123-a735-1dbd8081fabf][Respiration]] is  
+Aerobic [[id:6001f667-5370-4123-a735-1dbd8081fabf][Respiration]] is a type of [[id:6001f667-5370-4123-a735-1dbd8081fabf][Respiration]] that releases a large amount of energy and requires oxygen.
 
-** In human body
+** In the human body
 Anerobic [[id:6001f667-5370-4123-a735-1dbd8081fabf][Respiration]] is a chemical 
 
-glucose + oxygen → carbon dioxide + water
+glucose + oxygen → carbon dioxide + water + (A bit of heat, not a feasable thing)
 $C_6{}H_12{}O_6 + 6O_2 → 6CO_2 + 6H_2{}O$
+
+This heat which is generated is what makes us as humans warm blooded.
+Aerobic [[id:6001f667-5370-4123-a735-1dbd8081fabf][Respiration]] occurs Mitochondria organelle.
+

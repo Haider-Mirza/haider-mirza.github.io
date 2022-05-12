@@ -5,6 +5,7 @@
 #+date: [2022-05-07 Sat 19:05]
 * Respiration
 Repiration is a chemical proccess that occurs in every cell in the world.
+These chemical reactions break down nutrient molecules in living cells to release energy.
 *NOTE:* Many people (including me) think/thought that respiration is breathing, which it is not. The scientific name for breathing is ventilation.
 
 Respiration releases energy stored in Glucose.

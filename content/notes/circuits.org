@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       5ef92870-2c07-48e5-88b7-e75ef13aa159
+:END:
+#+title: circuits
+#+date: [2022-05-12 Thu 21:28]
+
+* Electrical circuits
+** Current
+Electric current is the rate of flow of electrical charge.
+*** Calculating current
+$I= \frac{Q}{T}$

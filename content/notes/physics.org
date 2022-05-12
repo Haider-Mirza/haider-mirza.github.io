@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       28f57331-a037-47f0-ba1e-851eabbbb2af
+:END:
+#+title: Physics
+#+date: [2022-05-12 Thu 20:59]
+* Physics
+** [[id:5ef92870-2c07-48e5-88b7-e75ef13aa159][circuits]]
