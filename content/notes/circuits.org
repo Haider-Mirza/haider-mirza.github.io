@@ -6,14 +6,18 @@
 
 * Electrical circuits
 ** Current
-Electric current is the rate of flow of electrical charge; this is the flow of charge per second, the bigger the number of electrons the pass through a component, the bigger the current.
+An electric current is a stream of charged particles, such as electrons or ions, moving through an electrical conductor or space.
+*NOTE:* Electrons have a negative charge and flow from negative to postitive. (I know, I also used to make that mistake)
 *** Calculating current
 You can calculate current with the formula
 Current is measured in Amps(A) and is represented as 'I'.
 
-$Current in Amps = \frac{charge in Coulombs}{time in seconds}$
+$Current = \frac{charge}{time}$
 or:
 $I = \frac{Q}{T}$
+** Resistance
+Passing electrons have to try and move their way accross many vibrating elections.
+The atoms try and stop the electrons from passing like fighting against a strong gale. 
 ** Series Circuits
 In fully series circuits, the current at any point in the circuit is the same.
 Ampmeters are usually connected in series as a Ampmeter measures current and has a very low resistance.
