@@ -49,6 +49,28 @@ header{
     padding: 0px 20px;
 }
 
+.border1, .border2, .border3, .border4{
+    border-radius: 0.5em;
+    background-color: #131517;
+    border: 2px solid #268BD2;
+    margin-top: 6rem;
+}
+
+.border1 p, .border2 p, .border3 p, .border4 p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.border4 ul{
+    margin-left: 2rem;
+    margin-bottom:
+}
+
+.border4 {
+    margin-bottom: 3rem;
+}
+
 .nav_links li a{
     transition: all 0.2s ease 0s;
     color: #c4c2bf;
@@ -96,35 +118,32 @@ header{
  /* Headers */
 .header_aboutme{
     margin-left: 1rem;
-    margin-top: 6rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     color:green;
 }
 
 .header_mysystem{
     margin-left: 1rem;
-    margin-top: 6rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     color:green;
 }
 
 .header_source{
     margin-left: 1rem;
-    margin-top: 6rem;
-    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     color:green;
 }
 
 .header_aroundweb{
     margin-left: 1rem;
-    margin-top: 6rem;
-    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     color:green;
 }
 
-.org-ul{
-    margin-bottom: 3rem;
-}
 
 /* Footer */
 footer{
