@@ -12,5 +12,5 @@ In basic terms, this is where every note is like a node and then are all connect
 You can see a representation of this below:
 [[https://www.haider.gq/images/do-not-delete/notes.png]]
 * DNS Management
-This Website Uses [[https://www.cloudflare.com/][Cloudflare]] for DNS management. [[https://www.cloudflare.com/][Cloudflare]] is the leader in the industry when it comes to this and website management.
-[[https://www.cloudflare.com/][Cloudflare]] also has many other features that I like using like email aliases. (I know this sounds sponsored but it's really not)
+This Website Uses [[https://www.cloudflare.com/][Cloudflare]] for [[https://en.wikipedia.org/wiki/Domain_Name_System][DNS]] management. [[https://www.cloudflare.com/][Cloudflare]] is the leader in the industry when it comes to this and website management.
+[[https://www.cloudflare.com/][Cloudflare]] also has many other features that I like using like email aliases (I know this sounds sponsored but it's really not).
