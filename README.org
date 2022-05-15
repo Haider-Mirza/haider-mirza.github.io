@@ -1,0 +1,16 @@
+#+TITLE: =Website=
+#+AUTHOR: Haider Mirza
+
+* This website
+This website is generated from [[https://orgmode.org/][Orgmode]] to [[https://en.wikipedia.org/wiki/HTML][HTML]] (Manual Web development simply takes way too long).
+I still wanted to control everything on my website so I still wrote most of the [[https://en.wikipedia.org/wiki/HTML][HTML]] all the [[https://en.wikipedia.org/wiki/CSS][CSS]] and [[https://en.wikipedia.org/wiki/Emacs_Lisp][Elisp]] manually but only once (like a template).
+
+Best of all it is converted from [[https://orgmode.org/][Orgmode]] my favourite text format.
+* Orgroam
+My notation system I use is [[https://www.orgroam.com/][Orgroam]], which is based of the [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten methord]].
+In basic terms, this is where every note is like a node and then are all connected together.
+You can see a representation in the image below:
+[[https://www.haider.gq/images/do-not-delete/notes.png]]
+* DNS Management
+This Website Uses [[https://www.cloudflare.com/][Cloudflare]] for DNS management. [[https://www.cloudflare.com/][Cloudflare]] is the leader in the industry when it comes to this and website management.
+[[https://www.cloudflare.com/][Cloudflare]] also has many other features that I like using like email aliases. (I know this sounds sponsored but it's really not)
