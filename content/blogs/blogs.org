@@ -4,3 +4,4 @@
 * Blogs
 Blogs are things I have decided to document that I just generally found interesting.
 Here are some blogs I have made:
+- *Coming* NVIDIA Open source drivers
