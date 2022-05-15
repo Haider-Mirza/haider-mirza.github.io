@@ -45,9 +45,9 @@
 	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
 	  <nav>
 	    <ul class='nav_links'>
-	      <li><a href='https://www.haider.gq/about/about'>About</a></li>
-	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
 	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
+	      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
 	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
 	    </ul>
 	  </nav>
