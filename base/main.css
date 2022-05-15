@@ -16,7 +16,7 @@ body{
     flex-direction: column;
     min-height: 100%;
     /* background-color:#282C34; */
-    background-color:black;
+    background-color:#161616;
 }
 
 /* Header */
@@ -38,6 +38,7 @@ header{
     align-items: center;
     padding: 10px 10%;
     border-bottom: .1rem solid #B4EB89;
+    /* height: */
 }
 
 .nav_links{
@@ -49,18 +50,22 @@ header{
     padding: 0px 20px;
 }
 
-.border1, .border2, .border3, .border4{
-    border-radius: 0.5em;
-    background-color: #131517;
-    border: 2px solid #268BD2;
-    margin-top: 5rem;
-}
+/* .border1, .border2, .border3, .border4{ */
+/*     border-radius: 0.5em; */
+/*     background-color: #131517; */
+/*     border: 2px solid #268BD2; */
+/*     margin-top: 5rem; */
+/* } */
 
-.border1 p, .border2 p, .border3 p, .border4 p{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 0.5rem;
-}
+/* .border1 p, .border2 p, .border3 p, .border4 p{ */
+/*     flex-direction: column; */
+/*     text-align: center; */
+/* } */
+
+/* .header_aboutme, .header_mysystem, .header_source, .header_aroundweb{ */
+/*     flex-direction: column; */
+/*     text-align: center; */
+/* } */
 
 .border4 ul{
     margin-left: 2rem;
@@ -82,25 +87,46 @@ header{
 }
 
 /* Main */
-.title{
-    background: -webkit-linear-gradient(#fc575e, #f7b42c
-);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 10rem;
-    margin-top: 5rem;
+
+.title-region{ 
+    height: calc(100vh - 120px);
+    width: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    animation: transitionIn 0.7s;
+}
+
+@keyframes transitionIn {
+    from {
+	opacity: 0;
+	transform: translateY(-10px);
+    }
+    to {
+	opacity: 1;
+	transform: translateY(0);
+    }
+}
+
+.title{ 
+    font-size: 10rem;
 }
 
 .title_comment{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    color: hsla(0,0%,100%,.7);
+    font-family: Inter,sans-serif;
+    font-weight: 700;
 }
 
 .content{
+    background-image: url("/home/haider/haider-mirza.github.io/public/images/do-not-delete/wallpaper2.png");
+    background-position: center; /* Center the image */
+    background-repeat: repeat;
+    background-size: cover;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
@@ -116,34 +142,87 @@ header{
 }
 
  /* Headers */
-.header_aboutme{
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    color:green;
+.border1 p, .border2 p, .border3 p, .border4 p{
+    margin-left: 8rem;
+    margin-top: 2rem;
 }
 
-.header_mysystem{
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    color:green;
+.border4 ul{
+    margin-left: 9rem;
 }
 
-.header_source{
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    color:green;
+.container {
+    color: white;
+    position: relative;
+    width: 700px;
+    height: 70px;
+    border-bottom:5px solid red;
+    line-height: 50px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
 }
 
-.header_aroundweb{
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    color:green;
+.container span{
+    font-size: 3rem;
+    background: red;
+    display: inline-block;
+    /* padding: 10px 20px; */
+    padding: 4.5px 50px 15px 3px;
+    display: inline-block;
 }
 
+.container span:before{
+    position: absolute;
+    content: "";
+    width: 85%;
+    height: 100%;
+    background: red;
+    z-index: 1;
+    transform:rotate(45deg);
+}
+
+.container2 {
+    position: relative;
+    width: 700px;
+    height: 70px;
+    border-bottom:5px solid red;
+    line-height: 50px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.container2 span{
+    font-size: 3rem;
+    background: red;
+    display: inline-block;
+    /* padding: 10px 20px; */
+    padding: 4.5px 50px 10px 3px;
+    display: inline-block;
+}
+
+.container2 span:before{
+    position: absolute;
+    content: "";
+    width: 85%;
+    height: 100%;
+    background: red;
+    z-index: 1;
+    transform:rotate(45deg);
+}
+
+.border2 .container span:before{
+    width: 96%;
+}
+
+.border3 .container span:before{
+    width: 100%;
+}
+
+.border4 .container span:before{
+    width: 121.6%;
+}
 
 /* Footer */
 footer{
