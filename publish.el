@@ -12,9 +12,9 @@
 
 ;; Install dependencies
 (package-install 'htmlize)
-(package-install 'find-lisp)
+;; (package-install 'find-lisp)
 (package-install 'org-roam)
-(package-install 's)
+;; (package-install 's)
 
 (require 's)
 (require 'ox-publish)
