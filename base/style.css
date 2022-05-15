@@ -86,10 +86,12 @@ header {
 }
 
 #content {
+    background-image: url("/images/do-not-delete/wallpaper2.png");
     animation: transitionIn 0.5s;
     padding-left: 100px;
     padding-right: 50px;
     color: white;
+    padding-bottom: 3rem;
 }
 
 #content p {
@@ -203,7 +205,7 @@ footer {
     font-family: "Open Sans";
     padding-top: 10px;
     color: white;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 }
 
 .footer-content {
