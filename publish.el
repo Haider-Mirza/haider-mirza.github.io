@@ -63,7 +63,7 @@
 	    <p>Website created by Haider Mirza</p>
 	    <ul class='socials'>
 	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
-	      <li><a href='mailto:x7and7@gmail.com'><i class='fa fa-envelope'></i></a></li>
+	      <li><a href='mailto:haider@haider.gq'><i class='fa fa-envelope'></i></a></li>
 	    </ul>
 	  </div>
 	  <div class='footer-bottom'>
