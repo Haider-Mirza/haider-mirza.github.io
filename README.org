@@ -8,7 +8,7 @@ I still wanted to control everything on my website so I still wrote most of the 
 Best of all it is converted from [[https://orgmode.org/][Orgmode]] my favourite text format.
 * Orgroam
 My notation system I use is [[https://www.orgroam.com/][Orgroam]], which is based of the [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten methord]].
-In basic terms, this is where every note is like a node and then are all connected together.
+In basic terms, this is where every note is like a node and then are all connected together. \\
 You can see a representation of this below: \\
 [[https://www.haider.gq/images/do-not-delete/notes.png]]
 * DNS Management
