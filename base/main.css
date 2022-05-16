@@ -141,7 +141,7 @@ header{
     color:#fd7e14;
 }
 
- /* Headers */
+/* Headers */
 .border1 p, .border2 p, .border3 p, .border4 p{
     margin-left: 8rem;
     margin-top: 2rem;
@@ -174,35 +174,6 @@ header{
 }
 
 .container span:before{
-    position: absolute;
-    content: "";
-    width: 85%;
-    height: 100%;
-    background: red;
-    z-index: 1;
-    transform:rotate(45deg);
-}
-
-.container2 {
-    position: relative;
-    width: 700px;
-    height: 70px;
-    border-bottom:5px solid red;
-    line-height: 50px;
-    overflow: hidden;
-    margin-bottom: 1rem;
-}
-
-.container2 span{
-    font-size: 3rem;
-    background: red;
-    display: inline-block;
-    /* padding: 10px 20px; */
-    padding: 4.5px 50px 10px 3px;
-    display: inline-block;
-}
-
-.container2 span:before{
     position: absolute;
     content: "";
     width: 85%;
@@ -301,4 +272,55 @@ footer{
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
+}
+
+@media only screen and (max-width: 640px) {
+    .title{ 
+	font-size: 7rem;
+    }
+    .container {
+	width: 370px;
+	height: 50px;
+    }
+
+    .container span{
+	font-size: 2.3rem;
+	padding: 2px 24px 15px 7px;
+    }
+
+    .container span:before{
+	width: 119%;
+	height: 100%;
+    }
+
+
+    .border2 .container span:before{
+	width: 136%;
+    }
+
+    .border2 .container{
+	height: 54px;
+    }
+
+    .border3 .container span:before{
+	width: 150%;
+    }
+
+    .border4 .container span:before{
+	width: 147.5%;
+    }
+
+    .border4 .container {
+	width: 450px;
+    }
+
+    .border1 p, .border2 p, .border3 p, .border4 p{
+	margin-left: 4rem;
+	margin-top: 2rem;
+    }
+
+    .border4 ul{
+	margin-left: 5rem;
+    }
+
 }
