@@ -124,7 +124,7 @@ header{
 
 .content{
     background-image: url("/images/do-not-delete/wallpaper2.png");
-    background-position: center; /* Center the image */
+    background-position: center;
     background-repeat: repeat;
     background-size: cover;
     padding-left: 30px;
