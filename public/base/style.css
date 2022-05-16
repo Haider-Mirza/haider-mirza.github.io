@@ -87,6 +87,9 @@ header {
 
 #content {
     background-image: url("/images/do-not-delete/wallpaper2.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
     animation: transitionIn 0.5s;
     padding-left: 100px;
     padding-right: 50px;
