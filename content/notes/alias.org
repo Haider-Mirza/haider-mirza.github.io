@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       9bdbfb80-de50-4731-9ae8-d313029021d3
+:END:
+#+title: alias
+#+date: [2022-05-19 Thu 18:53]
+
+* Alias
+A Email alias is a Email address that just reroutes to a existing mailbox.
+like my email address:
+
+| Alias            | Actual mailbox                   |
+|------------------+----------------------------------|
+| haider@haider.gq | foo@foo.com (e.g test@gmail.com) |

@@ -4,6 +4,18 @@
 #+title: virt-manager
 #+date: [2022-04-09 Sat 14:45]
 * virt-manager
-The virtual machine manager that uses Qemu and KVM.
+The virtual machine manager that uses QEMU and KVM.
 ** How to exit fullscreen
 Ctrl-Alt to release cursor.
+** Mouse & Keyboard passthrough
+Here is the following article: [[https://passthroughpo.st/using-evdev-passthrough-seamless-vm-input/][The Passthrough Post]].
+
+The bottom code snippet will make sense if you read the article.
+#+begin_src xml
+  <qemu:commandline>
+    <qemu:arg value='-object'/>
+    <qemu:arg value='input-linux,id=mouse1,evdev=/dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-if01-event-mouse'/>
+    <qemu:arg value='-object'/>
+    <qemu:arg value='input-linux,id=kbd1,evdev=/dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-event-kbd,grab_all=on,repeat=on'/>
+  </qemu:commandline>
+#+end_src

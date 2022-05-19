@@ -13,3 +13,5 @@ You can force the binary to use a interpreter with something resembling "patchel
 You have to install the patchelf package to get this functionality.
 Also you can see information on the interpreter and stuff about a binary with "readelf" which is in binutils. I used "readelf -l clangd"
 You can also see https://issues.guix.gnu.org/54941 for the bug report I filed (Yes, I did mess up later in the email like always).
+*** [[id:7baa6460-e5ac-4df5-98f5-0a5a4aeaa0aa][virt-manager]] doesnt save preferences
+You get some dconf errors, I managed to fix this by installing dconf in profile.
