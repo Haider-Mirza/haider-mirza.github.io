@@ -274,10 +274,24 @@ footer{
     font-weight: 200;
 }
 
-@media only screen and (max-width: 640px) {
+/* Mobile Devices */
+@media only screen and (max-width: 1067px) {
+    .title{ 
+	font-size: 9rem;
+    }
+}
+
+@media only screen and (max-width: 966px) {
+    .title{ 
+	font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 866px) {
     .title{ 
 	font-size: 7rem;
     }
+
     .container {
 	width: 370px;
 	height: 50px;
@@ -289,13 +303,13 @@ footer{
     }
 
     .container span:before{
-	width: 119%;
+	width: 115%;
 	height: 100%;
     }
 
 
     .border2 .container span:before{
-	width: 136%;
+	width: 132%;
     }
 
     .border2 .container{
@@ -303,11 +317,11 @@ footer{
     }
 
     .border3 .container span:before{
-	width: 150%;
+	width: 138%;
     }
 
     .border4 .container span:before{
-	width: 147.5%;
+	width: 140%;
     }
 
     .border4 .container {
@@ -322,5 +336,44 @@ footer{
     .border4 ul{
 	margin-left: 5rem;
     }
+}
 
+@media only screen and (max-width: 765px) {
+    .title{ 
+	font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .title{ 
+	font-size: 6rem;
+	text-align: center;
+	margin-bottom: 20px;
+    }
+
+    .title-region{ 
+	height: calc(100vh - 140px);
+    }
+
+    .container span{
+	font-size: 2.3rem;
+	padding: 2px 24px 15px 7px;
+    }
+
+    .container span:before{
+	width: 115%;
+	height: 100%;
+    }
+
+    .border2 .container span:before{
+	width: 132%;
+    }
+
+    .border3 .container span:before{
+	width: 139%;
+    }
+
+    .border4 .container span:before{
+	width: 140%;
+    }
 }
