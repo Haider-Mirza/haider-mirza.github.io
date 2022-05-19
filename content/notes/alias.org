@@ -11,3 +11,5 @@ like my email address:
 | Alias            | Actual mailbox                   |
 |------------------+----------------------------------|
 | haider@haider.gq | foo@foo.com (e.g test@gmail.com) |
+
+My Website's ([[https://www.haider.gq/][haider.gq]]) DNS is managed by [[https://www.cloudflare.com/][Cloudflare]] DNS and my Alias is created through [[https://www.cloudflare.com/][Cloudflare]].
