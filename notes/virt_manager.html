@@ -29,29 +29,50 @@
 </div>
 <div id="content" class="content">
 <h1 class="title">virt-manager</h1>
-<div id="outline-container-org60b1db3" class="outline-2">
-<h2 id="org60b1db3">virt-manager</h2>
-<div class="outline-text-2" id="text-org60b1db3">
+<div id="outline-container-orgc3b11bf" class="outline-2">
+<h2 id="orgc3b11bf">virt-manager</h2>
+<div class="outline-text-2" id="text-orgc3b11bf">
 <p>
-The virtual machine manager that uses Qemu and KVM.
+The virtual machine manager that uses QEMU and KVM.
 </p>
 </div>
-<div id="outline-container-org12bfe1b" class="outline-3">
-<h3 id="org12bfe1b">How to exit fullscreen</h3>
-<div class="outline-text-3" id="text-org12bfe1b">
+<div id="outline-container-orgef9cee5" class="outline-3">
+<h3 id="orgef9cee5">How to exit fullscreen</h3>
+<div class="outline-text-3" id="text-orgef9cee5">
 <p>
 Ctrl-Alt to release cursor.
 </p>
 </div>
 </div>
+<div id="outline-container-org86adb50" class="outline-3">
+<h3 id="org86adb50">Mouse &amp; Keyboard passthrough</h3>
+<div class="outline-text-3" id="text-org86adb50">
+<p>
+Here is the following article: <a target='_blank' rel='noopener noreferrer' class='external' href="https://passthroughpo.st/using-evdev-passthrough-seamless-vm-input/">The Passthrough Post</a>.
+</p>
+
+<p>
+The bottom code snippet will make sense if you read the article.
+</p>
+<div class="org-src-container">
+<pre class="src src-xml">&lt;<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">commandline</span>&gt;
+  &lt;<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">arg</span> <span style="font-weight: bold; font-style: italic;">value</span>=<span style="font-style: italic;">'-object'</span>/&gt;
+  &lt;<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">arg</span> <span style="font-weight: bold; font-style: italic;">value</span>=<span style="font-style: italic;">'input-linux,id=mouse1,evdev=/dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-if01-event-mouse'</span>/&gt;
+  &lt;<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">arg</span> <span style="font-weight: bold; font-style: italic;">value</span>=<span style="font-style: italic;">'-object'</span>/&gt;
+  &lt;<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">arg</span> <span style="font-weight: bold; font-style: italic;">value</span>=<span style="font-style: italic;">'input-linux,id=kbd1,evdev=/dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-event-kbd,grab_all=on,repeat=on'</span>/&gt;
+&lt;/<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">commandline</span>&gt;
+</pre>
+</div>
+</div>
+</div>
 </div>
 
-<div id="outline-container-orgab44149" class="outline-2">
-<h2 id="orgab44149">Links to this note</h2>
-<div class="outline-text-2" id="text-orgab44149">
+<div id="outline-container-org2988e0c" class="outline-2">
+<h2 id="org2988e0c">Links to this note</h2>
+<div class="outline-text-2" id="text-org2988e0c">
 <ul class="org-ul">
 <li><a href="./programs.html">Programs</a></li>
-<li><a href="./programs.html">Programs</a></li>
+<li><a href="./guix.html">Guix</a></li>
 </ul>
 </div>
 </div>
