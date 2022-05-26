@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       5ef92870-2c07-48e5-88b7-e75ef13aa159
 :END:
-#+title: circuits
+#+title: Circuits
 #+date: [2022-05-12 Thu 21:28]
 
 * Electrical circuits
@@ -12,6 +12,9 @@ $Voltage = \frac{work(energy)}{q(charge)}$
 ** Electric charge
 Charles-Augustin de Coulomb said that there was obviously something flowing inside a conductive medium like a fluid and let's call that electric charge.
 The unit for electric charge is Coulomb, and it's symbol is "q".
+*** Coulomb's Law
+I really wont go into this as I do not understand it enough but here is the gist of it:
+[https://www.haider.gq/images/do-not-delete/Notes/coloumb-law]
 ** Current
 An electric current is a stream of charged particles, such as electrons or ions, moving through an electrical conductor or space.
 *NOTE:* Electrons have a negative charge and flow from negative to postitive. Current is positive to negative.
