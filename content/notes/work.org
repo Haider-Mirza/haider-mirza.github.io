@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       369ef4cf-1d7c-47f1-9d9f-ba21149bc819
+:END:
+#+title: Work
+#+date: [2022-05-26 Thu 19:49]
+
+* Work
+Work is measured In Joules.
+/Come on man, Joules is so much better than horsepower. Be greatful/
+
+** Formula
+The formula for work is the following:
+
+$W = F \times d$
+
+Force is mass $\times$ acceleration.
+$F = M \times A$
+
+The work(w) done on an object would be equal to the force(f) applied to it multiplied by the distance(d) it travelled.

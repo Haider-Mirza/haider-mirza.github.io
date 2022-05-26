@@ -6,14 +6,14 @@
 
 * Electrical circuits
 ** Voltage
-Voltage is the amount of energy in Joules avalable to move 1 coulumb of charge.
+Voltage is also known as Electric Potential.
+Voltage is the amount of energy in [[id:369ef4cf-1d7c-47f1-9d9f-ba21149bc819][Joules (Work)]] avalable to move 1 coulumb of charge (available energy per unit charge).
 
 $Voltage = \frac{work(energy)}{q(charge)}$
 ** Electric charge
 Charles-Augustin de Coulomb said that there was obviously something flowing inside a conductive medium like a fluid and let's call that electric charge.
 The unit for electric charge is Coulomb, and it's symbol is "q".
 
-At it's core, Current is the amount of charge in coulomb passing in one second
 *** Coulomb's Law
 I really wont go into this as I do not understand it enough but here is the gist of it:
 [[https://www.haider.gq/images/do-not-delete/Notes/coulomb-law.png]]
