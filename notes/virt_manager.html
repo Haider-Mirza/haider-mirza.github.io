@@ -29,47 +29,64 @@
 </div>
 <div id="content" class="content">
 <h1 class="title">virt-manager</h1>
-<div id="outline-container-org48610dc" class="outline-2">
-<h2 id="org48610dc">virt-manager</h2>
-<div class="outline-text-2" id="text-org48610dc">
+<div id="outline-container-org577eab4" class="outline-2">
+<h2 id="org577eab4">virt-manager</h2>
+<div class="outline-text-2" id="text-org577eab4">
 <p>
 The virtual machine manager that uses QEMU and KVM.
 </p>
 </div>
-<div id="outline-container-orge80f762" class="outline-3">
-<h3 id="orge80f762">How to exit fullscreen</h3>
-<div class="outline-text-3" id="text-orge80f762">
+<div id="outline-container-org7504eca" class="outline-3">
+<h3 id="org7504eca">How to exit fullscreen</h3>
+<div class="outline-text-3" id="text-org7504eca">
 <p>
 Ctrl-Alt to release cursor.
 </p>
 </div>
 </div>
-<div id="outline-container-org392d643" class="outline-3">
-<h3 id="org392d643">Mouse &amp; Keyboard passthrough</h3>
-<div class="outline-text-3" id="text-org392d643">
+<div id="outline-container-org100d43f" class="outline-3">
+<h3 id="org100d43f">Mouse &amp; Keyboard passthrough</h3>
+<div class="outline-text-3" id="text-org100d43f">
 <p>
-Here is the following article: <a target='_blank' rel='noopener noreferrer' class='external' href="https://passthroughpo.st/using-evdev-passthrough-seamless-vm-input/">The Passthrough Post</a>.
-</p>
-
-<p>
-The bottom code snippet will make sense if you read the article.
+Here is a blog post on the matter: <a target='_blank' rel='noopener noreferrer' class='external' href="https://passthroughpo.st/using-evdev-passthrough-seamless-vm-input/">Evdev</a>
+Here is the commands I used
 </p>
 <div class="org-src-container">
-<pre class="src src-xml">&lt;<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">commandline</span>&gt;
-  &lt;<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">arg</span> <span style="font-weight: bold; font-style: italic;">value</span>=<span style="font-style: italic;">'-object'</span>/&gt;
-  &lt;<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">arg</span> <span style="font-weight: bold; font-style: italic;">value</span>=<span style="font-style: italic;">'input-linux,id=mouse1,evdev=/dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-if01-event-mouse'</span>/&gt;
-  &lt;<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">arg</span> <span style="font-weight: bold; font-style: italic;">value</span>=<span style="font-style: italic;">'-object'</span>/&gt;
-  &lt;<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">arg</span> <span style="font-weight: bold; font-style: italic;">value</span>=<span style="font-style: italic;">'input-linux,id=kbd1,evdev=/dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-event-kbd,grab_all=on,repeat=on'</span>/&gt;
-&lt;/<span style="font-weight: bold;">qemu</span>:<span style="font-weight: bold;">commandline</span>&gt;
+<pre class="src src-shell">sudo chgrp kvm /dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-if01-event-mouse
+sudo chgrp kvm /dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-event-kbd
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org97f6178" class="outline-3">
+<h3 id="org97f6178">Bugs/Errors</h3>
+<div class="outline-text-3" id="text-org97f6178">
+</div>
+<div id="outline-container-org73dd0f5" class="outline-4">
+<h4 id="org73dd0f5">Mouse &amp; Keyboard passthrough permission error</h4>
+<div class="outline-text-4" id="text-org73dd0f5">
+<p>
+You may have it that virt-manager does not have permissions to use a usb device.
+Here is an article that shows my exact issue: <a target='_blank' rel='noopener noreferrer' class='external' href="https://unix.stackexchange.com/questions/694169/how-to-make-a-usb-device-available-to-a-qemu-guest">https://unix.stackexchange.com/questions/694169/how-to-make-a-usb-device-available-to-a-qemu-guest</a>
+Here is the commands I run:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">$ lsusb
+ Bus 001 Device 004: ID 17ef:600e Lenovo Optical Mouse
+
+$ sudo chgrp kvm /dev/bus/usb/001/004
+$ <span style="font-weight: bold; font-style: italic;">LC_ALL</span>=C ls -l /dev/bus/usb/001/002
 </pre>
 </div>
 </div>
 </div>
 </div>
+</div>
 
-<div id="outline-container-org457c78f" class="outline-2">
-<h2 id="org457c78f">Links to this note</h2>
-<div class="outline-text-2" id="text-org457c78f">
+<div id="outline-container-org5e5a79a" class="outline-2">
+<h2 id="org5e5a79a">Links to this note</h2>
+<div class="outline-text-2" id="text-org5e5a79a">
 <ul class="org-ul">
 <li><a href="./programs.html">Programs</a></li>
 <li><a href="./guix.html">Guix</a></li>
