@@ -8,6 +8,9 @@ The system is very similar to Latex.
 ** Mathematical symbols
 To use mathematical symbols not on the general keyboard you start with a backslack "\" and then type the symbol you require.
 For example: \beta \theta and \neq. These will be automatically converted to symbols on your screen one enabling some minor-mode (I completely forgor ☠ (old random Tiktok joke)).
+*** Some you often need
+*_* for the amount of a element
+*\times* for times
 
 ** Export to HTML
 When exporting to HTML, make sure you wrap the equation in "$"
