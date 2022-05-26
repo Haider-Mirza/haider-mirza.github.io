@@ -15,6 +15,7 @@ The unit for electric charge is Coulomb, and it's symbol is "q".
 *** Coulomb's Law
 I really wont go into this as I do not understand it enough but here is the gist of it:
 [https://www.haider.gq/images/do-not-delete/Notes/coloumb-law]
+$F = K_e \frac{q_1 * q_2}{r^2}$
 ** Current
 An electric current is a stream of charged particles, such as electrons or ions, moving through an electrical conductor or space.
 *NOTE:* Electrons have a negative charge and flow from negative to postitive. Current is positive to negative.
