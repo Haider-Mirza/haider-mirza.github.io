@@ -7,6 +7,11 @@ To get full control go to [[https://github.com/Haider-Mirza/Notes][this reposito
 Here is a representation of my notes (this will only be meaningful if you follow the [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten methord]])
 [[https://www.haider.gq/images/do-not-delete/notes.png]]
 * General
+Cool notes:
+[[id:28f57331-a037-47f0-ba1e-851eabbbb2af][Physics]]
+[[id:c908b5d7-0fa7-4784-a193-4b939fa2d508][Biology]]
+(soon, Chemistry)
+
 ** Development
 *** Programs
 [[id:8fe08bc8-ad1e-458d-ac5f-77243216932f][Git]]

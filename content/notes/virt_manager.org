@@ -8,14 +8,22 @@ The virtual machine manager that uses QEMU and KVM.
 ** How to exit fullscreen
 Ctrl-Alt to release cursor.
 ** Mouse & Keyboard passthrough
-Here is the following article: [[https://passthroughpo.st/using-evdev-passthrough-seamless-vm-input/][The Passthrough Post]].
+Here is a blog post on the matter: [[https://passthroughpo.st/using-evdev-passthrough-seamless-vm-input/][Evdev]]
+Here is the commands I used
+#+BEGIN_SRC shell
+sudo chgrp kvm /dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-if01-event-mouse
+sudo chgrp kvm /dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-event-kbd
+#+END_SRC
+** Bugs/Errors
+*** Mouse & Keyboard passthrough permission error
+You may have it that virt-manager does not have permissions to use a usb device.
+Here is an article that shows my exact issue: https://unix.stackexchange.com/questions/694169/how-to-make-a-usb-device-available-to-a-qemu-guest
+Here is the commands I run:
 
-The bottom code snippet will make sense if you read the article.
-#+begin_src xml
-  <qemu:commandline>
-    <qemu:arg value='-object'/>
-    <qemu:arg value='input-linux,id=mouse1,evdev=/dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-if01-event-mouse'/>
-    <qemu:arg value='-object'/>
-    <qemu:arg value='input-linux,id=kbd1,evdev=/dev/input/by-id/usb-MOSART_Semi._2.4G_Keyboard_Mouse-event-kbd,grab_all=on,repeat=on'/>
-  </qemu:commandline>
+#+begin_src shell
+  $ lsusb
+   Bus 001 Device 004: ID 17ef:600e Lenovo Optical Mouse
+
+  $ sudo chgrp kvm /dev/bus/usb/001/004
+  $ LC_ALL=C ls -l /dev/bus/usb/001/002
 #+end_src

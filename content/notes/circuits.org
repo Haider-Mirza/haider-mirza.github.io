@@ -5,9 +5,20 @@
 #+date: [2022-05-12 Thu 21:28]
 
 * Electrical circuits
+** Voltage
+Voltage is the amount of energy in Joules avalable to move 1 coulumb of charge.
+
+$Voltage = \frac{work(energy)}{q(charge)}$
+** Electric charge
+Charles-Augustin de Coulomb said that there was obviously something flowing inside a conductive medium like a fluid and let's call that electric charge.
+The unit for electric charge is Coulomb, and it's symbol is "q".
 ** Current
 An electric current is a stream of charged particles, such as electrons or ions, moving through an electrical conductor or space.
-*NOTE:* Electrons have a negative charge and flow from negative to postitive. (I know, I also used to make that mistake)
+*NOTE:* Electrons have a negative charge and flow from negative to postitive. Current is positive to negative.
+(When scientists discovered that electron moves from negative to positive instead of positive to negative, they just left current as it is as all calculations will still work)
+
+At it's core, Current is the amount of charge in coulomb passing in one second
+
 *** Calculating current
 You can calculate current with the formula
 Current is measured in Amps(A) and is represented as 'I'.
