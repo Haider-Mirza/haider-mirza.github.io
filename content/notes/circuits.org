@@ -7,7 +7,7 @@
 * Electrical circuits
 ** AC
 Alternating Current is when the Current alternates ;)
-In other terms AC is where the output of Coulombs is inconsistent in the form of a sinusodial [[id:aa958a15-a946-41f6-aa0c-76e62840ebc1][Wave]].
+In other terms AC is where the output of Coulombs is inconsistent in the form of a sinusodial [[id:aa958a15-a946-41f6-aa0c-76e62840ebc1][Wave]] or like a beating drum.
 
 ** DC
 Direct Current can be explained like the current of the wire being steady with no ripples. Completely stable.
@@ -25,7 +25,7 @@ I really wont go into this as I do not understand it enough but here is the gist
 [[https://www.haider.gq/images/do-not-delete/Notes/coulomb-law.png]]
 $F = K_e \frac{q_1 \times q_2}{r^2}$
 
-In other words, Coulomb's law states that the electric force between two static charges is proportional to the product of their charges divided by the square of their distance ** Current
+In other words, Coulomb's law states that the electric force between two static charges is proportional to the product of their charges divided by the square of their distance.
 
 ** Current
 An electric current is a stream of charged particles, such as electrons or ions, moving through an electrical conductor or space.
