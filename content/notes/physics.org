@@ -4,5 +4,8 @@
 #+title: Physics
 #+date: [2022-05-12 Thu 20:59]
 * Physics
+These Notes are a work in progress.
+Please feel free to add issues in the [[https://github.com/Haider-Mirza/haider-mirza.github.io][Git Repository]]. Just dont spam me with angry professors.
 ** [[id:369ef4cf-1d7c-47f1-9d9f-ba21149bc819][Work]]
 ** [[id:5ef92870-2c07-48e5-88b7-e75ef13aa159][Circuits]]
+** [[id:aa958a15-a946-41f6-aa0c-76e62840ebc1][Waves]]

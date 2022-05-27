@@ -5,13 +5,19 @@
 #+date: [2022-05-12 Thu 21:28]
 
 * Electrical circuits
+** AC
+Alternating Current is when the Current alternates ;)
+In other terms AC is where the output of Coulombs is inconsistent in the form of a sinusodial [[id:aa958a15-a946-41f6-aa0c-76e62840ebc1][Wave]].
+
+** DC
+Direct Current can be explained like the current of the wire being steady with no ripples. Completely stable.
 ** Voltage
 Voltage is also known as Electric Potential.
 Voltage is the amount of energy in [[id:369ef4cf-1d7c-47f1-9d9f-ba21149bc819][Joules (Work)]] avalable to move 1 coulumb of charge (available energy per unit charge).
 
 $Voltage = \frac{work(energy)}{q(charge)}$
-** Electric charge
-Charles-Augustin de Coulomb said that there was obviously something flowing inside a conductive medium like a fluid and let's call that electric charge.
+** Coulomb
+Charles-Augustin de Coulomb said that there was obviously something flowing inside a conductive medium, like a fluid. He called that electric charge.
 The unit for electric charge is Coulomb, and it's symbol is "q".
 
 *** Coulomb's Law

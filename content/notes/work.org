@@ -5,9 +5,8 @@
 #+date: [2022-05-26 Thu 19:49]
 
 * Work
-Work is measured In Joules.
-/Come on man, Joules is so much better than horsepower. Be greatful/
-
+Work is a force causing the displacement of object and is measured In Joules.
+/Come on man, Joules is so much better than horsepower. Be greatful!/
 ** Formula
 The formula for work is the following:
 
