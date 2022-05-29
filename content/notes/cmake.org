@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       6a25d10a-fc17-4659-a714-0b7716d9de25
+:END:
+#+title: CMake
+#+date: [2022-05-29 Sun 21:16]
+
+* CMake
+[[https://cmake.org/][CMake]], probably one of my favourite tools for development.
+** Clangd
+[[https://clangd.llvm.org/][Clangd]] is a utility that can understand your C++ code and adds smart features to your editor.
+This is a language server (See LSP in [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]] note) that can work with most editors with plugins.
+*** Issues you may face
+**** Guix Clangd binary -> "no file or directory"
+Yeah that is pretty annoying, look at this [[https://issues.guix.gnu.org/54941][link]] to see my terrible attempt at informing the Guix Devs.
+You should just use Clangd from guix (It's probably in the clang package)
+#+BEGIN_SRC elisp
+(setq lsp-clangd-binary-path "/run/current-system/profile/bin/clangd")
+#+END_SRC
+**** Spits out erros when cannot find libraries
+I HATE THIS ISSUE WITH A PASSION.
+The thing is it's not Clangd's fault, I just never got it working.
+You need to create a compile_commands.json at your Root code directory.
+You could use [[https://github.com/rizsotto/Bear][Bear]], even though I never got it working.
+
+But CMake, this legend, has a inbuilt variable!
+Just enable "CMAKE_EXPORT_COMPILE_COMMANDS", see the webpage [[https://cmake.org/cmake/help/latest/variable/CMAKE_EXPORT_COMPILE_COMMANDS.html][here]].

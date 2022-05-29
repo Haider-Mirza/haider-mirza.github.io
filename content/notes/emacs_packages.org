@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       9198649d-5d1d-49fa-a84b-66f02797d8b4
+:END:
+#+title: Emacs Packages
+#+date: [2022-05-29 Sun 13:09]
+* Emacs Packages
+Emacs is Incredibly extensive, it allows you to configure everything the way you like.
+Because of this, there are now many Emacs packages out there and the ones below are some I have documented.
+
+** Some Emacs packages
+I just shy of 100 packages (and yet my session is very optimised), these are some I have chosen to document:
+
+[[id:31075352-280e-4ef1-978e-5c189da43657][org-mode]] - The center of all these org* packages. The incredible text format to rule them all!
+[[id:8317049b-5a2b-4176-9d39-111f310061c7][org-roam]] - Note taking system (These notes are made with Orgroam)
+[[id:048f9912-1412-425b-b331-cfb7af8a8047][org-reveal]] - Creating Web Presentations
+[[id:c2647c82-ae0a-4d26-aa62-706a6a8051d4][Bufler]] - Managing buffers
+[[id:6a9051c1-b014-4c07-ba52-1dbd9f88220d][Transient]] - A custom UI system (Very useful when programming)
+[[id:92cab502-d6ab-47fe-9355-3f5a6c07cf68][Notmuch]] - My Favourite Email Client
+[[id:d71d294a-b8e3-48e3-8295-3d373bcd9681][Mu4e]] - Email Client (I don't use this anymore)
+

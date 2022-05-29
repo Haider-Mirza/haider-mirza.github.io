@@ -70,7 +70,7 @@ Note that these notes might so into many subheadings so they are sorted by their
 ** Utilities
 [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]]
 [[id:8fe08bc8-ad1e-458d-ac5f-77243216932f][Git]]
-# [[id:be204e3a-daea-4acf-b979-4027fdae72dc][CMake]]
+[[id:6a25d10a-fc17-4659-a714-0b7716d9de25][CMake]]
 [[id:b69627d6-3ade-4eba-9e19-23a40248b3cb][GPG]]
 ** Guides
 [[id:978cbd0f-0ffb-44bd-9545-fc3b4d349f93][Extract]]
