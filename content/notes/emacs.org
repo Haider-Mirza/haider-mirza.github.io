@@ -12,7 +12,7 @@ Here is a note on some I have documented: [[id:9198649d-5d1d-49fa-a84b-66f02797d
 I Love Programming, and as a result, you would want a great IDE.
 What's a better IDE than Emacs?
 [[https://emacs-lsp.github.io/lsp-mode/][LSP-mode]] allows you to use Language Server Protocol (LSP) in Emacs. (That's pretty insane)
-I mainly use [[https://emacs-lsp.github.io/lsp-mode/][LSP-mode]] with clangd (you can see more about clangd in [[id:be204e3a-daea-4acf-b979-4027fdae72dc][CMake]])
+I mainly use [[https://emacs-lsp.github.io/lsp-mode/][LSP-mode]] with clangd (you can see more about clangd in [[id:6a25d10a-fc17-4659-a714-0b7716d9de25][CMake]])
 ** Some useful keybinds
 *Note that on my system, 'CTRL' is re-keybinded to 'CAPS LOCK' for erganomic and speed benifits*
 
