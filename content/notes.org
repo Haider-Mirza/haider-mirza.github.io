@@ -9,11 +9,64 @@ To get full control go to [[https://github.com/Haider-Mirza/Notes][this reposito
 Here is a representation of my notes (this will only be meaningful if you follow the [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten methord]])
 [[https://www.haider.gq/images/do-not-delete/notes.png]]
 * General
-Cool notes:
+Below are main headings for notes, there may be more subheadings inside.
+
+#+BEGIN_EXPORT html
+<input type="text" id="filterInput" placeholder="Search Notes...">
+
+<script>
+  // Get the input element
+  let filterInput = document.getElementById('filterInput');
+  // Add event listener
+  filterInput.addEventListener('keyup', filterNames);
+
+  function filterNames(){
+      // Get value of input
+      let filterValue = document.getElementById('filterInput').value.toUpperCase();
+
+      // Get names ul
+      let div = document.getElementById('notes');
+
+  var h3 = div.getElementsByTagName('h3');
+  for (var i = h3.length; i--;) {
+  var self = h3[i];
+  self.style.display = 'none';
+  }
+
+  var h4 = div.getElementsByTagName('h4');
+  for (var i = h4.length; i--;) {
+  var self = h4[i];
+  self.style.display = 'none';
+  }
+
+  // Get lis from uls
+  let a = div.getElementsByTagName("a");
+
+
+  // Loop through lis
+  for(let i = 0;i < a.length;i++){
+
+		    if(a[i].innerHTML.toUpperCase().indexOf(filterValue) > -1) {
+    a[i].style.display = '';
+    } else {
+    a[i].style.display = 'none';
+    }
+    }
+    var p=div.getElementsByTagName('p')[0]; // get the p tags
+    var pa=p.parentNode;
+    while(p.firstChild) pa.insertBefore(p.firstChild, p);
+
+    pa.removeChild(p);
+    }
+</script>
+</div>
+<div id="notes" class="collection with-header" style="padding:0!important;">
+<div>
+#+END_EXPORT
+
+** Science
 [[id:28f57331-a037-47f0-ba1e-851eabbbb2af][Physics]]
 [[id:c908b5d7-0fa7-4784-a193-4b939fa2d508][Biology]]
-(soon, Chemistry)
-
 ** Development
 *** Programs
 [[id:8fe08bc8-ad1e-458d-ac5f-77243216932f][Git]]
@@ -34,3 +87,6 @@ Cool notes:
 [[id:b69627d6-3ade-4eba-9e19-23a40248b3cb][GPG]]
 ** General
 [[id:978cbd0f-0ffb-44bd-9545-fc3b4d349f93][Extract]]
+#+BEGIN_EXPORT html
+</div> <!-- END DIV -->
+#+END_EXPORT

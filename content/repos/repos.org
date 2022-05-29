@@ -2,12 +2,9 @@
 #+AUTHOR: Haider M
 
 * Repos
-I host alot of Git Repositries on Github.
-That is probably because I am a programmer.
+I have alot of [[https://github.com/Haider-Mirza][Github repostories]] listed below:
 
-Here are my Git repositories:
-
-+ [[https://github.com/Haider-Mirza/haider-mirza.github.io][This website]]
++ [[https://github.com/Haider-Mirza/haider-mirza.github.io][This website!]]
 + [[https://github.com/Haider-Mirza/Spinter][Spinter]]
 + [[https://github.com/Haider-Mirza/Dotfiles][My Dotfiles]]
 + [[https://github.com/Haider-Mirza/Documents][My Documents]]
