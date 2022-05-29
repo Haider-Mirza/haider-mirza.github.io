@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CMake</title>
+<meta name="generator" content="Org Mode" />
+<link rel="icon" type="base/favicon" href="/base/favicon.png">
+<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
+<link rel="stylesheet" href="https://www.haider.gq/base/table.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="preamble" class="status">
+<header>
+	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
+	  <nav>
+	    <ul class='nav_links'>
+	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
+	      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	    </ul>
+	  </nav>
+	</header>
+</div>
+<div id="content" class="content">
+<h1 class="title">CMake</h1>
+
+<div id="outline-container-org4b42979" class="outline-2">
+<h2 id="org4b42979">CMake</h2>
+<div class="outline-text-2" id="text-org4b42979">
+<p>
+<a target='_blank' rel='noopener noreferrer' class='external' href="https://cmake.org/">CMake</a>, probably one of my favourite tools for development.
+</p>
+</div>
+<div id="outline-container-orgae32e5e" class="outline-3">
+<h3 id="orgae32e5e">Clangd</h3>
+<div class="outline-text-3" id="text-orgae32e5e">
+<p>
+<a target='_blank' rel='noopener noreferrer' class='external' href="https://clangd.llvm.org/">Clangd</a> is a utility that can understand your C++ code and adds smart features to your editor.
+This is a language server (See LSP in <a href="emacs.html#ID-f8b81c21-7c7e-410e-82ad-046fa5fa4c55">Emacs</a> note) that can work with most editors with plugins.
+</p>
+</div>
+<div id="outline-container-orga99d17f" class="outline-4">
+<h4 id="orga99d17f">Issues you may face</h4>
+<div class="outline-text-4" id="text-orga99d17f">
+</div>
+<ul class="org-ul">
+<li><a id="org6f8c363"></a>Guix Clangd binary -&gt; "no file or directory"<br />
+<div class="outline-text-5" id="text-org6f8c363">
+<p>
+Yeah that is pretty annoying, look at this <a target='_blank' rel='noopener noreferrer' class='external' href="https://issues.guix.gnu.org/54941">link</a> to see my terrible attempt at informing the Guix Devs.
+You should just use Clangd from guix (It's probably in the clang package)
+</p>
+<div class="org-src-container">
+<pre class="src src-elisp">(<span style="font-weight: bold;">setq</span> lsp-clangd-binary-path <span style="font-style: italic;">"/run/current-system/profile/bin/clangd"</span>)
+</pre>
+</div>
+</div>
+</li>
+<li><a id="org63c1393"></a>Spits out erros when cannot find libraries<br />
+<div class="outline-text-5" id="text-org63c1393">
+<p>
+I HATE THIS ISSUE WITH A PASSION.
+The thing is it's not Clangd's fault, I just never got it working.
+You need to create a compile<sub>commands.json</sub> at your Root code directory.
+You could use <a target='_blank' rel='noopener noreferrer' class='external' href="https://github.com/rizsotto/Bear">Bear</a>, even though I never got it working.
+</p>
+
+<p>
+But CMake, this legend, has a inbuilt variable!
+Just enable "CMAKE<sub>EXPORT</sub><sub>COMPILE</sub><sub>COMMANDS</sub>", see the webpage <a target='_blank' rel='noopener noreferrer' class='external' href="https://cmake.org/cmake/help/latest/variable/CMAKE_EXPORT_COMPILE_COMMANDS.html">here</a>.
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgfce097a" class="outline-2">
+<h2 id="orgfce097a">Links to this note</h2>
+<div class="outline-text-2" id="text-orgfce097a">
+<ul class="org-ul">
+<li><a href="./emacs.html">Emacs</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<footer>
+	  <div class='footer-content'>
+	    <h3>Haider Mirza</h3>
+	    <p>Website created by Haider Mirza</p>
+	    <ul class='socials'>
+	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
+	      <li><a href='mailto:haider@haider.gq'><i class='fa fa-envelope'></i></a></li>
+	    </ul>
+	  </div>
+	  <div class='footer-bottom'>
+	    <p>Created by Haider Mirza with orgmode in emacs</p>
+	  </div>
+	</footer>
+</div>
+</body>
+</html>
