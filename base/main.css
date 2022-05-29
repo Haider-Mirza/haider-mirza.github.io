@@ -332,10 +332,23 @@ footer{
 }
 
 @media only screen and (max-width: 640px) {
+
+    .border4 ul{
+	margin-left: 6rem;
+    }
+    .border1 p, .border2 p, .border3 p, .border4 p{
+	margin-left: 3rem;
+	margin-top: 2rem;
+    }
     .title{ 
 	font-size: 6rem;
 	text-align: center;
 	margin-bottom: 20px;
+    }
+
+    .content{
+	padding-left: 10px;
+	padding-right: 10px;
     }
 
     .title-region{ 
