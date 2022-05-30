@@ -4,4 +4,7 @@
 * Blogs
 Blogs are things I have decided to document that I just generally found interesting.
 Here are some blogs I have made:
+- 
 - *Coming* NVIDIA Open source drivers
+file:///home/haider/haider-mirza.github.io/public/blogs/HP%20Creates%20a%20Linux%20laptop.html
+
