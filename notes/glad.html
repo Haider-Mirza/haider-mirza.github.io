@@ -7,48 +7,55 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>GLAD</title>
 <meta name="generator" content="Org Mode" />
-<link rel="icon" type="base/favicon" href="/base/favicon.png">
-<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
-<link rel="stylesheet" href="https://www.haider.gq/base/table.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' /> 
+<link rel='preconnect' href='https://fonts.googleapis.com'> 
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> 
+<link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>
+<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> 
 </head>
 <body>
 <div id="preamble" class="status">
-<header>
-	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
-	  <nav>
-	    <ul class='nav_links'>
-	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
-	      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	    </ul>
-	  </nav>
-	</header>
+<div class='grid-container'>
+      <div class='grid-item header'>
+
+	<a href='https://www.haider.gq' class='Header_Title'>
+	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
+	</a>
+	<ul class='Header_links'>
+	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	</ul>
+	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
+	</div>
+
+	<div class='grid-item main'>
+	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
+	      <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">GLAD</h1>
 
-<div id="outline-container-orgd693063" class="outline-2">
-<h2 id="orgd693063">GLAD</h2>
-<div class="outline-text-2" id="text-orgd693063">
+<div id="outline-container-org5517491" class="outline-2">
+<h2 id="org5517491">GLAD</h2>
+<div class="outline-text-2" id="text-org5517491">
 <p>
 GLAD is extention loader Library to load OpenGL.
 </p>
 </div>
-<div id="outline-container-org17a2ff6" class="outline-3">
-<h3 id="org17a2ff6">Installation</h3>
-<div class="outline-text-3" id="text-org17a2ff6">
+<div id="outline-container-org053d102" class="outline-3">
+<h3 id="org053d102">Installation</h3>
+<div class="outline-text-3" id="text-org053d102">
 <p>
 You actually have to generate the GLAD files using the following website: <a target='_blank' rel='noopener noreferrer' class='external' href="https://glad.dav1d.de/">glad.david.de</a>.
 Yes, there is a <a href="guix.html#ID-4ce84157-a404-40fa-bdb8-0b3923916969">Guix</a> package aswell but at the moment I do not know how to use it.
 </p>
 </div>
 </div>
-<div id="outline-container-orgdd0fda7" class="outline-3">
-<h3 id="orgdd0fda7">Get Working</h3>
-<div class="outline-text-3" id="text-orgdd0fda7">
+<div id="outline-container-org311473d" class="outline-3">
+<h3 id="org311473d">Get Working</h3>
+<div class="outline-text-3" id="text-org311473d">
 <p>
 Make sure you use Both this include and define.
 </p>
@@ -58,9 +65,9 @@ Make sure you use Both this include and define.
 </pre>
 </div>
 </div>
-<div id="outline-container-org8923600" class="outline-4">
-<h4 id="org8923600">NOTE</h4>
-<div class="outline-text-4" id="text-org8923600">
+<div id="outline-container-orga27e04c" class="outline-4">
+<h4 id="orga27e04c">NOTE</h4>
+<div class="outline-text-4" id="text-orga27e04c">
 <p>
 Be sure to include GLAD before GLFW.
 The include file for GLAD includes the required OpenGL headers behind the scenes (like GL/gl.h) so be sure to include GLAD before other header files that require OpenGL (like GLFW). 
@@ -70,9 +77,9 @@ The include file for GLAD includes the required OpenGL headers behind the scenes
 </div>
 </div>
 
-<div id="outline-container-orgdaf6a2f" class="outline-2">
-<h2 id="orgdaf6a2f">Links to this note</h2>
-<div class="outline-text-2" id="text-orgdaf6a2f">
+<div id="outline-container-org54d12da" class="outline-2">
+<h2 id="org54d12da">Links to this note</h2>
+<div class="outline-text-2" id="text-org54d12da">
 <ul class="org-ul">
 <li><a href="./c++.html">C++</a></li>
 <li><a href="./c++.html">C++</a></li>
@@ -81,19 +88,28 @@ The include file for GLAD includes the required OpenGL headers behind the scenes
 </div>
 </div>
 <div id="postamble" class="status">
-<footer>
-	  <div class='footer-content'>
-	    <h3>Haider Mirza</h3>
-	    <p>Website created by Haider Mirza</p>
-	    <ul class='socials'>
-	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
-	      <li><a href='mailto:haider@haider.gq'><i class='fa fa-envelope'></i></a></li>
-	    </ul>
-	  </div>
-	  <div class='footer-bottom'>
-	    <p>Created by Haider Mirza with orgmode in emacs</p>
-	  </div>
-	</footer>
+</div>
+		    </div>
+		<div class='grid-item sidebar'>
+		  <h2>Socials</h2>
+		  <ul class='sidebar-socials'>
+		    <li><a href='mailto:haider@haider.gq'><i class='fa-solid fa-envelope'></i> Email</a></li>
+		    <li class='irc' onclick='alert('My Username is Haider,
+You can find me in Libera.Chat on these channels:
+- #tropin 
+- #systemcrafters 
+- #guix');'><i class='fa-solid fa-message'></i> IRC/Matrix</li>
+		    <li><a href='https://www.github.com/Haider-Mirza'><i class='fa-brands fa-github'></i> Github</a></li>
+		  </ul>
+		  <h2>Projects</h2>
+		  <ul class='sidebar-projects'>
+		    <li><a href='https://www.github.com/Haider-Mirza/Spinter'> Spinter</a></li>
+		  </ul>
+		</div>
+		<div class='grid-item footer'>
+		  <p>Created by Haider Mirza with orgmode in emacs</p>
+		</div>
+	      </div>
 </div>
 </body>
 </html>

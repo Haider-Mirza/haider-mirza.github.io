@@ -7,11 +7,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Orgmode-mathmatics</title>
 <meta name="generator" content="Org Mode" />
-<link rel="icon" type="base/favicon" href="/base/favicon.png">
-<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
-<link rel="stylesheet" href="https://www.haider.gq/base/table.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' /> 
+<link rel='preconnect' href='https://fonts.googleapis.com'> 
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> 
+<link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>
+<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> 
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         displayAlign: "center",
@@ -36,39 +37,45 @@
 </head>
 <body>
 <div id="preamble" class="status">
-<header>
-	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
-	  <nav>
-	    <ul class='nav_links'>
-	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
-	      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	    </ul>
-	  </nav>
-	</header>
+<div class='grid-container'>
+      <div class='grid-item header'>
+
+	<a href='https://www.haider.gq' class='Header_Title'>
+	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
+	</a>
+	<ul class='Header_links'>
+	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	</ul>
+	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
+	</div>
+
+	<div class='grid-item main'>
+	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
+	      <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Orgmode-mathmatics</h1>
 
-<div id="outline-container-orgfcfe2bc" class="outline-2">
-<h2 id="orgfcfe2bc"><a href="org_mode.html#ID-31075352-280e-4ef1-978e-5c189da43657">Org-mode</a> Mathematics</h2>
-<div class="outline-text-2" id="text-orgfcfe2bc">
+<div id="outline-container-org2318826" class="outline-2">
+<h2 id="org2318826"><a href="org_mode.html#ID-31075352-280e-4ef1-978e-5c189da43657">Org-mode</a> Mathematics</h2>
+<div class="outline-text-2" id="text-org2318826">
 <p>
 The system is very similar to Latex.
 </p>
 </div>
-<div id="outline-container-org0042874" class="outline-3">
-<h3 id="org0042874">Mathematical symbols</h3>
-<div class="outline-text-3" id="text-org0042874">
+<div id="outline-container-orgb8afee2" class="outline-3">
+<h3 id="orgb8afee2">Mathematical symbols</h3>
+<div class="outline-text-3" id="text-orgb8afee2">
 <p>
 To use mathematical symbols not on the general keyboard you start with a backslack "\" and then type the symbol you require.
 For example: &beta; &theta; and &ne;. These will be automatically converted to symbols on your screen one enabling some minor-mode (I completely forgor ☠ (old random Tiktok joke)).
 </p>
 </div>
-<div id="outline-container-orgbd44704" class="outline-4">
-<h4 id="orgbd44704">Some you often need</h4>
-<div class="outline-text-4" id="text-orgbd44704">
+<div id="outline-container-org5cfaf11" class="outline-4">
+<h4 id="org5cfaf11">Some you often need</h4>
+<div class="outline-text-4" id="text-org5cfaf11">
 <p>
 <b>_</b> for the amount of a element
 <b>&times;</b> for times
@@ -77,9 +84,9 @@ For example: &beta; &theta; and &ne;. These will be automatically converted to s
 </div>
 </div>
 
-<div id="outline-container-orgae6f55a" class="outline-3">
-<h3 id="orgae6f55a">Export to HTML</h3>
-<div class="outline-text-3" id="text-orgae6f55a">
+<div id="outline-container-org360e03a" class="outline-3">
+<h3 id="org360e03a">Export to HTML</h3>
+<div class="outline-text-3" id="text-org360e03a">
 <p>
 When exporting to HTML, make sure you wrap the equation in "$"
 For example:  \((x+5)^2\)
@@ -87,9 +94,9 @@ You can see the changed if you turn on <b>org-toggle-pretty-entities</b>
 </p>
 </div>
 </div>
-<div id="outline-container-org363d724" class="outline-3">
-<h3 id="org363d724">Tables</h3>
-<div class="outline-text-3" id="text-org363d724">
+<div id="outline-container-org789524f" class="outline-3">
+<h3 id="org789524f">Tables</h3>
+<div class="outline-text-3" id="text-org789524f">
 <p>
 For now, I have no idea how to place margins on html/css tables cuz they are terrible.
 Just add a \\ before the tables to force a line between them
@@ -98,9 +105,9 @@ Just add a \\ before the tables to force a line between them
 </div>
 </div>
 
-<div id="outline-container-org4e76aca" class="outline-2">
-<h2 id="org4e76aca">Links to this note</h2>
-<div class="outline-text-2" id="text-org4e76aca">
+<div id="outline-container-org51cf88c" class="outline-2">
+<h2 id="org51cf88c">Links to this note</h2>
+<div class="outline-text-2" id="text-org51cf88c">
 <ul class="org-ul">
 <li><a href="./org_mode.html">Orgmode</a></li>
 <li><a href="./org_mode.html">Orgmode</a></li>
@@ -109,19 +116,28 @@ Just add a \\ before the tables to force a line between them
 </div>
 </div>
 <div id="postamble" class="status">
-<footer>
-	  <div class='footer-content'>
-	    <h3>Haider Mirza</h3>
-	    <p>Website created by Haider Mirza</p>
-	    <ul class='socials'>
-	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
-	      <li><a href='mailto:haider@haider.gq'><i class='fa fa-envelope'></i></a></li>
-	    </ul>
-	  </div>
-	  <div class='footer-bottom'>
-	    <p>Created by Haider Mirza with orgmode in emacs</p>
-	  </div>
-	</footer>
+</div>
+		    </div>
+		<div class='grid-item sidebar'>
+		  <h2>Socials</h2>
+		  <ul class='sidebar-socials'>
+		    <li><a href='mailto:haider@haider.gq'><i class='fa-solid fa-envelope'></i> Email</a></li>
+		    <li class='irc' onclick='alert('My Username is Haider,
+You can find me in Libera.Chat on these channels:
+- #tropin 
+- #systemcrafters 
+- #guix');'><i class='fa-solid fa-message'></i> IRC/Matrix</li>
+		    <li><a href='https://www.github.com/Haider-Mirza'><i class='fa-brands fa-github'></i> Github</a></li>
+		  </ul>
+		  <h2>Projects</h2>
+		  <ul class='sidebar-projects'>
+		    <li><a href='https://www.github.com/Haider-Mirza/Spinter'> Spinter</a></li>
+		  </ul>
+		</div>
+		<div class='grid-item footer'>
+		  <p>Created by Haider Mirza with orgmode in emacs</p>
+		</div>
+	      </div>
 </div>
 </body>
 </html>

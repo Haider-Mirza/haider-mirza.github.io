@@ -1,0 +1,280 @@
+html {
+    height: 100%;
+}
+
+* {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    /* background-color:#282C34; */
+    background-color:black;
+}
+
+/* Header */
+.main_header {
+    color:#81b4ea;
+    font-weight: bold;
+    text-decoration: none; 
+    font-size: 2rem;
+    transition: all 0.2s ease 0s;
+}
+
+.main_header:hover {
+    color: #0088a9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    border-bottom: .1rem solid #B4EB89;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.2s ease 0s;
+    color: #c4c2bf;
+    text-decoration: none; 
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+/* Main */
+.title {
+    background: -webkit-linear-gradient(#fc575e, #f7b42c
+);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: -2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+@keyframes transitionIn {
+    from {
+	opacity: 0;
+	transform: translateY(-10px);
+    }
+    to {
+	opacity: 1;
+	transform: translateY(0);
+    }
+}
+
+#content {
+    background-image: url("/images/do-not-delete/wallpaper2.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    animation: transitionIn 0.5s;
+    padding-left: 100px;
+    padding-right: 50px;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#content p {
+    white-space: pre-line;
+}
+
+#content a {
+    text-decoration: none;
+    color:#fd7e14;
+}
+
+#content h1 {
+    color:#81b4ea;
+    /* margin-top: 1rem; */
+}
+
+#content h2 {
+    color:#afea81;
+}
+
+.outline-text-2{
+    margin-left: 1rem;
+}
+
+#content h2::before, h3::before, h4::before, h5::before, h6::before{
+  content: "- ";
+}
+
+#content h2::after, h3::after, h4::after, h5::after, h6::after{
+  content: " -";
+}
+
+#content h3 {
+    color:#ffd966;
+    margin-left: 1rem;
+}
+
+.outline-text-3{
+    margin-left: 2rem;
+}
+
+#content h4 {
+    color:#FF0000;
+    margin-left: 2rem;
+}
+
+.outline-text-4{
+    margin-left: 3rem;
+}
+
+#content h5 {
+    color:#ffd966;
+}
+
+#content h6 {
+    color:#ffd966;
+}
+
+
+/* All other settings */
+#content p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    white-space: pre-wrap;      
+    color:white;
+}
+
+img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    color:#fd7e14;
+}
+
+
+.org-ul {
+    color:white;
+}
+
+.org-ol {
+    color:white;
+}
+
+.outline-text-5 {
+    color:white;
+}
+
+.org-right {
+    background-color:#16191e;
+}
+
+/* Source Blocks */
+.src {
+    padding:1rem;
+}
+
+.org-src-container{
+    border-left: .3rem solid #B4EB89;
+    color:white;
+    background-color:#16191e;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    color: white;
+    /* margin-top: 3rem; */
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 7px auto;
+    line-height: 14px;
+    font-size: 15px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0.25rem 0 7.5rem 0; */
+    margin: 0.5rem 0 1rem 0;
+}
+
+.socials li {
+    margin: 0 5px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 0.6m;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 9px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

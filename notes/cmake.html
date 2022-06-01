@@ -7,51 +7,58 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CMake</title>
 <meta name="generator" content="Org Mode" />
-<link rel="icon" type="base/favicon" href="/base/favicon.png">
-<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
-<link rel="stylesheet" href="https://www.haider.gq/base/table.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' /> 
+<link rel='preconnect' href='https://fonts.googleapis.com'> 
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> 
+<link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>
+<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> 
 </head>
 <body>
 <div id="preamble" class="status">
-<header>
-	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
-	  <nav>
-	    <ul class='nav_links'>
-	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
-	      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	    </ul>
-	  </nav>
-	</header>
+<div class='grid-container'>
+      <div class='grid-item header'>
+
+	<a href='https://www.haider.gq' class='Header_Title'>
+	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
+	</a>
+	<ul class='Header_links'>
+	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	</ul>
+	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
+	</div>
+
+	<div class='grid-item main'>
+	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
+	      <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">CMake</h1>
 
-<div id="outline-container-org6ee0512" class="outline-2">
-<h2 id="org6ee0512">CMake</h2>
-<div class="outline-text-2" id="text-org6ee0512">
+<div id="outline-container-org14a3a29" class="outline-2">
+<h2 id="org14a3a29">CMake</h2>
+<div class="outline-text-2" id="text-org14a3a29">
 <p>
 <a target='_blank' rel='noopener noreferrer' class='external' href="https://cmake.org/">CMake</a>, probably one of my favourite tools for development.
 </p>
 </div>
-<div id="outline-container-org3ed0c73" class="outline-3">
-<h3 id="org3ed0c73">Clangd</h3>
-<div class="outline-text-3" id="text-org3ed0c73">
+<div id="outline-container-org8ae6660" class="outline-3">
+<h3 id="org8ae6660">Clangd</h3>
+<div class="outline-text-3" id="text-org8ae6660">
 <p>
 <a target='_blank' rel='noopener noreferrer' class='external' href="https://clangd.llvm.org/">Clangd</a> is a utility that can understand your C++ code and adds smart features to your editor.
 This is a language server (See LSP in <a href="emacs.html#ID-f8b81c21-7c7e-410e-82ad-046fa5fa4c55">Emacs</a> note) that can work with most editors with plugins.
 </p>
 </div>
-<div id="outline-container-org35750c8" class="outline-4">
-<h4 id="org35750c8">Issues you may face</h4>
-<div class="outline-text-4" id="text-org35750c8">
+<div id="outline-container-orgec6158f" class="outline-4">
+<h4 id="orgec6158f">Issues you may face</h4>
+<div class="outline-text-4" id="text-orgec6158f">
 </div>
 <ul class="org-ul">
-<li><a id="org5a78b24"></a>Guix Clangd binary -&gt; "no file or directory"<br />
-<div class="outline-text-5" id="text-org5a78b24">
+<li><a id="org71019bd"></a>Guix Clangd binary -&gt; "no file or directory"<br />
+<div class="outline-text-5" id="text-org71019bd">
 <p>
 Yeah that is pretty annoying, look at this <a target='_blank' rel='noopener noreferrer' class='external' href="https://issues.guix.gnu.org/54941">link</a> to see my terrible attempt at informing the Guix Devs.
 You should just use Clangd from guix (It's probably in the clang package)
@@ -62,8 +69,8 @@ You should just use Clangd from guix (It's probably in the clang package)
 </div>
 </div>
 </li>
-<li><a id="orgc24fea4"></a>Spits out erros when cannot find libraries<br />
-<div class="outline-text-5" id="text-orgc24fea4">
+<li><a id="org5b2e9e0"></a>Spits out erros when cannot find libraries<br />
+<div class="outline-text-5" id="text-org5b2e9e0">
 <p>
 I HATE THIS ISSUE WITH A PASSION.
 The thing is it's not Clangd's fault, I just never got it working.
@@ -82,9 +89,9 @@ Just enable "CMAKE<sub>EXPORT</sub><sub>COMPILE</sub><sub>COMMANDS</sub>", see t
 </div>
 </div>
 
-<div id="outline-container-orgfc6e04b" class="outline-2">
-<h2 id="orgfc6e04b">Links to this note</h2>
-<div class="outline-text-2" id="text-orgfc6e04b">
+<div id="outline-container-org021be8f" class="outline-2">
+<h2 id="org021be8f">Links to this note</h2>
+<div class="outline-text-2" id="text-org021be8f">
 <ul class="org-ul">
 <li><a href="./emacs.html">Emacs</a></li>
 <li><a href="./emacs.html">Emacs</a></li>
@@ -93,19 +100,28 @@ Just enable "CMAKE<sub>EXPORT</sub><sub>COMPILE</sub><sub>COMMANDS</sub>", see t
 </div>
 </div>
 <div id="postamble" class="status">
-<footer>
-	  <div class='footer-content'>
-	    <h3>Haider Mirza</h3>
-	    <p>Website created by Haider Mirza</p>
-	    <ul class='socials'>
-	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
-	      <li><a href='mailto:haider@haider.gq'><i class='fa fa-envelope'></i></a></li>
-	    </ul>
-	  </div>
-	  <div class='footer-bottom'>
-	    <p>Created by Haider Mirza with orgmode in emacs</p>
-	  </div>
-	</footer>
+</div>
+		    </div>
+		<div class='grid-item sidebar'>
+		  <h2>Socials</h2>
+		  <ul class='sidebar-socials'>
+		    <li><a href='mailto:haider@haider.gq'><i class='fa-solid fa-envelope'></i> Email</a></li>
+		    <li class='irc' onclick='alert('My Username is Haider,
+You can find me in Libera.Chat on these channels:
+- #tropin 
+- #systemcrafters 
+- #guix');'><i class='fa-solid fa-message'></i> IRC/Matrix</li>
+		    <li><a href='https://www.github.com/Haider-Mirza'><i class='fa-brands fa-github'></i> Github</a></li>
+		  </ul>
+		  <h2>Projects</h2>
+		  <ul class='sidebar-projects'>
+		    <li><a href='https://www.github.com/Haider-Mirza/Spinter'> Spinter</a></li>
+		  </ul>
+		</div>
+		<div class='grid-item footer'>
+		  <p>Created by Haider Mirza with orgmode in emacs</p>
+		</div>
+	      </div>
 </div>
 </body>
 </html>

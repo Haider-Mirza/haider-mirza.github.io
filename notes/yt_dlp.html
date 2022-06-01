@@ -7,32 +7,39 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>yt-dlp</title>
 <meta name="generator" content="Org Mode" />
-<link rel="icon" type="base/favicon" href="/base/favicon.png">
-<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
-<link rel="stylesheet" href="https://www.haider.gq/base/table.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' /> 
+<link rel='preconnect' href='https://fonts.googleapis.com'> 
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> 
+<link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>
+<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> 
 </head>
 <body>
 <div id="preamble" class="status">
-<header>
-	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
-	  <nav>
-	    <ul class='nav_links'>
-	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
-	      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	    </ul>
-	  </nav>
-	</header>
+<div class='grid-container'>
+      <div class='grid-item header'>
+
+	<a href='https://www.haider.gq' class='Header_Title'>
+	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
+	</a>
+	<ul class='Header_links'>
+	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	</ul>
+	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
+	</div>
+
+	<div class='grid-item main'>
+	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
+	      <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">yt-dlp</h1>
 
-<div id="outline-container-orgc5bbf81" class="outline-2">
-<h2 id="orgc5bbf81">yt-dlp</h2>
-<div class="outline-text-2" id="text-orgc5bbf81">
+<div id="outline-container-org5811780" class="outline-2">
+<h2 id="org5811780">yt-dlp</h2>
+<div class="outline-text-2" id="text-org5811780">
 <p>
 yt-dlp is a fork of youtube-dl and personally I was a very early adopter of it as I found youtubedl to be very slow even with major configurations. 
 yt-dlp is now qutite popular and Is even shipped by default by <a href="mpv.html#ID-a228f3b3-4a77-4302-ae26-1276fd852b1d">MPV</a>.
@@ -40,25 +47,25 @@ yt-dlp is now qutite popular and Is even shipped by default by <a href="mpv.html
 </div>
 </div>
 
-<div id="outline-container-orgef610d9" class="outline-2">
-<h2 id="orgef610d9">Common Use cases</h2>
-<div class="outline-text-2" id="text-orgef610d9">
+<div id="outline-container-orgf98c44b" class="outline-2">
+<h2 id="orgf98c44b">Common Use cases</h2>
+<div class="outline-text-2" id="text-orgf98c44b">
 <p>
 I do mainly use yt-dlp to stream Youtube and Twitch to <a href="mpv.html#ID-a228f3b3-4a77-4302-ae26-1276fd852b1d">mpv</a> but I also use it to download videos and playlists in different audio /or video formats.
 </p>
 </div>
 
-<div id="outline-container-org082a057" class="outline-3">
-<h3 id="org082a057">Audio Downloads</h3>
-<div class="outline-text-3" id="text-org082a057">
+<div id="outline-container-org25edf6c" class="outline-3">
+<h3 id="org25edf6c">Audio Downloads</h3>
+<div class="outline-text-3" id="text-org25edf6c">
 <p>
 Here is how you can download a video as a audio file.
 These Probably also work with playlists.
 </p>
 </div>
-<div id="outline-container-orgacf95de" class="outline-4">
-<h4 id="orgacf95de">opus</h4>
-<div class="outline-text-4" id="text-orgacf95de">
+<div id="outline-container-org0b980da" class="outline-4">
+<h4 id="org0b980da">opus</h4>
+<div class="outline-text-4" id="text-org0b980da">
 <p>
 Notice that this will Download this as an opus format which would give you better sound but for compatibily usage use mp3 (which is the next command)
 Obviously, replace this URL with your own
@@ -69,9 +76,9 @@ Obviously, replace this URL with your own
 </div>
 </div>
 </div>
-<div id="outline-container-org80b816d" class="outline-4">
-<h4 id="org80b816d">mp3</h4>
-<div class="outline-text-4" id="text-org80b816d">
+<div id="outline-container-org22861d4" class="outline-4">
+<h4 id="org22861d4">mp3</h4>
+<div class="outline-text-4" id="text-org22861d4">
 <p>
 Here is how you save a video as mp3 if you want very good cross compatibility (otherwise use opus)
 Obviously, replace this URL with your own
@@ -83,9 +90,9 @@ Obviously, replace this URL with your own
 </div>
 </div>
 </div>
-<div id="outline-container-orgca33322" class="outline-3">
-<h3 id="orgca33322">Video Downloads</h3>
-<div class="outline-text-3" id="text-orgca33322">
+<div id="outline-container-org3616b23" class="outline-3">
+<h3 id="org3616b23">Video Downloads</h3>
+<div class="outline-text-3" id="text-org3616b23">
 <p>
 This command will download the best format (video + audio) that is equal to or greater than 720p width.
 Of course, you can change the width to 1080p or anything you like (the actual video has to support it though) 
@@ -98,9 +105,9 @@ Of course, you can change the width to 1080p or anything you like (the actual vi
 </div>
 </div>
 
-<div id="outline-container-org2d8aea6" class="outline-2">
-<h2 id="org2d8aea6">Links to this note</h2>
-<div class="outline-text-2" id="text-org2d8aea6">
+<div id="outline-container-org5e10844" class="outline-2">
+<h2 id="org5e10844">Links to this note</h2>
+<div class="outline-text-2" id="text-org5e10844">
 <ul class="org-ul">
 <li><a href="./mpv.html">MPV</a></li>
 <li><a href="./mpv.html">MPV</a></li>
@@ -111,19 +118,28 @@ Of course, you can change the width to 1080p or anything you like (the actual vi
 </div>
 </div>
 <div id="postamble" class="status">
-<footer>
-	  <div class='footer-content'>
-	    <h3>Haider Mirza</h3>
-	    <p>Website created by Haider Mirza</p>
-	    <ul class='socials'>
-	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
-	      <li><a href='mailto:haider@haider.gq'><i class='fa fa-envelope'></i></a></li>
-	    </ul>
-	  </div>
-	  <div class='footer-bottom'>
-	    <p>Created by Haider Mirza with orgmode in emacs</p>
-	  </div>
-	</footer>
+</div>
+		    </div>
+		<div class='grid-item sidebar'>
+		  <h2>Socials</h2>
+		  <ul class='sidebar-socials'>
+		    <li><a href='mailto:haider@haider.gq'><i class='fa-solid fa-envelope'></i> Email</a></li>
+		    <li class='irc' onclick='alert('My Username is Haider,
+You can find me in Libera.Chat on these channels:
+- #tropin 
+- #systemcrafters 
+- #guix');'><i class='fa-solid fa-message'></i> IRC/Matrix</li>
+		    <li><a href='https://www.github.com/Haider-Mirza'><i class='fa-brands fa-github'></i> Github</a></li>
+		  </ul>
+		  <h2>Projects</h2>
+		  <ul class='sidebar-projects'>
+		    <li><a href='https://www.github.com/Haider-Mirza/Spinter'> Spinter</a></li>
+		  </ul>
+		</div>
+		<div class='grid-item footer'>
+		  <p>Created by Haider Mirza with orgmode in emacs</p>
+		</div>
+	      </div>
 </div>
 </body>
 </html>

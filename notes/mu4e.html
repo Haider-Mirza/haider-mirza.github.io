@@ -7,40 +7,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Mu4e</title>
 <meta name="generator" content="Org Mode" />
-<link rel="icon" type="base/favicon" href="/base/favicon.png">
-<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
-<link rel="stylesheet" href="https://www.haider.gq/base/table.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' /> 
+<link rel='preconnect' href='https://fonts.googleapis.com'> 
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> 
+<link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>
+<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> 
 </head>
 <body>
 <div id="preamble" class="status">
-<header>
-	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
-	  <nav>
-	    <ul class='nav_links'>
-	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
-	      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	    </ul>
-	  </nav>
-	</header>
+<div class='grid-container'>
+      <div class='grid-item header'>
+
+	<a href='https://www.haider.gq' class='Header_Title'>
+	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
+	</a>
+	<ul class='Header_links'>
+	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	</ul>
+	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
+	</div>
+
+	<div class='grid-item main'>
+	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
+	      <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Mu4e</h1>
 
-<div id="outline-container-orge40b0b3" class="outline-2">
-<h2 id="orge40b0b3">About</h2>
-<div class="outline-text-2" id="text-orge40b0b3">
+<div id="outline-container-orgf67d0af" class="outline-2">
+<h2 id="orgf67d0af">About</h2>
+<div class="outline-text-2" id="text-orgf67d0af">
 <p>
 Mu4e is an email client for <a href="emacs.html#ID-f8b81c21-7c7e-410e-82ad-046fa5fa4c55">Emacs</a>. It’s based on the mu email indexer/searcher.
 I have replaced Mu4e for <a href="notmuch.html#ID-92cab502-d6ab-47fe-9355-3f5a6c07cf68">Notmuch</a>. 
 </p>
 </div>
-<div id="outline-container-orgd6521fc" class="outline-3">
-<h3 id="orgd6521fc">Links</h3>
-<div class="outline-text-3" id="text-orgd6521fc">
+<div id="outline-container-orge1816d7" class="outline-3">
+<h3 id="orge1816d7">Links</h3>
+<div class="outline-text-3" id="text-orge1816d7">
 <p>
 <a target='_blank' rel='noopener noreferrer' class='external' href="https://www.emacswiki.org/emacs/mu4e">Emacs Wiki</a>
 <a target='_blank' rel='noopener noreferrer' class='external' href="https://www.djcbsoftware.nl/code/mu/mu4e/index.html">Mu4e User Manual</a>
@@ -48,13 +55,13 @@ I have replaced Mu4e for <a href="notmuch.html#ID-92cab502-d6ab-47fe-9355-3f5a6c
 </div>
 </div>
 </div>
-<div id="outline-container-orgdbb0243" class="outline-2">
-<h2 id="orgdbb0243">Note:</h2>
-<div class="outline-text-2" id="text-orgdbb0243">
+<div id="outline-container-orge4970de" class="outline-2">
+<h2 id="orge4970de">Note:</h2>
+<div class="outline-text-2" id="text-orge4970de">
 </div>
-<div id="outline-container-org27140fe" class="outline-3">
-<h3 id="org27140fe">Note 1</h3>
-<div class="outline-text-3" id="text-org27140fe">
+<div id="outline-container-org42d918d" class="outline-3">
+<h3 id="org42d918d">Note 1</h3>
+<div class="outline-text-3" id="text-org42d918d">
 <p>
 You could find yourself with this error
 Can't exec "aclocal": No such file or directory at /usr/share/autoconf/Autom4te/FileUtils.pm line 326.
@@ -65,9 +72,9 @@ You fix it with installing automake.
 </p>
 </div>
 </div>
-<div id="outline-container-org4559656" class="outline-3">
-<h3 id="org4559656">Note 2</h3>
-<div class="outline-text-3" id="text-org4559656">
+<div id="outline-container-org2d9596c" class="outline-3">
+<h3 id="org2d9596c">Note 2</h3>
+<div class="outline-text-3" id="text-org2d9596c">
 <p>
 install Isync and mu-git from the AUR (if using ArchLinux).
 Mu4e comes from mu for some reason.
@@ -75,26 +82,26 @@ Mu4e comes from mu for some reason.
 </div>
 </div>
 </div>
-<div id="outline-container-org2595229" class="outline-2">
-<h2 id="org2595229">Important Information</h2>
-<div class="outline-text-2" id="text-org2595229">
+<div id="outline-container-org36b0f73" class="outline-2">
+<h2 id="org36b0f73">Important Information</h2>
+<div class="outline-text-2" id="text-org36b0f73">
 <p>
 On my configuration all of my  Mail is located is in the ~/Mail directory.
 Mu4e uses the command "mbsync -a" to sync the EMail.
 </p>
 </div>
 </div>
-<div id="outline-container-org131394f" class="outline-2">
-<h2 id="org131394f">Email Properties</h2>
-<div class="outline-text-2" id="text-org131394f">
+<div id="outline-container-org97f168f" class="outline-2">
+<h2 id="org97f168f">Email Properties</h2>
+<div class="outline-text-2" id="text-org97f168f">
 <p>
 This applys only to my emails however this also works for any other email addresses that use the same provider.
 </p>
 </div>
 
-<div id="outline-container-orgb41c817" class="outline-3">
-<h3 id="orgb41c817">School</h3>
-<div class="outline-text-3" id="text-orgb41c817">
+<div id="outline-container-orga9f8334" class="outline-3">
+<h3 id="orga9f8334">School</h3>
+<div class="outline-text-3" id="text-orga9f8334">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -144,9 +151,9 @@ This applys only to my emails however this also works for any other email addres
 </div>
 </div>
 
-<div id="outline-container-orgb811023" class="outline-3">
-<h3 id="orgb811023">Home</h3>
-<div class="outline-text-3" id="text-orgb811023">
+<div id="outline-container-orgd0dfa3d" class="outline-3">
+<h3 id="orgd0dfa3d">Home</h3>
+<div class="outline-text-3" id="text-orgd0dfa3d">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -197,16 +204,16 @@ This applys only to my emails however this also works for any other email addres
 </div>
 </div>
 
-<div id="outline-container-org183cecb" class="outline-2">
-<h2 id="org183cecb">Common enquiries</h2>
-<div class="outline-text-2" id="text-org183cecb">
+<div id="outline-container-org1d95e98" class="outline-2">
+<h2 id="org1d95e98">Common enquiries</h2>
+<div class="outline-text-2" id="text-org1d95e98">
 <p>
 Some common questions about mu4e.
 </p>
 </div>
-<div id="outline-container-org9c54c63" class="outline-3">
-<h3 id="org9c54c63">How to send a new Email in orgmode</h3>
-<div class="outline-text-3" id="text-org9c54c63">
+<div id="outline-container-orgf1c40ab" class="outline-3">
+<h3 id="orgf1c40ab">How to send a new Email in orgmode</h3>
+<div class="outline-text-3" id="text-orgf1c40ab">
 <p>
 You start typing your address but when it comes to the actual composing part,
 do M-x and type org-mime-edit-mail-in-org-mode to open a new buffer that you can type your org Text in.
@@ -217,17 +224,17 @@ and keeps the original if some email clients dont have support for html. And lik
 </div>
 </div>
 
-<div id="outline-container-org0ed0864" class="outline-2">
-<h2 id="org0ed0864">How to attach a file</h2>
-<div class="outline-text-2" id="text-org0ed0864">
+<div id="outline-container-orgc1838ff" class="outline-2">
+<h2 id="orgc1838ff">How to attach a file</h2>
+<div class="outline-text-2" id="text-orgc1838ff">
 <p>
 When composing, go into the text area and do the command C-c C-a to attach a file.
 </p>
 </div>
 </div>
-<div id="outline-container-orgcc1761f" class="outline-2">
-<h2 id="orgcc1761f">How to send a existing org document as a Email</h2>
-<div class="outline-text-2" id="text-orgcc1761f">
+<div id="outline-container-org976f90e" class="outline-2">
+<h2 id="org976f90e">How to send a existing org document as a Email</h2>
+<div class="outline-text-2" id="text-org976f90e">
 <p>
 Go to the file and do M-x and type org-mime-org-buffer-htmlize. Press no if it asks to evaluate the buffer.
 Then you have a new window showing the email (This is in the normal email buffer not the buffer where you compose email inside Mu4e)
@@ -237,16 +244,16 @@ Then do M-x again and type mu4e-compose-mode to convert it from a normal email b
 </div>
 </div>
 
-<div id="outline-container-orgbbeefdf" class="outline-2">
-<h2 id="orgbbeefdf">How to send a subtree as a Email</h2>
-<div class="outline-text-2" id="text-orgbbeefdf">
+<div id="outline-container-org542d6aa" class="outline-2">
+<h2 id="org542d6aa">How to send a subtree as a Email</h2>
+<div class="outline-text-2" id="text-org542d6aa">
 <p>
 Go inside the subtree and then do M-x and type org-mime-org-subtree-htmlize and this will take this * only only the top tree AND it's subtrees included in the tree. (Optional (Turning normal email buffer to Mu4e's)) Do M-x again and type in Mu4e-compose-mode to go into the mu4e buffer not emac's inbuilt. And as the name suggests it turns to HTML.
 </p>
 </div>
-<div id="outline-container-org99f55ca" class="outline-3">
-<h3 id="org99f55ca">Note</h3>
-<div class="outline-text-3" id="text-org99f55ca">
+<div id="outline-container-org531c706" class="outline-3">
+<h3 id="org531c706">Note</h3>
+<div class="outline-text-3" id="text-org531c706">
 <p>
 The Header for the subtree gets put automatically as the title and then the subtree (without the Header) gets put into the main part of the email.
 </p>
@@ -255,9 +262,9 @@ The Header for the subtree gets put automatically as the title and then the subt
 </div>
 
 
-<div id="outline-container-orgab2a83a" class="outline-2">
-<h2 id="orgab2a83a">Links to this note</h2>
-<div class="outline-text-2" id="text-orgab2a83a">
+<div id="outline-container-org79e9cb1" class="outline-2">
+<h2 id="org79e9cb1">Links to this note</h2>
+<div class="outline-text-2" id="text-org79e9cb1">
 <ul class="org-ul">
 <li><a href="./emacs_packages.html">Emacs Packages</a></li>
 <li><a href="./emacs.html">Emacs</a></li>
@@ -268,19 +275,28 @@ The Header for the subtree gets put automatically as the title and then the subt
 </div>
 </div>
 <div id="postamble" class="status">
-<footer>
-	  <div class='footer-content'>
-	    <h3>Haider Mirza</h3>
-	    <p>Website created by Haider Mirza</p>
-	    <ul class='socials'>
-	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
-	      <li><a href='mailto:haider@haider.gq'><i class='fa fa-envelope'></i></a></li>
-	    </ul>
-	  </div>
-	  <div class='footer-bottom'>
-	    <p>Created by Haider Mirza with orgmode in emacs</p>
-	  </div>
-	</footer>
+</div>
+		    </div>
+		<div class='grid-item sidebar'>
+		  <h2>Socials</h2>
+		  <ul class='sidebar-socials'>
+		    <li><a href='mailto:haider@haider.gq'><i class='fa-solid fa-envelope'></i> Email</a></li>
+		    <li class='irc' onclick='alert('My Username is Haider,
+You can find me in Libera.Chat on these channels:
+- #tropin 
+- #systemcrafters 
+- #guix');'><i class='fa-solid fa-message'></i> IRC/Matrix</li>
+		    <li><a href='https://www.github.com/Haider-Mirza'><i class='fa-brands fa-github'></i> Github</a></li>
+		  </ul>
+		  <h2>Projects</h2>
+		  <ul class='sidebar-projects'>
+		    <li><a href='https://www.github.com/Haider-Mirza/Spinter'> Spinter</a></li>
+		  </ul>
+		</div>
+		<div class='grid-item footer'>
+		  <p>Created by Haider Mirza with orgmode in emacs</p>
+		</div>
+	      </div>
 </div>
 </body>
 </html>

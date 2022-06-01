@@ -7,49 +7,56 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Dethroning Demo</title>
 <meta name="generator" content="Org Mode" />
-<link rel="icon" type="base/favicon" href="/base/favicon.png">
-<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
-<link rel="stylesheet" href="https://www.haider.gq/base/table.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' /> 
+<link rel='preconnect' href='https://fonts.googleapis.com'> 
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> 
+<link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>
+<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> 
 </head>
 <body>
 <div id="preamble" class="status">
-<header>
-	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
-	  <nav>
-	    <ul class='nav_links'>
-	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
-	      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	    </ul>
-	  </nav>
-	</header>
+<div class='grid-container'>
+      <div class='grid-item header'>
+
+	<a href='https://www.haider.gq' class='Header_Title'>
+	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
+	</a>
+	<ul class='Header_links'>
+	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	</ul>
+	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
+	</div>
+
+	<div class='grid-item main'>
+	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
+	      <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Dethroning Demo</h1>
 
-<div id="outline-container-org7d601e2" class="outline-2">
-<h2 id="org7d601e2">Dethroning Demo</h2>
-<div class="outline-text-2" id="text-org7d601e2">
+<div id="outline-container-orgf54f524" class="outline-2">
+<h2 id="orgf54f524">Dethroning Demo</h2>
+<div class="outline-text-2" id="text-orgf54f524">
 <p>
 Dethroning (the upcoming game) is coming with a free game that is 
 </p>
 </div>
 </div>
-<div id="outline-container-orge2728b2" class="outline-2">
-<h2 id="orge2728b2">NOTE</h2>
-<div class="outline-text-2" id="text-orge2728b2">
+<div id="outline-container-org3d2a1c6" class="outline-2">
+<h2 id="org3d2a1c6">NOTE</h2>
+<div class="outline-text-2" id="text-org3d2a1c6">
 <p>
 This game is in a very early stage. Expect bugs, crashes, memory errors and any unstable behavior.
 You can file a error on the demo's git repository page.
 </p>
 </div>
 </div>
-<div id="outline-container-org7d8d22f" class="outline-2">
-<h2 id="org7d8d22f">Git repository</h2>
-<div class="outline-text-2" id="text-org7d8d22f">
+<div id="outline-container-orgb733368" class="outline-2">
+<h2 id="orgb733368">Git repository</h2>
+<div class="outline-text-2" id="text-orgb733368">
 <p>
 Which is already in the works and could be found here: <a target='_blank' rel='noopener noreferrer' class='external' href="https://github.com/Haider-Mirza/Dethroning">Git Repository</a>.
 The game is Free softwware and is licensed under the <b>GNU Public License v3</b>.
@@ -57,9 +64,9 @@ The game is Free softwware and is licensed under the <b>GNU Public License v3</b
 </div>
 </div>
 
-<div id="outline-container-orgbe9687e" class="outline-2">
-<h2 id="orgbe9687e">How to build the game</h2>
-<div class="outline-text-2" id="text-orgbe9687e">
+<div id="outline-container-org16017f3" class="outline-2">
+<h2 id="org16017f3">How to build the game</h2>
+<div class="outline-text-2" id="text-org16017f3">
 <p>
 If you use the GNU Guix package manager, you can run the command "guix shell -m manifest.scm" to create a seperate programming environment.
 You can read more about this feature in the Guix Manual: <a target='_blank' rel='noopener noreferrer' class='external' href="https://guix.gnu.org/en/manual/devel/en/guix.html#Invoking-guix-shell">Guix Shell</a> 
@@ -74,19 +81,28 @@ Make sure you have all of the dependencies required installed. These are listed 
 </div>
 </div>
 <div id="postamble" class="status">
-<footer>
-	  <div class='footer-content'>
-	    <h3>Haider Mirza</h3>
-	    <p>Website created by Haider Mirza</p>
-	    <ul class='socials'>
-	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
-	      <li><a href='mailto:haider@haider.gq'><i class='fa fa-envelope'></i></a></li>
-	    </ul>
-	  </div>
-	  <div class='footer-bottom'>
-	    <p>Created by Haider Mirza with orgmode in emacs</p>
-	  </div>
-	</footer>
+</div>
+		    </div>
+		<div class='grid-item sidebar'>
+		  <h2>Socials</h2>
+		  <ul class='sidebar-socials'>
+		    <li><a href='mailto:haider@haider.gq'><i class='fa-solid fa-envelope'></i> Email</a></li>
+		    <li class='irc' onclick='alert('My Username is Haider,
+You can find me in Libera.Chat on these channels:
+- #tropin 
+- #systemcrafters 
+- #guix');'><i class='fa-solid fa-message'></i> IRC/Matrix</li>
+		    <li><a href='https://www.github.com/Haider-Mirza'><i class='fa-brands fa-github'></i> Github</a></li>
+		  </ul>
+		  <h2>Projects</h2>
+		  <ul class='sidebar-projects'>
+		    <li><a href='https://www.github.com/Haider-Mirza/Spinter'> Spinter</a></li>
+		  </ul>
+		</div>
+		<div class='grid-item footer'>
+		  <p>Created by Haider Mirza with orgmode in emacs</p>
+		</div>
+	      </div>
 </div>
 </body>
 </html>

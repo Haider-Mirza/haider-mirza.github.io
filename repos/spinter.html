@@ -7,25 +7,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Spinter</title>
 <meta name="generator" content="Org Mode" />
-<link rel="icon" type="base/favicon" href="/base/favicon.png">
-<link rel="stylesheet" href="https://www.haider.gq/base/style.css"/>
-<link rel="stylesheet" href="https://www.haider.gq/base/table.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' /> 
+<link rel='preconnect' href='https://fonts.googleapis.com'> 
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> 
+<link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>
+<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> 
 </head>
 <body>
 <div id="preamble" class="status">
-<header>
-	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
-	  <nav>
-	    <ul class='nav_links'>
-	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
-	      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	    </ul>
-	  </nav>
-	</header>
+<div class='grid-container'>
+      <div class='grid-item header'>
+
+	<a href='https://www.haider.gq' class='Header_Title'>
+	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
+	</a>
+	<ul class='Header_links'>
+	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	</ul>
+	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
+	</div>
+
+	<div class='grid-item main'>
+	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
+	      <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Spinter</h1>
@@ -33,9 +40,9 @@
 <i>OpenGL Manipulation</i>
 </p>
 
-<div id="outline-container-org14a89b8" class="outline-2">
-<h2 id="org14a89b8">How to Hack It</h2>
-<div class="outline-text-2" id="text-org14a89b8">
+<div id="outline-container-org37bdbb4" class="outline-2">
+<h2 id="org37bdbb4">How to Hack It</h2>
+<div class="outline-text-2" id="text-org37bdbb4">
 <p>
 If you're interested in cloning the code to try it out, I recommend <a target='_blank' rel='noopener noreferrer' class='external' href="https://guix.gnu.org/manual/en/html_node/Binary-Installation.html">installing the GNU Guix package manager</a>.  Using Guix will allow you to install all compilation dependencies like so:
 </p>
@@ -64,9 +71,9 @@ chmod +x ./start.sh
 </div>
 </div>
 
-<div id="outline-container-org2cfa622" class="outline-3">
-<h3 id="org2cfa622">Editor Setup</h3>
-<div class="outline-text-3" id="text-org2cfa622">
+<div id="outline-container-org6b6d954" class="outline-3">
+<h3 id="org6b6d954">Editor Setup</h3>
+<div class="outline-text-3" id="text-org6b6d954">
 <p>
 I use GNU Emacs to hack on and interface with this project. Here's what you need to use for a similar setup:
 </p>
@@ -79,9 +86,9 @@ I use GNU Emacs to hack on and interface with this project. Here's what you need
 </div>
 </div>
 
-<div id="outline-container-orgf40627a" class="outline-2">
-<h2 id="orgf40627a">License</h2>
-<div class="outline-text-2" id="text-orgf40627a">
+<div id="outline-container-orgaab4435" class="outline-2">
+<h2 id="orgaab4435">License</h2>
+<div class="outline-text-2" id="text-orgaab4435">
 <p>
 The code in this repository is licensed under the <a target='_blank' rel='noopener noreferrer' class='external' href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License 3.0</a>.
 </p>
@@ -89,19 +96,28 @@ The code in this repository is licensed under the <a target='_blank' rel='noopen
 </div>
 </div>
 <div id="postamble" class="status">
-<footer>
-	  <div class='footer-content'>
-	    <h3>Haider Mirza</h3>
-	    <p>Website created by Haider Mirza</p>
-	    <ul class='socials'>
-	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
-	      <li><a href='mailto:haider@haider.gq'><i class='fa fa-envelope'></i></a></li>
-	    </ul>
-	  </div>
-	  <div class='footer-bottom'>
-	    <p>Created by Haider Mirza with orgmode in emacs</p>
-	  </div>
-	</footer>
+</div>
+		    </div>
+		<div class='grid-item sidebar'>
+		  <h2>Socials</h2>
+		  <ul class='sidebar-socials'>
+		    <li><a href='mailto:haider@haider.gq'><i class='fa-solid fa-envelope'></i> Email</a></li>
+		    <li class='irc' onclick='alert('My Username is Haider,
+You can find me in Libera.Chat on these channels:
+- #tropin 
+- #systemcrafters 
+- #guix');'><i class='fa-solid fa-message'></i> IRC/Matrix</li>
+		    <li><a href='https://www.github.com/Haider-Mirza'><i class='fa-brands fa-github'></i> Github</a></li>
+		  </ul>
+		  <h2>Projects</h2>
+		  <ul class='sidebar-projects'>
+		    <li><a href='https://www.github.com/Haider-Mirza/Spinter'> Spinter</a></li>
+		  </ul>
+		</div>
+		<div class='grid-item footer'>
+		  <p>Created by Haider Mirza with orgmode in emacs</p>
+		</div>
+	      </div>
 </div>
 </body>
 </html>
