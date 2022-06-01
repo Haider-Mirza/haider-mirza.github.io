@@ -25,51 +25,58 @@
 ;; Set the Website name
 ;; (setq site-title "<div class=\"Haider\"><a href='https://www.haider.gq/'>Haider Mirza</a></div>")
 
+;; <link rel="stylesheet" href="file:///home/haider/haider-mirza.github.io/public/base/style.css"/>
 ;; Links used in the head of the html file
 (setq site-link-href (concat 
-		      ;; <link rel="stylesheet" href="file:///home/haider/haider-mirza.github.io/public/base/style.css"/>
-		      "<link rel=\"icon\" type=\"base/favicon\" href=\"/base/favicon.png\">"
-		      "\n"
-		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/style.css\"/>"
-		      "\n"
-		      "<link rel=\"stylesheet\" href=\"https://www.haider.gq/base/table.css\"/>"
-		      "\n"
-		      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" />"
-		      "\n"
-		      "<link href=\"https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap\" rel=\"stylesheet\">"))
+		      "<link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> \n"
+		      "<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' /> \n"
+		      "<link rel='preconnect' href='https://fonts.googleapis.com'> \n"
+
+		      "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> \n"
+		      "<link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>\n"
+		      "<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> \n"))
 
 ;; Functions
 ;; Set the preamble
 (defun dw/site-preamble ()
-  (concat "<header>
-	  <a href='https://www.haider.gq' class='main_header'>Haider Mirza</a>
-	  <nav>
-	    <ul class='nav_links'>
-	      <li><a href='https://www.haider.gq/projects/projects'>Projects</a></li>
-	      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	    </ul>
-	  </nav>
-	</header>"))
+  (concat "<div class='grid-container'>
+      <div class='grid-item header'>
 
-	      ;; <li><a href='https://www.haider.gq/search/search'>Search</a></li>
+	<a href='https://www.haider.gq' class='Header_Title'>
+	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
+	</a>
+	<ul class='Header_links'>
+	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+	</ul>
+	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
+	</div>
+
+	<div class='grid-item main'>
+	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
+	      <div class='main-main'> <!-- The actual main part -->"))
 
 ;; Set the postamble
 (defun dw/site-postamble ()
-  (concat "<footer>
-	  <div class='footer-content'>
-	    <h3>Haider Mirza</h3>
-	    <p>Website created by Haider Mirza</p>
-	    <ul class='socials'>
-	      <li><a href='https://www.github.com/Haider-Mirza'><i class='fa fa-github'></i></a></li>
-	      <li><a href='mailto:haider@haider.gq'><i class='fa fa-envelope'></i></a></li>
-	    </ul>
-	  </div>
-	  <div class='footer-bottom'>
-	    <p>Created by Haider Mirza with orgmode in emacs</p>
-	  </div>
-	</footer>"))
+  (concat "</div>
+		    </div>
+		<div class='grid-item sidebar'>
+		  <h2>Socials</h2>
+		  <ul class='sidebar-socials'>
+		    <li><a href='mailto:haider@haider.gq'><i class='fa-solid fa-envelope'></i> Email</a></li>
+		    <li class='irc' onclick='alert('My Username is Haider,\nYou can find me in Libera.Chat on these channels:\n- #tropin \n- #systemcrafters \n- #guix');'><i class='fa-solid fa-message'></i> IRC/Matrix</li>
+		    <li><a href='https://www.github.com/Haider-Mirza'><i class='fa-brands fa-github'></i> Github</a></li>
+		  </ul>
+		  <h2>Projects</h2>
+		  <ul class='sidebar-projects'>
+		    <li><a href='https://www.github.com/Haider-Mirza/Spinter'> Spinter</a></li>
+		  </ul>
+		</div>
+		<div class='grid-item footer'>
+		  <p>Created by Haider Mirza with orgmode in emacs</p>
+		</div>
+	      </div>"))
 
 
 ;; Customize the HTML output
@@ -97,9 +104,9 @@
              :with-timestamps t
              :time-stamp-file nil)))    ;; Don't include time stamp in file
 
-; ---------------------------------------------------------------------
-;                          PUBLISH
-; ---------------------------------------------------------------------
+					; ---------------------------------------------------------------------
+					;                          PUBLISH
+					; ---------------------------------------------------------------------
 
 (defun my/publish-all()
   (setq org-roam-directory "./content/notes")  ; we first setup the org-roam locations
@@ -108,10 +115,10 @@
   (org-roam-db-sync t)
   (call-interactively 'org-publish-all))
 
-; EXTERIOR LINKS -------------------------------------------------
-; Exterior links need to be easily identifiable for readers. They
-; should also open in a new tab.
-; ---
+					; EXTERIOR LINKS -------------------------------------------------
+					; Exterior links need to be easily identifiable for readers. They
+					; should also open in a new tab.
+					; ---
 (defun my/format-external-links (text backend info)
   (when (org-export-derived-backend-p backend 'html)
     (when (string-match-p (regexp-quote "http") text)
@@ -121,7 +128,7 @@
              'my/format-external-links)
 (add-hook 'org-export-before-processing-hook 'my/add-roam-backlinks)
 
-; --- BACKLINKS ------------------------------------------------------
+					; --- BACKLINKS ------------------------------------------------------
 
 (defun my/add-roam-backlinks (backend)
   "Insert backlinks at the end of org files. BACKEND."

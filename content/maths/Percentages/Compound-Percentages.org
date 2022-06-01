@@ -30,3 +30,4 @@ We would only have \pound600! Almost nobody does this though but there is a chan
 Bacteria in a petri dish increase in number by 50% every 3 hours.
 We had 50 bacteria in a petri dish at midnight on Monday.
 How many will there be a week later?
+

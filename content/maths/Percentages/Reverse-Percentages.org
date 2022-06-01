@@ -30,3 +30,4 @@ $x$ \times 1.038 = 200,000
 $x$ = 200,000 \div 1.038 (divide by the multiplier)
 $x$ = \pound192,678.23
 
+
