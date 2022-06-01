@@ -12,7 +12,7 @@ Here is a representation of my notes (this will only be meaningful if you follow
 Below are main headings for notes, there may be more subheadings inside.
 Note that these notes might so into many subheadings so they are sorted by their "main" purpous.
 #+BEGIN_EXPORT html
-<input type="text" id="filterInput" placeholder="Search Notes...">
+<input type="text" id="filterInput" style="margin-bottom: 1rem" placeholder="Search Notes...">
 
 <script>
   // Get the input element
