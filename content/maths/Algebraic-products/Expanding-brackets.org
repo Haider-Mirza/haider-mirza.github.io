@@ -58,4 +58,3 @@ Here where we have 2 brackets, the procedure is the same but with both of the el
 Here is a visual repesentation:
 
 https://www.haider.gq/maths/Algebraic-products/Exp-Brack-4.png
-

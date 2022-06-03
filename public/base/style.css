@@ -16,6 +16,11 @@ body {
     background-color: #1e2127;
 }
 
+img {
+    width: 100%;
+    margin-top: .8rem;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(6,1fr);
@@ -246,8 +251,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .main h1{
+    line-height: 1;
     color: #d19a66;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .main h2{
@@ -309,8 +316,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #content h1 {
+    font-size: 2.5rem; 
     color:#81b4ea;
-    /* margin-top: 1rem; */
 }
 
 #content h2 {

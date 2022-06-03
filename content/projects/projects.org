@@ -12,5 +12,3 @@ I never seem to get the CSS just right.
 ** Spinter
 [[https://github.com/Haider-Mirza/Spinter][Spinter]] is a test of manipulation of OpenGL and C++ but I have plans to transform this to a game engine.
 Nothing is final but this is my current plans.
-
-

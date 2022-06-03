@@ -6,5 +6,3 @@ Blogs are things I have decided to document that I just generally found interest
 Here are some blogs I have made:
  
 - [[https://www.haider.gq/blogs/HP%20Creates%20a%20Linux%20laptop.html][HP creates a Linux laptop]]
-
-

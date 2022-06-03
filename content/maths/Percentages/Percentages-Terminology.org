@@ -38,4 +38,3 @@ After deep scrutinization, you should know we need to first find 17.5% of the co
 
 Now we just add the VAT to the sell-price to get the true cost of the computers.
 218.75 + 1250 = *\pound1468.75*
-

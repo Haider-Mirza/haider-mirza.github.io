@@ -2,10 +2,8 @@
 #+AUTHOR: Haider Mirza
 #+DATE: [2022-05-30 Mon]
 
-* HP creates a Linux laptop
-** [2022-05-30 Mon]
-HP is soon to release a new laptop called the [[https://hpdevone.com/][HP DEV ONE]].
 [[https://www.haider.gq/images/blogs/HP-DEV-ONE.png]]
+HP is soon to release a new laptop called the [[https://hpdevone.com/][HP DEV ONE]].
 
 The laptop runs [[https://pop.system76.com/][PopOS]] which is made by the [[https://en.wikipedia.org/wiki/Linux][Linux]] company, [[https://system76.com/][System76]], who also make laptops; making them a direct competitor to [[https://www.hp.com/gb-en/shop/][HP]] (which is also a very small company in comparison).
 Despite this, [[https://pop.system76.com/][PopOS]] is a very nice, easy-to-use operating system for users and a great choice for developers which this laptop is intended to be made for.
@@ -20,4 +18,3 @@ System76 CEO Carl Richell says the HP Dev One is a result of a partnership betwe
 He also says that while HP has published a website for the HP Dev One, a “real announcement is coming later,” so we should have more information about specs and availability at some point down the road.
 
 But will this replace our legendary Thinkpads? Probably Not.
-

@@ -78,4 +78,3 @@ Time to collect, $8x^3 + 4x^2 + 8x^2 + 4x + 2x + 1$
 $= 8x^3 + 12x^2 + 6x + 1$
 
 We are now done!
-

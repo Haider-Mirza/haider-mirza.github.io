@@ -34,7 +34,10 @@
 
 		      "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> \n"
 		      "<link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>\n"
-		      "<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> \n"))
+		      "<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> \n"
+		      "<meta name='keywords' content='development, coding, programming, linux, emacs, guix'>\n"
+		      "<link rel='icon' type='image/x-icon' href='/base/favicon.png'>\n"
+		      "<meta name='description' content='Haider Mirza's website'>\n"))
 
 ;; Functions
 ;; Set the preamble

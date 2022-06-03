@@ -17,4 +17,3 @@
   If you dont use the Guix Package manager and cannot use the pre-built binary located in the *./bin/*.
   Launch a terminal and go into the project's root directory then run the command, *make all*.
   Make sure you have all of the dependencies required installed. These are listed in the manifest.scm file.
-
