@@ -64,9 +64,11 @@ Note that these notes might so into many subheadings so they are sorted by their
 <div>
 #+END_EXPORT
 
-** Science
+** Subjects
 [[id:28f57331-a037-47f0-ba1e-851eabbbb2af][Physics]]
 [[id:c908b5d7-0fa7-4784-a193-4b939fa2d508][Biology]]
+[[id:652a4983-ec97-4ebe-bb29-f709c33e6120][Maths]]
+
 ** Utilities
 [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]]
 [[id:8fe08bc8-ad1e-458d-ac5f-77243216932f][Git]]
