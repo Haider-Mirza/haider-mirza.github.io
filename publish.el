@@ -21,11 +21,8 @@
 (require 'find-lisp)
 (require 'org-roam)
 
-;; Variables
-;; Set the Website name
-;; (setq site-title "<div class=\"Haider\"><a href='https://www.haider.gq/'>Haider Mirza</a></div>")
-
 ;; <link rel="stylesheet" href="file:///home/haider/haider-mirza.github.io/public/base/style.css"/>
+
 ;; Links used in the head of the html file
 (setq site-link-href (concat 
 		      "<link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> \n"
@@ -37,7 +34,7 @@
 		      "<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> \n"
 		      "<meta name='keywords' content='development, coding, programming, linux, emacs, guix'>\n"
 		      "<link rel='icon' type='image/x-icon' href='/base/favicon.png'>\n"
-		      "<meta name='description' content='Haider Mirza's website'>\n"))
+		      "<meta name='description' content=\"Haider Mirza's website\">\n"))
 
 ;; Functions
 ;; Set the preamble
