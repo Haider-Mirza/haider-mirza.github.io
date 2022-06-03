@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       45563cdc-1356-4247-b920-123f7bd04ae2
+:END:
+#+title: Perfect squares
+#+date: [2022-06-03 Fri 12:09]
+
+* Perfect Squares
+Sometimes we have to expand brackets where we have a bracket that is effected by an exponent.
+
+You can see an example of this here:
+$(x+5)^2$
+
+You will see how to solve these with the examples below.
+
+* Examples
+** Example 1
+
+Let's go with this example:
+$(x+5)^2$
+*** Common Error
+Be careful!
+A common error is to make a single element of the bracket effected by the exponent
+$(x+5)^2 \neq x^2+25$
+*** Methord
+The exponent (in this case two) effects the entire bracket so what we are really dealing with is this:
+$(x+5)(x+5)$
+
+Alot easier now, isnt it?
+And as you can see in the Picture above, you just carry along as normal and expand the brackets.
+If you dont know how to do so, please see this webpage and see the below image: [[file:Expanding-brackets.org][Expanding Brackets]].
+
+https://www.haider.gq/maths/Algebraic-products/Per-Square-3.png
+
+And then we endup with the answer of:
+$(x+5)^2 = x^2+10x+25$
+
+Even though they do not seem like it, both sides of the "$=$" are the same.
+** Example 2
+Sometimes all we get are some algebraic symbols like in the example below:
+$(x+a)^2$
+
+Before you start to panic, think for a second.
+Is this really a problem? As you will soon see it's really not.
+
+You just carry on as usual. Everything is represented as algebraic symbols.
+I will work this out with you.
+
+So, to reiterate, we have this question: $(x+a)^2$
+*** Step 1
+As you know from before,
+$(x+a)^2$ is the same as $(x+a)(x+a)$
+
+*** Step 2
+Start Expanding the brackets.
+To do this we do the following: $x \times x , x \times a , a \times x , a \times a$
+And then we endup with $x^2 + xa + ax + a^2$
+
+Finally, we collect terms and get $x^2 + 2ax + a^2$
+And this is the answer, Well done!

@@ -1,0 +1,74 @@
+:PROPERTIES:
+:ID:       b61c650a-381a-4cb9-a09e-feb990dd7fc8
+:END:
+#+title: Multipliers
+#+date: [2022-06-03 Fri 12:11]
+
+* Multipliers
+To do percentage changes quickly we can use multipliers. 
+This is a three-step method, but it is very easy once you have practised it: 
+
+1. What percentage of the original amount will we end up with? 
+2. What is this as a decimal? 
+3. Multiply the original amount by this decimal to get the new amount!
+ 
+* Why use multipliers?
+Using multipliers, we can understand the effect of successive percentage (%) changes.
+* Common error
+\pound100 incremented by 10% then decremented by 10% does *NOT* equal \pound100
+
+** Why?
+100 \times 1.1 (110% - increment by 10%) = 110
+110 \times 0.9 (90% - decrement by 10%) = 99
+\pound99 \ne \pound100 (1% decrease)
+
+You often will find this happen in compound interest.
+
+* Examples
+** Example 1 - Tables
+These questions are quite simple, All you have to do is use this formula:
+
+For Percentage increase = 1 + ((Percentaage increase)/100)
+For Percentage decrease = 1 - ((Percentaage decrease)/100)
+
+It's common sense really, and with this knowledge the following tables can be filled.
+\\
+| Percentage Increase | Multiplier for percentage increase |
+|---------------------+------------------------------------|
+|                 10% |                                1.1 |
+|                 25% |                               1.25 |
+|                 17% |                               1.17 |
+|                  1% |                               1.01 |
+|                  5% |                               1.05 |
+|               33.5% |                              1.335 |
+|                  7% |                               1.07 |
+|               24.3% |                              1.243 |
+|                237% |                               3.37 |
+\\
+| Percentage Decrease | Multiplier for percentage decrease |
+|---------------------+------------------------------------|
+|                 10% |                                0.9 |
+|                 25% |                               0.75 |
+|                 17% |                               0.83 |
+|                  1% |                               0.99 |
+|                  5% |                               0.95 |
+|               33.5% |                              0.665 |
+|                  7% |                               0.93 |
+|                 24% |                               0.76 |
+|               24.3% |                              0.757 |
+\\
+* Questions
+You already know how to find the multipliers and they are quite simple.
+So practise with these simple questions:
+
+Find these percentages of amounts using the multiplier method.
+1) Increase 300 by 5% = 
+2) Decrease 640 by 25% = 
+3) Decrease \pound240 by 4% = 
+4) Increase \euro1.40 by 7% = 
+5) Decrease 975 by 36% = 
+6) Increase \pound41 by 7.5% = 
+7) Increase \pound60 by 12% = 
+8) Decrease 80 by 19% = 
+9) Decrease 280mI by 17.5% = 
+10) Increase \pound420 by 28%: 

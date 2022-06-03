@@ -1,0 +1,60 @@
+:PROPERTIES:
+:ID:       ffa6cfbc-bc83-4e1c-9ef3-7e73e62ebe0f
+:END:
+#+title: Expanding brackets
+#+date: [2022-06-03 Fri 12:08]
+
+* Expanding Brackets
+To expand a bracket means to multiply each term in the bracket by the expression outside the bracket.
+Below are two examples to help you understand this.
+
+* Examples
+** Note:
+$4(x+2) = 4x+8$ (*These are both Equal*)
+You can see why this works:
+https://www.haider.gq/maths/Algebraic-products/Exp-Brack-1.png
+
+** Example 1
+$3y(x+4+z^2)$ 
+
+*** Methord
+We should solve this by going *left to right*. 
+This would still work if you complete this in a different order but left to right is reccomended.
+
+- $3y \times x = 3yx$
+- $3y \times 4 = 12y$
+- $3y \times z^2 = 3y7^2$
+
+Here is a visual representation:
+
+https://www.haider.gq/maths/Algebraic-products/Exp-Brack-2.png
+   
+And then you collect all of the outputs and then you have expanded your brackets.
+
+$3y(x+4+7^2)$ = $3yx+12y+3yz^2$
+
+
+Here is another visual representation:
+
+https://www.haider.gq/maths/Algebraic-products/Exp-Brack-3.png
+** Example 2
+$(5z+1)(5z+2)$
+
+Again we should solve this by going *left to right*.
+This would still work if you complete this in a different order but left to right is reccomended.
+
+Here where we have 2 brackets, the procedure is the same but with both of the elements in the brackets.
+
+*** First Bracket
+
+- $5z \times 5z = 25z^2$
+- $5z \times 2 = 10z$
+
+*** Second Bracket
+
+- $1 \times 5z = 5z$
+- $1 \times 2 = 2$
+
+Here is a visual repesentation:
+
+https://www.haider.gq/maths/Algebraic-products/Exp-Brack-4.png

@@ -5,12 +5,6 @@
 #+date: [2022-05-12 Thu 21:28]
 
 * Electrical circuits
-** AC
-Alternating Current is when the Current alternates :)
-In other terms AC is where the output of Coulombs is inconsistent in the form of a sinusodial [[id:aa958a15-a946-41f6-aa0c-76e62840ebc1][Wave]] or like a beating drum.
-
-** DC
-Direct Current can be explained like the current of the wire being steady with no ripples. Completely stable.
 ** Voltage
 Voltage is also known as Electric Potential.
 Voltage is the amount of energy in [[id:369ef4cf-1d7c-47f1-9d9f-ba21149bc819][Joules (Work)]] avalable to move 1 coulumb of charge (available energy per unit charge).
@@ -28,13 +22,6 @@ charge (Q) is measured in coulombs (C)
 current (I) is measured in amps (A)
 time (t) is measured in seconds (s)
 
-*** Coulomb's Law
-I really wont go into this as I do not understand it enough but here is the gist of it:
-[[https://www.haider.gq/images/do-not-delete/Notes/coulomb-law.png]]
-$F = K_e \frac{q_1 \times q_2}{r^2}$
-
-In other words, Coulomb's law states that the electric force between two static charges is proportional to the product of their charges divided by the square of their distance.
-
 ** Current
 An electric current is a stream of charged particles, such as electrons or ions, moving through an electrical conductor or space.
 *NOTE:* Electrons have a negative charge and flow from negative to postitive. Current is positive to negative.
@@ -50,11 +37,41 @@ $Current = \frac{charge}{time}$
 or:
 $I = \frac{Q}{T}$
 ** Resistance
-Passing electrons have to try and move their way accross many vibrating elections.
-The atoms try and stop the electrons from passing like fighting against a strong gale. 
+Electron try and pass through the wire but the atom's electric field slow down the Electrons, The faster the electrons go, the more the atoms vibrate creating heat.
+This is called resistance. The annoying atoms try and stop the electrons from passing like fighting against a strong gales.
+
+$V = \frac{R}{I}$ (see Ohm's Law below in it's sub-heading)
+If we want to pass through more Current with the same resistance, we have to increase the voltage.
+
+Any Component that is made to resist is called a *Resistor*
+[[https://www.haider.gq/images/do-not-delete/Notes/Resistor.png]]
+I guess, the symbol looks like that because the charge will have a hard time going through those wiggly lines, but that is not the point.
+
+** Laws
+These circuitry laws are really quite important to remember.
+*** Coulomb's Law
+I really wont go into this as I do not understand it enough but here is the gist of it:
+[[https://www.haider.gq/images/do-not-delete/Notes/coulomb-law.png]]
+$F = K_e \frac{q_1 \times q_2}{r^2}$
+
+In other words, Coulomb's law states that the electric force between two static charges is proportional to the product of their charges divided by the square of their distance.
+*** Ohm's Law
+$R = \frac{Voltage}{Current}$
+This is if the temperature is constant.
+** AC
+Alternating Current is when the Current alternates :)
+In other terms AC is where the output of Coulombs is inconsistent in the form of a sinusodial [[id:aa958a15-a946-41f6-aa0c-76e62840ebc1][Wave]] or like a beating drum.
+
+** DC
+Direct Current can be explained like the current of the wire being steady with no ripples. Completely stable.
 ** Series Circuits
 In fully series circuits, the current at any point in the circuit is the same.
 Ampmeters are usually connected in series as a Ampmeter measures current and has a very low resistance.
 ** Parallel Circuits
 Current gets *shared* between branches but voltage stays the *same*.
 A Voltmeter should always be connected in Parallel because of it's large resistance.
+** Cool stuff to know
+*** Charge of 1 electron
+*Very* small charge
+$e^- \approx -1.602 x10^-19 Coulomb$
+

@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       8024e621-8486-423c-b803-c0c674a6d647
+:END:
+#+title: Reverse percentages
+#+date: [2022-06-03 Fri 12:12]
+
+* Reverse Percentages
+When a percentage change has already happened and we want to know the original quantity, this is called a "reverse percentage".
+*These are almost always answered wrongly*
+* Examples
+** Example 1
+A store has a 20% off sale. An item is marked as \pound8.20. How much is it before the sale.
+
+*** Solution
+Let's call the original price before the sale $x$.
+$x$ \times 0.8 = 8.20 (Here we have a simple algebraic equation)
+$x$ = 8.20 \div 0.8
+$x$ = \pound10.25
+
+Notice that for reverse percentage questions, you divide by the multiplier.
+** Example 2
+My house price has _Appreciated_ by 3.8% since I bought it. It is now worth \pound200,000.
+How much was it worth before?
+*** Note
+Appreciation basically means increase. So the house price has been increaseed by 3.8%
+*** Solution
+Let's call the original price before the appriciation $x$.
+
+$x$ \times 1.038 = 200,000
+$x$ = 200,000 \div 1.038 (divide by the multiplier)
+$x$ = \pound192,678.23

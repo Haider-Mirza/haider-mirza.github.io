@@ -5,7 +5,6 @@
 #+date: [2022-05-29 Sun 13:08]
 
 * Transient
-A very cool UI package most famously used in [[https://magit.vc/][Magit]], the [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]] [[id:8fe08bc8-ad1e-458d-ac5f-77243216932f][Git]] frontent (This is probably one of the coolest UI Emacs packages I know).
+A very cool UI package most famously used in [[https://magit.vc/][Magit]], the [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]] [[id:8fe08bc8-ad1e-458d-ac5f-77243216932f][Git]] frontend.
+In my opinion, Transient is probably one of the coolest UI Emacs packages I know.
 I have to say the [[https://magit.vc/manual/transient.html][web manual]] is really quite dry but the [[https://github.com/magit/transient/wiki][Github wiki]] is *ALOT* better.
-** Transient keybinds
-Even though I cannot document Transient as well as the wiki, I will write some very Important things or things I need to remember.

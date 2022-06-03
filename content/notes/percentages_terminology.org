@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       714a7167-5e8a-4c2a-8810-2349d23fb018
+:END:
+#+title: Percentages terminology
+#+date: [2022-06-03 Fri 12:10]
+
+* Terminology 
+Percentages questions come with many key terms which you need to learn and memorise.
+** Buying-in price
+The price a shop (vendor) pays for the item.
+** Sell price
+Also known as SP, the price a shop charges you to buy the item. 
+** Mark-up
+This is basically (Sell price) - (Buying-in price) , The extra bit a shop charges in order to make a profit. 
+** Cost
+"Cost" could mean anything. Read the question and context carefully! 
+** Percentage mark-up / gain / loss
+Percentage mark-up / gain / loss , The percentage of the money the shop spends on an item which it gains / loses by selling it at the sell price. 
+** VAT
+VAT or Value-added tax, A percentage increase on the sell price of an item. The VAT doesn't go to the seller though, it goes to the government. 
+** Income tax
+The amount of your wages that go to the government. Usually 0% up to a certain salary, then 20% for a bit, then 40% if you earn over a certain amount. This varies from country to country and time to time!
+* Examples
+** Example 1
+A car dealer buys a Renault Megane for \pound13,600. He marks it up by 12%. How much does he sell it for?
+*** Step 1
+After scrutinizing the question deeply, he wants to gain a 12% profit. So let's start by finding 12%.
+\pound13,600 \div 100 = \pound136 (This gives us 1% of the buying-in price)
+\pound130 \times 12 = \pound1632 (This is 12% of the buying in price)
+
+Finally, we just add 12% to 100% to get 120% which is the price the car dealer will sell the car for.
+\pound13,600 + \pound1632 = *\pound15,232*
+** Example 2
+A company sells computers for \pound1,250 plus VAT which is charged at 17.5%. How much does the computers cost.
+*** Step 1
+After deep scrutinization, you should know we need to first find 17.5% of the computers, so let's do that.
+(1,250 \div 100) \times 17.5 = 218.75
+
+Now we just add the VAT to the sell-price to get the true cost of the computers.
+218.75 + 1250 = *\pound1468.75*
+

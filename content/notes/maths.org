@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       652a4983-ec97-4ebe-bb29-f709c33e6120
+:END:
+#+title: Maths
+#+date: [2022-06-03 Fri 12:07]
+
+
+* Maths 
+** Algebraic Products
++ [[id:ffa6cfbc-bc83-4e1c-9ef3-7e73e62ebe0f][Expanding brackets]]
++ [[id:45563cdc-1356-4247-b920-123f7bd04ae2][Perfect squares]]
++ [[id:31a1bfc7-4500-46de-b83d-1a0119db26fd][Triple brackets]]
+** Percentages
++ [[id:714a7167-5e8a-4c2a-8810-2349d23fb018][Percentages terminology]]
++ [[id:b61c650a-381a-4cb9-a09e-feb990dd7fc8][Multipliers]]
++ [[id:8024e621-8486-423c-b803-c0c674a6d647][Reverse percentages]]
++ [[id:7b1a6d37-8e55-4669-a7af-3dc64d659f49][Compound percentages]]
