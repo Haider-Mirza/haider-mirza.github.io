@@ -1,7 +1,6 @@
 #+TITLE: HP creates a Linux laptop
 #+AUTHOR: Haider Mirza
-#+DATE: [2022-05-30 Mon]
-
+* 2022 May 30
 [[https://www.haider.gq/images/blogs/HP-DEV-ONE.png]]
 HP is soon to release a new laptop called the [[https://hpdevone.com/][HP DEV ONE]].
 
