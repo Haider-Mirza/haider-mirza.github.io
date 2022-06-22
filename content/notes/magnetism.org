@@ -6,13 +6,21 @@
 #+filetags: Physics
 
 * Magnetism
-Magnetism is the attraction seen in certain metals (iron, nickel and cobalt). These materials are called ferrous materials.
+Magnetism is the attraction seen in certain metals (iron, steel, nickel and cobalt). These materials are called ferrous materials.
 
 ** Poles
 A magnet has two poles: Positive and negative. When two magnets with the same type of pole (e.g Positive and Positive) are brought together, they *Repel*.
 Otherwise, they would attract with two different poles (e.g Positive and Negative).
 The magnetic forces of a magnet is strongest at the poles.
 
+** Magnetic Field
+A magnetic field is the region surrounding a magnet where another magnet of magnetic material experiences a *non contact* force.
+
+The magnetic field is from the north seeking pole to the south seeking pole of an magnet.
+
 ** Types of magnetism
 There are two ways something can give off a magnetic field: One is a *permanent* magnet, where it produces it's own magnetic field.
-The other is an *induced* magnet, which becomes magnetic in a magnetic field.
+This is an example of a *hard* magnetic material.
+
+The other is an *induced* magnet, which becomes magnetic in a magnetic field. If this field is removed, the magnet loses most/all of it's magnetism.
+This is an example of a *soft* magnetic material.

@@ -8,6 +8,7 @@
 * Physics
 These Notes are a work in progress.
 Please feel free to add issues in the [[https://github.com/Haider-Mirza/haider-mirza.github.io][Git Repository]]. Just dont spam me with angry professors.
+
 ** [[id:8fd2373c-b3dd-46d6-82e2-1ccd7840c2c7][Magnetism]]
 ** [[id:369ef4cf-1d7c-47f1-9d9f-ba21149bc819][Work]]
 ** [[id:5ef92870-2c07-48e5-88b7-e75ef13aa159][Circuits]]
