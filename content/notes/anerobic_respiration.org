@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a0ab821b-13a3-473c-8c89-b6651aa88d4c
+:END:
+#+title: Anerobic Respiration
+#+date: [2022-06-07 Tue 21:21]
+#+filetags: Biology
+
+* Anerobic Respiration
+Anerobic Respiration is a chemical proccess 

@@ -9,6 +9,7 @@ These chemical reactions break down nutrient molecules in living cells to releas
 *NOTE:* Many people (including me) think/thought that respiration is breathing, which it is not. The scientific name for breathing is ventilation.
 
 Respiration releases energy stored in Glucose.
-There are two *major* types of respirtion:
+There are two *major* types of respiration:
 - [[id:88e25cc2-ed89-4dc6-9002-2ee5144dfbca][Aerobic Respiration]]
+- [[id:a0ab821b-13a3-473c-8c89-b6651aa88d4c][Anerobic Respiration]]
 

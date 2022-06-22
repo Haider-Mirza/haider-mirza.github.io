@@ -3,6 +3,7 @@
 :END:
 #+title: Circuits
 #+date: [2022-05-12 Thu 21:28]
+#+filetags: Physics
 
 * Electrical circuits
 ** Voltage
@@ -73,5 +74,5 @@ A Voltmeter should always be connected in Parallel because of it's large resista
 ** Cool stuff to know
 *** Charge of 1 electron
 *Very* small charge
-$e^- \approx -1.602 x10^-19 Coulomb$
+$e^- \approx -1.602 \times 10^-19 Coulomb$
 

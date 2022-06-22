@@ -3,9 +3,12 @@
 :END:
 #+title: Biology
 #+date: [2022-05-07 Sat 19:04]
+#+filetags: Biology
 * Biology
 Biology is the study of living organisms and their structure, life-cycles, adaptations and environment.
 
 Here I will document many aspects of Biology:
 ** General Biology
 - [[id:6001f667-5370-4123-a735-1dbd8081fabf][Respiration]]
+- [[id:84da04a5-c4c6-4ca5-a018-a86bbfa9b574][Cell Structure]]
+

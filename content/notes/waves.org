@@ -3,6 +3,7 @@
 :END:
 #+title: Waves
 #+date: [2022-05-26 Thu 20:26]
+#+filetags: Physics
 
 * Waves
 All waves carry energy

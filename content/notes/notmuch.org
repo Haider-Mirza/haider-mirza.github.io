@@ -4,10 +4,14 @@
 #+title: Notmuch
 #+date: [2022-05-05 Thu 22:48]
 
-* Notmuch
+* About
 Notmuch is just a email system that is incredibly fast and is based off tagging.
 Notmuch also has a [[https://notmuchmail.org/][website]].
 
 You can find my configuration in my [[https://github.com/Haider-Mirza/Dotfiles][Dotfiles repository]] (I use Notmuch's [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]] frontend).
 Note that this has been *highly configured* to my needs and is not made to be a drop-in-replacement for you; It's just a reference.
 My personal email is rerouted using an [[id:9bdbfb80-de50-4731-9ae8-d313029021d3][alias]] that is managed by [[https://www.cloudflare.com/][Cloudflare]].
+
+* How to attach a file
+The way is the exact same to how you do it in [[id:d71d294a-b8e3-48e3-8295-3d373bcd9681][Mu4e]].
+When composing, go into the text area and do the command C-c C-a to attach a file.

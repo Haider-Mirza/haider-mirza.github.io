@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       2a6f1766-46c8-4210-bbea-5652c2caaf09
+:END:
+#+title: OrgAgenda
+#+date: [2022-06-09 Thu 22:30]
+
+* OrgAgenda
+

@@ -3,6 +3,7 @@
 :END:
 #+title: C++
 #+date: [2022-03-20 Sun 20:36]
+#+filetags programming
 
 * C++
 Ahh, c++, the insane language insane nerds use.

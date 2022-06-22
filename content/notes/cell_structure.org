@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       84da04a5-c4c6-4ca5-a018-a86bbfa9b574
+:END:
+#+title: Cell Structure
+#+date: [2022-06-07 Tue 20:25]
+#+filetags: Biology
+
+* Eukaryotes and Prokaryotes
+There are two main "types" of cell structure:
+
++ Eukaryotic cells which are found in plants, animals and fungi.
++ Prokaryotic cells which are found in Bacteria
+
+** Comparing Cell Types
+|                       | Eukaryotic cell                                                                       | Prokaryotic cells                                                                                                    |
+|-----------------------+---------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------|
+| Size                  | Most are about 5\mu{}m - 100\mu{}m                                                            | Most are about 0.2\mu{}m - 2\mu{}m                                                                                           |
+| Outer Layers of cell  | Cell membrane - surrounded by cell wall in plants and fungi                           | Cell membrane - surrounded by cell wall                                                                              |
+| Cell contents         | Cytoplasm, cell organelles include mitochondria, chloroplasts in plants and ribosomes | Cytoplasm, ribosomes, no mitochondria or chloroplasts                                                                |
+| Genetic Material      | DNA in a nucleus - plasmids are found in a few simple eukaryotic organisms            | DNA is a single molecule, found free in the cytoplasm - additional DNA is found on one or more rings called plasmids |
+| Type of cell division | Mitosis                                                                               | Binary fission                                                                                                       |

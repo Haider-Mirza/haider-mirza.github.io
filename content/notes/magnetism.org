@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       8fd2373c-b3dd-46d6-82e2-1ccd7840c2c7
+:END:
+#+title: Magnetism
+#+date: [2022-06-11 Sat 16:12]
+#+filetags: Physics
+
+* Magnetism
+Magnetism is the attraction seen in certain metals (iron, nickel and cobalt). These materials are called ferrous materials.
+
+** Poles
+A magnet has two poles: Positive and negative. When two magnets with the same type of pole (e.g Positive and Positive) are brought together, they *Repel*.
+Otherwise, they would attract with two different poles (e.g Positive and Negative).
+The magnetic forces of a magnet is strongest at the poles.
+
+** Types of magnetism
+There are two ways something can give off a magnetic field: One is a *permanent* magnet, where it produces it's own magnetic field.
+The other is an *induced* magnet, which becomes magnetic in a magnetic field.

@@ -7,9 +7,11 @@
 * Orgmode
 Orgmode, the overpowered feature of [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]] that just makes your brain explode.
 You can do almost anything in Orgmode when it comes to documents and more.
-** Exporting to seperate formats
+** Exporting to separate formats
 You can export orgmode to many other formats with the command, *org-export-dispatch*.
 This is pretty incredible but if you want to have many more exporting capabilities you can install a program called pandoc which has to be installed in [[id:f8b81c21-7c7e-410e-82ad-046fa5fa4c55][Emacs]] (ox-pandoc) and on your system (pandoc).
 ** Mathematics in Orgmode
 Just like Latex, Orgmode supports many symbols.
 I have created a note specifically on this topic: [[id:9d908aa4-c486-4793-b4d4-78c9a3a6ca08][Orgmode-mathmatics]]
+** OrgAgenda
+OrgAgenda is an amazing way to manage your workflow, I have created a note specifically on this topic: [[id:2a6f1766-46c8-4210-bbea-5652c2caaf09][OrgAgenda]]

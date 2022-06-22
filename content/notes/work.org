@@ -3,6 +3,7 @@
 :END:
 #+title: Work
 #+date: [2022-05-26 Thu 19:49]
+#+filetags: Physics
 
 * Work
 Work is a force causing the displacement of object and is measured In Joules.

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       12846720-d7bb-4006-811e-27d3e3e223c1
+:END:
+#+title: Org-auto-tangle
+#+date: [2022-06-08 Wed 20:37]
+
+* Org-auto-tangle
+Org-auto-tangle is a great Emacs package that auto-tangles all files if you add the following property:
+#+BEGIN_SRC org
+#+auto_tangle: t
+#+END_SRC
+
+It's a very simple minor mode, my config is very simple
