@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Physics</title>
+<title>Xmobar</title>
 <meta name="generator" content="Org Mode" />
 <link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> 
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' /> 
@@ -38,37 +38,39 @@
 	      <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
-<h1 class="title">Physics</h1>
-
-<div id="outline-container-orgca7eaca" class="outline-2">
-<h2 id="orgca7eaca">Physics</h2>
-<div class="outline-text-2" id="text-orgca7eaca">
+<h1 class="title">Xmobar</h1>
+<div id="outline-container-org3021061" class="outline-2">
+<h2 id="org3021061">Xmobar</h2>
+<div class="outline-text-2" id="text-org3021061">
+</div>
+<div id="outline-container-org8d06b28" class="outline-3">
+<h3 id="org8d06b28">Errors</h3>
+<div class="outline-text-3" id="text-org8d06b28">
 <p>
-These Notes are a work in progress.
-Please feel free to add issues in the <a target='_blank' rel='noopener noreferrer' class='external' href="https://github.com/Haider-Mirza/haider-mirza.github.io">Git Repository</a>. Just dont spam me with angry professors.
+There is probably a better way to do this.
 </p>
+
+<p>
+The error is the following
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">xmobar: SocketError {socketErrorMessage = <span style="font-style: italic;">"Network.Socket.connect: &lt;socket: 5&gt;: does not exist (No such file or directory)"</span>, socketErrorFatal = True, socketErrorAddress = Just (Address <span style="font-style: italic;">"unix:path=/run/user/1000/bus"</span>)}
+</pre>
 </div>
 
-<div id="outline-container-org150c2f0" class="outline-3">
-<h3 id="org150c2f0"><a href="magnetism.html#ID-8fd2373c-b3dd-46d6-82e2-1ccd7840c2c7">Magnetism</a></h3>
+<p>
+You need to run Xmobar with dbus-launch.
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">dbus-launch xmobar
+</pre>
 </div>
-<div id="outline-container-org2c3b4e0" class="outline-3">
-<h3 id="org2c3b4e0"><a href="work.html#ID-369ef4cf-1d7c-47f1-9d9f-ba21149bc819">Work</a></h3>
 </div>
-<div id="outline-container-org5f9be70" class="outline-3">
-<h3 id="org5f9be70"><a href="circuits.html#ID-5ef92870-2c07-48e5-88b7-e75ef13aa159">Circuits</a></h3>
-</div>
-<div id="outline-container-org1f73759" class="outline-3">
-<h3 id="org1f73759"><a href="waves.html#ID-aa958a15-a946-41f6-aa0c-76e62840ebc1">Waves</a></h3>
-</div>
-<div id="outline-container-orgaa539d3" class="outline-3">
-<h3 id="orgaa539d3"><a href="power.html#ID-e09a69b8-91a2-4572-aaa7-8c1022e48243">Power</a></h3>
 </div>
 </div>
 
-
-<div id="outline-container-org148fe92" class="outline-2">
-<h2 id="org148fe92">Links to this note</h2>
+<div id="outline-container-org75be727" class="outline-2">
+<h2 id="org75be727">Links to this note</h2>
 </div>
 </div>
 <div id="postamble" class="status">
