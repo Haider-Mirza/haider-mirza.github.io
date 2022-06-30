@@ -7,6 +7,6 @@
 * Power
 When you apply force on an object, energy gets transferred.
 Power has the unit of Watt and has the following formula:
-$Power = \frac{[[id:369ef4cf-1d7c-47f1-9d9f-ba21149bc819][Work Done]]}{time taken}$
+$Power = \frac{work done}{time taken}$
 
 One Watt is equal to 1 joule per second (J/s).
