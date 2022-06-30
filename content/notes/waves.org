@@ -6,4 +6,52 @@
 #+filetags: Physics
 
 * Waves
-All waves carry energy
+Waves are a way of carrying energy.
+** Types of waves
+There are many types of identifying different waves.
+*** Mechanical
+Sound waves, water waves, waves on springs and ropes, and seismic waves produced by earthquakes are all mechanical waves which are travel through a medium.
+
+*** Electromagnetic waves
+Light waves, radio waves, and microwaves are all examples of electromagnetic waves, which can all travel through a vacuum at the speed at $3x10^5$ kilometers per second. No medium is needed.
+
+*** Transverse waves
+If you put a mark on a rope and you send waves through that rope, the mark would be oscillating perpendicular to the direction of the flow of the waves. All electromagnets are transverse waves.
+
+*** Longitudinal waves
+Waves which oscillations are parallel to the direction in which waves transfer energy are called Longitudinal waves.
+
+** Properties of waves
+*** Wavelength ($\lambda$)
+The wavelength is the distance between the crests of waves and has the symbol of *$/lambda$*.
+Wavelength is in meters.
+
+*** Time period (T)
+The time period is defined as the amount of time it takes for one complete cycle.
+The time period is always measured in seconds.
+
+
+The definition of frequency (in terms of waves) is the amount of cycles completed by the wave in 1 second.
+For the waves on a rope, one wave crest passing each second equals the frequency of 1Hz.
+As you can probably guess, this is the formula to calculate the frequency:
+$Frequency (v) = \frac{1}{Time (T)}$
+*** Frequency (Hz)
+The definition of wave speed (in terms of waves) is the amount of cycles completed by the wave in 1 second.
+For the waves on a rope, one wave crest passing each second equals the frequency of 1Hz.
+As you can probably guess, this is the formula to calculate the wave speed:
+$Waves speed (v) = \frac{1}{Time (T)}$
+
+*** Amplitude
+The amplitude is the max distance (disturbance) from rest.
+
+*** Peak
+The peak is the "top" of a wave max distance from rest going upwards.
+
+*** Trough
+The trough is the antithesis of the peak, the "bottom of a wave" or the max distance from rest going downwards.
+
+*** Wave speed
+The formula for calculating the wave speed is as follows:
+$v = f \times \lambda$
+wave speed (v) is in meters/second, m/s
+

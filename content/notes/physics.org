@@ -13,4 +13,5 @@ Please feel free to add issues in the [[https://github.com/Haider-Mirza/haider-m
 ** [[id:369ef4cf-1d7c-47f1-9d9f-ba21149bc819][Work]]
 ** [[id:5ef92870-2c07-48e5-88b7-e75ef13aa159][Circuits]]
 ** [[id:aa958a15-a946-41f6-aa0c-76e62840ebc1][Waves]]
+** [[id:e09a69b8-91a2-4572-aaa7-8c1022e48243][Power]]
 

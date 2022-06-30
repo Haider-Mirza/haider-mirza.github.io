@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e09a69b8-91a2-4572-aaa7-8c1022e48243
+:END:
+#+title: Power
+#+date: [2022-06-29 Wed 20:22]
+
+* Power
+When you apply force on an object, energy gets transferred.
+Power has the unit of Watt and has the following formula:
+$Power = \frac{[[id:369ef4cf-1d7c-47f1-9d9f-ba21149bc819][Work Done]]}{time taken}$
+
+One Watt is equal to 1 joule per second (J/s).
