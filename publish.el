@@ -50,11 +50,36 @@
 	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
 	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
 	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
+<form role='search' id='form'>
+  <input type='search' id='query' name='q'
+	 placeholder='Search...'
+	 aria-label='Search through site content'
+	 class='Sidebar_Search'>
+  </form>
+
 	</div>
 
 	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
+<form role='search' id='form'>
+  <input type='search' id='query' name='q'
+	 placeholder='Search...'
+	 aria-label='Search through site content'
+	 class='Main_Search'>
+  </form>
+  <script>
+    const f = document.getElementById('form');
+    const q = document.getElementById('query');
+    const google = 'https://www.google.com/search?q=site%3Ahaider.gq';
+
+    function submitted(event) {
+	event.preventDefault();
+	const url = google + '+' + q.value;
+	const win = window.open(url, '_blank');
+	win.focus();
+    }
+
+    f.addEventListener('submit', submitted);
+  </script>
 	      <div class='main-main'> <!-- The actual main part -->"))
 
 ;; Set the postamble
