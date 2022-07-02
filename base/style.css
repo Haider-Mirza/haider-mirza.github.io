@@ -283,6 +283,7 @@ h1, h2, h3, h4, h5, h6{
     text-decoration: none;
     color: #fd7e14;
     font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 .date {
