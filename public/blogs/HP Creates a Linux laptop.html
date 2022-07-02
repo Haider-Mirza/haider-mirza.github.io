@@ -12,6 +12,7 @@
 <link rel='preconnect' href='https://fonts.googleapis.com'> 
 <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> 
 <link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap' rel='stylesheet'>
 <script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> 
 <meta name='keywords' content='development, coding, programming, linux, emacs, guix'>
 <link rel='icon' type='image/x-icon' href='/base/favicon.png'>
@@ -19,23 +20,36 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">HP creates a Linux laptop</h1>
@@ -61,7 +75,7 @@ Sadly, this laptop is currently only for sale in the US with a price tag of $109
 </p>
 
 <p>
-System76 CEO Carl Richell says the HP Dev One is a result of a partnership between his company and HP that’s been “months in the making,” and HP has been trained to provide technical support for Pop!<sub>OS</sub> issues.
+System76 CEO Carl Richell says the HP Dev One is a result of a partnership between his company and HP that’s been “months in the making,” and HP has been trained to provide technical support for PopOS issues.
 He also says that while HP has published a website for the HP Dev One, a “real announcement is coming later,” so we should have more information about specs and availability at some point down the road.
 </p>
 
