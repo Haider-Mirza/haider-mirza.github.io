@@ -14,6 +14,7 @@ html, body {
 
 p {
     font-family: 'JetBrains Mono', monospace;
+    margin-bottom: .3rem;
 }
 
 body {
@@ -281,6 +282,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 1rem;
     text-decoration: none;
     color: #fd7e14;
+    font-weight: bold;
 }
 
 .date {
