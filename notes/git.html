@@ -20,37 +20,50 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Git</h1>
 
-<div id="outline-container-org0c0127d" class="outline-2">
-<h2 id="org0c0127d">Git</h2>
-<div class="outline-text-2" id="text-org0c0127d">
+<div id="outline-container-orgda28d7d" class="outline-2">
+<h2 id="orgda28d7d">Git</h2>
+<div class="outline-text-2" id="text-orgda28d7d">
 <p>
 Software collaboration tool created by Linus Torvalds 17 years ago.
 </p>
 </div>
-<div id="outline-container-org454f051" class="outline-3">
-<h3 id="org454f051">Setting up Git</h3>
-<div class="outline-text-3" id="text-org454f051">
+<div id="outline-container-org15330bd" class="outline-3">
+<h3 id="org15330bd">Setting up Git</h3>
+<div class="outline-text-3" id="text-org15330bd">
 <p>
 When setting up Git, we may fall into a problem when sshing into their servers.
 Luckily, there is a post about how to solve this: <a target='_blank' rel='noopener noreferrer' class='external' href="https://gist.github.com/Tamal/1cc77f88ef3e900aeae65f0e5e504794">Git Post</a>
@@ -58,9 +71,9 @@ You can also use my Guix post-installation script.
 </p>
 </div>
 </div>
-<div id="outline-container-org026de3f" class="outline-3">
-<h3 id="org026de3f">Github</h3>
-<div class="outline-text-3" id="text-org026de3f">
+<div id="outline-container-org71b2e51" class="outline-3">
+<h3 id="org71b2e51">Github</h3>
+<div class="outline-text-3" id="text-org71b2e51">
 <p>
 Github is the most popular git hosting platform in the world.
 There are many other alternatives like Sourcehut, Gitlab and savannah that <a href="guix.html#ID-4ce84157-a404-40fa-bdb8-0b3923916969">Guix</a> uses. 
@@ -74,9 +87,9 @@ Github can also use your <a href="gpg.html#ID-b69627d6-3ade-4eba-9e19-23a40248b3
 </div>
 </div>
 
-<div id="outline-container-orge042959" class="outline-2">
-<h2 id="orge042959">Links to this note</h2>
-<div class="outline-text-2" id="text-orge042959">
+<div id="outline-container-org3cce74b" class="outline-2">
+<h2 id="org3cce74b">Links to this note</h2>
+<div class="outline-text-2" id="text-org3cce74b">
 <ul class="org-ul">
 <li><a href="./ssh.html">SSH</a></li>
 <li><a href="./gpg.html">GPG</a></li>

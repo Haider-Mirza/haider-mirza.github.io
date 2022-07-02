@@ -20,30 +20,43 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">yt-dlp</h1>
 
-<div id="outline-container-org5a3c4aa" class="outline-2">
-<h2 id="org5a3c4aa">yt-dlp</h2>
-<div class="outline-text-2" id="text-org5a3c4aa">
+<div id="outline-container-orgf5373db" class="outline-2">
+<h2 id="orgf5373db">yt-dlp</h2>
+<div class="outline-text-2" id="text-orgf5373db">
 <p>
 yt-dlp is a fork of youtube-dl and personally I was a very early adopter of it as I found youtubedl to be very slow even with major configurations. 
 yt-dlp is now qutite popular and Is even shipped by default by <a href="mpv.html#ID-a228f3b3-4a77-4302-ae26-1276fd852b1d">MPV</a>.
@@ -51,25 +64,25 @@ yt-dlp is now qutite popular and Is even shipped by default by <a href="mpv.html
 </div>
 </div>
 
-<div id="outline-container-org0f90bb5" class="outline-2">
-<h2 id="org0f90bb5">Common Use cases</h2>
-<div class="outline-text-2" id="text-org0f90bb5">
+<div id="outline-container-orgb675097" class="outline-2">
+<h2 id="orgb675097">Common Use cases</h2>
+<div class="outline-text-2" id="text-orgb675097">
 <p>
 I do mainly use yt-dlp to stream Youtube and Twitch to <a href="mpv.html#ID-a228f3b3-4a77-4302-ae26-1276fd852b1d">mpv</a> but I also use it to download videos and playlists in different audio /or video formats.
 </p>
 </div>
 
-<div id="outline-container-orgc3197bd" class="outline-3">
-<h3 id="orgc3197bd">Audio Downloads</h3>
-<div class="outline-text-3" id="text-orgc3197bd">
+<div id="outline-container-orgecbac07" class="outline-3">
+<h3 id="orgecbac07">Audio Downloads</h3>
+<div class="outline-text-3" id="text-orgecbac07">
 <p>
 Here is how you can download a video as a audio file.
 These Probably also work with playlists.
 </p>
 </div>
-<div id="outline-container-orgaa02e16" class="outline-4">
-<h4 id="orgaa02e16">opus</h4>
-<div class="outline-text-4" id="text-orgaa02e16">
+<div id="outline-container-orgfcc34bb" class="outline-4">
+<h4 id="orgfcc34bb">opus</h4>
+<div class="outline-text-4" id="text-orgfcc34bb">
 <p>
 Notice that this will Download this as an opus format which would give you better sound but for compatibily usage use mp3 (which is the next command)
 Obviously, replace this URL with your own
@@ -80,9 +93,9 @@ Obviously, replace this URL with your own
 </div>
 </div>
 </div>
-<div id="outline-container-orgd39f7aa" class="outline-4">
-<h4 id="orgd39f7aa">mp3</h4>
-<div class="outline-text-4" id="text-orgd39f7aa">
+<div id="outline-container-orgb4e2518" class="outline-4">
+<h4 id="orgb4e2518">mp3</h4>
+<div class="outline-text-4" id="text-orgb4e2518">
 <p>
 Here is how you save a video as mp3 if you want very good cross compatibility (otherwise use opus)
 Obviously, replace this URL with your own
@@ -94,9 +107,9 @@ Obviously, replace this URL with your own
 </div>
 </div>
 </div>
-<div id="outline-container-org473a09a" class="outline-3">
-<h3 id="org473a09a">Video Downloads</h3>
-<div class="outline-text-3" id="text-org473a09a">
+<div id="outline-container-org49785d5" class="outline-3">
+<h3 id="org49785d5">Video Downloads</h3>
+<div class="outline-text-3" id="text-org49785d5">
 <p>
 This command will download the best format (video + audio) that is equal to or greater than 720p width.
 Of course, you can change the width to 1080p or anything you like (the actual video has to support it though) 
@@ -109,9 +122,9 @@ Of course, you can change the width to 1080p or anything you like (the actual vi
 </div>
 </div>
 
-<div id="outline-container-orge0d8263" class="outline-2">
-<h2 id="orge0d8263">Links to this note</h2>
-<div class="outline-text-2" id="text-orge0d8263">
+<div id="outline-container-orgaa1539e" class="outline-2">
+<h2 id="orgaa1539e">Links to this note</h2>
+<div class="outline-text-2" id="text-orgaa1539e">
 <ul class="org-ul">
 <li><a href="./mpv.html">MPV</a></li>
 <li><a href="./mpv.html">MPV</a></li>

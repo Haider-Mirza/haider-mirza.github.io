@@ -20,36 +20,49 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Qutebrowser</h1>
-<div id="outline-container-org0cc7455" class="outline-2">
-<h2 id="org0cc7455">Qutebrowser</h2>
-<div class="outline-text-2" id="text-org0cc7455">
+<div id="outline-container-org82d5a2b" class="outline-2">
+<h2 id="org82d5a2b">Qutebrowser</h2>
+<div class="outline-text-2" id="text-org82d5a2b">
 <p>
 In my opinion, the best browser in the world which almost none other can rival.
 </p>
 </div>
-<div id="outline-container-org9ae8863" class="outline-3">
-<h3 id="org9ae8863">Common Issues</h3>
-<div class="outline-text-3" id="text-org9ae8863">
+<div id="outline-container-org854af41" class="outline-3">
+<h3 id="org854af41">Common Issues</h3>
+<div class="outline-text-3" id="text-org854af41">
 <p>
 In Guix, there was a error with the qutebrowser build which makes it so certain fonts wont render.
 There is a fix for this. That is to run Qutebrowser with the flags: (the entire command) "qutebrowser &#x2013;qt-flag disable-seccomp-filter-sandbox"
@@ -59,9 +72,9 @@ Here is a link to the problem: <a target='_blank' rel='noopener noreferrer' clas
 </div>
 </div>
 
-<div id="outline-container-org05ea29d" class="outline-2">
-<h2 id="org05ea29d">Links to this note</h2>
-<div class="outline-text-2" id="text-org05ea29d">
+<div id="outline-container-org6ddabd5" class="outline-2">
+<h2 id="org6ddabd5">Links to this note</h2>
+<div class="outline-text-2" id="text-org6ddabd5">
 <ul class="org-ul">
 <li><a href="./programs.html">Programs</a></li>
 </ul>

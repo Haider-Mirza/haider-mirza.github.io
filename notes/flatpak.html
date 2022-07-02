@@ -20,37 +20,50 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Flatpak</h1>
 
-<div id="outline-container-org4fb27b9" class="outline-2">
-<h2 id="org4fb27b9">Flatpak</h2>
-<div class="outline-text-2" id="text-org4fb27b9">
+<div id="outline-container-orgf64337c" class="outline-2">
+<h2 id="orgf64337c">Flatpak</h2>
+<div class="outline-text-2" id="text-orgf64337c">
 <p>
 I use Flatpak as an alternative package manager to <a href="guix.html#ID-4ce84157-a404-40fa-bdb8-0b3923916969">Guix</a> as sometimes the <a href="guix.html#ID-4ce84157-a404-40fa-bdb8-0b3923916969">Guix</a> package is flawed or not existant.
 </p>
 </div>
-<div id="outline-container-org1c53397" class="outline-3">
-<h3 id="org1c53397">Installation</h3>
-<div class="outline-text-3" id="text-org1c53397">
+<div id="outline-container-org27af80c" class="outline-3">
+<h3 id="org27af80c">Installation</h3>
+<div class="outline-text-3" id="text-org27af80c">
 <p>
 You can install a Flatpak on servers as Flatpak is decentalized technology.
 You should mainly use <a target='_blank' rel='noopener noreferrer' class='external' href="https://flathub.org/home">Flathub</a>.
@@ -69,9 +82,9 @@ The command is something resembling this:
 </div>
 </div>
 </div>
-<div id="outline-container-orgcc9b186" class="outline-3">
-<h3 id="orgcc9b186">Run</h3>
-<div class="outline-text-3" id="text-orgcc9b186">
+<div id="outline-container-org99b98ec" class="outline-3">
+<h3 id="org99b98ec">Run</h3>
+<div class="outline-text-3" id="text-org99b98ec">
 <p>
 Running a Flatpak application is different to a normal application.
 You can see the command you have to run if you scroll to the bottom of the webpage.
@@ -88,8 +101,8 @@ The command to run a Flatpack application resembles this.
 </div>
 </div>
 
-<div id="outline-container-org3f24914" class="outline-2">
-<h2 id="org3f24914">Links to this note</h2>
+<div id="outline-container-org09bd846" class="outline-2">
+<h2 id="org09bd846">Links to this note</h2>
 </div>
 </div>
 <div id="postamble" class="status">

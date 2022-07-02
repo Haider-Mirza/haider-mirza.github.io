@@ -41,45 +41,58 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Orgmode-mathmatics</h1>
 
-<div id="outline-container-org52b5d5c" class="outline-2">
-<h2 id="org52b5d5c"><a href="org_mode.html#ID-31075352-280e-4ef1-978e-5c189da43657">Org-mode</a> Mathematics</h2>
-<div class="outline-text-2" id="text-org52b5d5c">
+<div id="outline-container-org0adbfbf" class="outline-2">
+<h2 id="org0adbfbf"><a href="org_mode.html#ID-31075352-280e-4ef1-978e-5c189da43657">Org-mode</a> Mathematics</h2>
+<div class="outline-text-2" id="text-org0adbfbf">
 <p>
 The system is very similar to Latex.
 </p>
 </div>
-<div id="outline-container-org7e4a4b8" class="outline-3">
-<h3 id="org7e4a4b8">Mathematical symbols</h3>
-<div class="outline-text-3" id="text-org7e4a4b8">
+<div id="outline-container-org69de1b9" class="outline-3">
+<h3 id="org69de1b9">Mathematical symbols</h3>
+<div class="outline-text-3" id="text-org69de1b9">
 <p>
 To use mathematical symbols not on the general keyboard you start with a backslack "\" and then type the symbol you require.
 For example: &beta; &theta; and &ne;. These will be automatically converted to symbols on your screen one enabling some minor-mode (I completely forgor ☠ (old random Tiktok joke)).
 </p>
 </div>
-<div id="outline-container-orgb3fa39d" class="outline-4">
-<h4 id="orgb3fa39d">Some you often need</h4>
-<div class="outline-text-4" id="text-orgb3fa39d">
+<div id="outline-container-org6b6934b" class="outline-4">
+<h4 id="org6b6934b">Some you often need</h4>
+<div class="outline-text-4" id="text-org6b6934b">
 <p>
 <b>_</b> for the amount of a element
 <b>&times;</b> for times
@@ -88,9 +101,9 @@ For example: &beta; &theta; and &ne;. These will be automatically converted to s
 </div>
 </div>
 
-<div id="outline-container-org79f7bc0" class="outline-3">
-<h3 id="org79f7bc0">Export to HTML</h3>
-<div class="outline-text-3" id="text-org79f7bc0">
+<div id="outline-container-org9db0d88" class="outline-3">
+<h3 id="org9db0d88">Export to HTML</h3>
+<div class="outline-text-3" id="text-org9db0d88">
 <p>
 When exporting to HTML, make sure you wrap the equation in "$"
 For example:  \((x+5)^2\)
@@ -98,9 +111,9 @@ You can see the changed if you turn on <b>org-toggle-pretty-entities</b>
 </p>
 </div>
 </div>
-<div id="outline-container-org5da9dbc" class="outline-3">
-<h3 id="org5da9dbc">Tables</h3>
-<div class="outline-text-3" id="text-org5da9dbc">
+<div id="outline-container-org02a886a" class="outline-3">
+<h3 id="org02a886a">Tables</h3>
+<div class="outline-text-3" id="text-org02a886a">
 <p>
 For now, I have no idea how to place margins on html/css tables cuz they are terrible.
 Just add a \\ before the tables to force a line between them
@@ -109,9 +122,9 @@ Just add a \\ before the tables to force a line between them
 </div>
 </div>
 
-<div id="outline-container-orgad3fe47" class="outline-2">
-<h2 id="orgad3fe47">Links to this note</h2>
-<div class="outline-text-2" id="text-orgad3fe47">
+<div id="outline-container-org9900b47" class="outline-2">
+<h2 id="org9900b47">Links to this note</h2>
+<div class="outline-text-2" id="text-org9900b47">
 <ul class="org-ul">
 <li><a href="./org_mode.html">Orgmode</a></li>
 </ul>

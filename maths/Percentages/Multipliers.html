@@ -20,23 +20,36 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Multipliers</h1>
@@ -44,26 +57,26 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org7698233">Multipliers</a></li>
-<li><a href="#orgf6ed8f8">Why use multipliers?</a></li>
-<li><a href="#orge8fc5af">Common error</a>
+<li><a href="#org1682442">Multipliers</a></li>
+<li><a href="#org44e44f0">Why use multipliers?</a></li>
+<li><a href="#org3dce4a1">Common error</a>
 <ul>
-<li><a href="#org513b3e8">Why?</a></li>
+<li><a href="#orged6c053">Why?</a></li>
 </ul>
 </li>
-<li><a href="#orgf9ec299">Examples</a>
+<li><a href="#orgbeab67b">Examples</a>
 <ul>
-<li><a href="#org93af63d">Example 1 - Tables</a></li>
+<li><a href="#org1dab434">Example 1 - Tables</a></li>
 </ul>
 </li>
-<li><a href="#org1639074">Questions</a></li>
+<li><a href="#org2bf1ef9">Questions</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7698233" class="outline-2">
-<h2 id="org7698233">Multipliers</h2>
-<div class="outline-text-2" id="text-org7698233">
+<div id="outline-container-org1682442" class="outline-2">
+<h2 id="org1682442">Multipliers</h2>
+<div class="outline-text-2" id="text-org1682442">
 <p>
 To do percentage changes quickly we can use multipliers. 
 This is a three-step method, but it is very easy once you have practised it: 
@@ -77,25 +90,25 @@ This is a three-step method, but it is very easy once you have practised it:
 </div>
 </div>
 
-<div id="outline-container-orgf6ed8f8" class="outline-2">
-<h2 id="orgf6ed8f8">Why use multipliers?</h2>
-<div class="outline-text-2" id="text-orgf6ed8f8">
+<div id="outline-container-org44e44f0" class="outline-2">
+<h2 id="org44e44f0">Why use multipliers?</h2>
+<div class="outline-text-2" id="text-org44e44f0">
 <p>
 Using multipliers, we can understand the effect of successive percentage (%) changes.
 </p>
 </div>
 </div>
-<div id="outline-container-orge8fc5af" class="outline-2">
-<h2 id="orge8fc5af">Common error</h2>
-<div class="outline-text-2" id="text-orge8fc5af">
+<div id="outline-container-org3dce4a1" class="outline-2">
+<h2 id="org3dce4a1">Common error</h2>
+<div class="outline-text-2" id="text-org3dce4a1">
 <p>
 &pound;100 incremented by 10% then decremented by 10% does <b>NOT</b> equal &pound;100
 </p>
 </div>
 
-<div id="outline-container-org513b3e8" class="outline-3">
-<h3 id="org513b3e8">Why?</h3>
-<div class="outline-text-3" id="text-org513b3e8">
+<div id="outline-container-orged6c053" class="outline-3">
+<h3 id="orged6c053">Why?</h3>
+<div class="outline-text-3" id="text-orged6c053">
 <p>
 100 &times; 1.1 (110% - increment by 10%) = 110
 110 &times; 0.9 (90% - decrement by 10%) = 99
@@ -109,13 +122,13 @@ You often will find this happen in compound interest.
 </div>
 </div>
 
-<div id="outline-container-orgf9ec299" class="outline-2">
-<h2 id="orgf9ec299">Examples</h2>
-<div class="outline-text-2" id="text-orgf9ec299">
+<div id="outline-container-orgbeab67b" class="outline-2">
+<h2 id="orgbeab67b">Examples</h2>
+<div class="outline-text-2" id="text-orgbeab67b">
 </div>
-<div id="outline-container-org93af63d" class="outline-3">
-<h3 id="org93af63d">Example 1 - Tables</h3>
-<div class="outline-text-3" id="text-org93af63d">
+<div id="outline-container-org1dab434" class="outline-3">
+<h3 id="org1dab434">Example 1 - Tables</h3>
+<div class="outline-text-3" id="text-org1dab434">
 <p>
 These questions are quite simple, All you have to do is use this formula:
 </p>
@@ -260,9 +273,9 @@ It's common sense really, and with this knowledge the following tables can be fi
 </div>
 </div>
 </div>
-<div id="outline-container-org1639074" class="outline-2">
-<h2 id="org1639074">Questions</h2>
-<div class="outline-text-2" id="text-org1639074">
+<div id="outline-container-org2bf1ef9" class="outline-2">
+<h2 id="org2bf1ef9">Questions</h2>
+<div class="outline-text-2" id="text-org2bf1ef9">
 <p>
 You already know how to find the multipliers and they are quite simple.
 So practise with these simple questions:

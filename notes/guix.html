@@ -20,41 +20,54 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Guix</h1>
 
-<div id="outline-container-orge179143" class="outline-2">
-<h2 id="orge179143">Guix</h2>
-<div class="outline-text-2" id="text-orge179143">
+<div id="outline-container-org2a30fca" class="outline-2">
+<h2 id="org2a30fca">Guix</h2>
+<div class="outline-text-2" id="text-org2a30fca">
 <p>
 The legendary package manager and operating system that geeks use.
 </p>
 </div>
-<div id="outline-container-org87531f9" class="outline-3">
-<h3 id="org87531f9">Issues</h3>
-<div class="outline-text-3" id="text-org87531f9">
+<div id="outline-container-orgb571985" class="outline-3">
+<h3 id="orgb571985">Issues</h3>
+<div class="outline-text-3" id="text-orgb571985">
 </div>
-<div id="outline-container-orgf35cff1" class="outline-4">
-<h4 id="orgf35cff1">Binary - no file or directory</h4>
-<div class="outline-text-4" id="text-orgf35cff1">
+<div id="outline-container-orgec4f723" class="outline-4">
+<h4 id="orgec4f723">Binary - no file or directory</h4>
+<div class="outline-text-4" id="text-orgec4f723">
 <p>
 Turns out the issue is of a binary trying to use a certain interpreter, which Guix does not have.
 You can force the binary to use a interpreter with something resembling "patchelf &#x2013;set-interpreter /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 foo".
@@ -64,9 +77,9 @@ You can also see <a target='_blank' rel='noopener noreferrer' class='external' h
 </p>
 </div>
 </div>
-<div id="outline-container-org3f3a7b1" class="outline-4">
-<h4 id="org3f3a7b1"><a href="virt_manager.html#ID-7baa6460-e5ac-4df5-98f5-0a5a4aeaa0aa">virt-manager</a> doesnt save preferences</h4>
-<div class="outline-text-4" id="text-org3f3a7b1">
+<div id="outline-container-orgdba32f5" class="outline-4">
+<h4 id="orgdba32f5"><a href="virt_manager.html#ID-7baa6460-e5ac-4df5-98f5-0a5a4aeaa0aa">virt-manager</a> doesnt save preferences</h4>
+<div class="outline-text-4" id="text-orgdba32f5">
 <p>
 You get some dconf errors, I managed to fix this by installing dconf in profile.
 </p>
@@ -75,9 +88,9 @@ You get some dconf errors, I managed to fix this by installing dconf in profile.
 </div>
 </div>
 
-<div id="outline-container-orgc4c49da" class="outline-2">
-<h2 id="orgc4c49da">Links to this note</h2>
-<div class="outline-text-2" id="text-orgc4c49da">
+<div id="outline-container-org98f70ac" class="outline-2">
+<h2 id="org98f70ac">Links to this note</h2>
+<div class="outline-text-2" id="text-org98f70ac">
 <ul class="org-ul">
 <li><a href="./org_roam.html">Org-roam</a></li>
 <li><a href="./glad.html">GLAD</a></li>

@@ -41,30 +41,43 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Perfect squares</h1>
 
-<div id="outline-container-orgf5eeb9d" class="outline-2">
-<h2 id="orgf5eeb9d">Perfect Squares</h2>
-<div class="outline-text-2" id="text-orgf5eeb9d">
+<div id="outline-container-org3ba0ea1" class="outline-2">
+<h2 id="org3ba0ea1">Perfect Squares</h2>
+<div class="outline-text-2" id="text-org3ba0ea1">
 <p>
 Sometimes we have to expand brackets where we have a bracket that is effected by an exponent.
 </p>
@@ -80,21 +93,21 @@ You will see how to solve these with the examples below.
 </div>
 </div>
 
-<div id="outline-container-org5ac66fc" class="outline-2">
-<h2 id="org5ac66fc">Examples</h2>
-<div class="outline-text-2" id="text-org5ac66fc">
+<div id="outline-container-org1073c33" class="outline-2">
+<h2 id="org1073c33">Examples</h2>
+<div class="outline-text-2" id="text-org1073c33">
 </div>
-<div id="outline-container-org6234183" class="outline-3">
-<h3 id="org6234183">Example 1</h3>
-<div class="outline-text-3" id="text-org6234183">
+<div id="outline-container-org62976db" class="outline-3">
+<h3 id="org62976db">Example 1</h3>
+<div class="outline-text-3" id="text-org62976db">
 <p>
 Let's go with this example:
 \((x+5)^2\)
 </p>
 </div>
-<div id="outline-container-org87df0d7" class="outline-4">
-<h4 id="org87df0d7">Common Error</h4>
-<div class="outline-text-4" id="text-org87df0d7">
+<div id="outline-container-orgff01913" class="outline-4">
+<h4 id="orgff01913">Common Error</h4>
+<div class="outline-text-4" id="text-orgff01913">
 <p>
 Be careful!
 A common error is to make a single element of the bracket effected by the exponent
@@ -102,9 +115,9 @@ A common error is to make a single element of the bracket effected by the expone
 </p>
 </div>
 </div>
-<div id="outline-container-orgbe86e46" class="outline-4">
-<h4 id="orgbe86e46">Methord</h4>
-<div class="outline-text-4" id="text-orgbe86e46">
+<div id="outline-container-org83d1b52" class="outline-4">
+<h4 id="org83d1b52">Methord</h4>
+<div class="outline-text-4" id="text-org83d1b52">
 <p>
 The exponent (in this case two) effects the entire bracket so what we are really dealing with is this:
 \((x+5)(x+5)\)
@@ -117,7 +130,7 @@ If you dont know how to do so, please see this webpage and see the below image: 
 </p>
 
 
-<div id="org5d791ab" class="figure">
+<div id="orgfef3ecc" class="figure">
 <p><img src="https://www.haider.gq/maths/Algebraic-products/Per-Square-3.png" alt="Per-Square-3.png" />
 </p>
 </div>
@@ -133,9 +146,9 @@ Even though they do not seem like it, both sides of the "\(=\)" are the same.
 </div>
 </div>
 </div>
-<div id="outline-container-org018967f" class="outline-3">
-<h3 id="org018967f">Example 2</h3>
-<div class="outline-text-3" id="text-org018967f">
+<div id="outline-container-org924a25c" class="outline-3">
+<h3 id="org924a25c">Example 2</h3>
+<div class="outline-text-3" id="text-org924a25c">
 <p>
 Sometimes all we get are some algebraic symbols like in the example below:
 \((x+a)^2\)
@@ -155,9 +168,9 @@ I will work this out with you.
 So, to reiterate, we have this question: \((x+a)^2\)
 </p>
 </div>
-<div id="outline-container-orgf44d103" class="outline-4">
-<h4 id="orgf44d103">Step 1</h4>
-<div class="outline-text-4" id="text-orgf44d103">
+<div id="outline-container-org2558800" class="outline-4">
+<h4 id="org2558800">Step 1</h4>
+<div class="outline-text-4" id="text-org2558800">
 <p>
 As you know from before,
 \((x+a)^2\) is the same as \((x+a)(x+a)\)
@@ -165,9 +178,9 @@ As you know from before,
 </div>
 </div>
 
-<div id="outline-container-org89a1c7e" class="outline-4">
-<h4 id="org89a1c7e">Step 2</h4>
-<div class="outline-text-4" id="text-org89a1c7e">
+<div id="outline-container-org76edb21" class="outline-4">
+<h4 id="org76edb21">Step 2</h4>
+<div class="outline-text-4" id="text-org76edb21">
 <p>
 Start Expanding the brackets.
 To do this we do the following: \(x \times x , x \times a , a \times x , a \times a\)
@@ -183,9 +196,9 @@ And this is the answer, Well done!
 </div>
 </div>
 
-<div id="outline-container-orge8b921a" class="outline-2">
-<h2 id="orge8b921a">Links to this note</h2>
-<div class="outline-text-2" id="text-orge8b921a">
+<div id="outline-container-orga232e18" class="outline-2">
+<h2 id="orga232e18">Links to this note</h2>
+<div class="outline-text-2" id="text-orga232e18">
 <ul class="org-ul">
 <li><a href="./maths.html">Maths</a></li>
 </ul>

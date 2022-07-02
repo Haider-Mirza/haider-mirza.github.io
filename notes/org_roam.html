@@ -20,30 +20,43 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Org-roam</h1>
 
-<div id="outline-container-orgc2a331a" class="outline-2">
-<h2 id="orgc2a331a">About</h2>
-<div class="outline-text-2" id="text-orgc2a331a">
+<div id="outline-container-org53341ce" class="outline-2">
+<h2 id="org53341ce">About</h2>
+<div class="outline-text-2" id="text-org53341ce">
 <p>
 One of the best ways to think and work through problems is to have a written dialogue with yourself. Using Org-roam you have a better way to log your thoughts from the day, link them to existing notes, and easily review the notes for any day, all with Org Roam.
 I use Org-roam as a place I can place information in my eternal quest for knowledge.
@@ -52,9 +65,9 @@ Org-roam is built over <a href="org_mode.html#ID-31075352-280e-4ef1-978e-5c189da
 </div>
 </div>
 
-<div id="outline-container-orgbc65da3" class="outline-2">
-<h2 id="orgbc65da3">Documentation</h2>
-<div class="outline-text-2" id="text-orgbc65da3">
+<div id="outline-container-orgfbd259f" class="outline-2">
+<h2 id="orgfbd259f">Documentation</h2>
+<div class="outline-text-2" id="text-orgfbd259f">
 <p>
 You can get documentation from these links:
 <a target='_blank' rel='noopener noreferrer' class='external' href="https://www.org-roam.com/manual.html">Main Documentation</a>
@@ -64,35 +77,35 @@ You can get documentation from these links:
 </div>
 </div>
 
-<div id="outline-container-org11ee26a" class="outline-2">
-<h2 id="org11ee26a">NOTE:</h2>
-<div class="outline-text-2" id="text-org11ee26a">
+<div id="outline-container-orgc26cd37" class="outline-2">
+<h2 id="orgc26cd37">NOTE:</h2>
+<div class="outline-text-2" id="text-orgc26cd37">
 <p>
 To install, make sure you have gcc AND gcc-toolchain (If you use <a href="guix.html#ID-4ce84157-a404-40fa-bdb8-0b3923916969">Guix</a>) installed.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org29000f6" class="outline-2">
-<h2 id="org29000f6">Important information</h2>
-<div class="outline-text-2" id="text-org29000f6">
+<div id="outline-container-org49fbedb" class="outline-2">
+<h2 id="org49fbedb">Important information</h2>
+<div class="outline-text-2" id="text-org49fbedb">
 <ul class="org-ul">
 <li>In my configuration my Org roam notes go to the <b>~/Notes/</b> directory.</li>
 <li>Video where I got the information is as follows: <a target='_blank' rel='noopener noreferrer' class='external' href="https://www.youtube.com/watch?v=3-sLBaJAtew&amp;list=WL&amp;index=14&amp;t=39s">Video</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org21eff7b" class="outline-2">
-<h2 id="org21eff7b">Inserting node links using completions</h2>
-<div class="outline-text-2" id="text-org21eff7b">
+<div id="outline-container-org4b76b5a" class="outline-2">
+<h2 id="org4b76b5a">Inserting node links using completions</h2>
+<div class="outline-text-2" id="text-org4b76b5a">
 <p>
 You can also use <b>M-x completion-at-point</b> to complete the names of nodes inside of double-square brackets <b>[[]]</b>.
 </p>
 </div>
 </div>
-<div id="outline-container-org0d2b257" class="outline-2">
-<h2 id="org0d2b257">Keybinds</h2>
-<div class="outline-text-2" id="text-org0d2b257">
+<div id="outline-container-orgfe163d7" class="outline-2">
+<h2 id="orgfe163d7">Keybinds</h2>
+<div class="outline-text-2" id="text-orgfe163d7">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -127,9 +140,9 @@ You can also use <b>M-x completion-at-point</b> to complete the names of nodes i
 </div>
 </div>
 
-<div id="outline-container-org7836749" class="outline-2">
-<h2 id="org7836749">Links to this note</h2>
-<div class="outline-text-2" id="text-org7836749">
+<div id="outline-container-org0c23b7d" class="outline-2">
+<h2 id="org0c23b7d">Links to this note</h2>
+<div class="outline-text-2" id="text-org0c23b7d">
 <ul class="org-ul">
 <li><a href="./emacs_packages.html">Emacs Packages</a></li>
 </ul>

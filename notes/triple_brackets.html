@@ -41,30 +41,43 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Triple brackets</h1>
 
-<div id="outline-container-org14b36cc" class="outline-2">
-<h2 id="org14b36cc">Triple Brackets</h2>
-<div class="outline-text-2" id="text-org14b36cc">
+<div id="outline-container-org4b4f34c" class="outline-2">
+<h2 id="org4b4f34c">Triple Brackets</h2>
+<div class="outline-text-2" id="text-org4b4f34c">
 <p>
 Sometimes, instead of having to deal with 2 brackets, we have to deal with <b>3</b>.
 Here is an example: Expand \((x+2)(x+3)(x+7)\)
@@ -77,13 +90,13 @@ I will show you how to do so in the following examples.
 </div>
 </div>
 
-<div id="outline-container-orgff953db" class="outline-2">
-<h2 id="orgff953db">Examples</h2>
-<div class="outline-text-2" id="text-orgff953db">
+<div id="outline-container-org1b3a257" class="outline-2">
+<h2 id="org1b3a257">Examples</h2>
+<div class="outline-text-2" id="text-org1b3a257">
 </div>
-<div id="outline-container-orgc9d559d" class="outline-3">
-<h3 id="orgc9d559d">Example 1</h3>
-<div class="outline-text-3" id="text-orgc9d559d">
+<div id="outline-container-org436d107" class="outline-3">
+<h3 id="org436d107">Example 1</h3>
+<div class="outline-text-3" id="text-org436d107">
 <p>
 I am going to use the same question as before.
 </p>
@@ -93,9 +106,9 @@ Expand \((x+2)(x+3)(x+7)\)
 </p>
 </div>
 
-<div id="outline-container-org6165a3d" class="outline-4">
-<h4 id="org6165a3d">Step 1</h4>
-<div class="outline-text-4" id="text-org6165a3d">
+<div id="outline-container-org6000d41" class="outline-4">
+<h4 id="org6000d41">Step 1</h4>
+<div class="outline-text-4" id="text-org6000d41">
 <p>
 All you have to do is expand two of the brackets. You can choose any two but generally you do the first two.
 There are some occations where you should choose other two brackets to expand to make the question easier but generally we do the first two.
@@ -123,9 +136,9 @@ This still looks daunting but you should be fine. It is the same as what we did 
 </div>
 </div>
 
-<div id="outline-container-org97d7ef7" class="outline-4">
-<h4 id="org97d7ef7">Step 2</h4>
-<div class="outline-text-4" id="text-org97d7ef7">
+<div id="outline-container-orga463717" class="outline-4">
+<h4 id="orga463717">Step 2</h4>
+<div class="outline-text-4" id="text-orga463717">
 <p>
 Expand: \((x^2+5x+6)(x+7)\)
 </p>
@@ -151,18 +164,18 @@ We finally got there! It was a long proccess but well worth it.
 </div>
 </div>
 </div>
-<div id="outline-container-org5897e4a" class="outline-3">
-<h3 id="org5897e4a">Example 2</h3>
-<div class="outline-text-3" id="text-org5897e4a">
+<div id="outline-container-org0950cf4" class="outline-3">
+<h3 id="org0950cf4">Example 2</h3>
+<div class="outline-text-3" id="text-org0950cf4">
 <p>
 Here is an example: \((2x+1)^3\)
 This is one bracket, but as we see from <a href="Perfect-Squares.html">this webpage</a>, \((3x+1)^3\) actually means \((2x+1)(2x+1)(2x+1)\)
 </p>
 </div>
 
-<div id="outline-container-org66f47e2" class="outline-4">
-<h4 id="org66f47e2">Step 1</h4>
-<div class="outline-text-4" id="text-org66f47e2">
+<div id="outline-container-orgcee6362" class="outline-4">
+<h4 id="orgcee6362">Step 1</h4>
+<div class="outline-text-4" id="text-orgcee6362">
 <p>
 Like the previous example, we expand the first two brackets.
 \(2x \times 2x = 4x^2\)
@@ -178,9 +191,9 @@ Then we collect like terms, \(4x^2 + 2x + 2x + 1\)
 </div>
 </div>
 
-<div id="outline-container-org16fe1dc" class="outline-4">
-<h4 id="org16fe1dc">Step 2</h4>
-<div class="outline-text-4" id="text-org16fe1dc">
+<div id="outline-container-org8508166" class="outline-4">
+<h4 id="org8508166">Step 2</h4>
+<div class="outline-text-4" id="text-org8508166">
 <p>
 We are not done yet, we still have the other bracket.
 \((4x^2 + 4x + 1)(2x+1)\)
@@ -209,9 +222,9 @@ We are now done!
 </div>
 </div>
 
-<div id="outline-container-org41fdd1e" class="outline-2">
-<h2 id="org41fdd1e">Links to this note</h2>
-<div class="outline-text-2" id="text-org41fdd1e">
+<div id="outline-container-orgbf8f139" class="outline-2">
+<h2 id="orgbf8f139">Links to this note</h2>
+<div class="outline-text-2" id="text-orgbf8f139">
 <ul class="org-ul">
 <li><a href="./maths.html">Maths</a></li>
 </ul>

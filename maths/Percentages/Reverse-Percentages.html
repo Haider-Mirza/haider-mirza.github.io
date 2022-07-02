@@ -41,23 +41,36 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Reverse Percentages with multipliers</h1>
@@ -65,18 +78,18 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgc9fe249">Reverse Percentages</a></li>
-<li><a href="#orga8407cc">Examples</a>
+<li><a href="#org8c1de14">Reverse Percentages</a></li>
+<li><a href="#org338d689">Examples</a>
 <ul>
-<li><a href="#orgd702651">Example 1</a>
+<li><a href="#orge529280">Example 1</a>
 <ul>
-<li><a href="#orgc5e74b1">Solution</a></li>
+<li><a href="#orgb386b5d">Solution</a></li>
 </ul>
 </li>
-<li><a href="#org0f06c68">Example 2</a>
+<li><a href="#orgf7aa61f">Example 2</a>
 <ul>
-<li><a href="#org0e56a4a">Note</a></li>
-<li><a href="#org8112089">Solution</a></li>
+<li><a href="#org927263c">Note</a></li>
+<li><a href="#orgb3059cd">Solution</a></li>
 </ul>
 </li>
 </ul>
@@ -85,30 +98,30 @@
 </div>
 </div>
 
-<div id="outline-container-orgc9fe249" class="outline-2">
-<h2 id="orgc9fe249">Reverse Percentages</h2>
-<div class="outline-text-2" id="text-orgc9fe249">
+<div id="outline-container-org8c1de14" class="outline-2">
+<h2 id="org8c1de14">Reverse Percentages</h2>
+<div class="outline-text-2" id="text-org8c1de14">
 <p>
 When a percentage change has already happened and we want to know the original quantity, this is called a "reverse percentage".
 <b>These are almost always answered wrongly</b>
 </p>
 </div>
 </div>
-<div id="outline-container-orga8407cc" class="outline-2">
-<h2 id="orga8407cc">Examples</h2>
-<div class="outline-text-2" id="text-orga8407cc">
+<div id="outline-container-org338d689" class="outline-2">
+<h2 id="org338d689">Examples</h2>
+<div class="outline-text-2" id="text-org338d689">
 </div>
-<div id="outline-container-orgd702651" class="outline-3">
-<h3 id="orgd702651">Example 1</h3>
-<div class="outline-text-3" id="text-orgd702651">
+<div id="outline-container-orge529280" class="outline-3">
+<h3 id="orge529280">Example 1</h3>
+<div class="outline-text-3" id="text-orge529280">
 <p>
 A store has a 20% off sale. An item is marked as &pound;8.20. How much is it before the sale.
 </p>
 </div>
 
-<div id="outline-container-orgc5e74b1" class="outline-4">
-<h4 id="orgc5e74b1">Solution</h4>
-<div class="outline-text-4" id="text-orgc5e74b1">
+<div id="outline-container-orgb386b5d" class="outline-4">
+<h4 id="orgb386b5d">Solution</h4>
+<div class="outline-text-4" id="text-orgb386b5d">
 <p>
 Let's call the original price before the sale \(x\).
 \(x\) &times; 0.8 = 8.20 (Here we have a simple algebraic equation)
@@ -122,25 +135,25 @@ Notice that for reverse percentage questions, you divide by the multiplier.
 </div>
 </div>
 </div>
-<div id="outline-container-org0f06c68" class="outline-3">
-<h3 id="org0f06c68">Example 2</h3>
-<div class="outline-text-3" id="text-org0f06c68">
+<div id="outline-container-orgf7aa61f" class="outline-3">
+<h3 id="orgf7aa61f">Example 2</h3>
+<div class="outline-text-3" id="text-orgf7aa61f">
 <p>
 My house price has <span class="underline">Appreciated</span> by 3.8% since I bought it. It is now worth &pound;200,000.
 How much was it worth before?
 </p>
 </div>
-<div id="outline-container-org0e56a4a" class="outline-4">
-<h4 id="org0e56a4a">Note</h4>
-<div class="outline-text-4" id="text-org0e56a4a">
+<div id="outline-container-org927263c" class="outline-4">
+<h4 id="org927263c">Note</h4>
+<div class="outline-text-4" id="text-org927263c">
 <p>
 Appreciation basically means increase. So the house price has been increaseed by 3.8%
 </p>
 </div>
 </div>
-<div id="outline-container-org8112089" class="outline-4">
-<h4 id="org8112089">Solution</h4>
-<div class="outline-text-4" id="text-org8112089">
+<div id="outline-container-orgb3059cd" class="outline-4">
+<h4 id="orgb3059cd">Solution</h4>
+<div class="outline-text-4" id="text-orgb3059cd">
 <p>
 Let's call the original price before the appriciation \(x\).
 </p>

@@ -20,47 +20,60 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Dethroning Demo</h1>
 
-<div id="outline-container-org3cc9ddd" class="outline-2">
-<h2 id="org3cc9ddd">Dethroning Demo</h2>
-<div class="outline-text-2" id="text-org3cc9ddd">
+<div id="outline-container-org8d41bf6" class="outline-2">
+<h2 id="org8d41bf6">Dethroning Demo</h2>
+<div class="outline-text-2" id="text-org8d41bf6">
 <p>
 Dethroning (the upcoming game) is coming with a free game that is 
 </p>
 </div>
 </div>
-<div id="outline-container-orgea3a188" class="outline-2">
-<h2 id="orgea3a188">NOTE</h2>
-<div class="outline-text-2" id="text-orgea3a188">
+<div id="outline-container-org8209ffe" class="outline-2">
+<h2 id="org8209ffe">NOTE</h2>
+<div class="outline-text-2" id="text-org8209ffe">
 <p>
 This game is in a very early stage. Expect bugs, crashes, memory errors and any unstable behavior.
 You can file a error on the demo's git repository page.
 </p>
 </div>
 </div>
-<div id="outline-container-org337d6f6" class="outline-2">
-<h2 id="org337d6f6">Git repository</h2>
-<div class="outline-text-2" id="text-org337d6f6">
+<div id="outline-container-orgb0240e2" class="outline-2">
+<h2 id="orgb0240e2">Git repository</h2>
+<div class="outline-text-2" id="text-orgb0240e2">
 <p>
 Which is already in the works and could be found here: <a target='_blank' rel='noopener noreferrer' class='external' href="https://github.com/Haider-Mirza/Dethroning">Git Repository</a>.
 The game is Free softwware and is licensed under the <b>GNU Public License v3</b>.
@@ -68,9 +81,9 @@ The game is Free softwware and is licensed under the <b>GNU Public License v3</b
 </div>
 </div>
 
-<div id="outline-container-org4c17864" class="outline-2">
-<h2 id="org4c17864">How to build the game</h2>
-<div class="outline-text-2" id="text-org4c17864">
+<div id="outline-container-orga0d8323" class="outline-2">
+<h2 id="orga0d8323">How to build the game</h2>
+<div class="outline-text-2" id="text-orga0d8323">
 <p>
 If you use the GNU Guix package manager, you can run the command "guix shell -m manifest.scm" to create a seperate programming environment.
 You can read more about this feature in the Guix Manual: <a target='_blank' rel='noopener noreferrer' class='external' href="https://guix.gnu.org/en/manual/devel/en/guix.html#Invoking-guix-shell">Guix Shell</a> 

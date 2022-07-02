@@ -20,37 +20,50 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">SSH</h1>
 
-<div id="outline-container-org3846725" class="outline-2">
-<h2 id="org3846725">SSH</h2>
-<div class="outline-text-2" id="text-org3846725">
+<div id="outline-container-orgc6a0996" class="outline-2">
+<h2 id="orgc6a0996">SSH</h2>
+<div class="outline-text-2" id="text-orgc6a0996">
 <p>
 <a href="git.html#ID-8fe08bc8-ad1e-458d-ac5f-77243216932f">Git</a> can work over SSH (SSHing into Github's servers).
 </p>
 </div>
-<div id="outline-container-orge7a1c5c" class="outline-3">
-<h3 id="orge7a1c5c">Installation</h3>
-<div class="outline-text-3" id="text-orge7a1c5c">
+<div id="outline-container-org127ba49" class="outline-3">
+<h3 id="org127ba49">Installation</h3>
+<div class="outline-text-3" id="text-org127ba49">
 <p>
 Install the openssh package.
 </p>
@@ -58,9 +71,9 @@ Install the openssh package.
 </div>
 </div>
 
-<div id="outline-container-org1a0c127" class="outline-2">
-<h2 id="org1a0c127">Links to this note</h2>
-<div class="outline-text-2" id="text-org1a0c127">
+<div id="outline-container-orgc9108f0" class="outline-2">
+<h2 id="orgc9108f0">Links to this note</h2>
+<div class="outline-text-2" id="text-orgc9108f0">
 <ul class="org-ul">
 <li><a href="./programs.html">Programs</a></li>
 <li><a href="./git.html">Git</a></li>

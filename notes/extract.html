@@ -20,30 +20,43 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Extract</h1>
 
-<div id="outline-container-org1b3f657" class="outline-2">
-<h2 id="org1b3f657">About</h2>
-<div class="outline-text-2" id="text-org1b3f657">
+<div id="outline-container-org2e5273c" class="outline-2">
+<h2 id="org2e5273c">About</h2>
+<div class="outline-text-2" id="text-org2e5273c">
 <p>
 This file is to show how to extract all sorts of different files.
 Linux/GNU systems have ALOT of types of compessed files.
@@ -52,126 +65,126 @@ Here are many ways you can uncompress them.
 </div>
 </div>
 
-<div id="outline-container-org39c363c" class="outline-2">
-<h2 id="org39c363c">Files</h2>
-<div class="outline-text-2" id="text-org39c363c">
+<div id="outline-container-org3082823" class="outline-2">
+<h2 id="org3082823">Files</h2>
+<div class="outline-text-2" id="text-org3082823">
 </div>
-<div id="outline-container-org6b5780e" class="outline-3">
-<h3 id="org6b5780e">NOTE</h3>
-<div class="outline-text-3" id="text-org6b5780e">
+<div id="outline-container-org76f8086" class="outline-3">
+<h3 id="org76f8086">NOTE</h3>
+<div class="outline-text-3" id="text-org76f8086">
 <p>
 Here there is "" is where you place the name of the file you want to extract.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org2aa3f81" class="outline-3">
-<h3 id="org2aa3f81">.tar.bz2</h3>
-<div class="outline-text-3" id="text-org2aa3f81">
+<div id="outline-container-org86890d1" class="outline-3">
+<h3 id="org86890d1">.tar.bz2</h3>
+<div class="outline-text-3" id="text-org86890d1">
 <p>
 tar xjf ""
 </p>
 </div>
 </div>
-<div id="outline-container-orgab9a1fc" class="outline-3">
-<h3 id="orgab9a1fc">.tar.gz</h3>
-<div class="outline-text-3" id="text-orgab9a1fc">
+<div id="outline-container-org91c2f95" class="outline-3">
+<h3 id="org91c2f95">.tar.gz</h3>
+<div class="outline-text-3" id="text-org91c2f95">
 <p>
 tar xzf ""
 </p>
 </div>
 </div>
-<div id="outline-container-org3970665" class="outline-3">
-<h3 id="org3970665">.bz2</h3>
-<div class="outline-text-3" id="text-org3970665">
+<div id="outline-container-org0fe0938" class="outline-3">
+<h3 id="org0fe0938">.bz2</h3>
+<div class="outline-text-3" id="text-org0fe0938">
 <p>
 bunzip2 ""
 </p>
 </div>
 </div>
-<div id="outline-container-org3cbadb1" class="outline-3">
-<h3 id="org3cbadb1">.rar</h3>
-<div class="outline-text-3" id="text-org3cbadb1">
+<div id="outline-container-orgf22322e" class="outline-3">
+<h3 id="orgf22322e">.rar</h3>
+<div class="outline-text-3" id="text-orgf22322e">
 <p>
 unrar x ""
 </p>
 </div>
 </div>
-<div id="outline-container-orga57397d" class="outline-3">
-<h3 id="orga57397d">.gz</h3>
-<div class="outline-text-3" id="text-orga57397d">
+<div id="outline-container-org218cbbc" class="outline-3">
+<h3 id="org218cbbc">.gz</h3>
+<div class="outline-text-3" id="text-org218cbbc">
 <p>
 gunzip ""
 </p>
 </div>
 </div>
-<div id="outline-container-org1abef8e" class="outline-3">
-<h3 id="org1abef8e">.tar</h3>
-<div class="outline-text-3" id="text-org1abef8e">
+<div id="outline-container-orgfd704ce" class="outline-3">
+<h3 id="orgfd704ce">.tar</h3>
+<div class="outline-text-3" id="text-orgfd704ce">
 <p>
 tar xf ""
 </p>
 </div>
 </div>
-<div id="outline-container-org5935922" class="outline-3">
-<h3 id="org5935922">.tbz2</h3>
-<div class="outline-text-3" id="text-org5935922">
+<div id="outline-container-orge156a4c" class="outline-3">
+<h3 id="orge156a4c">.tbz2</h3>
+<div class="outline-text-3" id="text-orge156a4c">
 <p>
 tar xjf ""
 </p>
 </div>
 </div>
-<div id="outline-container-org7225066" class="outline-3">
-<h3 id="org7225066">.tgz</h3>
-<div class="outline-text-3" id="text-org7225066">
+<div id="outline-container-orgadd0f7f" class="outline-3">
+<h3 id="orgadd0f7f">.tgz</h3>
+<div class="outline-text-3" id="text-orgadd0f7f">
 <p>
 tar xzf ""
 </p>
 </div>
 </div>
-<div id="outline-container-org59085fa" class="outline-3">
-<h3 id="org59085fa">.zip</h3>
-<div class="outline-text-3" id="text-org59085fa">
+<div id="outline-container-org99b1f10" class="outline-3">
+<h3 id="org99b1f10">.zip</h3>
+<div class="outline-text-3" id="text-org99b1f10">
 <p>
 unzip ""
 </p>
 </div>
 </div>
-<div id="outline-container-orgbbbe16b" class="outline-3">
-<h3 id="orgbbbe16b">.Z</h3>
-<div class="outline-text-3" id="text-orgbbbe16b">
+<div id="outline-container-org0e38c66" class="outline-3">
+<h3 id="org0e38c66">.Z</h3>
+<div class="outline-text-3" id="text-org0e38c66">
 <p>
 uncompress ""
 </p>
 </div>
 </div>
-<div id="outline-container-org75982cb" class="outline-3">
-<h3 id="org75982cb">.7z</h3>
-<div class="outline-text-3" id="text-org75982cb">
+<div id="outline-container-orga2455f0" class="outline-3">
+<h3 id="orga2455f0">.7z</h3>
+<div class="outline-text-3" id="text-orga2455f0">
 <p>
 7z x ""
 </p>
 </div>
 </div>
-<div id="outline-container-org8208e20" class="outline-3">
-<h3 id="org8208e20">.deb</h3>
-<div class="outline-text-3" id="text-org8208e20">
+<div id="outline-container-orgc819490" class="outline-3">
+<h3 id="orgc819490">.deb</h3>
+<div class="outline-text-3" id="text-orgc819490">
 <p>
 ar x ""
 </p>
 </div>
 </div>
-<div id="outline-container-orge0ff3dd" class="outline-3">
-<h3 id="orge0ff3dd">.tar.xz</h3>
-<div class="outline-text-3" id="text-orge0ff3dd">
+<div id="outline-container-orgbcaafa9" class="outline-3">
+<h3 id="orgbcaafa9">.tar.xz</h3>
+<div class="outline-text-3" id="text-orgbcaafa9">
 <p>
 tar xf ""
 </p>
 </div>
 </div>
-<div id="outline-container-org769b591" class="outline-3">
-<h3 id="org769b591">.tar.zst</h3>
-<div class="outline-text-3" id="text-org769b591">
+<div id="outline-container-org988a9a8" class="outline-3">
+<h3 id="org988a9a8">.tar.zst</h3>
+<div class="outline-text-3" id="text-org988a9a8">
 <p>
 unzstd ""
 </p>
@@ -179,8 +192,8 @@ unzstd ""
 </div>
 </div>
 
-<div id="outline-container-orgcfb06e9" class="outline-2">
-<h2 id="orgcfb06e9">Links to this note</h2>
+<div id="outline-container-org5a39d71" class="outline-2">
+<h2 id="org5a39d71">Links to this note</h2>
 </div>
 </div>
 <div id="postamble" class="status">

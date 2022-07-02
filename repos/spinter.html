@@ -20,23 +20,36 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Spinter</h1>
@@ -44,9 +57,9 @@
 <i>OpenGL Manipulation</i>
 </p>
 
-<div id="outline-container-org73dd81a" class="outline-2">
-<h2 id="org73dd81a">How to Hack It</h2>
-<div class="outline-text-2" id="text-org73dd81a">
+<div id="outline-container-org5a1b9e2" class="outline-2">
+<h2 id="org5a1b9e2">How to Hack It</h2>
+<div class="outline-text-2" id="text-org5a1b9e2">
 <p>
 If you're interested in cloning the code to try it out, I recommend <a target='_blank' rel='noopener noreferrer' class='external' href="https://guix.gnu.org/manual/en/html_node/Binary-Installation.html">installing the GNU Guix package manager</a>.  Using Guix will allow you to install all compilation dependencies like so:
 </p>
@@ -75,9 +88,9 @@ chmod +x ./start.sh
 </div>
 </div>
 
-<div id="outline-container-orgc292b48" class="outline-3">
-<h3 id="orgc292b48">Editor Setup</h3>
-<div class="outline-text-3" id="text-orgc292b48">
+<div id="outline-container-org1272569" class="outline-3">
+<h3 id="org1272569">Editor Setup</h3>
+<div class="outline-text-3" id="text-org1272569">
 <p>
 I use GNU Emacs to hack on and interface with this project. Here's what you need to use for a similar setup:
 </p>
@@ -90,9 +103,9 @@ I use GNU Emacs to hack on and interface with this project. Here's what you need
 </div>
 </div>
 
-<div id="outline-container-org095eb4a" class="outline-2">
-<h2 id="org095eb4a">License</h2>
-<div class="outline-text-2" id="text-org095eb4a">
+<div id="outline-container-orge7771e9" class="outline-2">
+<h2 id="orge7771e9">License</h2>
+<div class="outline-text-2" id="text-orge7771e9">
 <p>
 The code in this repository is licensed under the <a target='_blank' rel='noopener noreferrer' class='external' href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License 3.0</a>.
 </p>

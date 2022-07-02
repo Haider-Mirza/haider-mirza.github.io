@@ -20,46 +20,59 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">GLAD</h1>
 
-<div id="outline-container-org4b52a38" class="outline-2">
-<h2 id="org4b52a38">GLAD</h2>
-<div class="outline-text-2" id="text-org4b52a38">
+<div id="outline-container-org2510fa1" class="outline-2">
+<h2 id="org2510fa1">GLAD</h2>
+<div class="outline-text-2" id="text-org2510fa1">
 <p>
 GLAD is extention loader Library to load OpenGL.
 </p>
 </div>
-<div id="outline-container-orgb277913" class="outline-3">
-<h3 id="orgb277913">Installation</h3>
-<div class="outline-text-3" id="text-orgb277913">
+<div id="outline-container-org6e00991" class="outline-3">
+<h3 id="org6e00991">Installation</h3>
+<div class="outline-text-3" id="text-org6e00991">
 <p>
 You actually have to generate the GLAD files using the following website: <a target='_blank' rel='noopener noreferrer' class='external' href="https://glad.dav1d.de/">glad.david.de</a>.
 Yes, there is a <a href="guix.html#ID-4ce84157-a404-40fa-bdb8-0b3923916969">Guix</a> package aswell but at the moment I do not know how to use it.
 </p>
 </div>
 </div>
-<div id="outline-container-org37818bf" class="outline-3">
-<h3 id="org37818bf">Get Working</h3>
-<div class="outline-text-3" id="text-org37818bf">
+<div id="outline-container-orgde54c4a" class="outline-3">
+<h3 id="orgde54c4a">Get Working</h3>
+<div class="outline-text-3" id="text-orgde54c4a">
 <p>
 Make sure you use Both this include and define.
 </p>
@@ -69,9 +82,9 @@ Make sure you use Both this include and define.
 </pre>
 </div>
 </div>
-<div id="outline-container-org71e0e59" class="outline-4">
-<h4 id="org71e0e59">NOTE</h4>
-<div class="outline-text-4" id="text-org71e0e59">
+<div id="outline-container-org15a018c" class="outline-4">
+<h4 id="org15a018c">NOTE</h4>
+<div class="outline-text-4" id="text-org15a018c">
 <p>
 Be sure to include GLAD before GLFW.
 The include file for GLAD includes the required OpenGL headers behind the scenes (like GL/gl.h) so be sure to include GLAD before other header files that require OpenGL (like GLFW). 
@@ -81,9 +94,9 @@ The include file for GLAD includes the required OpenGL headers behind the scenes
 </div>
 </div>
 
-<div id="outline-container-orgf8d0cb8" class="outline-2">
-<h2 id="orgf8d0cb8">Links to this note</h2>
-<div class="outline-text-2" id="text-orgf8d0cb8">
+<div id="outline-container-org03be2b0" class="outline-2">
+<h2 id="org03be2b0">Links to this note</h2>
+<div class="outline-text-2" id="text-org03be2b0">
 <ul class="org-ul">
 <li><a href="./c++.html">C++</a></li>
 </ul>

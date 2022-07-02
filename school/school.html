@@ -20,30 +20,43 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">School</h1>
 
-<div id="outline-container-orgd8982aa" class="outline-2">
-<h2 id="orgd8982aa">School</h2>
-<div class="outline-text-2" id="text-orgd8982aa">
+<div id="outline-container-orga042601" class="outline-2">
+<h2 id="orga042601">School</h2>
+<div class="outline-text-2" id="text-orga042601">
 <p>
 To go to a specific subject, Just add it in the URL with nothing in capitals.
 If you didnt know, The URL works like a directory tree. 
@@ -51,9 +64,9 @@ If you didnt know, The URL works like a directory tree.
 </div>
 </div>
 
-<div id="outline-container-orgb939e72" class="outline-2">
-<h2 id="orgb939e72">Quick access work</h2>
-<div class="outline-text-2" id="text-orgb939e72">
+<div id="outline-container-org9bcf50e" class="outline-2">
+<h2 id="org9bcf50e">Quick access work</h2>
+<div class="outline-text-2" id="text-org9bcf50e">
 <p>
 This section will be updated on a specific time it's needed.
 </p>

@@ -20,45 +20,58 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Emacs</h1>
-<div id="outline-container-orga103389" class="outline-2">
-<h2 id="orga103389">Emacs</h2>
-<div class="outline-text-2" id="text-orga103389">
+<div id="outline-container-org6b100ec" class="outline-2">
+<h2 id="org6b100ec">Emacs</h2>
+<div class="outline-text-2" id="text-org6b100ec">
 <p>
 GNU Emacs isn’t a text editor, it’s the ultimate productivity environment for hackers.
 </p>
 </div>
-<div id="outline-container-org9e237ec" class="outline-3">
-<h3 id="org9e237ec">Emacs Packages</h3>
-<div class="outline-text-3" id="text-org9e237ec">
+<div id="outline-container-orgff6184e" class="outline-3">
+<h3 id="orgff6184e">Emacs Packages</h3>
+<div class="outline-text-3" id="text-orgff6184e">
 <p>
 Emacs is Incredibly extensive and there are 1000s of packages people have made for it,
 Here is a note on some I have documented: <a href="emacs_packages.html#ID-9198649d-5d1d-49fa-a84b-66f02797d8b4">Emacs Packages</a>
 </p>
 </div>
 </div>
-<div id="outline-container-org8b02e7e" class="outline-3">
-<h3 id="org8b02e7e">IDE</h3>
-<div class="outline-text-3" id="text-org8b02e7e">
+<div id="outline-container-org01055f3" class="outline-3">
+<h3 id="org01055f3">IDE</h3>
+<div class="outline-text-3" id="text-org01055f3">
 <p>
 I Love Programming, and as a result, you would want a great IDE.
 What's a better IDE than Emacs?
@@ -67,9 +80,9 @@ I mainly use <a target='_blank' rel='noopener noreferrer' class='external' href=
 </p>
 </div>
 </div>
-<div id="outline-container-org697c282" class="outline-3">
-<h3 id="org697c282">Some useful keybinds</h3>
-<div class="outline-text-3" id="text-org697c282">
+<div id="outline-container-orgac5f684" class="outline-3">
+<h3 id="orgac5f684">Some useful keybinds</h3>
+<div class="outline-text-3" id="text-orgac5f684">
 <p>
 <b>Note that on my system, 'CTRL' is re-keybinded to 'CAPS LOCK' for erganomic and speed benifits</b>
 </p>
@@ -80,21 +93,21 @@ C-i for tab
 </p>
 </div>
 </div>
-<div id="outline-container-orgbfe01e2" class="outline-3">
-<h3 id="orgbfe01e2">Email</h3>
-<div class="outline-text-3" id="text-orgbfe01e2">
+<div id="outline-container-orgb3a7651" class="outline-3">
+<h3 id="orgb3a7651">Email</h3>
+<div class="outline-text-3" id="text-orgb3a7651">
 <p>
 Email in Emacs can use the <a href="mu4e.html#ID-d71d294a-b8e3-48e3-8295-3d373bcd9681">Mu4e</a> package which I use with mbsyncrc
 </p>
 </div>
 </div>
-<div id="outline-container-org5c31009" class="outline-3">
-<h3 id="org5c31009">Issues</h3>
-<div class="outline-text-3" id="text-org5c31009">
+<div id="outline-container-org0131723" class="outline-3">
+<h3 id="org0131723">Issues</h3>
+<div class="outline-text-3" id="text-org0131723">
 </div>
-<div id="outline-container-orgaac6957" class="outline-4">
-<h4 id="orgaac6957">Emacs can't find guix package</h4>
-<div class="outline-text-4" id="text-orgaac6957">
+<div id="outline-container-orgeb16b9c" class="outline-4">
+<h4 id="orgeb16b9c">Emacs can't find guix package</h4>
+<div class="outline-text-4" id="text-orgeb16b9c">
 <p>
 If I ever encounter that Emacs cant find a package installed by <a href="guix.html#ID-4ce84157-a404-40fa-bdb8-0b3923916969">Guix</a>, I found a tempoary solution online:
 </p>
@@ -108,9 +121,9 @@ If I ever encounter that Emacs cant find a package installed by <a href="guix.ht
 </div>
 </div>
 
-<div id="outline-container-org96d3bd3" class="outline-2">
-<h2 id="org96d3bd3">Links to this note</h2>
-<div class="outline-text-2" id="text-org96d3bd3">
+<div id="outline-container-orga8d4446" class="outline-2">
+<h2 id="orga8d4446">Links to this note</h2>
+<div class="outline-text-2" id="text-orga8d4446">
 <ul class="org-ul">
 <li><a href="./notmuch.html">Notmuch</a></li>
 <li><a href="./cmake.html">CMake</a></li>

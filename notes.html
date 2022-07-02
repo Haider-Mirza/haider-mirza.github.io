@@ -20,30 +20,43 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Notes</h1>
 
-<div id="outline-container-orgb448eb9" class="outline-2">
-<h2 id="orgb448eb9">Please Note</h2>
-<div class="outline-text-2" id="text-orgb448eb9">
+<div id="outline-container-orgbcafdef" class="outline-2">
+<h2 id="orgbcafdef">Please Note</h2>
+<div class="outline-text-2" id="text-orgbcafdef">
 <p>
 These notes are created based of the <a target='_blank' rel='noopener noreferrer' class='external' href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten methord</a> and are created in <a target='_blank' rel='noopener noreferrer' class='external' href="https://www.gnu.org/software/emacs/">Emacs</a> with <a target='_blank' rel='noopener noreferrer' class='external' href="https://www.orgroam.com/">org-roam</a>.
 This website tries to simulate the <a target='_blank' rel='noopener noreferrer' class='external' href="https://en.wikipedia.org/wiki/Zettelkasten">Zettelkasten methord</a> whilst requiring almost no work on my part.
@@ -54,9 +67,9 @@ Here is a representation of my notes (this will only be meaningful if you follow
 </p>
 </div>
 </div>
-<div id="outline-container-org510ba86" class="outline-2">
-<h2 id="org510ba86">General</h2>
-<div class="outline-text-2" id="text-org510ba86">
+<div id="outline-container-org793fd1a" class="outline-2">
+<h2 id="org793fd1a">General</h2>
+<div class="outline-text-2" id="text-org793fd1a">
 <p>
 Below are main headings for notes, there may be more subheadings inside.
 Note that these notes might so into many subheadings so they are sorted by their "main" purpous.
@@ -113,9 +126,9 @@ Note that these notes might so into many subheadings so they are sorted by their
 <div>
 </div>
 
-<div id="outline-container-org7907a1a" class="outline-3">
-<h3 id="org7907a1a">Subjects</h3>
-<div class="outline-text-3" id="text-org7907a1a">
+<div id="outline-container-org795629a" class="outline-3">
+<h3 id="org795629a">Subjects</h3>
+<div class="outline-text-3" id="text-org795629a">
 <p>
 <a href="notes/physics.html#ID-28f57331-a037-47f0-ba1e-851eabbbb2af">Physics</a>
 <a href="notes/biology.html#ID-c908b5d7-0fa7-4784-a193-4b939fa2d508">Biology</a>
@@ -124,9 +137,9 @@ Note that these notes might so into many subheadings so they are sorted by their
 </div>
 </div>
 
-<div id="outline-container-orgf9de750" class="outline-3">
-<h3 id="orgf9de750">Utilities</h3>
-<div class="outline-text-3" id="text-orgf9de750">
+<div id="outline-container-org9b5cb47" class="outline-3">
+<h3 id="org9b5cb47">Utilities</h3>
+<div class="outline-text-3" id="text-org9b5cb47">
 <p>
 <a href="notes/emacs.html#ID-f8b81c21-7c7e-410e-82ad-046fa5fa4c55">Emacs</a>
 <a href="notes/git.html#ID-8fe08bc8-ad1e-458d-ac5f-77243216932f">Git</a>
@@ -135,26 +148,26 @@ Note that these notes might so into many subheadings so they are sorted by their
 </p>
 </div>
 </div>
-<div id="outline-container-orgd2a908b" class="outline-3">
-<h3 id="orgd2a908b">Guides</h3>
-<div class="outline-text-3" id="text-orgd2a908b">
+<div id="outline-container-orgf17183e" class="outline-3">
+<h3 id="orgf17183e">Guides</h3>
+<div class="outline-text-3" id="text-orgf17183e">
 <p>
 <a href="notes/extract.html#ID-978cbd0f-0ffb-44bd-9545-fc3b4d349f93">Extract</a>
 </p>
 </div>
 </div>
-<div id="outline-container-orgf32f7bf" class="outline-3">
-<h3 id="orgf32f7bf">Programs</h3>
-<div class="outline-text-3" id="text-orgf32f7bf">
+<div id="outline-container-org82b019b" class="outline-3">
+<h3 id="org82b019b">Programs</h3>
+<div class="outline-text-3" id="text-org82b019b">
 <p>
 <a href="notes/qutebrowser.html#ID-da8873e7-0e56-4489-8983-d6ebc3e709d9">Qutebrowser</a>
 <a href="notes/yt_dlp.html#ID-2a429cee-e6a6-44e7-9a7c-cf30919d19c9">yt-dlp</a>
 </p>
 </div>
 </div>
-<div id="outline-container-org35baa60" class="outline-3">
-<h3 id="org35baa60">Programming</h3>
-<div class="outline-text-3" id="text-org35baa60">
+<div id="outline-container-orge6fef3c" class="outline-3">
+<h3 id="orge6fef3c">Programming</h3>
+<div class="outline-text-3" id="text-orge6fef3c">
 <p>
 <a href="notes/c++.html#ID-f961d9f7-1629-45fd-9ac1-5d003ce2201e">C++</a>
 <a href="notes/glad.html#ID-4952aab9-3158-4154-a04e-58f65ddfa658">GLAD</a>

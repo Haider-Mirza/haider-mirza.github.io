@@ -20,37 +20,50 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Org-reveal</h1>
-<div id="outline-container-org2b531a8" class="outline-2">
-<h2 id="org2b531a8">Org Reveal</h2>
-<div class="outline-text-2" id="text-org2b531a8">
+<div id="outline-container-org76c891c" class="outline-2">
+<h2 id="org76c891c">Org Reveal</h2>
+<div class="outline-text-2" id="text-org76c891c">
 <p>
 Org Reveal allows you to export <a href="org_mode.html#ID-31075352-280e-4ef1-978e-5c189da43657">org-mode</a> documents to presentations.
 Org Reveal has the following <a target='_blank' rel='noopener noreferrer' class='external' href="https://github.com/yjwen/org-reveal/">GIT repository</a> and <a target='_blank' rel='noopener noreferrer' class='external' href="https://revealjs.com/">documentation</a>. 
 </p>
 </div>
-<div id="outline-container-org25974d8" class="outline-4">
-<h4 id="org25974d8">My configuration</h4>
-<div class="outline-text-4" id="text-org25974d8">
+<div id="outline-container-org67f01f6" class="outline-4">
+<h4 id="org67f01f6">My configuration</h4>
+<div class="outline-text-4" id="text-org67f01f6">
 <p>
 Here is my personal configuration back to when I used this; Place this at the top of your OrgMode document then export with <b>org-export-dispach</b>
 </p>
@@ -66,9 +79,9 @@ Here is my personal configuration back to when I used this; Place this at the to
 </div>
 </div>
 
-<div id="outline-container-org5083de0" class="outline-4">
-<h4 id="org5083de0">Every line per space</h4>
-<div class="outline-text-4" id="text-org5083de0">
+<div id="outline-container-org9c20918" class="outline-4">
+<h4 id="org9c20918">Every line per space</h4>
+<div class="outline-text-4" id="text-org9c20918">
 <p>
 You can add this functionality with the following line:
 More information could be found here: <a target='_blank' rel='noopener noreferrer' class='external' href="https://revealjs.com/fragments/">https://revealjs.com/fragments/</a>
@@ -79,9 +92,9 @@ More information could be found here: <a target='_blank' rel='noopener noreferre
 </div>
 </div>
 </div>
-<div id="outline-container-orga9e1d41" class="outline-4">
-<h4 id="orga9e1d41">images</h4>
-<div class="outline-text-4" id="text-orga9e1d41">
+<div id="outline-container-orge90c3de" class="outline-4">
+<h4 id="orge90c3de">images</h4>
+<div class="outline-text-4" id="text-orge90c3de">
 <p>
 You can add and do basic manipulation with images with thefollowing line.
 </p>
@@ -93,9 +106,9 @@ You can add and do basic manipulation with images with thefollowing line.
 </div>
 </div>
 
-<div id="outline-container-orgad31981" class="outline-2">
-<h2 id="orgad31981">Links to this note</h2>
-<div class="outline-text-2" id="text-orgad31981">
+<div id="outline-container-org6b2b313" class="outline-2">
+<h2 id="org6b2b313">Links to this note</h2>
+<div class="outline-text-2" id="text-org6b2b313">
 <ul class="org-ul">
 <li><a href="./emacs_packages.html">Emacs Packages</a></li>
 </ul>

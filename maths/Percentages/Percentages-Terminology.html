@@ -20,23 +20,36 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Percentages Terminology</h1>
@@ -44,27 +57,27 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org47340d7">Terminology</a>
+<li><a href="#orgb7a8868">Terminology</a>
 <ul>
-<li><a href="#orga542334">Buying-in price</a></li>
-<li><a href="#orgb59933c">Sell price</a></li>
-<li><a href="#org756a5bb">Mark-up</a></li>
-<li><a href="#org16e4b30">Cost</a></li>
-<li><a href="#orgd9e0e33">Percentage mark-up / gain / loss</a></li>
-<li><a href="#org915dabb">VAT</a></li>
-<li><a href="#org5ea3750">Income tax</a></li>
+<li><a href="#orgf23d268">Buying-in price</a></li>
+<li><a href="#orgc9daac4">Sell price</a></li>
+<li><a href="#orgff3bdd1">Mark-up</a></li>
+<li><a href="#orgf779037">Cost</a></li>
+<li><a href="#org68ac4d7">Percentage mark-up / gain / loss</a></li>
+<li><a href="#org3497b44">VAT</a></li>
+<li><a href="#orgc6b84a1">Income tax</a></li>
 </ul>
 </li>
-<li><a href="#org2caf5f4">Examples</a>
+<li><a href="#org3663b30">Examples</a>
 <ul>
-<li><a href="#org7ca9793">Example 1</a>
+<li><a href="#org4440492">Example 1</a>
 <ul>
-<li><a href="#orgc7433ce">Step 1</a></li>
+<li><a href="#org500ec60">Step 1</a></li>
 </ul>
 </li>
-<li><a href="#orgc70944b">Example 2</a>
+<li><a href="#org4345696">Example 2</a>
 <ul>
-<li><a href="#org5c7ab91">Step 1</a></li>
+<li><a href="#org74a35a6">Step 1</a></li>
 </ul>
 </li>
 </ul>
@@ -73,84 +86,84 @@
 </div>
 </div>
 
-<div id="outline-container-org47340d7" class="outline-2">
-<h2 id="org47340d7">Terminology</h2>
-<div class="outline-text-2" id="text-org47340d7">
+<div id="outline-container-orgb7a8868" class="outline-2">
+<h2 id="orgb7a8868">Terminology</h2>
+<div class="outline-text-2" id="text-orgb7a8868">
 <p>
 Percentages questions come with many key terms which you need to learn and memorise.
 </p>
 </div>
-<div id="outline-container-orga542334" class="outline-3">
-<h3 id="orga542334">Buying-in price</h3>
-<div class="outline-text-3" id="text-orga542334">
+<div id="outline-container-orgf23d268" class="outline-3">
+<h3 id="orgf23d268">Buying-in price</h3>
+<div class="outline-text-3" id="text-orgf23d268">
 <p>
 The price a shop (vendor) pays for the item.
 </p>
 </div>
 </div>
-<div id="outline-container-orgb59933c" class="outline-3">
-<h3 id="orgb59933c">Sell price</h3>
-<div class="outline-text-3" id="text-orgb59933c">
+<div id="outline-container-orgc9daac4" class="outline-3">
+<h3 id="orgc9daac4">Sell price</h3>
+<div class="outline-text-3" id="text-orgc9daac4">
 <p>
 Also known as SP, the price a shop charges you to buy the item. 
 </p>
 </div>
 </div>
-<div id="outline-container-org756a5bb" class="outline-3">
-<h3 id="org756a5bb">Mark-up</h3>
-<div class="outline-text-3" id="text-org756a5bb">
+<div id="outline-container-orgff3bdd1" class="outline-3">
+<h3 id="orgff3bdd1">Mark-up</h3>
+<div class="outline-text-3" id="text-orgff3bdd1">
 <p>
 This is basically (Sell price) - (Buying-in price) , The extra bit a shop charges in order to make a profit. 
 </p>
 </div>
 </div>
-<div id="outline-container-org16e4b30" class="outline-3">
-<h3 id="org16e4b30">Cost</h3>
-<div class="outline-text-3" id="text-org16e4b30">
+<div id="outline-container-orgf779037" class="outline-3">
+<h3 id="orgf779037">Cost</h3>
+<div class="outline-text-3" id="text-orgf779037">
 <p>
 "Cost" could mean anything. Read the question and context carefully! 
 </p>
 </div>
 </div>
-<div id="outline-container-orgd9e0e33" class="outline-3">
-<h3 id="orgd9e0e33">Percentage mark-up / gain / loss</h3>
-<div class="outline-text-3" id="text-orgd9e0e33">
+<div id="outline-container-org68ac4d7" class="outline-3">
+<h3 id="org68ac4d7">Percentage mark-up / gain / loss</h3>
+<div class="outline-text-3" id="text-org68ac4d7">
 <p>
 Percentage mark-up / gain / loss , The percentage of the money the shop spends on an item which it gains / loses by selling it at the sell price. 
 </p>
 </div>
 </div>
-<div id="outline-container-org915dabb" class="outline-3">
-<h3 id="org915dabb">VAT</h3>
-<div class="outline-text-3" id="text-org915dabb">
+<div id="outline-container-org3497b44" class="outline-3">
+<h3 id="org3497b44">VAT</h3>
+<div class="outline-text-3" id="text-org3497b44">
 <p>
 VAT or Value-added tax, A percentage increase on the sell price of an item. The VAT doesn't go to the seller though, it goes to the government. 
 </p>
 </div>
 </div>
-<div id="outline-container-org5ea3750" class="outline-3">
-<h3 id="org5ea3750">Income tax</h3>
-<div class="outline-text-3" id="text-org5ea3750">
+<div id="outline-container-orgc6b84a1" class="outline-3">
+<h3 id="orgc6b84a1">Income tax</h3>
+<div class="outline-text-3" id="text-orgc6b84a1">
 <p>
 The amount of your wages that go to the government. Usually 0% up to a certain salary, then 20% for a bit, then 40% if you earn over a certain amount. This varies from country to country and time to time!
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-org2caf5f4" class="outline-2">
-<h2 id="org2caf5f4">Examples</h2>
-<div class="outline-text-2" id="text-org2caf5f4">
+<div id="outline-container-org3663b30" class="outline-2">
+<h2 id="org3663b30">Examples</h2>
+<div class="outline-text-2" id="text-org3663b30">
 </div>
-<div id="outline-container-org7ca9793" class="outline-3">
-<h3 id="org7ca9793">Example 1</h3>
-<div class="outline-text-3" id="text-org7ca9793">
+<div id="outline-container-org4440492" class="outline-3">
+<h3 id="org4440492">Example 1</h3>
+<div class="outline-text-3" id="text-org4440492">
 <p>
 A car dealer buys a Renault Megane for &pound;13,600. He marks it up by 12%. How much does he sell it for?
 </p>
 </div>
-<div id="outline-container-orgc7433ce" class="outline-4">
-<h4 id="orgc7433ce">Step 1</h4>
-<div class="outline-text-4" id="text-orgc7433ce">
+<div id="outline-container-org500ec60" class="outline-4">
+<h4 id="org500ec60">Step 1</h4>
+<div class="outline-text-4" id="text-org500ec60">
 <p>
 After scrutinizing the question deeply, he wants to gain a 12% profit. So let's start by finding 12%.
 &pound;13,600 &divide; 100 = &pound;136 (This gives us 1% of the buying-in price)
@@ -164,16 +177,16 @@ Finally, we just add 12% to 100% to get 120% which is the price the car dealer w
 </div>
 </div>
 </div>
-<div id="outline-container-orgc70944b" class="outline-3">
-<h3 id="orgc70944b">Example 2</h3>
-<div class="outline-text-3" id="text-orgc70944b">
+<div id="outline-container-org4345696" class="outline-3">
+<h3 id="org4345696">Example 2</h3>
+<div class="outline-text-3" id="text-org4345696">
 <p>
 A company sells computers for &pound;1,250 plus VAT which is charged at 17.5%. How much does the computers cost.
 </p>
 </div>
-<div id="outline-container-org5c7ab91" class="outline-4">
-<h4 id="org5c7ab91">Step 1</h4>
-<div class="outline-text-4" id="text-org5c7ab91">
+<div id="outline-container-org74a35a6" class="outline-4">
+<h4 id="org74a35a6">Step 1</h4>
+<div class="outline-text-4" id="text-org74a35a6">
 <p>
 After deep scrutinization, you should know we need to first find 17.5% of the computers, so let's do that.
 (1,250 &divide; 100) &times; 17.5 = 218.75

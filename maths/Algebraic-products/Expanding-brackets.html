@@ -41,23 +41,36 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Expanding Brackets</h1>
@@ -65,19 +78,19 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org0643ccd">Expanding Brackets</a></li>
-<li><a href="#org744f0ae">Examples</a>
+<li><a href="#org566c61b">Expanding Brackets</a></li>
+<li><a href="#orgb669d7f">Examples</a>
 <ul>
-<li><a href="#orgba66da1">Note:</a></li>
-<li><a href="#orgc5f158c">Example 1</a>
+<li><a href="#orge4ade7d">Note:</a></li>
+<li><a href="#orge2f61f0">Example 1</a>
 <ul>
-<li><a href="#org4cdaf7c">Methord</a></li>
+<li><a href="#org2851493">Methord</a></li>
 </ul>
 </li>
-<li><a href="#org7a67d1b">Example 2</a>
+<li><a href="#orgff4957f">Example 2</a>
 <ul>
-<li><a href="#org75b3ce3">First Bracket</a></li>
-<li><a href="#org631ea54">Second Bracket</a></li>
+<li><a href="#org50653ee">First Bracket</a></li>
+<li><a href="#org959747b">Second Bracket</a></li>
 </ul>
 </li>
 </ul>
@@ -86,9 +99,9 @@
 </div>
 </div>
 
-<div id="outline-container-org0643ccd" class="outline-2">
-<h2 id="org0643ccd">Expanding Brackets</h2>
-<div class="outline-text-2" id="text-org0643ccd">
+<div id="outline-container-org566c61b" class="outline-2">
+<h2 id="org566c61b">Expanding Brackets</h2>
+<div class="outline-text-2" id="text-org566c61b">
 <p>
 To expand a bracket means to multiply each term in the bracket by the expression outside the bracket.
 Below are two examples to help you understand this.
@@ -96,13 +109,13 @@ Below are two examples to help you understand this.
 </div>
 </div>
 
-<div id="outline-container-org744f0ae" class="outline-2">
-<h2 id="org744f0ae">Examples</h2>
-<div class="outline-text-2" id="text-org744f0ae">
+<div id="outline-container-orgb669d7f" class="outline-2">
+<h2 id="orgb669d7f">Examples</h2>
+<div class="outline-text-2" id="text-orgb669d7f">
 </div>
-<div id="outline-container-orgba66da1" class="outline-3">
-<h3 id="orgba66da1">Note:</h3>
-<div class="outline-text-3" id="text-orgba66da1">
+<div id="outline-container-orge4ade7d" class="outline-3">
+<h3 id="orge4ade7d">Note:</h3>
+<div class="outline-text-3" id="text-orge4ade7d">
 <p>
 \(4(x+2) = 4x+8\) (<b>These are both Equal</b>)
 You can see why this works:
@@ -111,17 +124,17 @@ You can see why this works:
 </div>
 </div>
 
-<div id="outline-container-orgc5f158c" class="outline-3">
-<h3 id="orgc5f158c">Example 1</h3>
-<div class="outline-text-3" id="text-orgc5f158c">
+<div id="outline-container-orge2f61f0" class="outline-3">
+<h3 id="orge2f61f0">Example 1</h3>
+<div class="outline-text-3" id="text-orge2f61f0">
 <p>
 \(3y(x+4+z^2)\) 
 </p>
 </div>
 
-<div id="outline-container-org4cdaf7c" class="outline-4">
-<h4 id="org4cdaf7c">Methord</h4>
-<div class="outline-text-4" id="text-org4cdaf7c">
+<div id="outline-container-org2851493" class="outline-4">
+<h4 id="org2851493">Methord</h4>
+<div class="outline-text-4" id="text-org2851493">
 <p>
 We should solve this by going <b>left to right</b>. 
 This would still work if you complete this in a different order but left to right is reccomended.
@@ -138,7 +151,7 @@ Here is a visual representation:
 </p>
 
 
-<div id="orgf7d0199" class="figure">
+<div id="org718afef" class="figure">
 <p><img src="https://www.haider.gq/maths/Algebraic-products/Exp-Brack-2.png" alt="Exp-Brack-2.png" />
 </p>
 </div>
@@ -157,16 +170,16 @@ Here is another visual representation:
 </p>
 
 
-<div id="org5e3b051" class="figure">
+<div id="orgca70e5e" class="figure">
 <p><img src="https://www.haider.gq/maths/Algebraic-products/Exp-Brack-3.png" alt="Exp-Brack-3.png" />
 </p>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-org7a67d1b" class="outline-3">
-<h3 id="org7a67d1b">Example 2</h3>
-<div class="outline-text-3" id="text-org7a67d1b">
+<div id="outline-container-orgff4957f" class="outline-3">
+<h3 id="orgff4957f">Example 2</h3>
+<div class="outline-text-3" id="text-orgff4957f">
 <p>
 \((5z+1)(5z+2)\)
 </p>
@@ -181,9 +194,9 @@ Here where we have 2 brackets, the procedure is the same but with both of the el
 </p>
 </div>
 
-<div id="outline-container-org75b3ce3" class="outline-4">
-<h4 id="org75b3ce3">First Bracket</h4>
-<div class="outline-text-4" id="text-org75b3ce3">
+<div id="outline-container-org50653ee" class="outline-4">
+<h4 id="org50653ee">First Bracket</h4>
+<div class="outline-text-4" id="text-org50653ee">
 <ul class="org-ul">
 <li>\(5z \times 5z = 25z^2\)</li>
 <li>\(5z \times 2 = 10z\)</li>
@@ -191,9 +204,9 @@ Here where we have 2 brackets, the procedure is the same but with both of the el
 </div>
 </div>
 
-<div id="outline-container-org631ea54" class="outline-4">
-<h4 id="org631ea54">Second Bracket</h4>
-<div class="outline-text-4" id="text-org631ea54">
+<div id="outline-container-org959747b" class="outline-4">
+<h4 id="org959747b">Second Bracket</h4>
+<div class="outline-text-4" id="text-org959747b">
 <ul class="org-ul">
 <li>\(1 \times 5z = 5z\)</li>
 <li>\(1 \times 2 = 2\)</li>
@@ -204,7 +217,7 @@ Here is a visual repesentation:
 </p>
 
 
-<div id="org79d448c" class="figure">
+<div id="org4b6c61d" class="figure">
 <p><img src="https://www.haider.gq/maths/Algebraic-products/Exp-Brack-4.png" alt="Exp-Brack-4.png" />
 </p>
 </div>

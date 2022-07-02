@@ -41,34 +41,47 @@
 </head>
 <body>
 <div id="preamble" class="status">
+
 <div class='grid-container'>
-      <div class='grid-item header'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-	<input type='search' class='Sidebar_Search' placeholder='Search Posts...'>
-	</div>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	<div class='grid-item main'>
-	  <input type='search' class='Main_Search' placeholder='Search Posts...'>
-	      <div class='main-main'> <!-- The actual main part -->
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
+
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script src='https://www.haider.gq/base/search.js' crossorigin='anonymous'></script>
+    <div class='main-main'> <!-- The actual main part -->
 </div>
 <div id="content" class="content">
 <h1 class="title">Circuits</h1>
 
-<div id="outline-container-org46e02d7" class="outline-2">
-<h2 id="org46e02d7">Electrical circuits</h2>
-<div class="outline-text-2" id="text-org46e02d7">
+<div id="outline-container-org7742beb" class="outline-2">
+<h2 id="org7742beb">Electrical circuits</h2>
+<div class="outline-text-2" id="text-org7742beb">
 </div>
-<div id="outline-container-orgbe4d185" class="outline-3">
-<h3 id="orgbe4d185">Voltage</h3>
-<div class="outline-text-3" id="text-orgbe4d185">
+<div id="outline-container-orgd9facee" class="outline-3">
+<h3 id="orgd9facee">Voltage</h3>
+<div class="outline-text-3" id="text-orgd9facee">
 <p>
 Voltage is also known as Electric Potential.
 Voltage is the amount of energy in <a href="work.html#ID-369ef4cf-1d7c-47f1-9d9f-ba21149bc819">Joules (Work)</a> avalable to move 1 coulumb of charge (available energy per unit charge).
@@ -79,9 +92,9 @@ Voltage is the amount of energy in <a href="work.html#ID-369ef4cf-1d7c-47f1-9d9f
 </p>
 </div>
 </div>
-<div id="outline-container-org47db9f3" class="outline-3">
-<h3 id="org47db9f3">Coulomb</h3>
-<div class="outline-text-3" id="text-org47db9f3">
+<div id="outline-container-orgb0601db" class="outline-3">
+<h3 id="orgb0601db">Coulomb</h3>
+<div class="outline-text-3" id="text-orgb0601db">
 <p>
 Charles-Augustin de Coulomb said that there was obviously something flowing inside a conductive medium, like a fluid. He called that electric charge.
 The unit for electric charge is Coulomb, and it's symbol is "q".
@@ -101,9 +114,9 @@ time (t) is measured in seconds (s)
 </div>
 </div>
 
-<div id="outline-container-orge358288" class="outline-3">
-<h3 id="orge358288">Current</h3>
-<div class="outline-text-3" id="text-orge358288">
+<div id="outline-container-orgba146f0" class="outline-3">
+<h3 id="orgba146f0">Current</h3>
+<div class="outline-text-3" id="text-orgba146f0">
 <p>
 An electric current is a stream of charged particles, such as electrons or ions, moving through an electrical conductor or space.
 <b>NOTE:</b> Electrons have a negative charge and flow from negative to postitive. Current is positive to negative.
@@ -115,9 +128,9 @@ At it's core, Current is the amount of charge in coulomb passing in one second
 </p>
 </div>
 
-<div id="outline-container-org2fd6cc3" class="outline-4">
-<h4 id="org2fd6cc3">Calculating current</h4>
-<div class="outline-text-4" id="text-org2fd6cc3">
+<div id="outline-container-org5e9c4eb" class="outline-4">
+<h4 id="org5e9c4eb">Calculating current</h4>
+<div class="outline-text-4" id="text-org5e9c4eb">
 <p>
 You can calculate current with the formula
 Current is measured in Amps(A) and is represented as 'I'.
@@ -131,9 +144,9 @@ or:
 </div>
 </div>
 </div>
-<div id="outline-container-org340e95c" class="outline-3">
-<h3 id="org340e95c">Resistance</h3>
-<div class="outline-text-3" id="text-org340e95c">
+<div id="outline-container-orge6e57f0" class="outline-3">
+<h3 id="orge6e57f0">Resistance</h3>
+<div class="outline-text-3" id="text-orge6e57f0">
 <p>
 Electron try and pass through the wire but the atom's electric field slow down the Electrons, The faster the electrons go, the more the atoms vibrate creating heat.
 This is called resistance. The annoying atoms try and stop the electrons from passing like fighting against a strong gales.
@@ -152,16 +165,16 @@ I guess, the symbol looks like that because the charge will have a hard time goi
 </div>
 </div>
 
-<div id="outline-container-org778b1ff" class="outline-3">
-<h3 id="org778b1ff">Laws</h3>
-<div class="outline-text-3" id="text-org778b1ff">
+<div id="outline-container-org3aecd18" class="outline-3">
+<h3 id="org3aecd18">Laws</h3>
+<div class="outline-text-3" id="text-org3aecd18">
 <p>
 These circuitry laws are really quite important to remember.
 </p>
 </div>
-<div id="outline-container-org95269fd" class="outline-4">
-<h4 id="org95269fd">Coulomb's Law</h4>
-<div class="outline-text-4" id="text-org95269fd">
+<div id="outline-container-org5c7b874" class="outline-4">
+<h4 id="org5c7b874">Coulomb's Law</h4>
+<div class="outline-text-4" id="text-org5c7b874">
 <p>
 I really wont go into this as I do not understand it enough but here is the gist of it:
 <img src="https://www.haider.gq/images/do-not-delete/Notes/coulomb-law.png" alt="coulomb-law.png" />
@@ -173,9 +186,9 @@ In other words, Coulomb's law states that the electric force between two static 
 </p>
 </div>
 </div>
-<div id="outline-container-org2f8230a" class="outline-4">
-<h4 id="org2f8230a">Ohm's Law</h4>
-<div class="outline-text-4" id="text-org2f8230a">
+<div id="outline-container-org7ee75bc" class="outline-4">
+<h4 id="org7ee75bc">Ohm's Law</h4>
+<div class="outline-text-4" id="text-org7ee75bc">
 <p>
 \(R = \frac{Voltage}{Current}\)
 This is if the temperature is constant.
@@ -183,9 +196,9 @@ This is if the temperature is constant.
 </div>
 </div>
 </div>
-<div id="outline-container-org37bcf58" class="outline-3">
-<h3 id="org37bcf58">AC</h3>
-<div class="outline-text-3" id="text-org37bcf58">
+<div id="outline-container-org7e98057" class="outline-3">
+<h3 id="org7e98057">AC</h3>
+<div class="outline-text-3" id="text-org7e98057">
 <p>
 Alternating Current is when the Current alternates :)
 In other terms AC is where the output of Coulombs is inconsistent in the form of a sinusodial <a href="waves.html#ID-aa958a15-a946-41f6-aa0c-76e62840ebc1">Wave</a> or like a beating drum.
@@ -193,39 +206,39 @@ In other terms AC is where the output of Coulombs is inconsistent in the form of
 </div>
 </div>
 
-<div id="outline-container-orgffdaf04" class="outline-3">
-<h3 id="orgffdaf04">DC</h3>
-<div class="outline-text-3" id="text-orgffdaf04">
+<div id="outline-container-org11b11e4" class="outline-3">
+<h3 id="org11b11e4">DC</h3>
+<div class="outline-text-3" id="text-org11b11e4">
 <p>
 Direct Current can be explained like the current of the wire being steady with no ripples. Completely stable.
 </p>
 </div>
 </div>
-<div id="outline-container-org52d9b03" class="outline-3">
-<h3 id="org52d9b03">Series Circuits</h3>
-<div class="outline-text-3" id="text-org52d9b03">
+<div id="outline-container-orgb53f17d" class="outline-3">
+<h3 id="orgb53f17d">Series Circuits</h3>
+<div class="outline-text-3" id="text-orgb53f17d">
 <p>
 In fully series circuits, the current at any point in the circuit is the same.
 Ampmeters are usually connected in series as a Ampmeter measures current and has a very low resistance.
 </p>
 </div>
 </div>
-<div id="outline-container-org20210db" class="outline-3">
-<h3 id="org20210db">Parallel Circuits</h3>
-<div class="outline-text-3" id="text-org20210db">
+<div id="outline-container-orgda71251" class="outline-3">
+<h3 id="orgda71251">Parallel Circuits</h3>
+<div class="outline-text-3" id="text-orgda71251">
 <p>
 Current gets <b>shared</b> between branches but voltage stays the <b>same</b>.
 A Voltmeter should always be connected in Parallel because of it's large resistance.
 </p>
 </div>
 </div>
-<div id="outline-container-orgc465b80" class="outline-3">
-<h3 id="orgc465b80">Cool stuff to know</h3>
-<div class="outline-text-3" id="text-orgc465b80">
+<div id="outline-container-org46dff77" class="outline-3">
+<h3 id="org46dff77">Cool stuff to know</h3>
+<div class="outline-text-3" id="text-org46dff77">
 </div>
-<div id="outline-container-org383871d" class="outline-4">
-<h4 id="org383871d">Charge of 1 electron</h4>
-<div class="outline-text-4" id="text-org383871d">
+<div id="outline-container-org47050ed" class="outline-4">
+<h4 id="org47050ed">Charge of 1 electron</h4>
+<div class="outline-text-4" id="text-org47050ed">
 <p>
 <b>Very</b> small charge
 \(e^- \approx -1.602 \times 10^-19 Coulomb\)
@@ -236,9 +249,9 @@ A Voltmeter should always be connected in Parallel because of it's large resista
 </div>
 
 
-<div id="outline-container-org74659cb" class="outline-2">
-<h2 id="org74659cb">Links to this note</h2>
-<div class="outline-text-2" id="text-org74659cb">
+<div id="outline-container-org76521be" class="outline-2">
+<h2 id="org76521be">Links to this note</h2>
+<div class="outline-text-2" id="text-org76521be">
 <ul class="org-ul">
 <li><a href="./physics.html">Physics</a></li>
 </ul>
