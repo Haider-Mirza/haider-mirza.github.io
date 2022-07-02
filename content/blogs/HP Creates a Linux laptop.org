@@ -13,7 +13,7 @@ The specs of the laptop is half decent with 16GB of DDR4-3200 memory, 1TB of PCI
 The keyboard will also be designed for Linux, with a Super key rather than a Windows key. The display is a 14inch 1080p display with 1000 nit brightness and from the image we can see dual front facing speakers.
 Sadly, this laptop is currently only for sale in the US with a price tag of $1099.
 
-System76 CEO Carl Richell says the HP Dev One is a result of a partnership between his company and HP that’s been “months in the making,” and HP has been trained to provide technical support for Pop!_OS issues.
+System76 CEO Carl Richell says the HP Dev One is a result of a partnership between his company and HP that’s been “months in the making,” and HP has been trained to provide technical support for PopOS issues.
 He also says that while HP has published a website for the HP Dev One, a “real announcement is coming later,” so we should have more information about specs and availability at some point down the road.
 
 But will this replace our legendary Thinkpads? Probably Not.
