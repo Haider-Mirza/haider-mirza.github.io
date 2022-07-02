@@ -7,7 +7,6 @@ I have alot of [[https://github.com/Haider-Mirza][Github repostories]] listed be
 + [[https://github.com/Haider-Mirza/haider-mirza.github.io][This website!]]
 + [[https://github.com/Haider-Mirza/Spinter][Spinter]]
 + [[https://github.com/Haider-Mirza/Dotfiles][My Dotfiles]]
-+ [[https://github.com/Haider-Mirza/Documents][My Documents]]
 + [[https://github.com/Haider-Mirza/Notes][My Notes]]
 + [[https://github.com/Haider-Mirza/HMScripts][HMScripts]]
 + [[https://github.com/Haider-Mirza/3D-Projects][3D Projects]]
