@@ -28,9 +28,9 @@
 		      "<link rel='stylesheet' href='https://www.haider.gq/base/style.css'/> \n"
 		      "<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' /> \n"
 		      "<link rel='preconnect' href='https://fonts.googleapis.com'> \n"
-
 		      "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin> \n"
 		      "<link href='https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap' rel='stylesheet'>\n"
+		      "<link href='https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap' rel='stylesheet'>\n"
 		      "<script src='https://kit.fontawesome.com/e139214a06.js' crossorigin='anonymous'></script> \n"
 		      "<meta name='keywords' content='development, coding, programming, linux, emacs, guix'>\n"
 		      "<link rel='icon' type='image/x-icon' href='/base/favicon.png'>\n"
