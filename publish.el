@@ -39,48 +39,49 @@
 ;; Functions
 ;; Set the preamble
 (defun dw/site-preamble ()
-  (concat "<div class='grid-container'>
-      <div class='grid-item header'>
+  (concat "
+<div class='grid-container'>
+  <div class='grid-item header'>
 
-	<a href='https://www.haider.gq' class='Header_Title'>
-	  <span class='Header_Haider-Mirza'>Haider Mirza</span>
-	</a>
-	<ul class='Header_links'>
-	  <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
-	  <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
-	  <li><a href='https://www.haider.gq/notes'>Notes</a></li>
-	</ul>
-<form role='search' id='form'>
-  <input type='search' id='query' name='q'
-	 placeholder='Search...'
-	 aria-label='Search through site content'
-	 class='Sidebar_Search'>
-  </form>
+    <a href='https://www.haider.gq' class='Header_Title'>
+      <span class='Header_Haider-Mirza'>Haider Mirza</span>
+    </a>
+    <ul class='Header_links'>
+      <li><a href='https://www.haider.gq/blogs/blogs'>Blogs</a></li>
+      <li><a href='https://www.haider.gq/repos/repos'>Repositories</a></li>
+      <li><a href='https://www.haider.gq/notes'>Notes</a></li>
+    </ul>
 
-	</div>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Sidebar_Search'>
+    </form>
+  </div>
 
-	<div class='grid-item main'>
-<form role='search' id='form'>
-  <input type='search' id='query' name='q'
-	 placeholder='Search...'
-	 aria-label='Search through site content'
-	 class='Main_Search'>
-  </form>
-  <script>
-    const f = document.getElementById('form');
-    const q = document.getElementById('query');
-    const google = 'https://www.google.com/search?q=site%3Ahaider.gq';
+  <div class='grid-item main'>
+    <form role='search' id='form'>
+      <input type='search' id='query' name='q'
+	     placeholder='Search...'
+	     aria-label='Search through site content'
+	     class='Main_Search'>
+    </form>
+    <script>
+      const f = document.getElementById('form');
+      const q = document.getElementById('query');
+      const google = 'https://www.google.com/search?q=site%3Ahaider.gq';
 
-    function submitted(event) {
-	event.preventDefault();
-	const url = google + '+' + q.value;
-	const win = window.open(url, '_blank');
-	win.focus();
-    }
+      function submitted(event) {
+	  event.preventDefault();
+	  const url = google + '+' + q.value;
+	  const win = window.open(url, '_blank');
+	  win.focus();
+      }
 
-    f.addEventListener('submit', submitted);
-  </script>
-	      <div class='main-main'> <!-- The actual main part -->"))
+      f.addEventListener('submit', submitted);
+    </script>
+    <div class='main-main'> <!-- The actual main part -->"))
 
 ;; Set the postamble
 (defun dw/site-postamble ()
